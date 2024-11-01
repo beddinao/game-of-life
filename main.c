@@ -66,9 +66,8 @@ int	release(data *_data, int status) {
 
 void	draw_bg(data* _data, int color) {
 	for (int y = 0; y < _data->height; y++) 
-		for (int x = 0; x < _data->width; x++) {
+		for (int x = 0; x < _data->width; x++)
 			mlx_put_pixel(_data->mlx_img, x, y, color);
-		}
 }
 
 void	close_handle(void *p) {
@@ -85,15 +84,23 @@ void	resize_handle(int w, int h, void *p) {
 }
 
 void	key_handle(mlx_key_data_t keydata, void *p) {
-	if (keydata.action != MLX_PRESS)	return;
+	if (keydata.action == MLX_RELEASE)	return;
 
 	if (keydata.key == MLX_KEY_ESCAPE)
 		close_handle(p);
 }
 
+void	scroll_handle(double xdelta, double ydelta, void *param) {
+	data	*_data = (data*)param;
+	if (ydelta > 0)
+		_data->PPC += 1;
+	else if (ydelta < 0 && _data->PPC > 1)
+		_data->PPC -= 1;
+}
+
 void	updata_population(data *_data) {
 	//	game-of-life rules
-	int	live_neighbors;
+	int	live_neighbors, c_row, c_column;
 	int	temp_population[_data->rows][_data->columns];
 	memset(temp_population, FALSE, _data->columns * _data->rows);
 
@@ -103,27 +110,48 @@ void	updata_population(data *_data) {
 		for (int column = 0; column < _data->columns; column++) {
 			live_neighbors = 0;
 
-			if (column < _data->columns - 1) {
-				live_neighbors += _data->population[row][column + 1];
-				if (row < _data->rows - 1) 
-					live_neighbors += _data->population[row + 1][column + 1];
-				if (row)
-					live_neighbors += _data->population[row - 1][column + 1];
-			}
+			c_row = row;
+			c_column = column + 1;
+			if (c_column >= _data->columns)
+				c_column = 0;
+			live_neighbors += _data->population[c_row][c_column];
 
-			if (column) {
-				live_neighbors += _data->population[row][column - 1];
-				if (row < _data->rows - 1) 
-					live_neighbors += _data->population[row + 1][column - 1];
-				if (row) 
-					live_neighbors += _data->population[row - 1][column - 1];
+			c_row = row + 1;
+			if (c_row >= _data->rows) 
+				c_row = 0;
+			live_neighbors += _data->population[c_row][c_column];
 
-			}
+			c_row = row - 1;
+			if (c_row < 0)
+				c_row = _data->rows - 1;
+			live_neighbors += _data->population[c_row][c_column];
+			
+			c_row = row;	
+			c_column = column - 1;
+			if (c_column < 0)
+				c_column = _data->columns - 1;
+			live_neighbors += _data->population[row][c_column];
 
-			if (row < _data->rows - 1) 
-				live_neighbors += _data->population[row + 1][column];
-			if (row) 
-				live_neighbors += _data->population[row - 1][column];
+			c_row = row + 1;
+			if (c_row >= _data->rows) 
+				c_row = 0;
+			live_neighbors += _data->population[c_row][c_column];
+
+			c_row = row - 1;
+			if (c_row < 0)
+				c_row = _data->rows - 1;
+			live_neighbors += _data->population[c_row][c_column];
+
+			c_column = column;
+			c_row = row + 1;
+			if (c_row >= _data->rows)
+				c_row = 0;
+			live_neighbors += _data->population[c_row][c_column];
+
+			c_row = row - 1;
+			if (c_row < 0)
+				c_row = _data->rows - 1;
+			live_neighbors += _data->population[c_row][c_column];
 			//
 			if (_data->population[row][column]) {
 				if (live_neighbors < 2) // underpopulation
@@ -153,7 +181,6 @@ void	put_number(data *_data, int num, int x, int y, int index) {
 	}
 	char	num_str[num_size + 1];
 	memset(num_str, 0, num_size + 1);
-
 	for (int i = num_size - 1; num; i--) {
 		num_str[i] = (num % 10) + 48;
 		num /= 10;
@@ -162,10 +189,8 @@ void	put_number(data *_data, int num, int x, int y, int index) {
 	mlx_image_t *image = mlx_put_string(_data->mlx_ptr, num_str, x, y);
 	if (image) {
 		mlx_image_to_window(_data->mlx_ptr, image, x, y);
-
 		if (_data->number_imgs[index])
 			mlx_delete_image(_data->mlx_ptr, _data->number_imgs[index]);
-
 		_data->number_imgs[index] = image;
 	}
 	else	_data->number_imgs[index] = NULL;
@@ -187,12 +212,13 @@ void	draw_info(data* _data) {
 
 void	draw_population(data *_data) {
 	int		row = 0, column;
+
 	for (int y = 0; y < _data->height; y++) {
-		if (y && !(y % _data->PPC)) row += 1;
 		column = 0;
+		if (y && !(y % _data->PPC)) row += 1;
 		for (int x = 0; x < _data->width; x++) {
 			if (x && !(x % _data->PPC))	column += 1;
-			mlx_put_pixel(_data->mlx_img, x, y, _data->population[row][column] ? 0xFFFFFFFF : 0x000000FF);
+			if (_data->population[row][column]) mlx_put_pixel(_data->mlx_img, x, y, 0xDEDEDEFF);
 		}
 	}
 	draw_info(_data);
@@ -203,7 +229,7 @@ void	loop_hook(void *p) {
 	//
 	if (_data->cur_frame >= _data->GPF) {
 		_data->cur_frame = 0;
-		draw_bg(_data, 0x000000FF);
+		draw_bg(_data, 0x1C1C1CFF);
 		updata_population(_data);
 		draw_population(_data);
 	}
@@ -221,21 +247,10 @@ void	build_population(data *_data) {
 	for (int y = 0; y < _data->rows; y++) {
 		_data->population[y] = malloc( _data->columns * sizeof(bool) );
 		if (!_data->population[y]) exit( release(_data, 1) );
-		/*int		start = rand_num(0, _data->columns / 3);
-		int		end = rand_num(_data->columns / 2, _data->columns);
-		memset(_data->population[y] + start, rand_num(FALSE, TRUE), (end-start) * sizeof(bool));*/
-		memset(_data->population[y], FALSE, _data->columns * sizeof(bool));
+		for (int x = 0; x < _data->columns; x++)
+			_data->population[y][x] = rand_num(FALSE, 3);
 	}
 	_data->population[ _data->rows ] = NULL;
-	
-	int		h_height = _data->rows / 2;
-	int		h_width = _data->columns / 2;
-
-	_data->population[ h_height ][ h_width ] = TRUE;
-	_data->population[ h_height - 1 ][ h_width ] = TRUE;
-	_data->population[ h_height + 1 ][ h_width ] = TRUE;
-	_data->population[ h_height ][ h_width - 1 ] = TRUE;
-	_data->population[ h_height + 1 ][ h_width + 1 ] = TRUE;
 }
 
 void	init_world(data *_data) {
@@ -253,11 +268,18 @@ void	init_world(data *_data) {
 
 	for (int i = 0; i < 4; i++)
 		_data->number_imgs[i] = NULL;
-	//
+
 	build_population(_data);
 	//	customizations;
-	/*printf("init_world: height: %i, width: %i, PPC: %i, rows: %i, columns: %i\n",
-		_data->height, _data->width, _data->PPC, _data->rows, _data->columns);*/
+
+	/*int		h_height = _data->rows / 2;
+	int		h_width = _data->columns / 2;
+
+	_data->population[ h_height ][ h_width ] = TRUE;
+	_data->population[ h_height - 1 ][ h_width ] = TRUE;
+	_data->population[ h_height + 1 ][ h_width ] = TRUE;
+	_data->population[ h_height ][ h_width - 1 ] = TRUE;
+	_data->population[ h_height + 1 ][ h_width + 1 ] = TRUE;*/
 }
 
 int			main() {
@@ -275,15 +297,16 @@ int			main() {
 	if (!_data->mlx_img)
 		return	release(_data, 1);
 
-	_data->PPC = 4;
+	_data->PPC = 1;
 	draw_bg(_data, 0x000000FF);
 	
 	mlx_image_to_window(_data->mlx_ptr, _data->mlx_img, 0, 0);
 	mlx_close_hook(_data->mlx_ptr, close_handle, _data);
 	mlx_key_hook(_data->mlx_ptr, key_handle, _data);
 	mlx_resize_hook(_data->mlx_ptr, resize_handle, _data);
+	mlx_scroll_hook(_data->mlx_ptr, scroll_handle, _data);
 
-	_data->GPF = 4;
+	_data->GPF = 1;
 	_data->rows = _data->height / _data->PPC;
 	_data->columns = _data->width / _data->PPC;
 	init_world(_data);
