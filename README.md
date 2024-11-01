@@ -1,2 +1,1 @@
-# game-of-life
-implementation of the Game of Life
+# *`GAME-OF-LIFE`*
