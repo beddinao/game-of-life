@@ -5,10 +5,6 @@
 #cmake -B build 
 #cmake --build build -j4
 
-#cd - && cd lib/bass 
-
-#make 64bit
-
 #cd -
 
 gcc main.c -o gof -framework Cocoa -framework IOKit ./MLX42/build/libmlx42.a \
