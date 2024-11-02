@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <time.h>
 #include <signal.h>
-#include "./MLX42/include/MLX42/MLX42.h"
+#include "../MLX42/include/MLX42/MLX42.h"
 
 #ifndef TRUE
 # define TRUE 1
