@@ -35,8 +35,6 @@ typedef struct data
 	int		cursor_pressed;
 	//
 	FILE		*input;
-	int		initial_seed_w;
-	int		initial_seed_h;
 	//
 	bool		**population;
 	int		generation;
@@ -281,7 +279,8 @@ void	draw_population(data *_data) {
 		for (int x = 0; x < _data->width; x++) {
 			if (x && !(x % _data->PPC))	column += 1;
 			if (column >= _data->columns || column > _data->center_x + margin_x || column < 0) break;
-			if (_data->population[row][column]) mlx_put_pixel(_data->mlx_img, x, y, 0xDEDEDEFF);
+			//if (_data->population[row][column]) mlx_put_pixel(_data->mlx_img, x, y, 0xDEDEDEFF);
+			if (_data->population[row][column]) mlx_put_pixel(_data->mlx_img, x, y, 0xebe7ddFF);
 		}
 	}
 	draw_info(_data);
@@ -319,41 +318,13 @@ void	build_population(data *_data, bool seed) {
 	_data->population[ _data->rows ] = NULL;
 }
 
-void	insert_seed(data *_data) {
-	int	x = (_data->columns - _data->initial_seed_w) / 2,
-		y = (_data->rows - _data->initial_seed_h) / 2;
-
-	if (x >= 0 && y >= 0 && x <= _data->columns && y <= _data->rows) {
-		int		read;
-		bool		valid;
-		size_t		size = 1024;
-		char		*buffer = malloc(size);
-		if (buffer) {
-			while ((read = getline(&buffer, &size, _data->input)) > 0) {
-				valid = TRUE;
-				for (int i = 0; i < read; i++) {
-					if (buffer[i] == '#' || buffer[i] == 'x' || buffer[i] == 'y') {
-						valid = FALSE;
-						break;
-					}
-				}
-				if (!valid)	continue;
-				printf("%s", buffer);
-			}
-			free(buffer);
-		}
-	}
-	fclose(_data->input);
-}
-
-void	check_seed(data *_data, char **v) {
+void	insert_seed(data *_data, char **v) {
 	_data->input = fopen(v[1], "r");
-	
 	if (!_data->input)
 		return;
-
 	int		read;
-	int		w, h, x, y;
+	int		x, y;
+	int		w = 0, h = 0;
 	size_t		size = 1024;
 	char		*buffer = malloc(size);
 
@@ -361,44 +332,68 @@ void	check_seed(data *_data, char **v) {
 		fclose(_data->input);
 		return;
 	}
-	
+
 	while ((read = getline(&buffer, &size, _data->input)) > 0) {
-		w = 0;
-		h = 0;
-		for (int i = 0; i < read; i++){
-			if (buffer[i] == '#') 
-				break;
-			else if (buffer[i] == 'x') {
-				while (i < read && buffer[i] != ',' && buffer[i] != '\n') {
-					if (isdigit(buffer[i]))
-						w = w * 10 + ( buffer[i] - '0' );
-					i++;
-				}
-				if (!w || w > _data->columns) {
-					fclose(_data->input);
-					free(buffer);
-					return;
-				}
-				_data->initial_seed_w = w;
-				x = (_data->columns - _data->initial_seed_w) / 2;
+		if (buffer[0] == '#')	continue;
+		else if (buffer[0] == 'x') {
+			int i = 1;
+			while (i < read && !isdigit(buffer[i]))
+				i++;
+			while (i < read && isdigit(buffer[i]))
+				w = w * 10 + (buffer[i++] - '0');
+			while (i < read && buffer[i] != 'y')
+				i++;
+			if (buffer[i] == 'y') {
+				while (i < read && !isdigit(buffer[i])) i++;
+				while (i < read && isdigit(buffer[i]))
+					h = h * 10 + (buffer[i++] - '0');
 			}
-			else if (buffer[i] == 'y') {
-				while (i < read && buffer[i] != ',' && buffer[i] != '\n') {
-					if (isdigit(buffer[i]))
-						h = h * 10 + ( buffer[i] - '0' );
-					i++;
+			if (!w || !h || w > _data->columns || h > _data->rows) {
+				fclose(_data->input);
+				free(buffer);
+				return;
+			}
+			x = (_data->columns - w) / 2;
+			y = (_data->rows - h) / 2;
+			printf("x: %i, y: %i, w: %i, h: %i\n", x, y, w, h);
+		}
+		else if (w && h) {
+			int	accu;
+			for (int i = 0; i < read; i++) {
+				accu = 1;
+				if (isdigit(buffer[i])) {
+					accu = 0;
+					while (i < read && isdigit(buffer[i]))
+						accu = accu * 10 + (buffer[i++] - 48);
 				}
-				if (!h || h > _data->columns) {
+				if (buffer[i] == '$') {
+					while (accu--) {
+						x = (_data->columns - w) / 2;
+						y++;
+						if (y >= _data->rows) {
+							fclose(_data->input);
+							free(buffer);
+							return;
+						}
+					}
+				}
+				else if (buffer[i] == '!') {
 					fclose(_data->input);
 					free(buffer);
 					return;
 				}
-				_data->initial_seed_h = h;
-				y = (_data->rows - _data->initial_seed_h) / 2;
+				else if (buffer[i] == 'b') { 
+					while (accu--) _data->population[y][x++] = FALSE;
+					if (x >= _data->columns) break;
+				}
+				else if (buffer[i] == 'o') {
+					while (accu--) _data->population[y][x++] = TRUE;
+					if (x >= _data->columns) break;
+				}
 			}
 		}
-
 	}
+
 	fclose(_data->input);
 	free(buffer);
 }
@@ -420,7 +415,7 @@ void	init_world(data *_data, char **v) {
 		_data->number_imgs[i] = NULL;
 
 	build_population(_data, v ? TRUE : FALSE);
-	if (v) insert_seed(_data);
+	if (v) insert_seed(_data, v);
 }
 
 int			main(int c, char **v) {
