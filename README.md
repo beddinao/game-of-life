@@ -13,4 +13,9 @@ $ gof [path to a valid RLE file]
                - default is a random seed
 ```
 
+## Requirements
+- **`Linux or Macos`**
+- **`glfw`**
+- **`cmake`**
+
 ## Examples
