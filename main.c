@@ -34,6 +34,8 @@ typedef struct data
 	int		init_cursor_y;
 	int		cursor_pressed;
 	//
+	FILE		*input;
+	//
 	bool		**population;
 	int		generation;
 	int		current_population;
@@ -307,11 +309,17 @@ void	build_population(data *_data) {
 		_data->population[y] = malloc( _data->columns * sizeof(bool) );
 		if (!_data->population[y]) exit( release(_data, 1) );
 		//
-		memset(_data->population[y], FALSE, sizeof(bool) * _data->columns);
-		/*for (int x = 0; x < _data->columns; x++)
-			_data->population[y][x] = rand_num(FALSE, TRUE);*/
+		if (!_data->input)
+			for (int x = 0; x < _data->columns; x++)
+				_data->population[y][x] = rand_num(FALSE, TRUE);
+		else	memset(_data->population[y], FALSE, sizeof(bool) * _data->columns);
 	}
 	_data->population[ _data->rows ] = NULL;
+}
+
+void	insert_seed(data *_data) {
+	//
+	fclose(_data->input);
 }
 
 void	init_world(data *_data) {
@@ -331,74 +339,60 @@ void	init_world(data *_data) {
 		_data->number_imgs[i] = NULL;
 
 	build_population(_data);
-	//	file
-	FILE	*pattern = fopen("input", "r");
-	if (pattern) {
-		bool	valid = FALSE;
-		size_t	size = 1024;
-		int	read;
-		char	*buffer = malloc(size);
-		int	x = _data->columns / 2,
-			y = _data->rows / 2;
-
-		while ((read = getline(&buffer, &size, pattern)) > 0) {
-			valid = TRUE;
-
-			for (int i = 0; i < read; i++) {
-				if (buffer[i] == '#' || buffer[i] == 'x' || buffer[i] == 'X'
-					|| buffer[i] == 'y' || buffer[i] == 'Y') {
-					valid = FALSE;
-					break ;
-				}
-			}
-			if (!valid)	continue;
-			///
-			printf("%s", buffer);
-			for (int i = 0; i < read; i++) {
-				int acc = 1;
-				if (buffer[i] == '$') {
-					y++;
-					x = _data->columns / 2;
-				}
-				else if (buffer[i] == '!')	break;
-
-				if (isdigit(buffer[i])) {
-					acc = 0;
-					while (isdigit(buffer[i])) {
-						acc = (acc * 10) + (buffer[i] - 48);
-						i++;
-					}
-				}
-
-				while (acc) {
-					if (buffer[i] == 'o')	_data->population[y][x] = TRUE;
-					else if (buffer[i] == 'b')	_data->population[y][x] = FALSE;
-					else	break;
-					acc--;
-					x++;
-					if (x >= _data->columns) {
-						x = _data->columns / 2;
-						y++;
-					}
-				}
-			}
-		}
-		free(buffer);
-		fclose(pattern);
-	}
-	//	customizations;
-
-	/*int		h_height = _data->rows / 2;
-	int		h_width = _data->columns / 2;
-
-	_data->population[ h_height ][ h_width ] = TRUE;
-	_data->population[ h_height - 1 ][ h_width ] = TRUE;
-	_data->population[ h_height + 1 ][ h_width ] = TRUE;
-	_data->population[ h_height ][ h_width - 1 ] = TRUE;
-	_data->population[ h_height + 1 ][ h_width + 1 ] = TRUE;*/
+	if (_data->input)
+		insert_seed(_data);
 }
 
-int			main() {
+bool	check_seed(data *_data, char **v) {
+	_data->input = fopen(v[1], "r");
+	if (!_data->input)
+		return	FALSE;
+
+	int		read;
+	int		w, h;
+	size_t		size = 1024;
+	char		*buffer = malloc(size);
+
+	if (!buffer)
+		return	FALSE;
+	
+	bool		valid;
+	while ((read = getline(&buffer, &size, _data->input)) > 0) {
+		printf("%s", buffer);
+		valid = TRUE;
+		w = 0;
+		h = 0;
+		for (int i = 0; i < read; i++){
+			if (buffer[i] == '#') {
+				valid = FALSE;
+				break;
+			}
+			else if (buffer[i] == 'x') {
+				while (i < read && buffer[i] != ',' && buffer[i] != '\n') {
+					if (isdigit(buffer[i]))
+						w = w * 10 + ( buffer[i] - '0' );
+					i++;
+				}
+				printf("x: %i ", w);
+			}
+			else if (buffer[i] == 'y') {
+				while (i < read && buffer[i] != ',' && buffer[i] != '\n') {
+					if (isdigit(buffer[i]))
+						h = h * 10 + ( buffer[i] - '0' );
+					i++;
+				}
+				printf("y: %i ", h);
+			}
+		}
+
+	}
+	free(buffer);
+	return	TRUE;
+}
+
+int			main(int c, char **v) {
+	if (c > 2)	return 1;
+
 	data	*_data = malloc(sizeof(data));
 	if (!_data)
 		return 1;
@@ -406,15 +400,18 @@ int			main() {
 	memset(_data, 0, sizeof(data));
 	_data->width = 1600;
 	_data->height = 800;
-	_data->mlx_ptr = mlx_init(_data->width, _data->height, "Game of life", true);
+
+	_data->mlx_ptr = mlx_init(_data->width, _data->height, c == 2 ? v[1] : "Game of life", true);
 	if (!_data->mlx_ptr)
 		return	release(_data, 1);
+
 	_data->mlx_img = mlx_new_image(_data->mlx_ptr, _data->width, _data->height);
 	if (!_data->mlx_img)
 		return	release(_data, 1);
 
-	_data->PPC = 10;
+	_data->PPC = 1;
 	draw_bg(_data, 0x000000FF);
+
 	_data->center_x = (_data->width / 2) * _data->PPC;
 	_data->center_y = (_data->height / 2) * _data->PPC;
 	
@@ -426,9 +423,13 @@ int			main() {
 	mlx_cursor_hook(_data->mlx_ptr, cursor_handle, _data);
 	mlx_mouse_hook(_data->mlx_ptr, mouse_handle, _data);
 
-	_data->FPG = 4;
+	_data->FPG = 1;
 	_data->rows = _data->height / _data->PPC;
 	_data->columns = _data->width / _data->PPC;
+
+	if (c == 2 && !check_seed(_data, v))
+		return release(_data, 1);
+
 	init_world(_data);
 
 	mlx_loop_hook(_data->mlx_ptr, loop_hook, _data);
