@@ -35,6 +35,8 @@ typedef struct data
 	int		cursor_pressed;
 	//
 	FILE		*input;
+	int		initial_seed_w;
+	int		initial_seed_h;
 	//
 	bool		**population;
 	int		generation;
@@ -301,7 +303,7 @@ int	rand_num(int min, int max) {
 	return	rand() % (max - min + 1) + min;
 }
 
-void	build_population(data *_data) {
+void	build_population(data *_data, bool seed) {
 	_data->population = malloc( (_data->rows + 1) * sizeof(bool*) );
 	if (!_data->population)
 		exit( release(_data, 1) );
@@ -309,7 +311,7 @@ void	build_population(data *_data) {
 		_data->population[y] = malloc( _data->columns * sizeof(bool) );
 		if (!_data->population[y]) exit( release(_data, 1) );
 		//
-		if (!_data->input)
+		if (!seed)
 			for (int x = 0; x < _data->columns; x++)
 				_data->population[y][x] = rand_num(FALSE, TRUE);
 		else	memset(_data->population[y], FALSE, sizeof(bool) * _data->columns);
@@ -318,11 +320,90 @@ void	build_population(data *_data) {
 }
 
 void	insert_seed(data *_data) {
-	//
+	int	x = (_data->columns - _data->initial_seed_w) / 2,
+		y = (_data->rows - _data->initial_seed_h) / 2;
+
+	if (x >= 0 && y >= 0 && x <= _data->columns && y <= _data->rows) {
+		int		read;
+		bool		valid;
+		size_t		size = 1024;
+		char		*buffer = malloc(size);
+		if (buffer) {
+			while ((read = getline(&buffer, &size, _data->input)) > 0) {
+				valid = TRUE;
+				for (int i = 0; i < read; i++) {
+					if (buffer[i] == '#' || buffer[i] == 'x' || buffer[i] == 'y') {
+						valid = FALSE;
+						break;
+					}
+				}
+				if (!valid)	continue;
+				printf("%s", buffer);
+			}
+			free(buffer);
+		}
+	}
 	fclose(_data->input);
 }
 
-void	init_world(data *_data) {
+void	check_seed(data *_data, char **v) {
+	_data->input = fopen(v[1], "r");
+	
+	if (!_data->input)
+		return;
+
+	int		read;
+	int		w, h, x, y;
+	size_t		size = 1024;
+	char		*buffer = malloc(size);
+
+	if (!buffer) {
+		fclose(_data->input);
+		return;
+	}
+	
+	while ((read = getline(&buffer, &size, _data->input)) > 0) {
+		w = 0;
+		h = 0;
+		for (int i = 0; i < read; i++){
+			if (buffer[i] == '#') 
+				break;
+			else if (buffer[i] == 'x') {
+				while (i < read && buffer[i] != ',' && buffer[i] != '\n') {
+					if (isdigit(buffer[i]))
+						w = w * 10 + ( buffer[i] - '0' );
+					i++;
+				}
+				if (!w || w > _data->columns) {
+					fclose(_data->input);
+					free(buffer);
+					return;
+				}
+				_data->initial_seed_w = w;
+				x = (_data->columns - _data->initial_seed_w) / 2;
+			}
+			else if (buffer[i] == 'y') {
+				while (i < read && buffer[i] != ',' && buffer[i] != '\n') {
+					if (isdigit(buffer[i]))
+						h = h * 10 + ( buffer[i] - '0' );
+					i++;
+				}
+				if (!h || h > _data->columns) {
+					fclose(_data->input);
+					free(buffer);
+					return;
+				}
+				_data->initial_seed_h = h;
+				y = (_data->rows - _data->initial_seed_h) / 2;
+			}
+		}
+
+	}
+	fclose(_data->input);
+	free(buffer);
+}
+
+void	init_world(data *_data, char **v) {
 	if (!_data)	return;
 	
 	srand(time(NULL));
@@ -338,61 +419,8 @@ void	init_world(data *_data) {
 	for (int i = 0; i < 4; i++)
 		_data->number_imgs[i] = NULL;
 
-	build_population(_data);
-	if (_data->input)
-		insert_seed(_data);
-}
-
-bool	check_seed(data *_data, char **v) {
-	_data->input = fopen(v[1], "r");
-	if (!_data->input)
-		return	FALSE;
-
-	int		read;
-	int		w, h;
-	size_t		size = 1024;
-	char		*buffer = malloc(size);
-
-	if (!buffer)
-		return	FALSE;
-	
-	bool		valid;
-	while ((read = getline(&buffer, &size, _data->input)) > 0) {
-		valid = TRUE;
-		w = 0;
-		h = 0;
-		for (int i = 0; i < read; i++){
-			if (buffer[i] == '#') {
-				valid = FALSE;
-				break;
-			}
-			else if (buffer[i] == 'x') {
-				while (i < read && buffer[i] != ',' && buffer[i] != '\n') {
-					if (isdigit(buffer[i]))
-						w = w * 10 + ( buffer[i] - '0' );
-					i++;
-				}
-				if (!h || h > _data->rows) {
-					free(buffer);
-					return	FALSE;
-				}
-			}
-			else if (buffer[i] == 'y') {
-				while (i < read && buffer[i] != ',' && buffer[i] != '\n') {
-					if (isdigit(buffer[i]))
-						h = h * 10 + ( buffer[i] - '0' );
-					i++;
-				}
-				if (!w || w > _data->columns) {
-					free(buffer);
-					return	FALSE;
-				}
-			}
-		}
-
-	}
-	free(buffer);
-	return	TRUE;
+	build_population(_data, v ? TRUE : FALSE);
+	if (v) insert_seed(_data);
 }
 
 int			main(int c, char **v) {
@@ -432,10 +460,7 @@ int			main(int c, char **v) {
 	_data->rows = _data->height / _data->PPC;
 	_data->columns = _data->width / _data->PPC;
 
-	if (c == 2 && !check_seed(_data, v))
-		return release(_data, 1);
-
-	init_world(_data);
+	init_world(_data, c == 2 ? v : NULL);
 
 	mlx_loop_hook(_data->mlx_ptr, loop_hook, _data);
 	mlx_loop(_data->mlx_ptr);
