@@ -2,14 +2,14 @@ CC = cc
 SRC = $(wildcard src/*.c)
 HR = $(wildcard include/*.h)
 OBJ = $(patsubst src/%.c, build/%.o, $(SRC))
-FLAGS = -Iinclude -lglfw -L /Users/beddinao/.brew/opt/glfw/lib ./MLX42/build/libmlx42.a
+FLAGS = -Iinclude ./MLX42/build/libmlx42.a
 UNAME = $(shell uname)
 
 ifeq ($(UNAME), Linux)
-	FLAGS += -ldl -pthread -lm
+	FLAGS += -lglfw -ldl -pthread -lm
 endif
 ifeq (($UNAME), Darwin)
-	FLAGS += -framework Cocoa -framework IOKit
+	FLAGS += -lglfw -L /Users/beddinao/.brew/opt/glfw/lib -framework Cocoa -framework IOKit
 endif
 
 NAME = gof
