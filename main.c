@@ -306,8 +306,9 @@ void	build_population(data *_data) {
 		_data->population[y] = malloc( _data->columns * sizeof(bool) );
 		if (!_data->population[y]) exit( release(_data, 1) );
 		//
-		for (int x = 0; x < _data->columns; x++)
-			_data->population[y][x] = rand_num(FALSE, TRUE);
+		memset(_data->population[y], FALSE, sizeof(bool) * _data->columns);
+		/*for (int x = 0; x < _data->columns; x++)
+			_data->population[y][x] = rand_num(FALSE, TRUE);*/
 	}
 	_data->population[ _data->rows ] = NULL;
 }
@@ -329,6 +330,40 @@ void	init_world(data *_data) {
 		_data->number_imgs[i] = NULL;
 
 	build_population(_data);
+	//	file
+	FILE	*pattern = fopen("tub.rle", "r");
+	if (pattern) {
+		bool	valid = FALSE;
+		size_t	size = 1024;
+		int	read;
+		char	*buffer = malloc(size);
+		while ((read = getline(&buffer, &size, pattern)) > 0) {
+			valid = TRUE;
+			for (int i = 0; i < read; i++) {
+				if (buffer[i] == '#' || buffer[i] == 'x' || buffer[i] == 'X'
+					|| buffer[i] == 'y' || buffer[i] == 'Y') {
+					valid = FALSE;
+					break ;
+				}
+			}
+			if (!valid)	continue;
+			///
+			printf("%s", buffer);
+			int	x = _data->columns / 2,
+				y = _data->rows / 2;
+			for (int i = 0; i < read; i++) {
+				if (buffer[i] == '$') {
+					y++;
+					x = _data->columns / 2;
+				}
+				else if (buffer[i] == '!')	break;
+				_data->population[y][x] = buffer[i] == 'o' ? TRUE : buffer[i] == 'b' ? FALSE : 0;
+				x++;
+			}
+		}
+		free(buffer);
+		fclose(pattern);
+	}
 	//	customizations;
 
 	/*int		h_height = _data->rows / 2;
@@ -356,7 +391,7 @@ int			main() {
 	if (!_data->mlx_img)
 		return	release(_data, 1);
 
-	_data->PPC = 1;
+	_data->PPC = 4;
 	draw_bg(_data, 0x000000FF);
 	_data->center_x = (_data->width / 2) * _data->PPC;
 	_data->center_y = (_data->height / 2) * _data->PPC;
@@ -369,7 +404,7 @@ int			main() {
 	mlx_cursor_hook(_data->mlx_ptr, cursor_handle, _data);
 	mlx_mouse_hook(_data->mlx_ptr, mouse_handle, _data);
 
-	_data->FPG = 1;
+	_data->FPG = 4;
 	_data->rows = _data->height / _data->PPC;
 	_data->columns = _data->width / _data->PPC;
 	init_world(_data);
