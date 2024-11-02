@@ -9,7 +9,7 @@ ifeq ($(UNAME), Linux)
 	FLAGS += -lglfw -ldl -pthread -lm
 endif
 ifeq ($(UNAME), Darwin)
-	FLAGS += -lglfw -L $(shell brew --prefix glfw) -framework Cocoa -framework IOKit
+	FLAGS += -lglfw -L $(shell brew --prefix glfw)/lib -framework Cocoa -framework IOKit
 endif
 
 NAME = gof
@@ -25,7 +25,7 @@ $(NAME): $(OBJ)
 
 build/%.o: src/%.c $(HR)
 	@mkdir -p $(dir $@)
-	$(CC) -c $< -o $@ $(FLAGS)
+	$(CC) -c $< -o $@ $(FLAGS) 
 
 clean:
 	rm -rf build && rm -rf MLX42/build
