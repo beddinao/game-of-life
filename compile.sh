@@ -12,5 +12,5 @@
 #cd -
 
 gcc main.c -framework Cocoa -framework IOKit ./MLX42/build/libmlx42.a \
-	-Iinclude -lglfw -L /Users/beddinao/.brew/opt/glfw/lib -g -fsanitize=address
+	-Iinclude -lglfw -L /Users/beddinao/.brew/opt/glfw/lib # -g -fsanitize=address
 
