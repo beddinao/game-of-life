@@ -19,3 +19,8 @@ $ gof [path to a valid RLE file]
 - **`cmake`**
 
 ## Examples
+```
+$ gof
+```
+![random](https://github.com/user-attachments/assets/3f954569-bc1c-421b-9f70-78dcf56d59f1)
+
