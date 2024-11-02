@@ -1,0 +1,5 @@
+#N bookendbridgebun.rle
+#C https://conwaylife.com/wiki/Bookend_bridge_bun
+#C https://www.conwaylife.com/patterns/bookendbridgebun.rle
+x = 6, y = 6, rule = B3/S23
+3b2o$3bobo$2obobo$obobo$2bo$b2o!

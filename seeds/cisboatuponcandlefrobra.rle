@@ -1,0 +1,5 @@
+#N cisboatuponcandlefrobra.rle
+#C https://conwaylife.com/wiki/Cis-boat_up_on_candlefrobra
+#C https://www.conwaylife.com/patterns/cisboatuponcandlefrobra.rle
+x = 5, y = 11, rule = B3/S23
+bo$obo$2o2$4o$o3bo$3bo$3bo$2bo$bobo$2bo!

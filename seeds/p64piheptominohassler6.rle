@@ -1,0 +1,8 @@
+#N p64piheptominohassler6.rle
+#C https://conwaylife.com/wiki/Period-64_pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p64piheptominohassler6.rle
+x = 35, y = 38, rule = B3/S23
+6b2ob2obo$5b2o2b2ob2o$13bo$5b2o$5b2o5b2o$12b2o$5bo$5b2ob2o2b2o$6bob2o
+b2o6$34bo$32b3o$3b2o7b3o16bo$3b2o7bobo16b2o$12bobo$20bobo$2b2o16bobo7b
+2o$3bo16b3o7b2o$3o$o6$22b2ob2obo$21b2o2b2ob2o$29bo$21b2o$21b2o5b2o$28b
+2o$21bo$21b2ob2o2b2o$22bob2ob2o!

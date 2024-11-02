@@ -1,0 +1,6 @@
+#N bosswithgriddles.rle
+#C https://conwaylife.com/wiki/Boss
+#C https://www.conwaylife.com/patterns/bosswithgriddles.rle
+x = 11, y = 14, rule = B3/S23
+5bo$4bobo$4bobo$3b2ob2o$2bo5bo$bobobobo$3bo3bob2o$2obo3bo$3bobobobo$2b
+o5bo$3b2ob2o$4bobo$4bobo$5bo!

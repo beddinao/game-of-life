@@ -1,0 +1,8 @@
+#N obnoxiousp230.rle
+#C https://conwaylife.com/wiki/LCM_oscillator
+#C https://www.conwaylife.com/patterns/obnoxiousp230.rle
+x = 33, y = 26, rule = B3/S23
+9b2o$5b2o2bo$4bo2bobo$2obobobob2o$ob2obobobo$11bo$b4obob3obo$o4b3o4bo$
+b3ob3ob3o$3b7o5$4b3o$19bo3b3o$18bobo2b5o3b2o$18bo3b2o3b2o2b2o$19bo2bo
+3b2o$20b3o3bo2$20b3o3bo$19bo2bo3b2o$4b2o12bo3b2o3b2o$4b2o12bobo2b5o$
+19bo3b3o!

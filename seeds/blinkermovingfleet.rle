@@ -1,0 +1,5 @@
+#N blinkermovingfleet.rle
+#C https://conwaylife.com/wiki/Fleet
+#C https://www.conwaylife.com/patterns/blinkermovingfleet.rle
+x = 10, y = 14, rule = B3/S23
+4b2o$4bobo$5b2o$7b2o$2o5bobo$obo5b2o$b2o$3b2o$3bobo$4b2o2$6bo$6bo$6bo!

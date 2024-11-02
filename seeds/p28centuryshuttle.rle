@@ -1,0 +1,10 @@
+#N p28centuryshuttle.rle
+#C https://conwaylife.com/wiki/Century_hassler
+#C https://www.conwaylife.com/patterns/p28centuryshuttle.rle
+x = 40, y = 40, rule = B3/S23
+18b2o$13b2o2bo$13b2o2bo$17b2o$20bo$16bobobo$15b2o3bo$14bo3b2o$14bobob
+o$14bo$16b2o19b2o$17bo2b2o8b3o4b2o$17bo2b2o4bo6bo$b2o12b2o9bo2bobob2o
+$b2o4b3o17b3o6b3o$6bo6bo17b2obobo2bo$5b2obobo2bo18bo6bo$b3o6b3o14b2o4b
+3o$o2bobob2o18b2o$o6bo$4b3o4b2o7b2o$11b2o5b2obo$18bo$18b3o3$12b2o$14b
+o2b2o$14bo2b2o$13b2o$11bo$11bobobo$11bo3b2o$12b2o3bo$13bobobo$17bo$14b
+2o$10b2o2bo$10b2o2bo$15b2o!

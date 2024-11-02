@@ -1,0 +1,5 @@
+#N hooknudger1.rle
+#C https://conwaylife.com/wiki/Hooknudger
+#C https://www.conwaylife.com/patterns/hooknudger1.rle
+x = 13, y = 11, rule = B3/S23
+b4o$bo3bo$bo$2bo$5bobo$5b2o2$bo2bo3b4o$o7bo3bo$o3bo3bo$4o5bo2bo!

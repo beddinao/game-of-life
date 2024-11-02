@@ -1,0 +1,7 @@
+#N p16uturnerhassler.rle
+#C https://conwaylife.com/wiki/U-turner_hasslers
+#C https://www.conwaylife.com/patterns/p16uturnerhassler.rle
+x = 24, y = 17, rule = B3/S23
+14b4o$9b2o7bo$9b2o2b2o3bo$13b2o2bo3$8b3o7b4o$8b3o3b2obo4bo$7bobo3bo3b
+o4bo$7b2o4bo4b2o$2b2o9bo2bo4b2o$bobo9bo2bo3bo2bo$bo12b2o4bo2bo$2o15b2o
+4bo$14bo4bo3bo$14bo4bob2o$15b4o!

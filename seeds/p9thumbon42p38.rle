@@ -1,0 +1,8 @@
+#N p9thumbon42p38.rle
+#C https://conwaylife.com/wiki/42P38
+#C https://www.conwaylife.com/patterns/p9thumbon42p38.rle
+x = 25, y = 36, rule = B3/S23
+16b2o$16bo$14bobo$14b2o4$10bo$2b3o4b3o$11bo2$b2o$3bo18b2o$o23bo$b2o18b
+o$22b2o2$13bo$13b3o4b3o$14bo4$9b2o$8bobo$8bo$7b2o$15bo3b2o$11b2o7bo$11b
+o3bob2obob2o$12b3o2b2obob2o$18bobo$14b3obobo$13bo3bobo$13b2o2bo$16b2o
+!

@@ -1,0 +1,6 @@
+#N rr56h.rle
+#O David Buckingham, 1996
+#C https://conwaylife.com/wiki/RR56H
+#C https://www.conwaylife.com/patterns/rr56h.rle
+x = 15, y = 22, rule = B3/S23
+2b2o$2b2o2$11b2o$11b2o2$bo$b2o$2o9b2o$11b2o6$b2o$b2o3$12b3o$12bo$11b2o!

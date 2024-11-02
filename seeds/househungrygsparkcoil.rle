@@ -1,0 +1,5 @@
+#N househungrygsparkcoil.rle
+#C https://conwaylife.com/wiki/G_(induction_coil)
+#C https://www.conwaylife.com/patterns/househungrygsparkcoil.rle
+x = 10, y = 7, rule = B3/S23
+8b2o$9bo$2o4b3o$obo2bo$2bo2bob2o$obo2bo2bo$2o4b2o!

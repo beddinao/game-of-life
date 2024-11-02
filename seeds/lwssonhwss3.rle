@@ -1,0 +1,5 @@
+#N lwssonhwss3.rle
+#C https://conwaylife.com/wiki/LWSS_on_HWSS_3
+#C https://www.conwaylife.com/patterns/lwssonhwss3.rle
+x = 9, y = 10, rule = B3/S23
+4o$o3bo$o$bo2bo2$5b2o$3bo4bo$2bo$2bo5bo$2b6o!

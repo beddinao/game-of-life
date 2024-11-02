@@ -1,0 +1,11 @@
+#N p4pipsquirteroriginal.rle
+#O Karel Suhajda, 2003
+#C https://conwaylife.com/wiki/P4_pipsquirter
+#C https://www.conwaylife.com/patterns/p4pipsquirteroriginal.rle
+#C jslife-20121230/osc/o0004-spark1.lif
+#C A7 [Karel Suhajda, 1 Feb 03]
+x = 15, y = 27, rule = B3/S23
+7bo$7bo2$5bob2o$3b7o$2bo$3b2o4bobo$bobob4ob4o$obo2bobobo4bo$obob2o5b3o
+$b2o2bo3bobo$3b2o2b3obo$3bo3b3obob2o$2obo2b2obobob2o$o2b2o3b3o$b2o2b2o
+$3bobob4o$3bo2b2o2bo$b2obo4bo$2bob2obob2o$2bob2o3bo$b2obo2bobo$4bo2b2o
+b2o$4bo3bobo$5b3o2bo$7bobo$8bo!

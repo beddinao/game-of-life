@@ -1,0 +1,6 @@
+#N fumaroleonmerzenichsp64.rle
+#C https://conwaylife.com/wiki/Merzenich%27s_p64
+#C https://www.conwaylife.com/patterns/fumaroleonmerzenichsp64.rle
+x = 21, y = 28, rule = B3/S23
+5b2o4b2o$5bobo2bobo$7bo2bo$6bo4bo$6b2o2b2o$8b2o2$14b2o$14b2o4$2o$2o2$10b3o$3b
+3o4b3o$5bo3bobo3bo$8b3o4b3o$8b3o2$19b2o$19b2o4$5b2o$5b2o!

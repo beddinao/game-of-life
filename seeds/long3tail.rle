@@ -1,0 +1,5 @@
+#N long3tail.rle
+#C https://conwaylife.com/wiki/Tail
+#C https://www.conwaylife.com/patterns/long3tail.rle
+x = 4, y = 6, rule = B3/S23
+3bo$3bo$2bo$bo$o$2o!

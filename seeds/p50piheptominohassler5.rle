@@ -1,0 +1,7 @@
+#N p50piheptominohassler5.rle
+#C https://conwaylife.com/wiki/Period-50_pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p50piheptominohassler5.rle
+x = 22, y = 32, rule = B3/S23
+8bo$8b3o$11bo$10b2o$o$3o10b2o$3bo8bobo$2b2o8b2o3$19b3o3$12bobo$11bo3b
+o$8bo3bobo$7bobo3bo$6bo3bo$7bobo3$3o3$8b2o8b2o$7bobo8bo$7b2o10b3o$21b
+o$10b2o$10bo$11b3o$13bo!

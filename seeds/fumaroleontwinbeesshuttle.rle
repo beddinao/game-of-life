@@ -1,0 +1,6 @@
+#N fumaroleontwinbeesshuttle.rle
+#C https://conwaylife.com/wiki/Twin_bees_shuttle
+#C https://www.conwaylife.com/patterns/fumaroleontwinbeesshuttle.rle
+x = 11, y = 40, rule = B3/S23
+b2o5b2o$b2o5b2o16$2obo3bob2o$o2bo3bo2bo$b3o3b3o8$8b2o$8b2o6$3b2o$b2o2b2o$bo4b
+o$2bo2bo$obo2bobo$2o4b2o!

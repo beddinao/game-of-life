@@ -1,0 +1,7 @@
+#N rattlesnakeon42p9.rle
+#C https://conwaylife.com/wiki/Rattlesnake
+#C https://www.conwaylife.com/patterns/rattlesnakeon42p9.rle
+x = 22, y = 19, rule = B3/S23
+6bo$5bobo2b2o$5bobo3bo$3b2obob3o$2bobo3bo$bo4bo$2b3ob2o7b2o$10b2o3bo$
+2b2ob2o3b2o5bo$o2bob2o9b2o$2obo$3bo10b4o$3b2o10bo2bo$7b2o7b2obo$7bo2bo
+5bo2bo$9b2o5b3ob2o$18bobo$18bobo$19bo!

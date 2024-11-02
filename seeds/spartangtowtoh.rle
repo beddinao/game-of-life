@@ -1,0 +1,8 @@
+#N spartangtowtoh.rle
+#O Adam P. Goucher, 2024
+#C https://conwaylife.com/wiki/Spartan_G-to-W-to-H
+#C https://www.conwaylife.com/patterns/spartangtowtoh.rle
+x = 29, y = 33, rule = B3/S23
+12b2o$13bo6b2o$13bobo4b2o$14b2o$10bo$4bo5b3o$4b3o6bo$7bo4b2o$2bo3b2o$o
+bo$b2o21b2o$24b2o7$14b2o$14b2o9b2o$25bobo$2b2o23bo$bobo23b2o$bo$2o4b2o
+$7bo$4b3o$4bo16b2o$21bobo$14b2o7bo$15bo7b2o$12b3o$12bo!

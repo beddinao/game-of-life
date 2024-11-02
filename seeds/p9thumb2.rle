@@ -1,0 +1,6 @@
+#N p9thumb2.rle
+#C https://conwaylife.com/wiki/Period-9_sparkers
+#C https://www.conwaylife.com/patterns/p9thumb2.rle
+x = 14, y = 11, rule = B3/S23
+4b2o$2obobo$2obo4bo$3bobo3bo$3bobo4bo$2obo4bobo$o2b2obobobobo$2bo3bob
+2obobo$3b3obo3bobo$5bobo3b2o$6bo!

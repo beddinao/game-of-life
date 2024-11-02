@@ -1,0 +1,8 @@
+#N moldon84p199.rle
+#C https://conwaylife.com/wiki/84P199
+#C https://www.conwaylife.com/patterns/moldon84p199.rle
+x = 56, y = 45, rule = B3/S23
+16b2o16b2o$16b2o7b2o7b2o$25b2o5$2o48b2o$2o48b2o3$18bo14bo$18b3o10b3o
+18bobo$55bo$19b3o8b3o18bo2bo$50bobobo$50bo2bo$51b2o2$8b2o32b2o$8b2o32b
+2o4$8b2o32b2o$8b2o32b2o5$19b3o8b3o2$18b3o10b3o$18bo14bo3$2o48b2o$2o48b
+2o5$25b2o$16b2o7b2o7b2o$16b2o16b2o!

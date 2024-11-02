@@ -1,0 +1,7 @@
+#N unixon30p25.rle
+#C https://conwaylife.com/wiki/30P25
+#C https://www.conwaylife.com/patterns/unixon30p25.rle
+x = 23, y = 23, rule = B3/S23
+2b2o$bobo$3o$2o19b2o$bobo17bo$2bobo2b2o10bobo$3bo2bobo4bo2bo2b2o$4b4o
+5bo2bo$5b2o5bo4bo$16bo$13b2obo5$9bob2o$9bo$8bo4bo$9bo2bo$5b2o2bo2bo$4b
+obo$4bo$3b2o!

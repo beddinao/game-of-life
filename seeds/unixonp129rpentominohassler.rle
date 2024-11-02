@@ -1,0 +1,7 @@
+#N unixonp129rpentominohassler.rle
+#C https://conwaylife.com/wiki/P129_R-pentomino_hassler
+#C https://www.conwaylife.com/patterns/unixonp129rpentominohassler.rle
+x = 68, y = 29, rule = B3/S23
+29bo$27b3o$26bo$26b2o$3b2o$4bo$4bobo$5b2o2$23b2o$22b2o$23bo4$2b2o$4bob
+2o$o2bo2b2o39bo$obo44b2o$bo44b2o2$b2o61b2o$b2o61bobo$66bo$66b2o$43b2o$
+44bo$41b3o$41bo!

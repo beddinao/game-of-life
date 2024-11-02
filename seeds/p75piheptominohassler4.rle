@@ -1,0 +1,8 @@
+#N p75piheptominohassler4.rle
+#C https://conwaylife.com/wiki/Period-75_pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p75piheptominohassler4.rle
+x = 42, y = 33, rule = B3/S23
+20b2o$20bobo$21bo4$3b2o$4bo$4bobo$5b2o4$21b3o14bo$21bobo7bo5b3o$21bobo
+6b3o3b2ob2o$4b2o29b3ob3o$5bo24b3o2b3ob3o$5bobo22b3o2b3ob3o$6b2o3bo23b
+3ob3o$11bo18b3o3b2ob2o$11bo19bo5b3o$b2o35bo$bobo3b3o3b3o$3bo$3b3o$b2o
+3bo$o2b4o$2obo9b2o$3bob2o6bo$3bobo8b3o$2b2obobo8bo$6b2o!

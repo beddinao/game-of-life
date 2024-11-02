@@ -1,0 +1,5 @@
+#N transbunandwing.rle
+#C https://conwaylife.com/wiki/Trans-bun_and_wing
+#C https://www.conwaylife.com/patterns/transbunandwing.rle
+x = 8, y = 5, rule = B3/S23
+bo$obob2o$obobobo$b2obo2bo$5b2o!

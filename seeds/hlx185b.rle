@@ -1,0 +1,7 @@
+#N hlx185b.rle
+#C https://conwaylife.com/wiki/HLx111R
+#C https://www.conwaylife.com/patterns/hlx185b.rle
+x = 42, y = 41, rule = B3/S23
+24bo$23bobo$22b2obo2$40b2o$39bobo$39bo$38b2o$10bo26bo$10b3o24b3o$13bo
+26bo$12b2o25b2o4$36bo$35bobo$36bo5$2o$bo$bobo$2b2o7$2bo$2bobo20b2o$2b
+3o20bo$4bo10b2o3b2o4b3o$13bo2bo4bo6bo$13b3o4bo$20b2o$13b2obo$13bob2o!

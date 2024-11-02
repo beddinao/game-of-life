@@ -1,0 +1,6 @@
+#N xs12_178421e8.rle
+#O Robert Wainwright, 1973
+#C https://conwaylife.com/wiki/Very_long_melusine
+#C https://www.conwaylife.com/patterns/xs12_178421e8.rle
+x = 8, y = 4, rule = B3/S23
+2o3bo$bo2bobo$bobo2bo$2bo3b2o!

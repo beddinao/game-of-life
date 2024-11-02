@@ -1,0 +1,6 @@
+#N cisheavyweightemulator.rle
+#O Robert Wainwright, 1980
+#C https://conwaylife.com/wiki/Heavyweight_emulator
+#C https://www.conwaylife.com/patterns/cisheavyweightemulator.rle
+x = 16, y = 7, rule = B3/S23
+7b2o$2b2obo4bob2o$2bo10bo$3b2o6b2o$3o2b6o2b3o$o2bo8bo2bo$b2o10b2o!

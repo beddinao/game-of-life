@@ -1,0 +1,5 @@
+#N paperclipatpaperclipp2.rle
+#C https://conwaylife.com/wiki/Paperclip
+#C https://www.conwaylife.com/patterns/paperclipatpaperclipp2.rle
+x = 10, y = 10, rule = B3/S23
+b2o$o2bo$2obo$bob2o$bo$2b2o2bo$4bob3o$4bo4bo$5b3obo$7b2o!

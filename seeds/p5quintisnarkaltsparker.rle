@@ -1,0 +1,7 @@
+#N p5quintisnarkaltsparker.rle
+#C https://conwaylife.com/wiki/P5_quinti-Snark
+#C https://www.conwaylife.com/patterns/p5quintisnarkaltsparker.rle
+x = 22, y = 9, rule = B3/S23
+3b2o4b2o2bo$2bo2bobo5bo3bobo$3b2o8bo2b2o$3o2b2o6b3o4bo$o2bo2bob4obobob
+2o2bo$3b2o3bobo4bo2bob2o$7b2obob2ob2obo$6bo2b2obo2bo2bob2o$6b2o5b2o2b
+2ob2o!

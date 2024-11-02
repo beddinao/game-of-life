@@ -1,0 +1,10 @@
+#N p84rpentominoshuttle2.rle
+#C https://conwaylife.com/wiki/R-pentomino_hasslers
+#C https://www.conwaylife.com/patterns/p84rpentominoshuttle2.rle
+x = 65, y = 33, rule = B3/S23
+32b2o$30bo2bo3$30b2obo$32bobo2b2o$33bo4bo$34bo21b2o3bo$34bo2bo17bo3b4o
+$55bobo5bo$54b2o5bo2bo$47b2o3bo3b2obo$46bo2bo5b2o3b2o$47b2o8bob2o3bo$
+52bo2bo5b2o$4b2o3bo12bo30bo5bobo$3bo3b4o9b2ob2o29b4o3bo$3bobo5bo9bo2bo
+30bo3b2o$2b2o5bo2bo9b2o$o3b2obo8b2o$3b2o3b2o5bo2bo$5bob2o3bo3b2o$o2bo
+5b2o$bo5bobo$2b4o3bo17bo2bo$3bo3b2o21bo$26bo4bo$26b2o2bobo$31bob2o3$
+31bo2bo$31b2o!

@@ -1,0 +1,6 @@
+#N pentadecathlononsnacker2.rle
+#C https://conwaylife.com/wiki/Pentadecathlon_on_snacker
+#C https://www.conwaylife.com/patterns/pentadecathlononsnacker2.rle
+x = 20, y = 15, rule = B3/S23
+7bo4bo$5b2ob4ob2o$7bo4bo2$2o16b2o$bo16bo$bobo12bobo$2b2o12b2o$7bo4bo$
+5b2ob4ob2o$7bo4bo$2b2o12b2o$bobo12bobo$bo16bo$2o16b2o!

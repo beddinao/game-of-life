@@ -1,0 +1,5 @@
+#N shortkeyandskewedpole.rle
+#C https://conwaylife.com/wiki/Short_key_and_skewed_pole
+#C https://www.conwaylife.com/patterns/shortkeyandskewedpole.rle
+x = 12, y = 6, rule = B3/S23
+2o$o$bobo6bo$3b2o2b3obo$4bo2bo2bo$4bo2bo!

@@ -1,0 +1,6 @@
+#N p48glidergunwithboatbit.rle
+#C https://conwaylife.com/wiki/Period-48_glider_gun
+#C https://www.conwaylife.com/patterns/p48glidergunwithboatbit.rle
+x = 31, y = 20, rule = B3/S23
+b2o$2bo13b2o$2bobo11b2o$3b2o3$21b2o4bobo$8b2o11b3o3b2obo$10bo14b3obo$9b2o10bo
+3b2o$8b2o$3b2o17b2o3bo$2bobo19b2obo$2bo10bo5b2o6bo$b2o10bo5b2o4$2obo$ob2o!

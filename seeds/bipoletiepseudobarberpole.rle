@@ -1,0 +1,6 @@
+#N bipoletiepseudobarberpole.rle
+#C https://conwaylife.com/wiki/Bipole_tie_pseudo-barberpole
+#C https://www.conwaylife.com/patterns/bipoletiepseudobarberpole.rle
+x = 17, y = 17, rule = B3/S23
+15b2o$14bobo2$12bobo$12b2o$10b2o$11bo$9bo$7bobo2$5bobo2$3bobo2$2b2o$o$
+2o!

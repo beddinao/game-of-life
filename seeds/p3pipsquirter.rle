@@ -1,0 +1,6 @@
+#N p3pipsquirter.rle
+#O James Pascua, 2021
+#C https://conwaylife.com/wiki/P3_pipsquirter
+#C https://www.conwaylife.com/patterns/p3pipsquirter.rle
+x = 17, y = 7, rule = B3/S23
+9bo2bo$2o2b3o2bo2bo$o7b2o2b2obo$b3obobo6bobo$5b2obo6bo$ob2o$2ob2o!

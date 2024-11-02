@@ -1,0 +1,7 @@
+#N p6pipsquirter.rle
+#O Noam Elkies, 1997
+#C https://conwaylife.com/wiki/P6_pipsquirter
+#C https://www.conwaylife.com/patterns/p6pipsquirter.rle
+x = 15, y = 11, rule = B3/S23
+3b2ob2o$b3obob3o$o4bo4bo$ob2o2b2obobo$bo2b2o3bobo$2b2o2b2obobob2o$4bo
+4bobob2o$4b4ob2o$8bo$6bobo$6b2o!

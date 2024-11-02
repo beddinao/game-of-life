@@ -1,0 +1,5 @@
+#N mwssandhwssdraggingblock.rle
+#C https://conwaylife.com/wiki/MWSS_and_HWSS_dragging_block
+#C https://www.conwaylife.com/patterns/mwssandhwssdraggingblock.rle
+x = 10, y = 14, rule = B3/S23
+3bo$bo3bo$o$o4bo$5o2$5b2o$5b2o2$6b2o$4bo4bo$3bo$3bo5bo$3b6o!

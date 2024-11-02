@@ -1,0 +1,6 @@
+#N centuryeatenbyeater1s.rle
+#C https://conwaylife.com/wiki/Century
+#C https://www.conwaylife.com/patterns/centuryeatenbyeater1s.rle
+x = 21, y = 21, rule = B3/S23
+17b2o$15b3o$16bo2$10bo$9bobo$9bobo$10bo5$2b2o13b2o$bobo13bobo$bo17bo$
+2o17b2o2$7b2o$8bo$5b3o$5bo!

@@ -1,0 +1,6 @@
+#N achimsp4original.rle
+#C https://conwaylife.com/wiki/Achim%27s_p4
+#C https://www.conwaylife.com/patterns/achimsp4original.rle
+x = 15, y = 11, rule = B3/S23
+3b2o5b2o$3bobo3bobo$5bo3bo$3bob2ob2obo$b3o7b3o$o3bobobobo3bo$b3o7b3o$
+3bob2ob2obo$5bo3bo$3bobo3bobo$3b2o5b2o!

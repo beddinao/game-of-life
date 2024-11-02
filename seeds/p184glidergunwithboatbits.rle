@@ -1,0 +1,6 @@
+#N p184glidergunwithboatbits.rle
+#C https://conwaylife.com/wiki/Period-184_glider_gun
+#C https://www.conwaylife.com/patterns/p184glidergunwithboatbits.rle
+x = 35, y = 35, rule = B3/S23
+15bo$15b3o$18bo$17b2o$4bo$4b3o$7bo$6b2o9$31b2o$31bobo$33bo$2o31b2o$o18b3o3bo$
+bo16bo2bo4bo$2o16b2o2bo3bo5$27b2o$27bobo$29bo$29b2o3$12b2obo$12bob2o!

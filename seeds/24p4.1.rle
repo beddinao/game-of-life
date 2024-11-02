@@ -1,0 +1,6 @@
+#N 24p4.1.rle
+#O Dean Hickerson, 1989
+#C https://conwaylife.com/wiki/24P4.1
+#C https://www.conwaylife.com/patterns/24p4.1.rle
+x = 14, y = 6, rule = B3/S23
+4bobo2bob3o$3bo2bobobobo$3bo$10bo$bobobobo2bo$3obo2bobo!

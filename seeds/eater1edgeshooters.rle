@@ -1,0 +1,9 @@
+#N eater1edgeshooters.rle
+#C https://conwaylife.com/wiki/Eater_1
+#C https://www.conwaylife.com/patterns/eater1edgeshooters.rle
+x = 65, y = 65, rule = B3/S23
+62bo$62bobo$62b2o6$15bo$13b2o$14b2o3$18bo$17bo34bo$17b3o31bo$51b3o$6bo
+29bo25b3o$5bobo27bobo9b3o12bo$7bo9b2o18bo9bo10bo4bo$7b2o7b2o19b2o9bo8b
+2o$18bo38bobo2$22b3o36b2o$22bo37b2o$23bo38bo12$6bo29bo$5bobo27bobo$7bo
+29bo$7b2o28b2o$b2o$obo$2bo$11bo$10b2o28bo$b2o7bobo26b2o$2b2o35bobo$bo$
+35b3o$37bo$11b3o22bo$11bo$12bo2$51b2o$50b2o$52bo5$56b2o$56bobo$56bo!

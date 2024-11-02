@@ -1,0 +1,9 @@
+#N p21lomhassler2.rle
+#C https://conwaylife.com/wiki/Lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p21lomhassler2.rle
+x = 43, y = 24, rule = B3/S23
+17b2o5b2o$17b2o5b2o2$7b2o25b2o$2o6b3o21b3o6b2o$o5bo4bo19bo4bo5bo$b3obob4o6b3o
+3b3o6b4obob3o$3bobo3bo6bo2bo3bo2bo6bo3bobo$4b2o3bo6b3o5b3o6bo3b2o$9bo23bo$2bo
+2bo3bo23bo3bo2bo$bobobo3bo23bo3bobobo$bobobo3bo23bo3bobobo$2bo2bo3bo23bo3bo2b
+o$9bo23bo$4b2o3bo6b3o5b3o6bo3b2o$3bobo3bo6bo2bo3bo2bo6bo3bobo$b3obob4o6b3o3b
+3o6b4obob3o$o5bo4bo19bo4bo5bo$2o6b3o21b3o6b2o$7b2o25b2o2$17b2o5b2o$17b2o5b2o!

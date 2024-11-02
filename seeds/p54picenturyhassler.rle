@@ -1,0 +1,7 @@
+#N p54picenturyhassler.rle
+#C https://conwaylife.com/wiki/Century_hassler
+#C https://www.conwaylife.com/patterns/p54picenturyhassler.rle
+x = 36, y = 27, rule = B3/S23
+10bo$5bo4b3o$5b3o5bo$8bo3b2o$7b2o2$15b2o7bo$13b2obo5b2o$13bo10b2o$13b
+3o7bo$34b2o$34bo$32bobo$2b2o28b2o$bobo$bo$2o$12bo7b3o$10b2o10bo$12b2o
+5bob2o$11bo7b2o2$27b2o$22b2o3bo$22bo5b3o$23b3o4bo$25bo!

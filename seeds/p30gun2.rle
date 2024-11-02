@@ -1,0 +1,7 @@
+#N p30gun2.rle
+#C https://conwaylife.com/wiki/Period-30_glider_gun
+#C https://www.conwaylife.com/patterns/p30gun2.rle
+x = 27, y = 17, rule = B3/S23
+12b2o$12b2o3$6b2o3b3o$7bo3b2obo2b2o$b2ob3o6b2o2b2o$b2obo8b2o$4bo19b2o$
+b3o20bobo$o2b2o3b2o15b2o$2o6bobo10bo$11bo8bobo$8bo2bo7bo3bo$11bo8bobo$
+8bobo10bo$8b2o!

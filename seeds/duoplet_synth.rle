@@ -1,0 +1,5 @@
+#N duoplet_synth
+#C Glider synthesis of duoplet.
+#C https://www.conwaylife.com/wiki/Duoplet
+x = 14, y = 14, rule = B3/S23
+12bo$11bo$11b3o9$b2o$obo$2bo!

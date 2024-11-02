@@ -1,0 +1,8 @@
+#N p6workerbees.rle
+#C https://conwaylife.com/wiki/Line-of-six_spark
+#C https://www.conwaylife.com/patterns/p6workerbees.rle
+x = 28, y = 20, rule = B3/S23
+13b2o11b2o$13bo2bo7bo2bo$o5bo7b5o3b5o$2o3b2o12bobo$2o3b2o9b4ob4o$bo3bo
+9bo2bo3bo2bo$15b2o7b2o$2b3o14b3o$bo3bo12bo3bo3$bo3bo12bo3bo$2b3o14b3o$
+15b2o7b2o$bo3bo9bo2bo3bo2bo$2o3b2o9b4ob4o$2o3b2o12bobo$o5bo7b5o3b5o$
+13bo2bo7bo2bo$13b2o11b2o!

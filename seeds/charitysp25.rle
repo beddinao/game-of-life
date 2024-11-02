@@ -1,0 +1,10 @@
+#N charitysp25.rle
+#O Charity Engine, 2023
+#C https://conwaylife.com/wiki/Charity%27s_p25
+#C https://www.conwaylife.com/patterns/charitysp25.rle
+x = 37, y = 37, rule = B3/S23
+13b3o5b3o3$10bo15bo$9b2o15b2o$10bo2bo9bo2bo$11b2o11b2o3$4bo27bo$3b3o
+25b3o$6bo5bob3o3b3obo5bo$6bo4bo3bo5bo3bo4bo$o4bo8bo7bo8bo4bo$o10bobo9b
+obo10bo$o10b2o11b2o10bo$11bo13bo4$11bo13bo$o10b2o11b2o10bo$o10bobo9bob
+o10bo$o4bo8bo7bo8bo4bo$6bo4bo3bo5bo3bo4bo$6bo5bob3o3b3obo5bo$3b3o25b3o
+$4bo27bo3$11b2o11b2o$10bo2bo9bo2bo$9b2o15b2o$10bo15bo3$13b3o5b3o!

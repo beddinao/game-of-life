@@ -1,0 +1,7 @@
+#N 51p5h2v0.2.rle
+#O Paul Tooke, 2000
+#C https://conwaylife.com/wiki/51P5H2V0.2
+#C https://www.conwaylife.com/patterns/51p5h2v0.2.rle
+x = 21, y = 13, rule = B3/S23
+9b3o$8bo2bo$3bo12bo$2b2o5b2o4b3o$2obo3bob2o4bo2bo$2bo2b2o2b2o6b3o$5b2o
+2b2o5bobo$3bo11b2o$2obo11bo4bo$15bo$15bo3b2o$15bo2bo$16bo!

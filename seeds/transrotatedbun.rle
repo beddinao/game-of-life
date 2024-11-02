@@ -1,0 +1,5 @@
+#N transrotatedbun.rle
+#C https://conwaylife.com/wiki/Trans-rotated_bun
+#C https://www.conwaylife.com/patterns/transrotatedbun.rle
+x = 7, y = 7, rule = B3/S23
+bo$obo$obo$b2ob2o$4bobo$4bobo$5bo!

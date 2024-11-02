@@ -1,0 +1,5 @@
+#N rturnerwithoutfirstblinker.rle
+#C https://conwaylife.com/wiki/R-turner
+#C https://www.conwaylife.com/patterns/rturnerwithoutfirstblinker.rle
+x = 4, y = 6, rule = B3/S23
+b2o$2obo$3bo$3bo$obo$bo!

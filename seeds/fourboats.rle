@@ -1,0 +1,5 @@
+#N fourboats.rle
+#C https://conwaylife.com/wiki/Four_boats
+#C https://www.conwaylife.com/patterns/fourboats.rle
+x = 8, y = 8, rule = B3/S23
+3bo$2bobo$bob2o$obo2b2o$b2o2bobo$3b2obo$3bobo$4bo!

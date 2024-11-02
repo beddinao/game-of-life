@@ -1,0 +1,6 @@
+#N seveneleven.rle
+#O Matthias Merzenich, 2015
+#C https://conwaylife.com/wiki/Seven-eleven
+#C https://www.conwaylife.com/patterns/seveneleven.rle
+x = 11, y = 11, rule = B3/S23
+9b2o$10bo$7b3o$7bo$5bobo$5b2o2$2b2o3b2o$2bo4b2o$obo$2o!

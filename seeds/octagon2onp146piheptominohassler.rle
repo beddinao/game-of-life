@@ -1,0 +1,7 @@
+#N octagon2onp146piheptominohassler.rle
+#C https://conwaylife.com/wiki/P146_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/octagon2onp146piheptominohassler.rle
+x = 34, y = 20, rule = B3/S23
+9bo5bo$bo2bo4b2o3b2o3b2o$ob2obo3b2o3b2o3bobo2b2o$bo2bo5bo3bo5bo3b2o$bo
+2bo$ob2obo25bo$bo2bo24b3o$28bo$28b2o5$20b3o$19bo2bo7b2o$19bo10bobo$7bo
+24bo$6b2o11b3o10b2o$6b2o12bo$6bo!

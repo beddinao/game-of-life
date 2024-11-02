@@ -1,0 +1,8 @@
+#N moldon74p127.rle
+#C https://conwaylife.com/wiki/74P127
+#C https://www.conwaylife.com/patterns/moldon74p127.rle
+x = 41, y = 39, rule = B3/S23
+27bo$25b3o$24bo$24b2o3$4bo6bo10bo9b2o$2b2obo4bobo8b2o9b2o$bo9bo7b2o$ob
+o2bo11b2o2bo$o2bo17bo2bo$b2o20bo$17bobo3bo$18b3o4bo2$3b2o$3b2o6$39b2o$
+39b2o2$18bo4b3o$20bo3bobo$20bo$19bo2bo$22bo2b2o$23b2o7bo$10b2o9b2o8bob
+o$10b2o9bo10bo3$18b2o$19bo$16b3o$16bo!

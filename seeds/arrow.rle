@@ -1,0 +1,5 @@
+#N arrow.rle
+#C https://conwaylife.com/wiki/Blinker
+#C https://www.conwaylife.com/patterns/arrow.rle
+x = 5, y = 3, rule = B3/S23
+5o$o3bo$b3o!

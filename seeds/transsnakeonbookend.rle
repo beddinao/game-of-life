@@ -1,0 +1,5 @@
+#N transsnakeonbookend.rle
+#C https://conwaylife.com/wiki/Trans-snake_on_bookend
+#C https://www.conwaylife.com/patterns/transsnakeonbookend.rle
+x = 6, y = 5, rule = B3/S23
+2o$o2b2o$bobo$2obobo$4b2o!

@@ -1,0 +1,9 @@
+#N jasonsp22on74p127.rle
+#C https://conwaylife.com/wiki/74P127
+#C https://www.conwaylife.com/patterns/jasonsp22on74p127.rle
+x = 58, y = 39, rule = B3/S23
+25b2o17bo$25bo16b3o$7b3o13bobo15bo$6bo3bo8bo3b2o16b2o$5bo4bo6b2obo$6bo
+b2o6bo4bo$2b2o3bo8bo3bo7bo10bo9b2o$bobo13b3o7bobo8b2o9b2o$bo26bo7b2o$
+2o32b2o2bo$38bo2bo$40bo$34bobo3bo$35b3o4bo2$20b2o$20b2o6$56b2o$56b2o2$
+35bo4b3o$37bo3bobo$37bo$36bo2bo$39bo2b2o$40b2o7bo$27b2o9b2o8bobo$27b2o
+9bo10bo3$35b2o$36bo$33b3o$33bo!

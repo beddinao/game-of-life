@@ -1,0 +1,5 @@
+#N bookendsiameseshillelagh.rle
+#C https://conwaylife.com/wiki/Bookend_siamese_shillelagh
+#C https://www.conwaylife.com/patterns/bookendsiameseshillelagh.rle
+x = 6, y = 5, rule = B3/S23
+2o2b2o$o2bobo$b3o$4bo$3b2o!

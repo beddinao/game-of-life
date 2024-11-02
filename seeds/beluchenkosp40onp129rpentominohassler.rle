@@ -1,0 +1,8 @@
+#N beluchenkosp40onp129rpentominohassler.rle
+#C https://conwaylife.com/wiki/P129_R-pentomino_hassler
+#C https://www.conwaylife.com/patterns/beluchenkosp40onp129rpentominohassler.rle
+x = 65, y = 42, rule = B3/S23
+4b2o$4b2o7bo$11bo2bo$11bo3bo$11bo3bo$15bo$10bo$14bo$9bo$9bo3bo$9bo3bo$
+10bo2bo$11bo7b2o$19b2o5bo$24b3o$23bo$23b2o$2o$bo$bobo$2b2o2$20b2o$19b
+2o$20bo6$44bo$44b2o$43b2o2$61b2o$61bobo$63bo$63b2o$40b2o$41bo$38b3o$
+38bo!

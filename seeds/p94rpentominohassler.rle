@@ -1,0 +1,8 @@
+#N p94rpentominohassler.rle
+#O Mitchell Riley, 2022
+#C https://conwaylife.com/wiki/P94_R-pentomino_hassler
+#C https://www.conwaylife.com/patterns/p94rpentominohassler.rle
+x = 54, y = 26, rule = B3/S23
+2o$bo15b2o$bobo13b2o$2b2o$31b2o$31b2o$16bo$15b2o$14bo2bo$2b2o10bobo$bo
+bo11b2o25b2o$bo40b2o$2o$52b2o$10b2o40bo$10b2o25b2o11bobo$37bobo10b2o$
+36bo2bo$37b2o$37bo$21b2o$21b2o$50b2o$35b2o13bobo$35b2o15bo$52b2o!

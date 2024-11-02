@@ -1,0 +1,5 @@
+#N boattieship.rle
+#C https://conwaylife.com/wiki/Boat_tie_ship
+#C https://www.conwaylife.com/patterns/boattieship.rle
+x = 6, y = 6, rule = B3/S23
+2o$obo$b2o$3b2o$3bobo$4bo!

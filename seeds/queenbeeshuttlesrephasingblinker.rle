@@ -1,0 +1,6 @@
+#N queenbeeshuttlesrephasingblinker.rle
+#C https://conwaylife.com/wiki/Queen_bee_shuttle
+#C https://www.conwaylife.com/patterns/queenbeeshuttlesrephasingblinker.rle
+x = 22, y = 17, rule = B3/S23
+13bo$12bobo$2o9bo3b2o3b2o$2o9bo3b2o3b2o$11bo3b2o$12bobo$13bo$19bo$19bo
+$19bo$8bo$7bobo$5b2o3bo$2o3b2o3bo9b2o$2o3b2o3bo9b2o$7bobo$8bo!

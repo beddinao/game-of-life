@@ -1,0 +1,5 @@
+#N cisbiboat.rle
+#C https://conwaylife.com/wiki/Cis-bi-boat
+#C https://www.conwaylife.com/patterns/cisbiboat.rle
+x = 7, y = 3, rule = B3/S23
+bo3bo$obobobo$b2ob2o!

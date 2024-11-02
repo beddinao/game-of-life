@@ -1,0 +1,5 @@
+#N life35c200replicator.rle
+#C https://conwaylife.com/wiki/Parity_rule_replicator
+#C https://www.conwaylife.com/patterns/life35c200replicator.rle
+x = 3, y = 3, rule = B3/S23:P0,5
+3o$obo$3o!

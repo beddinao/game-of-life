@@ -1,0 +1,9 @@
+#N p64fleethassler.rle
+#C https://conwaylife.com/wiki/Fleet_hasslers
+#C https://www.conwaylife.com/patterns/p64fleethassler.rle
+x = 51, y = 25, rule = B3/S23
+17bo15bo$18b2o11b2o$16b2o15b2o$18bo13bo2$10b2o27b2o$10bobo7bo9bo7bobo$
+12bo6bobo7bobo6bo$12b2o5bobo7bobo5b2o$20bo9bo4$9bo31bo$8bobo29bobo$2o
+7bo31bo7b2o$2obo43bob2o$4bo7bo7b3o5b3o7bo7bo$bo9bobo5bo2bo5bo2bo5bobo
+9bo$2bob2o4bo2bo5bo2bo5bo2bo5bo2bo4b2obo$4b2o4bobo6b3o7b3o6bobo4b2o$
+10b3o25b3o$10b2o27b2o$10b2o27b2o$10b2o27b2o!

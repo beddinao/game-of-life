@@ -1,0 +1,6 @@
+#N moldontwinbeesshuttle.rle
+#C https://conwaylife.com/wiki/Twin_bees_shuttle
+#C https://www.conwaylife.com/patterns/moldontwinbeesshuttle.rle
+x = 34, y = 18, rule = B3/S23
+3b2o$2bo2bo$o2bobo$4bo$ob2o$bo2$15b2o$14bobo15b2o$2o12bo17b2o$2o12b3o4$14b3o$
+5b2o7bo17b2o$5b2o7bobo15b2o$15b2o!

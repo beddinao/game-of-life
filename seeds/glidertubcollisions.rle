@@ -1,0 +1,7 @@
+#N glidertubcollisions.rle
+#C https://conwaylife.com/wiki/Collisions_of_a_glider_with_common_objects
+#C https://www.conwaylife.com/patterns/glidertubcollisions.rle
+x = 35, y = 51, rule = B3/S23
+5bo23bo$4bo23bo$4b3o21b3o2$bo22bo$obo20bobo$bo22bo16$7bo23bo$6bo23bo$
+6b3o21b3o2$bo22bo$obo20bobo$bo22bo16$9bo23bo$8bo23bo$8b3o21b3o2$bo22b
+o$obo20bobo$bo22bo!

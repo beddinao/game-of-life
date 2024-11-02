@@ -1,0 +1,7 @@
+#N moldonp146piheptominohassler.rle
+#C https://conwaylife.com/wiki/P146_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/moldonp146piheptominohassler.rle
+x = 33, y = 20, rule = B3/S23
+8bo5bo$8b2o3b2o3b2o$4bo3b2o3b2o3bobo2b2o$2b2obo3bo3bo5bo3b2o$bo$obo2bo
+24bo$o2bo24b3o$b2o24bo$27b2o5$19b3o$18bo2bo7b2o$18bo10bobo$6bo24bo$5b
+2o11b3o10b2o$5b2o12bo$5bo!

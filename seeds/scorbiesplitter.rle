@@ -1,0 +1,9 @@
+#N scorbiesplitter.rle
+#O praosylen, 2016
+#C https://conwaylife.com/wiki/Scorbie_Splitter
+#C https://www.conwaylife.com/patterns/scorbiesplitter.rle
+x = 58, y = 29, rule = B3/S23
+2bo43bo$3bo42b3o$b3o45bo$40bo7b2o$40b3o$18bo24bo$16b3o23b2o$15bo$15b2o
+$2o$bo$bob2o$2bo2bo$3b2o$18b2o13b2o$18b2o13b2o7$21b2obo6b2o$21b2ob3o3b
+obo21b2o$27bo2bo23bobo$21b2ob3o2b2o25bo$22bobo31b2o$10b2o10bobo$10b2o
+11bo!

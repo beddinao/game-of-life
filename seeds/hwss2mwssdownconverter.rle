@@ -1,0 +1,6 @@
+#N hwss2mwssdownconverter.rle
+#C https://conwaylife.com/wiki/Converter
+#C https://www.conwaylife.com/patterns/hwss2mwssdownconverter.rle
+x = 26, y = 17, rule = B3/S23
+4bo19bo$3bo19bo$3b3o17b3o3$20b2o$18bo4bo$24bo$18bo5bo$19b6o5$b2o18b2o$
+2o18b2o$2bo19bo!

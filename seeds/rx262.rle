@@ -1,0 +1,10 @@
+#N rx262.rle
+#O Martin Grant, 2015
+#C https://conwaylife.com/wiki/Rx262
+#C https://www.conwaylife.com/patterns/rx262.rle
+x = 102, y = 70, rule = B3/S23
+24b2o58b2o$24b2o58b2o6$31b2o58b2o$31bo59bo$29bobo57bobo$29b2o58b2o3$b
+2o61bo$3ob2o58bo$b2ob3ob2o54b3ob2o$3ob2o2b2o31bo24bob2o31bo$2o37b3o57b
+3o$38bo59bo$38b2o58b2o14$19b2o58b2o$19b2o58b2o7$36b2o58b2o$36bo59bo$
+37b3o57b3o$39bo59bo3$18bob2o56bob2o$18b2obo56b2obo2$27b2o58b2o$27b2o
+58b2o16$27b3o57b3o$29bo59bo$29b2o58b2o!

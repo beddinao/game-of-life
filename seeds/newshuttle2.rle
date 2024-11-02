@@ -1,0 +1,8 @@
+#N newshuttle2.rle
+#C https://conwaylife.com/wiki/Newshuttle
+#C https://www.conwaylife.com/patterns/newshuttle2.rle
+x = 35, y = 20, rule = B3/S23
+19b2o$18bobo$7b2o7b3o7b2o$2o5b2o6bo3bo6b2o5b2o$bo13b2ob2o13bo$bobo27bo
+bo$2b2o27b2o$6b3o3b3o5b3o3b3o$6bobo3bobo5bobo3bobo$6b3o3b3o5b3o3b3o4$
+2b2o27b2o$bobo27bobo$bo13b2ob2o13bo$2o5b2o6bo3bo6b2o5b2o$7b2o7b3o7b2o$
+18bobo$19b2o!

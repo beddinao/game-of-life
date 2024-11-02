@@ -1,0 +1,5 @@
+#N crotchet.rle
+#C https://conwaylife.com/wiki/Crotchet
+#C https://www.conwaylife.com/patterns/crotchet.rle
+x = 2, y = 3, rule = B3/S23
+bo$2o$2o!

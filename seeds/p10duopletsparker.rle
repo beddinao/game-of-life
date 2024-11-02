@@ -1,0 +1,6 @@
+#N p10duopletsparker.rle
+#C https://conwaylife.com/wiki/Period-10_sparkers
+#C https://www.conwaylife.com/patterns/p10duopletsparker.rle
+x = 14, y = 12, rule = B3/S23
+2b2o$2bo$3b4obo$5b2o2bo$b4o$o4b2o$b3o2bobobo$3b2o3bob3o$7b2o4bo$8bob3o
+$8bobo$9bo!

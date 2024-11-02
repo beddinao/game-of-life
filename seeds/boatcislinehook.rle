@@ -1,0 +1,5 @@
+#N boatcislinehook.rle
+#C https://conwaylife.com/wiki/Cis-boat_trans-line_hook
+#C https://www.conwaylife.com/patterns/boatcislinehook.rle
+x = 4, y = 6, rule = B3/S23
+obo$2obo$3bo$2obo$obo$bo!

@@ -1,0 +1,8 @@
+#N gliderpondcollisions.rle
+#C https://conwaylife.com/wiki/Collisions_of_a_glider_with_common_objects
+#C https://www.conwaylife.com/patterns/gliderpondcollisions.rle
+x = 37, y = 59, rule = B3/S23
+6bo25bo$5bo25bo$5b3o23b3o2$b2o21b2o$o2bo19bo2bo$o2bo19bo2bo$b2o21b2o10$
+7bo25bo$6bo25bo$6b3o23b3o2$b2o21b2o$o2bo19bo2bo$o2bo19bo2bo$b2o21b2o10$
+8bo25bo$7bo25bo$7b3o23b3o2$b2o21b2o$o2bo19bo2bo$o2bo19bo2bo$b2o21b2o10$
+35bo$34bo$34b3o2$24b2o$23bo2bo$23bo2bo$24b2o!

@@ -1,0 +1,6 @@
+#N figureeighton43p54.rle
+#C https://conwaylife.com/wiki/43P54
+#C https://www.conwaylife.com/patterns/figureeighton43p54.rle
+x = 29, y = 21, rule = B3/S23
+8bo$8b3o7b2o$11bo6b2o$10b2o2$3b2o22b2o$4bo22bo$4bobo10b3o5bobo$5b2o10b
+o7b2o$17b2o4$24bo$24b2o$3b3o18b2o$3b3o19bo$3b3o$3o$3o$3o!

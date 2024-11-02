@@ -1,0 +1,5 @@
+#N mozart.rle
+#C https://conwaylife.com/wiki/Composers
+#C https://www.conwaylife.com/patterns/mozart.rle
+x = 11, y = 7, rule = B3/S23
+2o7b2o$2o7b2o2$5bo$4bobo$4bobo$5bo!

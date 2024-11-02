@@ -1,0 +1,5 @@
+#N trafficlighthitsblock3.rle
+#C https://conwaylife.com/wiki/List_of_common_evolutionary_sequences
+#C https://www.conwaylife.com/patterns/trafficlighthitsblock3.rle
+x = 8, y = 4, rule = B3/S23
+2o$2o$6bo$5b3o!

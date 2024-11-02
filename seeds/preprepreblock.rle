@@ -1,0 +1,5 @@
+#N preprepreblock.rle
+#C https://conwaylife.com/wiki/Pre-pre-pre-block
+#C https://www.conwaylife.com/patterns/preprepreblock.rle
+x = 4, y = 3, rule = B3/S23
+3bo$obo$2o!

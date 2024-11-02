@@ -1,0 +1,7 @@
+#N 41p4h1v0.rle
+#O Josh Ball, 2013
+#C https://conwaylife.com/wiki/41P4H1V0
+#C https://www.conwaylife.com/patterns/41p4h1v0.rle
+x = 13, y = 16, rule = B3/S23
+8b3o$9bo2$10bo$8bobo$7bo3bo$7bo3bo$5bo5bo$5bo$bo3bo3b2o$bo4bo3bo$obo3b
+3o$8bob2o$3bo4bo$2b6o2b3o$2bo!

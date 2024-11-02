@@ -1,0 +1,5 @@
+#N cisbeehiveonlongbookend.rle
+#C https://conwaylife.com/wiki/Cis-beehive_on_long_bookend
+#C https://www.conwaylife.com/patterns/cisbeehiveonlongbookend.rle
+x = 7, y = 5, rule = B3/S23
+2o3bo$obobobo$2bobobo$2bo2bo$b2o!

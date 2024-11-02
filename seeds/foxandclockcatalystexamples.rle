@@ -1,0 +1,8 @@
+#N foxandclockcatalystexamples.rle
+#C https://conwaylife.com/wiki/Clock
+#C https://www.conwaylife.com/patterns/foxandclockcatalystexamples.rle
+x = 33, y = 33, rule = B3/S23
+28bo$7b2o18bobo$6bo2bo16bo2bo$7b2o18b2o2$6bo4bo14bo4bo$2bobobo2bobo10b
+obobo2bobo$4bobo3bobo11bobo3bobo$2o8bo9b2o8bo$2bo2bo16bo2bo$4bo19bo$4b
+o19bo10$7b2o13bob2ob2o$8bo13b2obobo$7bo19bo$7b2o18b2o2$6bo4bo14bo4bo$
+2bobobo2bobo10bobobo2bobo$4bobo3bobo11bobo3bobo$2o8bo9b2o8bo$2bo2bo16bo2bo$4bo19bo$4bo19bo!

@@ -1,0 +1,10 @@
+#N Cribbage
+#O Mitchell Riley
+#C Discovered on July 14, 2023
+#C This was the first period-19 oscillator to be found.
+#C https://conwaylife.com/wiki/Cribbage
+x = 32, y = 21, rule = B3/S23
+4b2o$4bo$b2obo10bo$bo2b2o9b3o$3bo2bo11bo$bob3obo9b2o$obo4bo$o2b3o15bo$
+b2o2bo5bo8b2o7b2o$3b2o6bo16bobo$3bo7bo8bo7bo$bobo16bo6b2o$b2o7b2o8bo5b
+o2b2o$10bo15b3o2bo$24bo4bobo$13b2o9bob3obo$13bo11bo2bo$14b3o9b2o2bo$
+16bo10bob2o$27bo$26b2o!

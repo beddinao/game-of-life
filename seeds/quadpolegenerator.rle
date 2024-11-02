@@ -1,0 +1,5 @@
+#N quadpolegenerator.rle
+#C https://conwaylife.com/wiki/Barberpole
+#C https://www.conwaylife.com/patterns/quadpolegenerator.rle
+x = 7, y = 8, rule = B3/S23
+bo$o$o$b3o2$4b2o$4bobo$5b2o!

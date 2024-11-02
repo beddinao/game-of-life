@@ -1,0 +1,6 @@
+#N btog4.rle
+#C https://conwaylife.com/wiki/R126
+#C https://www.conwaylife.com/patterns/btog4.rle
+x = 36, y = 37, rule = B3/S23
+11b2o$11b2o2$o$3o$3bo$2b2o7$28b2o$27bo2bo$4bo23b2o$5bo$5b2o$4b2o$4bo
+28b2o$33bobo$34b2o2$25b2o$25b2o10$15b2o$14bo2bo$15b2o!

@@ -1,0 +1,5 @@
+#N translongboatwithnine.rle
+#C https://conwaylife.com/wiki/Trans-long_boat_with_nine
+#C https://www.conwaylife.com/patterns/translongboatwithnine.rle
+x = 7, y = 7, rule = B3/S23
+5b2o$4bobo$3bobo$2bobo$2bo$obo$2o!

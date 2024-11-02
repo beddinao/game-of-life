@@ -1,0 +1,9 @@
+#N p79pihassler.rle
+#O Luke Kiernan, 2022
+#C https://conwaylife.com/wiki/P79_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/p79pihassler.rle
+x = 43, y = 28, rule = B3/S23
+36bo$14b2o18b3o$14bo18bo$15bo17b2o$14b2o2$b2o$2bo38b2o$bo39bo$b2o36bob
+o$3bo9b2o24b2o$b3o8bobo$o11bo$2o10bobo13b2o$13b2o13bobo10b2o$30bo11bo$
+28bobo8b3o$2b2o24b2o9bo$bobo36b2o$bo39bo$2o38bo$40b2o2$27b2o$8b2o17bo$
+9bo18bo$6b3o18b2o$6bo!

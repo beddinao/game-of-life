@@ -1,0 +1,5 @@
+#N cisboatoncap.rle
+#C https://conwaylife.com/wiki/Cis-boat_on_cap
+#C https://www.conwaylife.com/patterns/cisboatoncap.rle
+x = 4, y = 7, rule = B3/S23
+bo$obo$2o2$4o$o2bo$b2o!

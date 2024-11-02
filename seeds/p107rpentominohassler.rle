@@ -1,0 +1,9 @@
+#N p107rpentominohassler.rle
+#O Mitchell Riley, 2023
+#C https://conwaylife.com/wiki/86P107
+#C https://www.conwaylife.com/patterns/p107rpentominohassler.rle
+x = 51, y = 30, rule = B3/S23
+6bo$6b3o$9bo$8b2o32b2o$42b2o2$b2o29b2o$bo30bo16b2o$2b3o25bobo16bo$4bo
+25b2o15bobo$47b2o$10b2o$2o7bo2bo$2o6b2ob2o$10bo$40bo$38b2ob2o6b2o$38b
+o2bo7b2o$39b2o$2b2o$bobo15b2o25bo$bo16bobo25b3o$2o16bo30bo$17b2o29b2o
+2$7b2o$7b2o32b2o$41bo$42b3o$44bo!

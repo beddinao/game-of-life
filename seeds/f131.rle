@@ -1,0 +1,8 @@
+#N f131.rle
+#O Luka Okanishi, 2017
+#C https://conwaylife.com/wiki/F131
+#C https://www.conwaylife.com/patterns/f131.rle
+x = 37, y = 35, rule = B3/S23
+17bo$16bobo$2o15b2o2b2o$bo19b2o$bobo$2b2o7$2bo$2bobo$2b3o$4bo$34bo$34b
+o$23b2o9b3o$23b2o11bo5$27b2o$28bo$25b3o$12b2ob2o8bo$11bobobobo$9b3o3bo
+bo$8bo4bobob3o$9b3ob2obo3bo$11bo4bo2b2o$13b3o$12b2o!

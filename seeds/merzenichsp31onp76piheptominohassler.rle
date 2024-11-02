@@ -1,0 +1,8 @@
+#N merzenichsp31onp76piheptominohassler.rle
+#C https://conwaylife.com/wiki/P76_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/merzenichsp31onp76piheptominohassler.rle
+x = 45, y = 28, rule = B3/S23
+33b2o7b2o$33b2o7b2o4$o$3o30bo9bo$3bo28bobo7bobo$2b2o28bo2bo5bo2bo$33b
+2o7b2o$32bo11bo2$19bo$b3o3b3o8b2o12bo11bo$17bo15b2o7b2o$5bo12b2o12bo2b
+o5bo2bo$5bo13bo12bobo7bobo$5bo27bo9bo5$14b2o8b2o7b2o7b2o$14bo2b6o2bo7b
+2o7b2o$15b2o6b2o$12b3o10b3o$12bo2bobo4bobo2bo$13b2o4b2o4b2o!

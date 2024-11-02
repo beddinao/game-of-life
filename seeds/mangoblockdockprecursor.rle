@@ -1,0 +1,5 @@
+#N mangoblockdockprecursor.rle
+#C https://conwaylife.com/wiki/Mango_with_block_on_dock
+#C https://www.conwaylife.com/patterns/mangoblockdockprecursor.rle
+x = 10, y = 5, rule = B3/S23
+o5b3o$o4bo3bo$o3bo$4bo$4b2o!

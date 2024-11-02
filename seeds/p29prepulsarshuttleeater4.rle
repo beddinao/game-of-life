@@ -1,0 +1,9 @@
+#N p29prepulsarshuttleeater4.rle
+#C https://conwaylife.com/wiki/P29_pre-pulsar_shuttle
+#C https://www.conwaylife.com/patterns/p29prepulsarshuttleeater4.rle
+x = 52, y = 25, rule = B3/S23
+10b2o28b2o$10bobo27bobo$12bo29bo$8b4ob2o23b4ob2o$8bo2bo3bo22bo2bo3bo$
+12b2obo26b2obo$12b2o2b2o24b2o2b2o$18bo29bo$15b2obo26b2obo$bo13b2o2b2o
+10bo13b2o2b2o$obo5bo8b2o2bo8bobo5bo8b2o2bo$bo4b2o10bob2o9bo4b2o10bob2o
+$8bo9bo19bo9bo$17b2o28b2o2$15bo27bo$8bo7bo12b2o5bo7bo$bo4b2o8bo12b2o3b
+2o8bo$obo5bo6bo20bo6bo$bo2$12b2o26b2o$12bo27bo$13b3o25b3o$15bo27bo!

@@ -1,0 +1,6 @@
+#N p16biblockhassler.rle
+#C https://conwaylife.com/wiki/Bi-block_hassler
+#C https://www.conwaylife.com/patterns/p16biblockhassler.rle
+x = 11, y = 19, rule = B3/S23
+b2o$b2o2$bo$obo$o2bo$bo2bo2$bo2bo$b2o3b2ob2o$6b2ob2o3$4b2o$4b3o$4b2obo
+$6bobo$5bo2bo$6b2o!

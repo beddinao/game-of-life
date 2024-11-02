@@ -1,0 +1,7 @@
+#N catereron42p38.rle
+#C https://conwaylife.com/wiki/42P38
+#C https://www.conwaylife.com/patterns/catereron42p38.rle
+x = 27, y = 26, rule = B3/S23
+21b3o$13bo7b2o$12bo2bo6b2o$12bo2bo2bo3bo$14bo3bo6b2o$18bo3b2obo$23bo$
+23bo$o$3o$3bo14bo$2b2o14b2o$17b2o2$8b2o$7b2o14b2o$8bo14bo$24b3o$26bo3$
+8bo$8bo3bo$8bo2bo2bo$11bo2bo$13bo!

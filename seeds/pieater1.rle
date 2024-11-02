@@ -1,0 +1,5 @@
+#N pieater1.rle
+#C https://conwaylife.com/wiki/Pi-heptomino
+#C https://www.conwaylife.com/patterns/pieater1.rle
+x = 9, y = 12, rule = B3/S23
+2o5b2o$2o5b2o8$3b3o$3bobo$3bobo!

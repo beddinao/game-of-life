@@ -1,0 +1,8 @@
+#N tumbleron70P26.rle
+#C https://conwaylife.com/wiki/70P26
+#C https://www.conwaylife.com/patterns/tumbleron70P26.rle
+x = 39, y = 19, rule = B3/S23
+16b2o3b2o$16bobobobo$16bobobobo$18bobo$17b2ob2o$17b2ob2o4$5b2o25b2o$5b
+obo23bobo$6b2o7b2o5b2o7b2o$2b2o10bobo5bobo10b2o$bobo5b2o2b2o9b2o2b2o5b
+obo$bo6bobo4bo7bo4bobo6bo$2o6bo21bo6b2o$6b3o21b3o$5bo10b2o3b2o10bo$5b
+2o9b2o3b2o9b2o!

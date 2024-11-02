@@ -1,0 +1,12 @@
+#N samplelightspeedbubble.rle
+#C https://conwaylife.com/wiki/Lightspeed_bubble
+#C https://www.conwaylife.com/patterns/samplelightspeedbubble.rle
+x = 180, y = 60, rule = B3/S23:T100,58
+$180o2$180o2$180o2$180o2$180o2$180o2$74o2b3o2b3o2b94o$75b2o3b2o3b2o8b
+o$74o3b2o3b2o3bob2obo4b83o$89b2o5bo$74o17b89o$92bo$74o19b87o$93bo4bo$
+74o19b2o4b81o$93bo5bo4bo$74o19b2o4b2o4b75o$93bo5bo5bo4bo$74o19b2o4b2o
+4b2o4b69o$93bo5bo5bo5bo4bo$74o19b2o4b2o4b2o4b2o4b63o$93bo5bo5bo5bo5bo
+$74o19b2o4b2o4b2o4b2o4b63o$93bo5bo5bo5bo4bo$74o19b2o4b2o4b2o4b69o$93b
+o5bo5bo4bo$74o19b2o4b2o4b75o$93bo5bo4bo$74o19b2o4b81o$93bo4bo$74o19b87o
+$92bo$74o17b89o$89b2o5bo$74o3b2o3b2o3bob2obo4b83o$75b2o3b2o3b2o8bo$74o
+2b3o2b3o2b94o2$180o2$180o2$180o2$180o2$180o2$180o2$180o!

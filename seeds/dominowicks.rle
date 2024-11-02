@@ -1,0 +1,7 @@
+#N dominowicks.rle
+#C https://conwaylife.com/wiki/Domino
+#C https://www.conwaylife.com/patterns/dominowicks.rle
+x = 35, y = 23, rule = B3/S23
+31b3o2$30bo2b2o2$8b2o2bo15b2obo2bo$8bobobo19bo$12bo14b2o3bo$10bo$10bo
+15b2o$8bo$8bo16b2o$6bo$6bo17b2o$4bo$4bo18b2o$2bo$2bo19b2o$o19bo$obobo
+16bobo$o2b2o13b2obob3o$21bo4bo$19bobob3o$20b2obo!

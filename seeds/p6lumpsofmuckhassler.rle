@@ -1,0 +1,6 @@
+#N p6lumpsofmuckhassler.rle
+#C https://conwaylife.com/wiki/Lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p6lumpsofmuckhassler.rle
+x = 22, y = 17, rule = B3/S23
+17bo2bo$17bo$16bo4bo$15bobo2b2o$13b2obo3$9b2o2bo2bo$5b2o3b2o3b2o$5bo2b
+o2b2o3$5bob2o$2o2bobo$o4bo$4bo$bo2bo!

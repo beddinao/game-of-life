@@ -1,0 +1,5 @@
+#N regenerativeloop1.rle
+#C https://conwaylife.com/wiki/Regenerative_loop
+#C https://www.conwaylife.com/patterns/regenerativeloop1.rle
+x = 34, y = 39, rule = B3/S23
+27b2o$26b2o$25b2o$bo5bo2$2b2ob2o$4bo3$5bo19bo$4bobo17bobo$5bo19bo10$27b2o$26b2o$25b2o$bo5bo2$2b2ob2o$4bo3$5bo19bo$4bobo17bobo$3bobo17bobo$b3o2b3o3b2o7b3o2b3o3b2o$o3b2o3bo2b2o6bo3b2o3bo2b2o$b3o2b2obo11b3o2b2obo$3bobo2bo14bobo2bo$4bobo17bobo$5bo19bo!

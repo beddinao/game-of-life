@@ -1,0 +1,5 @@
+#N objecthassledinmerzenichsp64.rle
+#C https://conwaylife.com/wiki/List_of_common_evolutionary_sequences
+#C https://www.conwaylife.com/patterns/objecthassledinmerzenichsp64.rle
+x = 5, y = 4, rule = B3/S23
+2o$obo$2b2o$4bo!

@@ -1,0 +1,5 @@
+#N bigswithtub.rle
+#C https://conwaylife.com/wiki/Big_S_with_tub
+#C https://www.conwaylife.com/patterns/bigswithtub.rle
+x = 8, y = 6, rule = B3/S23
+4b2o$3bo2bo$3bobobo$2obo2bo$o2bo$b2o!

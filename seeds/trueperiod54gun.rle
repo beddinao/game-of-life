@@ -1,0 +1,10 @@
+#N trueperiod54gun.rle
+#O David Raucci, 2021
+#C https://conwaylife.com/wiki/Period-54_glider_gun
+#C https://www.conwaylife.com/patterns/trueperiod54gun.rle
+x = 29, y = 28, rule = B3/S23
+o9bo14bo$3o5b3o12b3o$3bo3bo14bo$2b2o3b2o13b2o2$5bo$4bobo$15bo2bo$4b3o
+11bo$15bo3bo$17b2o$4b3o10b2o$25b2o$4bobo6b2o10bobo$5bo7b2o12bo$27b2o$
+2b2o3b2o$3bo3bo$bobobobobo$obob2ob2obob2ob2o$obo7bob2ob2o$bo2b4obo$2b
+2o3bob2ob2o14bo$4bo5bob2ob2obo7bobo$4b4ob3o3bob2o8b2o$9bo2bobo$6b3o3b
+2o$6bo!

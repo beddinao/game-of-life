@@ -1,0 +1,7 @@
+#N moldonp129rpentominohassler.rle
+#C https://conwaylife.com/wiki/P129_R-pentomino_hassler
+#C https://www.conwaylife.com/patterns/moldonp129rpentominohassler.rle
+x = 65, y = 30, rule = B3/S23
+26bo$24b3o$23bo$23b2o$2o$bo$bobo$2b2o2$20b2o$19b2o$20bo6$44bo$44b2o$
+43b2o2$61b2o$61bobo$63bo$30bo32b2o$29bob2o7b2o$33bo7bo$29bo2bobo3b3o$
+31bo2bo3bo$32b2o!

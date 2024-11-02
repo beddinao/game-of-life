@@ -1,0 +1,8 @@
+#N p15d2xlumpsofmuckhassler.rle
+#C https://conwaylife.com/wiki/Period-15_lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p15d2xlumpsofmuckhassler.rle
+x = 28, y = 28, rule = B3/S23
+12bo$10b3o$9bo$9b2o2$6b2o6b2o$6bobo4bobo$7b2o4bo$11b3o$10bo$b2o7b2o$bo
+bo$3bo17b2o$3b2o3b3o11bo$7bo2bo8b3o$7b3o9bo6b2o$2o15bobo6bo$o12b2o2b2o
+5bobo$b3o8bobo9b2o$3bo8bobo5b2o$b2o9b2o6bobo$bo19b2o$2bo$b2o11bo$8b2o
+4b3o$4b2obobo7bo$4bob2obobo4b2o$10b2o!

@@ -1,0 +1,7 @@
+#N twinbeesshuttleon21p4.1.rle
+#O iNoMed, 2022
+#C https://conwaylife.com/wiki/Twin_bees_shuttle_on_21P4.1
+#C https://www.conwaylife.com/patterns/twinbeesshuttleon21p4.1.rle
+x = 39, y = 14, rule = B3/S23
+5b2o$4bobo$4b2o$3b2o15b2o$bo17bobo15b2o$4bo14bo17b2o$2o17b3o$2b2obo$3b
+obo$3bo$6bo12b3o$5b2o3b2o7bo17b2o$10b2o7bobo15b2o$20b2o!

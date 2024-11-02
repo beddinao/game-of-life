@@ -1,0 +1,9 @@
+#N p68lumpsofmuckhassler.rle
+#C https://conwaylife.com/wiki/Lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p68lumpsofmuckhassler.rle
+x = 41, y = 37, rule = B3/S23
+25b2o$26bobo$18b2o3bo5bo$18b2o3b2o3bo2$24bobo$7bo11b2o4bo$6bobo9bo2bo$
+7bo10bobo$19bo3$35b2o$35b2o2$16b3o$9b2o3b2o2bo$2o6bo5bo2b2o$2o12b3o7b
+3o12b2o$22b2o2bo5bo6b2o$22bo2b2o3b2o$22b3o2$4b2o$4b2o3$21bo$20bobo10bo
+$19bo2bo9bobo$15bo4b2o11bo$14bobo2$12bo3b2o3b2o$11bo5bo3b2o$12bobo$14b
+2o!

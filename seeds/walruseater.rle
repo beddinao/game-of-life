@@ -1,0 +1,7 @@
+#N walruseater.rle
+#C https://conwaylife.com/wiki/Walrus
+#C https://www.conwaylife.com/patterns/walruseater.rle
+x = 39, y = 23, rule = B3/S23
+o$3o$3bo$2b2o2$23b6o$3b2o2b2o16b2o$3b2o2b2o13bo5b2o$20b8obo$19b4o3bo$
+19bo9b3o$22b2o3b2ob2o2b2o$21b3o2b5ob3o2bo$20bob2obobo2b3o4bo$19b2obo3b
+o4b3o4bo$26bo$13b2o6bo$14bo7b2o$11b3o13b3o$11bo15bo2$28bo$25b2ob2o!

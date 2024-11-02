@@ -1,0 +1,6 @@
+#N extendedsnacker.rle
+#C https://conwaylife.com/wiki/Snacker
+#C https://www.conwaylife.com/patterns/extendedsnacker.rle
+x = 34, y = 11, rule = B3/S23
+2o$bo$bobo25b2o$2b2o23bo2bo$7bo4bo14b3o$5b2ob4ob2o3bo4bo6b3o$7bo4bo3b
+2ob4ob2o3bo3bo$2b2o14bo4bo6b3o$bobo23b3o$bo25bo2bo$2o27b2o!

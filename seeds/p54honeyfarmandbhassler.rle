@@ -1,0 +1,8 @@
+#N p54honeyfarmandbhassler.rle
+#C https://conwaylife.com/wiki/B-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p54honeyfarmandbhassler.rle
+x = 34, y = 25, rule = B3/S23
+23b2o$23b2o$20bo$20b5o$10bo13bo$9bo8b4o$9bo2bo5bo2bo$10b3o$2o11bo$bo
+12bo13b2o$bobo6b2obo14b2o$2b2o4b2obo$8b2obo10b3o$8bo12bo3bo$8b2obo8bo
+5bo5b2o$2b2o4b2obo8bo5bo5b2o$bobo6b2obo6bo5bo$bo12bo6bo3bo$2o11bo8b3o$
+10b3o$9bo2bo$9bo15b2o$10bo14bo$26b3o$28bo!

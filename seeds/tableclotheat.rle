@@ -1,0 +1,8 @@
+#N tableclotheat.rle
+#C https://conwaylife.com/wiki/Tablecloth
+#C https://www.conwaylife.com/patterns/tableclotheat.rle
+x = 29, y = 30, rule = B3/S23
+26bo$26bobo$26b2o3$24bo$24bobo$24b2o$19bo$19bobo$19b2o2$16bo$16bobo$
+16b2o$2obo2bobo2bob2o$2ob4ob4ob2o2$2ob4ob4ob2o$bobo2bobo2bobo$bobo2bob
+o2bobo$2ob4ob4ob2o2$2ob4ob4ob2o$bobo2bobo2bobo$bobo2bobo2bobo$2ob4ob4o
+b2o2$2ob4ob4ob2o$2obo2bobo2bob2o!

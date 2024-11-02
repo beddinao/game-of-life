@@ -1,0 +1,7 @@
+#N scorbiesplittersuppressed.rle
+#C https://conwaylife.com/wiki/Scorbie_Splitter
+#C https://www.conwaylife.com/patterns/scorbiesplittersuppressed.rle
+x = 58, y = 29, rule = B3/S23
+2bo$3bo$b3o$40bo6b2o$40b3o4b2o$18bo24bo$16b3o23b2o$15bo$15b2o$2o$bo$bo
+b2o$2bo2bo$3b2o$18b2o13b2o$18b2o13b2o7$21b2obo6b2o$21b2ob3o3bobo21b2o$
+27bo2bo23bobo$21b2ob3o2b2o25bo$22bobo31b2o$10b2o10bobo$10b2o11bo!

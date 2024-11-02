@@ -1,0 +1,5 @@
+#N bookendbridgehouse.rle
+#C https://conwaylife.com/wiki/Bookend_bridge_house
+#C https://www.conwaylife.com/patterns/bookendbridgehouse.rle
+x = 6, y = 7, rule = B3/S23
+4b2o$3bobo$3bo$2obobo$obob2o$2bo$b2o!

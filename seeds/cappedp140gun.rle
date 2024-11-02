@@ -1,0 +1,11 @@
+#N cappedp140gun.rle
+#C https://conwaylife.com/wiki/R-pentomino_hasslers
+#C https://www.conwaylife.com/patterns/cappedp140gun.rle
+x = 50, y = 48, rule = B3/S23
+19b2o$20bo$20bobo10b2o$21b2o10b2o11$28b2o$7b2o19bobo$2o6b3o16bo2bo$o5b
+o4bo10bo5b2o$b3obob4o10bobo4bo$3bobo14b2o$4b2o2b3o$4b2o2b3o$2bobo3b3o
+$bobob2ob3o$bobob2ob3o$2bobo3b3o$4b2o2b3o$4b2o2b3o$3bobo$b3obob4o$o5b
+o4bo$2o6b3o$7b2o$40bo$27b3o11bo$26bo12b3o$25b2o3bo$23b3obo8b2o$11b2o9b
+2obobobo4bo2bo$12bo8bobo2bo9bo$12bobo8b2o5bo5bo2b2o5b2o$13b2o2bo5bo5b
+2o8bobo4bobo$17bo9bo2bobo8bo6bo$16bo2bo4bobobob2o9b2o5b2o$16b2o8bob3o
+$23bo3b2o$27bo$24b3o!

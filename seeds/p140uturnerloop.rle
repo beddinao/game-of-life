@@ -1,0 +1,10 @@
+#N p140uturnerloop.rle
+#C https://conwaylife.com/wiki/P280_U-turner_hassler
+#C https://www.conwaylife.com/patterns/p140uturnerloop.rle
+x = 53, y = 53, rule = B3/S23
+16bo$11b2o3b2o$11b2o3b2o$16bo$14bo2bo$14bob3o$13b2o3bo$12bo3b2o$12b3o
+bo$13bo2bo13bo$14bo14bobo$13b2o3b2o10bo19b2o$13b2o3b2o24b2o4b2o$14bo25b
+2ob2obo$39b4obob3o2$43b3obob4o$45bob2ob2o$40b2o4b2o$40b2o2$10bo$9bobo
+$10bo6b2o$16bobo$15b3o$15b3o17b3o$35b3o$34bobo$34b2o6bo$41bobo$42bo2$
+11b2o$5b2o4b2o$b2ob2obo$4obob3o2$4b3obob4o$6bob2ob2o25bo$b2o4b2o24b2o
+3b2o$b2o19bo10b2o3b2o$21bobo14bo$22bo13bo2bo$36bob3o$35b2o3bo$34bo3b2o$34b3obo$35bo2bo$36bo$35b2o3b2o$35b2o3b2o$36bo!

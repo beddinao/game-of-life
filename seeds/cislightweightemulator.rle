@@ -1,0 +1,6 @@
+#N cislightweightemulator.rle
+#O Robert Wainwright, 1980
+#C https://conwaylife.com/wiki/Lightweight_emulator
+#C https://www.conwaylife.com/patterns/cislightweightemulator.rle
+x = 14, y = 6, rule = B3/S23
+2b2obo2bob2o$2bo8bo$3b2o4b2o$3o2b4o2b3o$o2bo6bo2bo$b2o8b2o!

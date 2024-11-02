@@ -1,0 +1,8 @@
+#N pseudobarberpoleon84p199.rle
+#C https://conwaylife.com/wiki/84P199
+#C https://www.conwaylife.com/patterns/pseudobarberpoleon84p199.rle
+x = 63, y = 45, rule = B3/S23
+16b2o16b2o$16b2o7b2o7b2o$25b2o2$61b2o$59bo2bo$59bobo$2o48b2o$2o48b2o5b
+obo2$55bobo$18bo14bo$18b3o10b3o18b2obo2$19b3o8b3o18bobo$51b2o4$8b2o32b
+2o$8b2o32b2o4$8b2o32b2o$8b2o32b2o5$19b3o8b3o2$18b3o10b3o$18bo14bo3$2o
+48b2o$2o48b2o5$25b2o$16b2o7b2o7b2o$16b2o16b2o!

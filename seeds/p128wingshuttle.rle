@@ -1,0 +1,10 @@
+#N p128wingshuttle.rle
+#O David Raucci, 2021
+#C https://conwaylife.com/wiki/P128_wing_shuttle
+#C https://www.conwaylife.com/patterns/p128wingshuttle.rle
+x = 38, y = 33, rule = B3/S23
+11b2o$7b2obo2bob2o$7b2o2bo4bo$12bo$13bobo2$33bo2bo$32bo4bo$31bo5bo$30b
+2ob2o$29bo7bo$28bo2b3obobo$bo2bo24b3obob2o$o4bo10b2o$o5bo8bo13b3obob2o
+$3b2ob2o7bo5bo6bo2b3obobo$o7bo11bobo6bo7bo$obob3o2bo5bo3bo2bo7b2ob2o$
+b2obob3o5bo4b3o9bo5bo$32bo4bo$b2obob3o24bo2bo$obob3o2bo$o7bo$3b2ob2o$
+o5bo$o4bo$bo2bo2$22bobo$25bo$21bo4bo2b2o$21b2obo2bob2o$25b2o!

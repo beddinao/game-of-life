@@ -1,0 +1,8 @@
+#N p28bheptominohassler.rle
+#C https://conwaylife.com/wiki/Tumbler
+#C https://www.conwaylife.com/patterns/p28bheptominohassler.rle
+x = 39, y = 36, rule = B3/S23
+11bo$11b3o$14bo$13bo$12bo4b4o$12bobo$13b2ob3o$16b2o3$15b3o$4bo11bo$2b
+2obo10bo$bo$obo2bo$o2bo4b2o4b2o$b2o4b2obo3bobo$16bo$14b3o4$22b3o$22bo$
+22bobo3bob2o4b2o$23b2o4b2o4bo2bo$33bo2bobo$37bo$33bob2o$20b3o11bo$17b
+2o3bo$17b5o2$17b5o$17b2o3bo$20b3o!

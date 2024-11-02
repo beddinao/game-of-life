@@ -1,0 +1,5 @@
+#N cisbookendandwing.rle
+#C https://conwaylife.com/wiki/Cis-bookend_and_wing
+#C https://www.conwaylife.com/patterns/cisbookendandwing.rle
+x = 8, y = 4, rule = B3/S23
+b2o3b2o$o2bobobo$bobobo$2b2ob2o!

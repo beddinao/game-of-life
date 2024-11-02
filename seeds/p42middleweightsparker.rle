@@ -1,0 +1,9 @@
+#N p42middleweightsparker.rle
+#C https://conwaylife.com/wiki/Honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p42middleweightsparker.rle
+x = 36, y = 30, rule = B3/S23
+12b2o$12b2o$4bo$4obo$3obobo$5bobo$6bo$5b2o$5b2o$5b2o5b3o16b2o$11bo3bo
+14b4o$10bo5bo12bo2bobo$6b2o3bo3bo12bobo2b2o$6bobo3b3o12bobo$7b3o16b2o$
+8b2o16b3o$6bobo12b3o3bobo$b2o2bobo12bo3bo3b2o$bobo2bo12bo5bo$2b4o14bo
+3bo$3b2o16b3o5b2o$29b2o$29b2o$29bo$28bobo$29bobob3o$30bob4o$31bo$22b2o
+$22b2o!

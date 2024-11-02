@@ -1,0 +1,6 @@
+#N doubletnosereaction.rle
+#C https://conwaylife.com/wiki/T-nose
+#C https://www.conwaylife.com/patterns/doubletnosereaction.rle
+x = 17, y = 19, rule = B3/S23
+7b3o2$6bo3bo$7bobo2$6b5o$5bo5bo$4bo7bo$o2bo9bo2bo$2obo9bob2o$o2bo9bo2b
+o$4bo7bo$5bo5bo$6b5o2$7bobo$6bo3bo2$7b3o!

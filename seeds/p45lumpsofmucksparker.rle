@@ -1,0 +1,8 @@
+#N p45lumpsofmucksparker.rle
+#C https://conwaylife.com/wiki/Period-45_lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p45lumpsofmucksparker.rle
+x = 46, y = 34, rule = B3/S23
+13bo2bob2obo2bo$12b2o2bo4bo2b2o$13bo2bob2obo2bo7$23b3o$21b2o2bo$2o3bo
+2bo3b2o7bo2b2o$5o4b5o7b3o$2o3bo2bo3b2o7$32b2o3bo2bo3b2o$22b3o7b5o4b5o$
+20b2o2bo7b2o3bo2bo3b2o$20bo2b2o$20b3o7$21bo2bob2obo2bo$20b2o2bo4bo2b2o
+$21bo2bob2obo2bo!

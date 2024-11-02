@@ -1,0 +1,8 @@
+#N 98p201.rle
+#C https://conwaylife.com/wiki/Period-201_glider_gun
+#C https://www.conwaylife.com/patterns/98p201.rle
+x = 60, y = 40, rule = B3/S23
+43bo$43b3o$46bo$45b2o$17bo6b2o$17b3o4b2o28b2o$20bo33b2o$11bo7b2o16b3o$
+11b3o21bob3o$14bo19bo$13b2o18b2o$34b2o$35bo$2o$bo$bobo$2b2o7$56b2o$56b
+obo$58bo$58b2o$24bo$24b2o$25b2o18b2o$25bo19bo$20b3obo21b3o$20b3o16b2o
+7bo$4b2o33bo$4b2o28b2o4b3o$34b2o6bo$13b2o$13bo$14b3o$16bo!

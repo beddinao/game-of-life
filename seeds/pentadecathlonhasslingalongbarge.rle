@@ -1,0 +1,5 @@
+#N pentadecathlonhasslingalongbarge.rle
+#C https://conwaylife.com/wiki/Pentadecathlon
+#C https://www.conwaylife.com/patterns/pentadecathlonhasslingalongbarge.rle
+x = 15, y = 15, rule = B3/S23
+7b8o$7bob4obo$7b8o5$3o7bo$obo6bobo$3o5bobo$3o4bobo$3o5bo$3o$obo$3o!

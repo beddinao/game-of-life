@@ -1,0 +1,8 @@
+#N figureeighton74p127.rle
+#C https://conwaylife.com/wiki/74P127
+#C https://www.conwaylife.com/patterns/figureeighton74p127.rle
+x = 43, y = 39, rule = B3/S23
+29bo$27b3o$26bo$26b2o$2o$2obo$4bo8bo10bo9b2o$bo10bobo8b2o9b2o$2bob2o7b
+o7b2o$4b2o13b2o2bo$23bo2bo$25bo$19bobo3bo$20b3o4bo2$5b2o$5b2o6$41b2o$
+41b2o2$20bo4b3o$22bo3bobo$22bo$21bo2bo$24bo2b2o$25b2o7bo$12b2o9b2o8bob
+o$12b2o9bo10bo3$20b2o$21bo$18b3o$18bo!

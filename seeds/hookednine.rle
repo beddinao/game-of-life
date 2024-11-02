@@ -1,0 +1,5 @@
+#N hookednine.rle
+#C https://conwaylife.com/wiki/Hooked_nine
+#C https://www.conwaylife.com/patterns/hookednine.rle
+x = 5, y = 5, rule = B3/S23
+2o$2bo$2bo$2bobo$3b2o!

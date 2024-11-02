@@ -1,0 +1,7 @@
+#N diamondback.rle
+#O Nico Brown, 2022
+#C https://conwaylife.com/wiki/Diamondback
+#C https://www.conwaylife.com/patterns/diamondback.rle
+x = 13, y = 14, rule = B3/S23
+o$3o$3bo$2b2o$12bo$10b3o$5b2o2bo$5bo4bo$5bob4o$2bo2bo$bobo3b2o$2bo5bo$
+8bobo$9b2o!

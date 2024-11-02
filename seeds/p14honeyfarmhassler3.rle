@@ -1,0 +1,7 @@
+#N p14honeyfarmhassler3.rle
+#C https://conwaylife.com/wiki/House_siamese_shillelagh
+#C https://www.conwaylife.com/patterns/p14honeyfarmhassler3.rle
+x = 27, y = 18, rule = B3/S23
+15b2o$14bobo$12b3o$11bo3bo$11b2ob2o4$8b3o5b3o$7bo3bo3bo3bo$6bo5bobo5bo
+$7bo3bo3bo3bo$2b2o4b3o5b3o4b2o$bobo19bobo$bo9b2ob2o9bo$2o10bobo10b2o$
+10bobobobo$10b2o3b2o!

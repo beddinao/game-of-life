@@ -1,0 +1,5 @@
+#N longboatpredecessors.rle
+#C https://conwaylife.com/wiki/Long_boat
+#C https://www.conwaylife.com/patterns/longboatpredecessors.rle
+x = 12, y = 5, rule = B3/S23
+o7bo$o7bo$o7bo$bobo5bo$2bo7b2o!

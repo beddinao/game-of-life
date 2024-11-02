@@ -1,0 +1,9 @@
+#N p27bananasparker.rle
+#C https://conwaylife.com/wiki/Honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p27bananasparker.rle
+x = 37, y = 19, rule = B3/S23
+3bo$2bobo$2bobo10bo3b2o$2o2b2o8bobobobo14b2o$bobo6b2o2bobobo16bo$o2b3o
+4bobobobob2o6b3o4bobo$obo3bo5bobobo3bo4bo3bo3b2o$bob3ob2o4b2o5bo3bo5bo
+$3bo10bo5bo3bo5bo$3bo10bo5bo3bo5bo$bob3ob2o4b2o5bo4bo3bo$obo3bo5bobobo
+3bo5b3o$o2b3o4bobobobob2o$bobo6b2o2bobobo$2o2b2o8bobobobo$2bobo10bo3b
+2o3b2o$2bobo20bo$3bo18b3o$22bo!

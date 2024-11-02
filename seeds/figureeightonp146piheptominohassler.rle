@@ -1,0 +1,7 @@
+#N figureeightonp146piheptominohassler.rle
+#C https://conwaylife.com/wiki/P146_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/figureeightonp146piheptominohassler.rle
+x = 29, y = 33, rule = B3/S23
+4b2o3b2o$3bo7bo2b2o$6bobo5bobo2b2o$4b2o3b2o4bo3b2o2$26bo$24b3o$23bo$
+23b2o6$20bo4b2o$15b3obobo3bobo$b2o13bo3bo6bo$3bo8b3o12b2o$o$b2o8$11b2o
+$11b2obo$15bo$12bo$13bob2o$15b2o!

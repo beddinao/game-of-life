@@ -1,0 +1,5 @@
+#N commonsmallunnamedobject2.rle
+#C https://conwaylife.com/wiki/List_of_common_evolutionary_sequences
+#C https://www.conwaylife.com/patterns/commonsmallunnamedobject2.rle
+x = 4, y = 4, rule = B3/S23
+b3o$o2bo$o2bo$obo!

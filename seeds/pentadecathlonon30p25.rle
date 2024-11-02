@@ -1,0 +1,6 @@
+#N pentadecathlonon30p25.rle
+#C https://conwaylife.com/wiki/30P25
+#C https://www.conwaylife.com/patterns/pentadecathlonon30p25.rle
+x = 20, y = 25, rule = B3/S23
+o$3o$3bo$2b2o2$5bo$3b2ob2o2$7bo$3b2o2bo6bo$5bo6bo2b2o$12bo2$12b2ob2o$
+14bo2$16b2o$16bo$17b3o$19bo3$7b8o$7bob4obo$7b8o!

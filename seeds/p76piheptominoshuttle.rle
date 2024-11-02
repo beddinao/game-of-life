@@ -1,0 +1,8 @@
+#N p76piheptominoshuttle.rle
+#O Carson Cheng, 2023
+#C https://conwaylife.com/wiki/P76_pi-heptomino_shuttle
+#C https://www.conwaylife.com/patterns/p76piheptominoshuttle.rle
+x = 27, y = 20, rule = B3/S23
+2o23b2o$bo23bo$bobo19bobo$2b2o19b2o3$6b3o$7bo$3bo4bobo12bo$2bobo17bobo
+$2bobo17bobo$3bo4bobo12bo$7bo$6b3o3$2b2o19b2o$bobo19bobo$bo23bo$2o23b
+2o!

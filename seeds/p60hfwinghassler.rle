@@ -1,0 +1,7 @@
+#N p60hfwinghassler.rle
+#C https://conwaylife.com/wiki/Honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p60hfwinghassler.rle
+x = 30, y = 30, rule = B3/S23
+17b3o2$16bo3bo$16bo3bo$27bo$17b3o6bobo3$17b3o6b3o$26b3o$16bo3bo6bo$16b
+o3bo2$17b3o7bo$26b3o$26b3o2$20b3o$19bo3bo2bobo$18bo5bo2bo$18bo5bo$2b6o
+10bo5bo$bo6bo10bo3bo$o8bo10b3o$bo6bo$2b6o$26b2o$26bo$27b3o$29bo!

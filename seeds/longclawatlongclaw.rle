@@ -1,0 +1,5 @@
+#N longclawatlongclaw.rle
+#C https://conwaylife.com/wiki/Long_claw_at_long_claw
+#C https://www.conwaylife.com/patterns/longclawatlongclaw.rle
+x = 6, y = 6, rule = B3/S23
+bo2b2o$obo2bo$bob2o$2bo$obo$2o!

@@ -1,0 +1,7 @@
+#N moldon44p38.rle
+#C https://conwaylife.com/wiki/44P38
+#C https://www.conwaylife.com/patterns/moldon44p38.rle
+x = 46, y = 13, rule = B3/S23
+8bo32bo$8b2o30b2o2$9bobo3b2o16b2o3bobo$4b3o2bobo2bo2bo14bo2bo2bobo2b3o
+$15bobo14bobo$16b2o14b2o$b2o$o2bo$obobo5b2o26b2o$bob3o4bo28bo$3b3o5b3o
+22b3o$13bo22bo!

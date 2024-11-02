@@ -1,0 +1,9 @@
+#N p20asymsinglelomhassler.rle
+#C https://conwaylife.com/wiki/Period-20_lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p20asymsinglelomhassler.rle
+x = 34, y = 22, rule = B3/S23
+16b2o$16b2o3$5bo2b2o$4bobo2bo16b2o$4bobobo7b3o6bo2bo$3b2obob2o6bobo6bo
+bo2bo2bo$2bo3bo2bo5bo2bo5b2obob5o$bob2o2b3o5bobo4bo3b2o$bo4b4o5b3o7b2o
+2b3o$2b3o2b3o11bo3bobo2bobo$6bo2bo15b2o2b2obo$5obob2o12bo3b2o3bo$o2bo
+2bobo15b2obob2o$5bo2bo16bobobo$6b2o5b4o7bo2bobo$12b6o6b2o2bo$12bo4bo$
+13bo2bo$11bobo2bobo$11b2o4b2o!

@@ -1,0 +1,5 @@
+#N honeycombinatorialsparkcoil.rle
+#C https://conwaylife.com/wiki/Honeycombinator
+#C https://www.conwaylife.com/patterns/honeycombinatorialsparkcoil.rle
+x = 10, y = 5, rule = B3/S23
+2b2o4b2o$bo2bo2bobo$obobo2bo$bo2bo2bobo$2b2o4b2o!

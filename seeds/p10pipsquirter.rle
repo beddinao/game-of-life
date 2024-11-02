@@ -1,0 +1,10 @@
+#N p10pipsquirter.rle
+#C https://conwaylife.com/wiki/Period-10_sparkers
+#C https://www.conwaylife.com/patterns/p10pipsquirter.rle
+x = 30, y = 30, rule = B3/S23
+24bo$14b2o2b2o4bo2b2o$15bo2bo9bo$14bo4bo3bob3o$14b2o2b2o2bo3bo$12b2o3b
+o2b3obobobo$12bo2b2ob2o3b2ob2obo$13b2obobob2o3bo3bo$14bo6bobobob2o$14b
+o5bo3bobo$12bobobo4b2obobo$8b2obobobob2o3bob2o$9bobobobob2o3bo$8bo2b2o
+2bobo3b2o$9b2o4bobobo$11b4o2bob4o$9b2o3b2obo4bo$4bo3bo2b2o3bobobo$3bo
+bobobobo6bob2o$3bobobobo2b6o$2obobobo2b2o$ob2obobo4b4o$5b7o3bo$b4o7bo
+$o6bob3obo$2o5bo5bo$11b2o$10bo$11bobo$12b2o!

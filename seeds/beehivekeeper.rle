@@ -1,0 +1,6 @@
+#N beehivekeeper.rle
+#C https://conwaylife.com/wiki/Beehive_stopper
+#C https://www.conwaylife.com/patterns/beehivekeeper.rle
+x = 17, y = 25, rule = B3/S23
+9b2o$9bo2b2o$10b2ob3o$16bo$10b2ob3o$10b2obo3$15bo$14bobo$15b2o2$15b2o$
+o13bobo$obo12bo$3o$2bo$8bo$7bobo$7bobo$8bo$4b2o$5bo$2b3o$2bo!

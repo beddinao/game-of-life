@@ -1,0 +1,8 @@
+#N fourtempestshasslingequalssign.rle
+#C https://conwaylife.com/wiki/Tempest
+#C https://www.conwaylife.com/patterns/fourtempestshasslingequalssign.rle
+x = 23, y = 23, rule = B3/S23
+11bo$8bo3b2o$7bob2o$8bobob2o$8b2o2b2o$6bo5bo$7bob3o4bob2o$7bob2o5bob3o
+$15bo5bo$2bo14b2o2b2o$2o3bo4b3obo2bobob2o$3b2obo9bob2o$2obobo2bob3o4bo
+3b2o$2o2b2o14bo$bo5bo$2b3obo5b2obo$3b2obo4b3obo$10bo5bo$9b2o2b2o$9b2ob
+obo$12b2obo$9b2o3bo$11bo!

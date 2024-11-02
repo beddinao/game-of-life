@@ -1,0 +1,5 @@
+#N ur38bconduit.rle
+#C https://conwaylife.com/wiki/U-turner
+#C https://www.conwaylife.com/patterns/ur38bconduit.rle
+x = 15, y = 20, rule = B3/S23
+2o$bo$bobo8b3o$2b2o8b3o$11bobo$11b2o7$5b2o$6bo$3b3o$3bo$11b2o$12bo$9b3o$9bo!

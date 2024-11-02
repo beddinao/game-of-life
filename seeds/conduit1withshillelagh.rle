@@ -1,0 +1,5 @@
+#N conduit1withshillelagh.rle
+#C https://conwaylife.com/wiki/Shillelagh
+#C https://www.conwaylife.com/patterns/conduit1withshillelagh.rle
+x = 7, y = 12, rule = B3/S23
+b2o$2b2o$b2o2b2o$bo3b2o6$b2obo$o2b2o$2o!

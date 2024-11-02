@@ -1,0 +1,6 @@
+#N p48piheptominohassler4.rle
+#C https://conwaylife.com/wiki/Period-48_pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p48piheptominohassler4.rle
+x = 24, y = 25, rule = B3/S23
+9b2o$9bo5b2o$6b2obo5b2o$6bobo$ob2o$2obo5$7b3o$7bo$7b3o4b3o$16bo$14b3o
+5$20bob2o$20b2obo$15bobo$7b2o5bob2o$7b2o5bo$13b2o!

@@ -1,0 +1,5 @@
+#N waltz.rle
+#C https://conwaylife.com/wiki/Crotchet
+#C https://www.conwaylife.com/patterns/waltz.rle
+x = 0, y = 0, rule = B3/S23:T12,20+4
+6b2o$6b2o2bo$2o4b2ob2o$2o2bo4b2o$2ob2o$3b2o!

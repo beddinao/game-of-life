@@ -1,0 +1,5 @@
+#N cisbeacondownonlongbookend.rle
+#C https://conwaylife.com/wiki/Cis-beacon_down_on_long_bookend
+#C https://www.conwaylife.com/patterns/cisbeacondownonlongbookend.rle
+x = 5, y = 8, rule = B3/S23
+2o$o$3bo$2b2o2$4o$o3bo$3b2o!

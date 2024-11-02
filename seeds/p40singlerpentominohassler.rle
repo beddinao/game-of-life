@@ -1,0 +1,9 @@
+#N p40singlerpentominohassler.rle
+#C https://conwaylife.com/wiki/R-pentomino_hasslers
+#C https://www.conwaylife.com/patterns/p40singlerpentominohassler.rle
+x = 31, y = 30, rule = B3/S23
+21b2o$19bob2o$18bo$3bob2o14bo$3b2obo10b2obo$b2o14b2o11bo$o3b2o22b3o$ob
+2obo3b2o16bo$bo2bo3bobo16b2o$3bo3bo$2b2obo3bo$2b4o3bo$5bob3o5b2o$2bobo
+3b2o6b2o$5bob3o6bo$2b4o3bo$2b2obo3bo3bo$3bo3bo6bo9b2o$bo2bo3bobo13bo$o
+b2obo3b2o14b3o$o3b2o13b2o6bo$b2o$3b2obo10bo3bo$3bob2o10bo4bo$19bobobo$
+20bobobo$21bo4bo$22bo3bo2$23b2o!

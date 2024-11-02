@@ -1,0 +1,8 @@
+#N rattlesnakeon66p13.rle
+#C https://conwaylife.com/wiki/66P13
+#C https://www.conwaylife.com/patterns/rattlesnakeon66p13.rle
+x = 27, y = 18, rule = B3/S23
+5bo$3b5o$2bo5bo$2bo2b3o10b2o$b2obo13bo$o3b2o9b2obo2b2o$bobo2bo10bo3bo$
+2ob2ob2o5bo8bo$7bo4bo8b2o$2ob2ob2o5bobo$bobo2bo12b4o$o3b2o13bo3bo$b2ob
+o15b3obo$2bo2b3o4b2obo4bo3bo$2bo5bo3bob2o5bobob2o$3b5o15bobo$5bo17bobo
+$24bo!

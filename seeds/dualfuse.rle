@@ -1,0 +1,7 @@
+#N dualfuse.rle
+#C https://conwaylife.com/wiki/Fuse
+#C https://www.conwaylife.com/patterns/dualfuse.rle
+x = 29, y = 28, rule = B3/S23
+2$21b2o$22bo$21bo$20bo3b2o$19bo3bobo$18bo3bo$17bo3bo$16bo3bo$15bo3bo$
+14bo3bo$13bo3bo$12bo3bo$11bo3bo$10bo3bo$9bo3bo$8bo3bo$7bo3bo$6bo3bo$5b
+o3bo$4bo3bo$3bo3bo$2bo3bo$bo3bo$2bobo$3bo!

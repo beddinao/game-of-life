@@ -1,0 +1,6 @@
+#N pentadecathlonon34p14shuttle.rle
+#C https://conwaylife.com/wiki/34P14_shuttle
+#C https://www.conwaylife.com/patterns/pentadecathlonon34p14shuttle.rle
+x = 20, y = 15, rule = B3/S23
+b2o5b2o$b2o5b2o2$18bo$bo7bo8bo$3o5b3o6bobo$o9bo7bo$b3o3b3o8bo$18bo$4bo
+bo11bo$17bobo$18bo$18bo$b2o5b2o$b2o5b2o!

@@ -1,0 +1,7 @@
+#N 34p7onjasonsp22.rle
+#C https://conwaylife.com/wiki/Jason%27s_p22
+#C https://www.conwaylife.com/patterns/34p7onjasonsp22.rle
+x = 40, y = 15, rule = B3/S23
+26b2o5bo$24bo2bo4bo$33bo2b2o$30b2obobo2bo$24bo4b2o2b2o4bo$2o23bo2bobob
+2o$bo24b2o2bo$bobo13b3o11bo4bo2bo$2b2o3bo8bo3bo9bo5b2o$6bob2o6bo4bo$5b
+o4bo6b2obo$6bo3bo8bo3b2o$7b3o13bobo$25bo$25b2o!

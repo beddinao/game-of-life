@@ -1,0 +1,5 @@
+#N uturnerpredecessor.rle
+#C https://conwaylife.com/wiki/U-turner
+#C https://www.conwaylife.com/patterns/uturnerpredecessor.rle
+x = 3, y = 6, rule = B3/S23
+o$o$o2$2o$2bo!

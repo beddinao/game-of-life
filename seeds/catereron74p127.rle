@@ -1,0 +1,8 @@
+#N catereron74p127.rle
+#C https://conwaylife.com/wiki/74P127
+#C https://www.conwaylife.com/patterns/catereron74p127.rle
+x = 39, y = 39, rule = B3/S23
+25bo$4bo18b3o$4bo17bo$4bo17b2o$3b2o$bo$o4bo3bo10bo9b2o$o7bobo8b2o9b2o$
+2b3o4bo7b2o$15b2o2bo$19bo2bo$21bo$15bobo3bo$16b3o4bo2$b2o$b2o6$37b2o$
+37b2o2$16bo4b3o$18bo3bobo$18bo$17bo2bo$20bo2b2o$21b2o7bo$8b2o9b2o8bobo
+$8b2o9bo10bo3$16b2o$17bo$14b3o$14bo!

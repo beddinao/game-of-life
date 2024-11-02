@@ -1,0 +1,7 @@
+#N figureeighton30p25.rle
+#C https://conwaylife.com/wiki/30P25
+#C https://www.conwaylife.com/patterns/figureeighton30p25.rle
+x = 29, y = 20, rule = B3/S23
+18b2o$18bo$16bobo$12bo3b2o$10b2o$10b2o$7bo3bo3bo5b2o$5b3o3bo3bobo$5b3o
+3b2o6bo3bo$4b3o4b2o6bo4bo$7b2o4b3o5bobobo$7b2o3b3o7bobobo$2bobo3bo3b3o
+8bo4bo$4bo3bo3bo11bo3bo$8b2o$8b2o15b2o$2b2o3bo$bobo$bo$2o!

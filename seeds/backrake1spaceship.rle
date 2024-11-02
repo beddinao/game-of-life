@@ -1,0 +1,7 @@
+#N backrake1spaceship.rle
+#C https://conwaylife.com/wiki/Backrake_1
+#C https://www.conwaylife.com/patterns/backrake1spaceship.rle
+x = 38, y = 23, rule = B3/S23
+4$11b3o11b3o$10bo3bo9bo3bo$9b2o4bo7bo4b2o$8bobob2ob2o5b2ob2obobo$7b2o
+bo4bob2ob2obo4bob2o$6bo4bo3bo2bobo2bo3bo4bo$18bobo$6b2o7b2obobob2o7b2o
+$18bobo$12b3o9b3o$12bo13bo2$11b2o13b2o!

@@ -1,0 +1,8 @@
+#N jasonsp22onp196piheptominohassler.rle
+#C https://conwaylife.com/wiki/P196_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/jasonsp22onp196piheptominohassler.rle
+x = 55, y = 34, rule = B3/S23
+25bo$24bobo$24bobo7b2o$22b3ob2o6b2o$21bo$22b3ob2o$24bob2o$35b2o$34b2o$
+35b2o4$23b2o$23b2o3$2o17bo$bo16b3o$bobo17bo29b2o$2b2o12bobo32b2o$8b3o
+4bo2bo$8bo2bo4b3o$8bobo12b2o$5bo17bobo13b2o$6b3o16bo14b2o$7bo17b2o12b
+2o$48b2obo$48b2ob3o$54bo$40b2o6b2ob3o$40b2o7bobo$49bobo$50bo!

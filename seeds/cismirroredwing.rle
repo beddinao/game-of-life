@@ -1,0 +1,5 @@
+#N cismirroredwing.rle
+#C https://conwaylife.com/wiki/Cis-mirrored_wing
+#C https://www.conwaylife.com/patterns/cismirroredwing.rle
+x = 9, y = 4, rule = B3/S23
+b2o3b2o$o2bobo2bo$bobobobo$2b2ob2o!

@@ -1,0 +1,10 @@
+#N loafflipper3.rle
+#C https://conwaylife.com/wiki/LCM_oscillator
+#C https://www.conwaylife.com/patterns/loafflipper3.rle
+x = 49, y = 32, rule = B3/S23
+b2o$b2o$20b2o10b2o$19bo2bo8bo2bo$2obo15b3o10b3o$bobo18b10o8bo$2bo18bo
+2b6o2bo5b5o$b2o4b2o12b2o2b4o2b2o2bobo5bo$b2o4b2o26b2obobobobo2bo$b2o7b
+obo25bo3bob4o$10bo2bo24bobobo$10bo2bo25bob7o$11b2o35bo$27b3o12bo3bobo$
+27bo2bo7bo3b2o2b2o$31bo6bo4bo$27bo2bo7bo$27b3o11bobo$42bo2$b2o$b2o4b2o
+$7b2o2$ob2o15b2o$obo15bo2bo$bo16bobo$b2o16bo$b2o10b2o7b2o$b2o11bo7bo$
+11b3o9b3o$11bo13bo!

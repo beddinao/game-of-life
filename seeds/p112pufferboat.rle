@@ -1,0 +1,8 @@
+#N p112pufferboat.rle
+#C https://conwaylife.com/wiki/P112_puffer
+#C https://www.conwaylife.com/patterns/p112pufferboat.rle
+x = 18, y = 35, rule = B3/S23
+6b3o3b3o$3o3bo2bobo2bo$o2bo2bo7bo$o5bo7bo$o3bobo4bobo$o9bo$bobo3bobo2$
+11b2o$4bo$3bobo3bo2bo$3bobo3bobo$4bo$7bo2bo$5bo9b3o$5bo8bo2bo$17bo$8b
+o4bo3bo$6b2o5bo3bo$5bo11bo$14bobo$10bobo$7b2obobo$10b2o$6bo2bo$6bo$5b
+o2bo6b3o$6b2o6bo2bo$17bo$13bo3bo$17bo$14bobo$10bo$9bobo$10b2o!

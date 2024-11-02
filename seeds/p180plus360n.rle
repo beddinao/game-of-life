@@ -1,0 +1,7 @@
+#N p180plus360n.rle
+#C https://conwaylife.com/wiki/P45_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/p180plus360n.rle
+x = 71, y = 33, rule = B3/S23
+60b2o$60b2o4$60bo$59b3o$58b2ob2o2$69bo$68bobo$69b2o3$57bo4bo$55b2ob4ob
+2o$8bo4bo43bo4bo$6b2ob4ob2o$8bo4bo2$32bobo$2o30b2o$obo30bo$bo2$8b2ob2o
+$9b3o$10bo4$9b2o$9b2o!

@@ -1,0 +1,8 @@
+#N p45piheptominohassler4.rle
+#C https://conwaylife.com/wiki/Pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p45piheptominohassler4.rle
+x = 42, y = 42, rule = B3/S23
+6b8o$6bob4obo$6b8o4$39b3o$39bobo$39b3o$39b3o$39b3o$15b2ob2o19b3o$15bo
+3bo19bobo$16b3o20b3o2$29b2o$28bobo$28bo$28bobo$29b2o3$11b2o$11bobo$13b
+o$11bobo$11b2o2$3o20b3o$obo19bo3bo$3o19b2ob2o$3o$3o$3o$obo$3o4$28b8o$
+28bob4obo$28b8o!

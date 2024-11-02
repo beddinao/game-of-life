@@ -1,0 +1,8 @@
+#N rauccisp102.rle
+#O David Raucci, 2022
+#C https://conwaylife.com/wiki/Raucci%27s_p102
+#C https://www.conwaylife.com/patterns/rauccisp102.rle
+x = 41, y = 27, rule = B3/S23
+17b2o$18bo$15b3o$15bo2$36bo2bo$36bo$35bo4bo$34bobo2b2o$32b2obo3$32bo2b
+o$5b2o11b3o13b2o$5b2o14b2o$5b2o10bo3b2o$6bo9bo2bob2o$5bobo7bo4bo$3obob
+o9b3o$4obo$4bo3$25bo$23b3o$22bo$22b2o!

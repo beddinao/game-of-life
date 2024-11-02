@@ -1,0 +1,6 @@
+#N cbx37cconduit.rle
+#O Tanner Jacobi, 2015
+#C https://conwaylife.com/wiki/CBx37C
+#C https://www.conwaylife.com/patterns/cbx37cconduit.rle
+x = 11, y = 17, rule = B3/S23
+5b2ob2o$6bob2o$6bo$5b2o7$b3o$3bo$ob2o$2o5b2o$7bobo$9bo$9b2o!

@@ -1,0 +1,8 @@
+#N period84glidergun2.rle
+#C https://conwaylife.com/wiki/P84_honey_farm_hassler
+#C https://www.conwaylife.com/patterns/period84glidergun2.rle
+x = 39, y = 20, rule = B3/S23
+31bo$29b3o$28bo$2o26b2o$bo$bobo$2b2o11b2obo3b2o10b2o$13bo5bo2bobo9b3o
+$8bobobo5bo7b2o6b2obo$8bo8b4o7bo7bobo$14b4o5bo4bo6bo2bo$16bo5bo2bo10b
+2o$10bobo2bo5bo$11b2o3bob2o$32b2o$32b2o$5b2o$6bo23bo$3b3o25bo$3bo25b3o
+!

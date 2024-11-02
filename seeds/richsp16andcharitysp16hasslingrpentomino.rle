@@ -1,0 +1,7 @@
+#N richsp16andcharitysp16hasslingrpentomino.rle
+#C https://conwaylife.com/wiki/R-pentomino_hasslers
+#C https://www.conwaylife.com/patterns/richsp16andcharitysp16hasslingrpentomino.rle
+x = 37, y = 17, rule = B3/S23
+4bo3bo$3bobobobo$4b2ob2o2$bo9bo$obo7bobo13bo$o3b2ob2o3bo12bobo6bo$bo3b
+obo3bo14bo$2b2obobob2o6bo14b3obo$4bo3bo6b2ob2o3bo7bob2o$15bo2bo3bobo6b
+2obo$16b2o4bo2bo3bob3o$23b3o$24bo6bo2$24b2o$24b2o!

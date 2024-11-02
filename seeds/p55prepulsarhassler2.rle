@@ -1,0 +1,9 @@
+#N p55prepulsarhassler2.rle
+#C https://conwaylife.com/wiki/P55_pre-pulsar_hassler
+#C https://www.conwaylife.com/patterns/p55prepulsarhassler2.rle
+x = 37, y = 22, rule = B3/S23
+10bo15bo$6bo3b3o11b3o3bo$5bobo5bo9bo5bobo$5bobo4b2o9b2o4bobo$3b3ob2o
+19b2ob3o$2bo31bo$3b3ob2o19b2ob3o$5bob2o6bo5bo6b2obo$14b3o3b3o$2bo31bo$
+bobo29bobo$2bo31bo$5b2o23b2o$6bo23bo$2b2o3bo21bo3b2o$2bo4bo21bo4bo$3bo
+4bo19bo4bo$3b2ob2o21b2ob2o$2b2o7b2o11b2o7b2o$bo10bo11bo10bo$obo6b3o13b
+3o6bobo$2o2b3o2bo17bo2b3o2b2o!

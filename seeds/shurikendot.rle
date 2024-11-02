@@ -1,0 +1,5 @@
+#N shurikendot.rle
+#C https://conwaylife.com/wiki/Shuriken
+#C https://www.conwaylife.com/patterns/shurikendot.rle
+x = 8, y = 7, rule = B3/S23
+3b2o$b3obo$o4bo$2o3b2o$bo4bo$bob3o$2b2o3bo!

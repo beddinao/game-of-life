@@ -1,0 +1,8 @@
+#N pentadecathlonon74p127.rle
+#C https://conwaylife.com/wiki/74P127
+#C https://www.conwaylife.com/patterns/pentadecathlonon74p127.rle
+x = 38, y = 42, rule = B3/S23
+2bo$2bo$bobo$2bo21bo$2bo19b3o$2bo18bo$2bo18b2o$bobo$2bo$2bo5bo10bo9b2o
+$7bobo8b2o9b2o$8bo7b2o$14b2o2bo$18bo2bo$20bo$14bobo3bo$15b3o4bo2$2o$2o
+6$36b2o$36b2o2$15bo4b3o$17bo3bobo$17bo$16bo2bo$19bo2b2o$20b2o7bo$7b2o
+9b2o8bobo$7b2o9bo10bo3$15b2o$16bo$13b3o$13bo!

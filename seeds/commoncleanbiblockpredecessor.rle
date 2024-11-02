@@ -1,0 +1,5 @@
+#N commoncleanbiblockpredecessor.rle
+#C https://conwaylife.com/wiki/List_of_common_evolutionary_sequences
+#C https://www.conwaylife.com/patterns/commoncleanbiblockpredecessor.rle
+x = 5, y = 3, rule = B3/S23
+obo$2ob2o$2bo!

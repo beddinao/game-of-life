@@ -1,0 +1,6 @@
+#N p18honeyfarmhassler4.rle
+#C https://conwaylife.com/wiki/Period-18_honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p18honeyfarmhassler4.rle
+x = 18, y = 18, rule = B3/S23
+8b2o$3b3o2bobo$8bobo$bo7bo6b2o$bo12bo2bo$bo12b2o$10bobobo$9bob2obobo$
+3o6bo5b2o$o2bo3b3o$b2o3bo$7bo$6b2o2$4b4o$5bo2bo$3bo3b2o$3b2o!

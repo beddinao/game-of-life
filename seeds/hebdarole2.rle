@@ -1,0 +1,8 @@
+#N hebdarole2.rle
+#C https://conwaylife.com/wiki/Hebdarole
+#C https://www.conwaylife.com/patterns/hebdarole2.rle
+x = 24, y = 19, rule = B3/S23
+4b2o3bo4bo3b2o$bo2bo2bo2bo2bo2bo2bo2bo$obobob2obo4bob2obobobo$bo2bo2bo
+bob2obobo2bo2bo$4b2o3b2o2b2o3b2o$8bo6bo$7bo8bo$6bo10bo$7b2o6b2o2$7b2o
+6b2o$6bo10bo$7bo8bo$8bo6bo$4b2o3b2o2b2o3b2o$bo2bo2bobob2obobo2bo2bo$ob
+obob2obo4bob2obobobo$bo2bo2bo2bo2bo2bo2bo2bo$4b2o3bo4bo3b2o!

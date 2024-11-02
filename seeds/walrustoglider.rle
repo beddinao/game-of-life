@@ -1,0 +1,11 @@
+#N walrustoglider.rle
+#C https://conwaylife.com/wiki/Walrus
+#C https://www.conwaylife.com/patterns/walrustoglider.rle
+x = 69, y = 83, rule = B3/S23
+23bo$21b3o$10b2ob2o5bo$10b2obo6b2o$13bo$13b2o8$9b2o$3bob2obobo$3b2obo
+bo$7b2o19bo$26b3o$o24bo$3o23bo$3bo21b2o4bo$2b2o25b3o$28bo$28b2o7$19b6o
+$21b2o$18bo5b2o$16b8obo$15b4o3bo$15bo9b3o$4bo13b2o3b2ob2o2b2o$3bobo11b
+3o2b5ob3o2bo$3b2o11bob2obobo2b3o4bo$15b2obo3bo4b3o4bo$22bo$17bo$18b2o
+$23b3o$23bo2$24bo$21b2ob2o16$54bo$54bo3bobo$54b2ob2obo$58bo$55b2o2bob
+o$50b6o2b3o$49b2ob4ob2o$48b2o2bo2bob3o$48b2o2bo6b2o$49b2obo3bo5b6o$50b
+o5bo5b3o3bo$51b2o2bo10b2o$52b2obo3$57b3o$56bobo2$56b3o$57b2o!

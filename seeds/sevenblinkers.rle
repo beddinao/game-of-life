@@ -1,0 +1,5 @@
+#N sevenblinkers.rle
+#C https://conwaylife.com/wiki/List_of_common_evolutionary_sequences
+#C https://www.conwaylife.com/patterns/sevenblinkers.rle
+x = 5, y = 3, rule = B3/S23
+o$obo$2ob2o!

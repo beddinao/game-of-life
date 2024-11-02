@@ -1,0 +1,10 @@
+#N period37glidergun.rle
+#C https://conwaylife.com/wiki/58P37
+#C https://www.conwaylife.com/patterns/period37glidergun.rle
+x = 55, y = 45, rule = B3/S23
+36bo$36b3o14b2o$39bo13bo$38b2o11bobo$51b2o3$45b3o$47bo$28b2o14bo2bo$
+29bo14b3o$29bobo19b2o$30b2o19bobo$36b3o14bo$35bo2bo14b2o$35bo$35b3o4$
+19b2o22b2o$8bo11bo22bo$8b3o9bobo21b3o$11bo9b2o9bo13bo$10b2o19bobo$30bo
+3bo$12b3o15bo3bo$12bo17bo3bo$12bo18bobo3b2o$13b2obo15bo4bobo$2o14b2o
+21bo$bo37b2o$bobo19b2o$2b2o19bobo$25bo$9b2o14b2o$10bob2o23bo$14bo23b2o
+$14bo22b2o$12b3o$2b2o$bobo11b2o$bo13bo$2o14b3o$18bo!

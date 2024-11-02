@@ -1,0 +1,6 @@
+#N blockondockpredecessors.rle
+#C https://conwaylife.com/wiki/Block_on_dock
+#C https://www.conwaylife.com/patterns/blockondockpredecessors.rle
+x = 36, y = 15, rule = B3/S23
+6b2o$5bo3bo$b2o2bo4bo$o2b4o2bo$bobo3b2o$2bo2$32b3o$32bobo$9bo$6b3o25bo
+$b2o2bo28b2o$o2b3o27bo$bobo2bo$2bo!

@@ -1,0 +1,6 @@
+#N rpentomino2scorpion.rle
+#C https://conwaylife.com/wiki/Scorpion
+#C https://www.conwaylife.com/patterns/rpentomino2scorpion.rle
+x = 29, y = 11, rule = B3/S23
+4bo$25b2o$4b3o18bo2$2b2o19b2o$2ob2o16b2ob2o$o4bo15bo4bo$o3b3o14bo3b3o$
+b2o4bo14b2o4bo$5bobo18bobo$5b2o19b2o!

@@ -1,0 +1,8 @@
+#N p28piheptominohassler2.rle
+#C https://conwaylife.com/wiki/Pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p28piheptominohassler2.rle
+x = 28, y = 27, rule = B3/S23
+4bo$4b3o$7bo$6b2o11b2o3b2o$19bobobo2bo$21bob2obo$20b2obo2b2o$7bo16b2o
+$8b2o2b3ob3o6bo$12bo5bo5bo$12bo5bo6b3o$13bo3bo9bo$14b3o2$11b3o$o9bo3b
+o$3o6bo5bo$3bo5bo5bo$2bo6b3ob3o2b2o$2b2o16bo$2o2bob2o$bob2obo$bo2bobo
+bo$2b2o3b2o11b2o$20bo$21b3o$23bo!

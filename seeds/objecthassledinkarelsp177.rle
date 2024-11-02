@@ -1,0 +1,5 @@
+#N objecthassledinkarelsp177.rle
+#C https://conwaylife.com/wiki/List_of_common_evolutionary_sequences
+#C https://www.conwaylife.com/patterns/objecthassledinkarelsp177.rle
+x = 5, y = 3, rule = B3/S23
+ob2o$bo2bo$2b3o!

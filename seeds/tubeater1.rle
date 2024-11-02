@@ -1,0 +1,7 @@
+#N tubeater1.rle
+#C https://conwaylife.com/wiki/Tubeater
+#C https://www.conwaylife.com/patterns/tubeater1.rle
+x = 29, y = 23, rule = B3/S23
+8bo$7b2o$7bobo2$10b2o$10b2o$23b3o$bo6b2o3bo9bo$2o5bo2bobobo9bo$obo3b2o
+bo3bobo10b3o$4bo9bobo$3bo11bobo5b2o$3bo2bo9bobo4bobobo$17bobo3bo3b2o$
+18bo5bo$19bo2b2o2bo$21bob4o$22b3o3bo$26b2o$27bo$27b2o$26bo$27b2o!

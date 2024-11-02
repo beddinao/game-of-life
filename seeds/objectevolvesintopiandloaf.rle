@@ -1,0 +1,5 @@
+#N objectevolvesintopiandloaf.rle
+#C https://conwaylife.com/wiki/List_of_common_evolutionary_sequences
+#C https://www.conwaylife.com/patterns/objectevolvesintopiandloaf.rle
+x = 7, y = 4, rule = B3/S23
+o2bo$bob2o$bo3b2o$4bo!

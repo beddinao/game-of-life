@@ -1,0 +1,7 @@
+#N catereronp146piheptominohassler.rle
+#C https://conwaylife.com/wiki/P146_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/catereronp146piheptominohassler.rle
+x = 36, y = 20, rule = B3/S23
+27bo$26b2o$2o24b2o$bo24bo$bobo$2b2o$10b2ob2o$10bo3bo$10bo3bo$11bobo$
+12bo$4b2o$5bo24bo$2b3o23bo3b4o$2bo25bo3bo$28bo$8b2o3bo5bo3bo7bo$8b2o2b
+obo3b2o3b2o4b2o$13b2o3b2o3b2o$18bo5bo!

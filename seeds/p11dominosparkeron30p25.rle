@@ -1,0 +1,8 @@
+#N p11dominosparkeron30p25.rle
+#C https://conwaylife.com/wiki/30P25
+#C https://www.conwaylife.com/patterns/p11dominosparkeron30p25.rle
+x = 23, y = 25, rule = B3/S23
+18b2o$18bo$16bobo$12bo3b2o$10b2o$10b2o$7bo3bo3bo$5b3o3bo3bobo$5b3o3b2o
+$4b3o4b2o$7b2o4b3o$7b2o3b3o$2bobo3bo3b3o$4bo3bo3bo$8b2o7b3o$8b2o5b3obo
+$2b2o3bo11bob2o$bobo9bo3b3o2bo$bo11bo2b2o2b2o$2o7b2o3b2o2b2o$9bo2bobob
+o2bo$11b2o2b4o$12bo$11bo5b2o$11b2o4b2o!

@@ -1,0 +1,6 @@
+#N p12honeyfarmhassler3.rle
+#C https://conwaylife.com/wiki/Honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p12honeyfarmhassler3.rle
+x = 19, y = 14, rule = B3/S23
+o$3o15bo$3bo12b3o$2b2o11bo$15b2o$6b2o4bo$5bobo3bobo$5bobo3bobo$6bo4b2o
+$2b2o$3bo11b2o$3o12bo$o15b3o$18bo!

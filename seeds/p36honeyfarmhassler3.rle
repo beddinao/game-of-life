@@ -1,0 +1,9 @@
+#N p36honeyfarmhassler3.rle
+#C https://conwaylife.com/wiki/Honey_farm_hassler
+#C https://www.conwaylife.com/patterns/p36honeyfarmhassler3.rle
+x = 40, y = 29, rule = B3/S23
+20bo16b2o$20b3o14bobo$23bo10b2obobo$22b2o10bobobo$16b2o18bo$17bo16bo2b
+o$17bobo5bo11bo$18b2o4bo8bo3bo$23bo2bo6bo3bo$24b3o10bo$34bo2bo$36bo$
+34bobobo$b2o31b2obobo$obo34bobo$obob2o31b2o$bobobo$3bo$2bo2bo$2bo10b3o
+$2bo3bo6bo2bo$2bo3bo8bo4b2o$2bo11bo5bobo$2bo2bo16bo$3bo18b2o$bobobo10b
+2o$obob2o10bo$obo14b3o$b2o16bo!

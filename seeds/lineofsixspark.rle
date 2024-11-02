@@ -1,0 +1,5 @@
+#N lineofsixspark.rle
+#C https://conwaylife.com/wiki/Line-of-six_spark
+#C https://www.conwaylife.com/patterns/lineofsixspark.rle
+x = 1, y = 6, rule = B3/S23
+o$o$o$o$o$o!

@@ -1,0 +1,9 @@
+#N p4pipsquirter.rle
+#O Karel Suhajda, 2003
+#C https://conwaylife.com/wiki/P4_pipsquirter
+#C https://www.conwaylife.com/patterns/p4pipsquirter.rle
+x = 27, y = 15, rule = B3/S23
+8b2o3b2o$7bo2bo2bobo2bo2bo$5bo2b3o4bo2b4o$4bob2o3b4ob2o$4bobo2bobo2bo
+3b6o$3b2o2b4o4b2o2b2o3bo$4bo2bo5bobobo6bo$2ob2o2b2o2b3o2b2obob2ob2o$3b
+2o2bo3b2obobo5b2o2bo$4bobobob5obob4o3bo$7bo6bob2obo2b3o$6b2ob5o8bo$7bo
+bo$7bobo2b2o$8bo3b2o!

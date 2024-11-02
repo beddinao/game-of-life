@@ -1,0 +1,6 @@
+#N 135degreelwsstog.rle
+#O whatislife, 2024
+#C https://conwaylife.com/wiki/135-degree_LWSS-to-G
+#C https://www.conwaylife.com/patterns/135degreelwsstog.rle
+x = 38, y = 18, rule = B3/S23
+31b2o$31bo$20b2ob2o3b2obo3b2o$20b2obo3bo2bo3bobo$23bo2bo2bo4bo$23b2o2b2o4b2o$31bo$31b6o$o2bo16bo2bo11bobo$4bo19bo6b3o3bo$o3bo15bo3bo6bo2b3o$b4o16b4o8bo$34bo$33b2o2$21bo$20bo$20b3o!

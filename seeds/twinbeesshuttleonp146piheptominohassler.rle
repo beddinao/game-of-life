@@ -1,0 +1,7 @@
+#N twinbeesshuttleonp146piheptominohassler.rle
+#C https://conwaylife.com/wiki/P146_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/twinbeesshuttleonp146piheptominohassler.rle
+x = 61, y = 20, rule = B3/S23
+36bo5bo$36b2o3b2o3b2o$36b2o3b2o3bobo2b2o$17b2o18bo3bo5bo3b2o$2o15bobo
+7b2o$2o17bo7b2o29bo$17b3o36b3o$55bo$55b2o2$17b3o$2o17bo$2o15bobo$17b2o
+28b3o$46bo2bo7b2o$46bo10bobo$33b2o24bo$34bo11b3o10b2o$31b3o13bo$31bo!

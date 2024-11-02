@@ -1,0 +1,8 @@
+#N p11bheptominohassler.rle
+#C https://conwaylife.com/wiki/B-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p11bheptominohassler.rle
+x = 34, y = 21, rule = B3/S23
+11b2o7b2o$12bo3b2o3bo$11bo4bo4bobo$11b2o9b2o5bo$13bo16bo$9b3o13b2o3bo$
+9bo2b2o4b2o5b2obobob2o$10bo6b2o8b2obob2o$7b3o8b2o4bo4bo$7bo11bo4b5o2$
+5b5o4bo11bo$4bo4bo4b2o8b3o$2obob2o8b2o6bo$2obobob2o5b2o4b2o2bo$3bo3b2o
+13b3o$3bo16bo$4bo5b2o9b2o$10bobo4bo4bo$12bo3b2o3bo$12b2o7b2o!

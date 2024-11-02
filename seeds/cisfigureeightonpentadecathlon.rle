@@ -1,0 +1,5 @@
+#N cisfigureeightonpentadecathlon.rle
+#C https://conwaylife.com/wiki/Figure_eight_on_pentadecathlon
+#C https://www.conwaylife.com/patterns/cisfigureeightonpentadecathlon.rle
+x = 14, y = 10, rule = B3/S23
+bo6b2o$bo6b2obo$obo9bo$bo7bo$bo8bob2o$bo10b2o$bo$obo$bo$bo!

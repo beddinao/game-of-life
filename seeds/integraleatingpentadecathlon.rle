@@ -1,0 +1,5 @@
+#N integraleatingpentadecathlon.rle
+#C https://conwaylife.com/wiki/Eater_eating_pentadecathlon
+#C https://www.conwaylife.com/patterns/Integraleatingpentadecathlon.rle
+x = 12, y = 10, rule = B3/S23
+bo$bo$obo$bo$bo$bo5b2o$bo5bobo$obo6bo$bo7bobo$bo8b2o!

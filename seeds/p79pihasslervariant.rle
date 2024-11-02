@@ -1,0 +1,8 @@
+#N p79pihasslervariant.rle
+#C https://conwaylife.com/wiki/P79_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/p79pihasslervariant.rle
+x = 43, y = 28, rule = B3/S23
+6bo$6b3o16b2o$9bo15bobo$8b2o17bo$27b2o2$40b2o$2o38bo$bo39bo$bobo36b2o$
+2b2o24bo10bo$27bobo9b3o$30bo11bo$14bo12bobo11b2o$2o11bobo12bo$o11bo$b
+3o9bobo$3bo10bo24b2o$b2o36bobo$bo39bo$2bo38b2o$b2o2$14b2o$15bo17b2o$
+15bobo15bo$16b2o16b3o$36bo!

@@ -1,0 +1,8 @@
+#N owssflotilla.rle
+#C https://conwaylife.com/wiki/Overweight_spaceship
+#C https://www.conwaylife.com/patterns/owssflotilla.rle
+x = 40, y = 17, rule = B3/S23
+18b3o$17bo2bo$12b3o5bo3b3o$12bo2bo4bo3bo2bo$6b3o3bo7bo3bo5b3o$5bo2bo3b
+o7bo3bo4bo2bo$3o5bo3bo7bo3bo7bo3b3o$o2bo4bo3bo7bo3bo7bo3bo2bo$o7bo3bo
+7bo3bo7bo3bo$o7bo3bo7bo3bo7bo3bo$bobo4bo3bo7bo3bo7bo4bobo$8bo3bo7bo3bo
+7bo$5bobo4bo7bo3bo4bobo$12bo7bo3bo$13bobo4bo4bobo$20bo$17bobo!

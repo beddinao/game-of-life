@@ -1,0 +1,7 @@
+#N p66rpentominohassler3.rle
+#C https://conwaylife.com/wiki/Period-66_R-pentomino_hasslers
+#C https://www.conwaylife.com/patterns/p66rpentominohassler3.rle
+x = 40, y = 20, rule = B3/S23
+10b2o$10b2o$23b2o$23bobo$24bo$3b2o$3bo$2obo6b2o$2ob2o4bo2bo21b2o$3bo4b
+2ob2o16bo4bobo$3bobo4bo16b2ob2o4bo$4b2o21bo2bo4b2ob2o$28b2o6bob2o$36b
+o$35b2o$15bo$14bobo$15b2o$28b2o$28b2o!

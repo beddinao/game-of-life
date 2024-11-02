@@ -1,0 +1,6 @@
+#N skewbracketpulsar.rle
+#C https://conwaylife.com/wiki/Bracket_pulsar
+#C https://www.conwaylife.com/patterns/skewbracketpulsar.rle
+x = 15, y = 17, rule = B3/S23
+5bo$5bo$5bo3bo$4b2o3bo$3bobo3bo$5o4b2o$9bobo$10b5o2$5o$3bobo$4b2o4b5o$
+5bo3bobo$5bo3b2o$5bo3bo$9bo$9bo!

@@ -1,0 +1,7 @@
+#N simeks180degreereflector.rle
+#C https://conwaylife.com/wiki/Speed_tunnel
+#C https://www.conwaylife.com/patterns/simeks180degreereflector.rle
+x = 22, y = 23, rule = B3/S23
+5bo$bo3b3o9b2o$2bo5bo8bo$3o4b2o5bo3b3o$14b4o3bo$19bobo$16b2ob2o$16b2o$
+19b2o$20bo$19bo$19b2o$b2o$bobo$3bo6b2o5b2o$3b3o3bo2bo4bobo$b2o3bo3bobo
+6bo$o2b4o4bo7b2o$2obo10b2o$3bob2o7bo$3bobo9b3o$2b2obobo9bo$6b2o!

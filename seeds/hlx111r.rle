@@ -1,0 +1,7 @@
+#N hlx111r.rle
+#O Matthias Merzenich, 2012
+#C https://conwaylife.com/wiki/HLx111R
+#C https://www.conwaylife.com/patterns/hlx111r.rle
+x = 27, y = 32, rule = B3/S23
+17bo$16bobo$16bo8$24b2o$24b2o12$o$obo20b2o$3o20bo$2bo10b2o3b2o4b3o$11b
+o2bo4bo6bo$11b3o4bo$18b2o$11b2obo$11bob2o!

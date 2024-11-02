@@ -1,0 +1,6 @@
+#N shipplusfishhook.rle
+#O Brice Due, 2006
+#C https://conwaylife.com/wiki/Ship%2Bfishhook
+#C https://www.conwaylife.com/patterns/shipplusfishhook.rle
+x = 7, y = 8, rule = B3/S23
+6bo$4b3o$3bo$3b2o2$2o$obo$b2o!

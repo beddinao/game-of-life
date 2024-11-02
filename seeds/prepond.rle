@@ -1,0 +1,5 @@
+#N prepond.rle
+#C https://conwaylife.com/wiki/Pond
+#C https://www.conwaylife.com/patterns/prepond.rle
+x = 3, y = 3, rule = B3/S23
+bo$2o$2bo!

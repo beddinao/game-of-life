@@ -1,0 +1,5 @@
+#N inflectedclips.rle
+#C https://conwaylife.com/wiki/Inflected_clips
+#C https://www.conwaylife.com/patterns/inflectedclips.rle
+x = 9, y = 8, rule = B3/S23
+2bo3bo$bobobobo$o2bobo2bo$2obobob2o$3bobo$2obobob2o$o2bobo2bo$b2o3b2o!

@@ -1,0 +1,5 @@
+#N bigspredecessor.rle
+#C https://conwaylife.com/wiki/Big_S
+#C https://www.conwaylife.com/patterns/bigspredecessor.rle
+x = 5, y = 8, rule = B3/S23
+2o$obo$bo3$2b3o$2bobo$2bobo!

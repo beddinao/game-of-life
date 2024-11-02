@@ -1,0 +1,9 @@
+#N americandream.rle
+#O Ilkka Törmä, 2022
+#C https://conwaylife.com/wiki/American_Dream
+#C https://www.conwaylife.com/patterns/americandream.rle
+x = 26, y = 13, rule = B3/S23
+21bo$20bo$2b3ob3obobobobob2obobo$2bob3o2bobobob4obo$3b2o2b2obob3obob2o
+b3o$2b2o2bo2bobobo4bo2bo2b2o$3b8obob8ob2o$2b2obob3obobobo2b2obo2bo$2bo
+bo2bobo2b5ob2o2bo$3bob2o2bobobo2b3o2bo$6bobob3obobob2o2bo$9b2obob3obob
+2o$12b3o!

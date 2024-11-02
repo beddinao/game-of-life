@@ -1,0 +1,5 @@
+#N cisboattranslinetub.rle
+#C https://conwaylife.com/wiki/Cis-boat_trans-line_tub
+#C https://www.conwaylife.com/patterns/cisboattranslinetub.rle
+x = 7, y = 7, rule = B3/S23
+5bo$4bobo$3bobo$3bo$2obo$obo$bo!

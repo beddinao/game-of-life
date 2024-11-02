@@ -1,0 +1,7 @@
+#N hf214b.rle
+#C https://conwaylife.com/wiki/HLx111R
+#C https://www.conwaylife.com/patterns/hf214b.rle
+x = 43, y = 40, rule = B3/S23
+19bo$19b3o7b2o$22bo6b2o$21b2o3$40b2o$10bo31bo$10b3o27b2o$13bo26bo$12b
+2o4$36bo$35bobo$36bo5$2o$bo$bobo$2b2o7$2bo$2bobo20b2o$2b3o20bo$4bo10b
+2o3b2o4b3o$13bo2bo4bo6bo$13b3o4bo$20b2o$13b2obo$13bob2o!

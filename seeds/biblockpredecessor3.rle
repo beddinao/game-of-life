@@ -1,0 +1,5 @@
+#N biblockpredecessor3.rle
+#C https://conwaylife.com/wiki/Bi-block
+#C https://www.conwaylife.com/patterns/biblockpredecessor3.rle
+x = 6, y = 4, rule = B3/S23
+2bo$bo$o$2ob3o!

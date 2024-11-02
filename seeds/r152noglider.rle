@@ -1,0 +1,7 @@
+#N r152noglider.rle
+#C https://conwaylife.com/wiki/HRx65R
+#C https://www.conwaylife.com/patterns/r152noglider.rle
+x = 40, y = 47, rule = B3/S23
+9bo7b2o$o8b3o5b2o4b2o$3o9bo10bo$3bo7b2o8bobo$2b2o17b2o7$bo$bobo13bo$b
+3o12bobo$3bo11bo2bo$16b2o16b2o$33bobo$13b2o19bo$12bobo$12bo$11b2o4$36b
+2obo$36bob2o2$29b2o$29b2o16$28b3o$28bo$27b2o!

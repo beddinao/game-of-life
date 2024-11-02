@@ -1,0 +1,9 @@
+#N p38biblockhassler.rle
+#C https://conwaylife.com/wiki/44P38
+#C https://www.conwaylife.com/patterns/p38biblockhassler.rle
+x = 64, y = 27, rule = B3/S23
+26bo32bo$26b2o30b2o2$27bobo3b2o16b2o3bobo$22b3o2bobo2bo2bo14bo2bo2bobo
+2b3o$33bobo14bobo$34b2o14b2o2$21b2o$21b2o5b2o26b2o$28bo28bo$21b2o6b3o
+22b3o$21b2o8bo22bo3$15bo6bo$2bo6b3ob4o4b4ob3o6bo$bobo6b2obobo6bobob2o
+6bobo$o3bo6bo3b2o4b2o3bo6bo3bo$bobo11bo6bo11bobo$2bo10bo2bo4bo2bo10bo$
+15bo6bo2$4b2o26b2o$4bo28bo$5b3o22b3o$7bo22bo!

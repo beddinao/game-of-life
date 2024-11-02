@@ -1,0 +1,5 @@
+#N blinkerfuse8c21.rle
+#C https://conwaylife.com/wiki/Blinker_fuse
+#C https://www.conwaylife.com/patterns/blinkerfuse8c21.rle
+x = 40, y = 3, rule = B3/S23
+3o4bo15bo15bo$obo4bo6b3o6bo6b3o6bo$3o4bo15bo15bo!

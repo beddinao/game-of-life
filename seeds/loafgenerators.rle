@@ -1,0 +1,5 @@
+#N loafgenerators.rle
+#C https://conwaylife.com/wiki/Loaf
+#C https://www.conwaylife.com/patterns/loafgenerators.rle
+x = 18, y = 6, rule = B3/S23
+b2o$o2bo$o14b3o$bo2bo10bo$2b2o13bo$16b2o!

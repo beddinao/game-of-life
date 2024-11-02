@@ -1,0 +1,5 @@
+#N unidimensionalpentadecathlonpredecessor.rle
+#C https://conwaylife.com/wiki/One-cell-thick_pattern
+#C https://www.conwaylife.com/patterns/unidimensionalpentadecathlonpredecessor.rle
+x = 10, y = 1, rule = B3/S23
+10o!

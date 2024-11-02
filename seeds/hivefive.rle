@@ -1,0 +1,5 @@
+#N hivefive.rle
+#C https://conwaylife.com/wiki/Hive_five
+#C https://www.conwaylife.com/patterns/hivefive.rle
+x = 12, y = 5, rule = B3/S23
+o3bo$bobobo$o2bobo3b2o$4bo3bo2bo$9b2o!

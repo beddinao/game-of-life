@@ -1,0 +1,10 @@
+#N p98emu.rle
+#C https://conwaylife.com/wiki/Emu
+#C https://www.conwaylife.com/patterns/p98emu.rle
+x = 46, y = 46, rule = B3/S23
+39bo$13b2o22b3o$14bo14b2o5bo$13bo13b3obo4b2o$13b2o11bo4bo2b3o$27b3obob
+obo$2o27bob2o2bo$bo$bobo$2b2o$16b2o$5b2o9b2o$5bobo$7bo25bo7b2obo$3b4o
+26b3o5bob2o$2bo31bo$2b2ob2o$3bobo$3bobo$4bo7$41bo$40bobo$40bobo$39b2ob
+2o$11bo31bo$b2obo5b3o26b4o$bob2o7bo25bo$38bobo$28b2o9b2o$28b2o$42b2o$
+42bobo$44bo$10bo2b2obo27b2o$10bobobob3o$9b3o2bo4bo11b2o$8b2o4bob3o13bo
+$9bo5b2o14bo$6b3o22b2o$6bo!

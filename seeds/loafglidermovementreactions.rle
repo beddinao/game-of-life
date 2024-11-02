@@ -1,0 +1,6 @@
+#N loafglidermovementreactions.rle
+#C https://conwaylife.com/wiki/Loaf
+#C https://www.conwaylife.com/patterns/loafglidermovementreactions.rle
+x = 46, y = 9, rule = B3/S23
+6bo17bo18bo$6bobo15bobo16bobo$6b2o16b2o17b2o2$18bo$b2o14bobo17bo$o2bo
+12bo2bo16bobo$bobo13b2o16bo2bo$2bo33b2o!

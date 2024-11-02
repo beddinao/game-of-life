@@ -1,0 +1,5 @@
+#N longbun.rle
+#C https://conwaylife.com/wiki/Long_bun
+#C https://www.conwaylife.com/patterns/longbun.rle
+x = 5, y = 3, rule = B3/S23
+bobo$o2b2o$o2bo!

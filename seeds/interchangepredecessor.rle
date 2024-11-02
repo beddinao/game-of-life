@@ -1,0 +1,5 @@
+#N interchangepredecessor.rle
+#C https://conwaylife.com/wiki/Interchange
+#C https://www.conwaylife.com/patterns/interchangepredecessor.rle
+x = 7, y = 4, rule = B3/S23
+3bo$b2ob2o$6bo$o!

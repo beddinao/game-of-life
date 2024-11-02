@@ -1,0 +1,7 @@
+#N catereron44p38.rle
+#C https://conwaylife.com/wiki/44P38
+#C https://www.conwaylife.com/patterns/catereron44p38.rle
+x = 44, y = 23, rule = B3/S23
+24bo$23bobo2$23bo$23b2o$20b5o$20b2ob2o$23bo3$5bo32bo$5b2o30b2o2$6bobo
+3b2o16b2o3bobo$b3o2bobo2bo2bo14bo2bo2bobo2b3o$12bobo14bobo$13b2o14b2o
+3$2b2o36b2o$3bo36bo$3o38b3o$o42bo!

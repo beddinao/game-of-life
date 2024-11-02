@@ -1,0 +1,6 @@
+#N tempest.rle
+#O Dean Hickerson, 1989
+#C https://conwaylife.com/wiki/Tempest
+#C https://www.conwaylife.com/patterns/tempest.rle
+x = 8, y = 8, rule = B3/S23
+5bo$2bo3b2o$bob2o$2bobob2o$2b2o2b2o$o5bo$bob3o$bob2o!

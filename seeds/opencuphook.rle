@@ -1,0 +1,5 @@
+#N opencuphook.rle
+#C https://conwaylife.com/wiki/Open_cuphook
+#C https://www.conwaylife.com/patterns/opencuphook.rle
+x = 7, y = 8, rule = B3/S23
+b2o$bobo$3bo$3bob2o$o2bob2o$2obo$3bo$3b2o!

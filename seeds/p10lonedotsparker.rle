@@ -1,0 +1,6 @@
+#N p10lonedotsparker.rle
+#C https://conwaylife.com/wiki/Period-10_sparkers
+#C https://www.conwaylife.com/patterns/p10lonedotsparker.rle
+x = 15, y = 12, rule = B3/S23
+2b2o3bo3b2o$2bobo5bobo$obo9bobo$2obo7bob2o$3bob2ob2obo$2obobo3bobob2o$
+o2bob5obo2bo$2bo9bo$3b9o2$5b2ob2o$5b2ob2o!

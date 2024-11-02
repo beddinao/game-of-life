@@ -1,0 +1,7 @@
+#N hne16t14.rle
+#O Martin Grant, 2021
+#C https://conwaylife.com/wiki/HNE16T14
+#C https://www.conwaylife.com/patterns/hne16t14.rle
+x = 33, y = 21, rule = B3/S23
+b2o$3ob2o$b2ob3ob2o$3ob2o2b2o21b2o$2o29b2o6$29bo$28bobo$29bo2$16bob2o$
+14b3ob2o$13bo$14b3ob2o5b2o$16bobo6bo$16bobo7b3o$17bo10bo!

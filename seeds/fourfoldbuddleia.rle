@@ -1,0 +1,9 @@
+#N fourfoldbuddleia.rle
+#C https://conwaylife.com/wiki/Buddleia
+#C https://www.conwaylife.com/patterns/fourfoldbuddleia.rle
+x = 32, y = 32, rule = B3/S23
+13bo4bo$5b2o4b2ob4ob2o4b2o$4b2o7bo4bo7b2o$4bo2bo16bo2bo$2b2ob2o18b2ob
+2o$b2obo22bob2o$bo2bo22bo2bo$3bo24bo4$bo28bo$bo28bo$obo26bobo$bo28bo$b
+o28bo$bo28bo$bo28bo$obo26bobo$bo28bo$bo28bo4$3bo24bo$bo2bo22bo2bo$b2ob
+o22bob2o$2b2ob2o18b2ob2o$4bo2bo16bo2bo$4b2o7bo4bo7b2o$5b2o4b2ob4ob2o4b
+2o$13bo4bo!

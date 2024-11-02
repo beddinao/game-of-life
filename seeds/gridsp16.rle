@@ -1,0 +1,7 @@
+#N gridsp16.rle
+#O Open Science Grid, 2022
+#C https://conwaylife.com/wiki/Grid%27s_p16
+#C https://www.conwaylife.com/patterns/gridsp16.rle
+x = 17, y = 20, rule = B3/S23
+5b2o3b2o$5bobobobo$7bobo$7bobo$7bobo$5b3ob3o$2o13b2o$2o3bo5bo3b2o$5bo5bo$6b2o
+b2o$7b3o$8bo5$6bo3bo$5b2o3b2o$5b2o3b2o$5bo5bo!

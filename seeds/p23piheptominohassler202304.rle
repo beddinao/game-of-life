@@ -1,0 +1,11 @@
+#N p23piheptominohassler202304.rle
+#O Nico Brown, 2023
+#C https://conwaylife.com/wiki/112P23
+#C https://www.conwaylife.com/patterns/p23piheptominohassler202304.rle
+#C A period-23 pi-heptomino hassler
+#C https://conwaylife.com/forums/viewtopic.php?p=160638#p160638
+x = 32, y = 23, rule = B3/S23
+13b2o$2b2o3bo6bo$2bobo2b3o4bob2o$4bo5bo4bobo$4b2o3b2o6bob2obo$16b2obob
+2o$2b3obo$2bo2bo22bo$3bo22b3o$3o8b3o11bo$o10bobo11b2o$11bobo4bobo$5b2o
+11bobo10bo$6bo11b3o8b3o$3b3o22bo$3bo22bo2bo$25bob3o$9b2obob2o$9bob2obo
+6b2o3b2o$14bobo4bo5bo$14b2obo4b3o2bobo$17bo6bo3b2o$17b2o!

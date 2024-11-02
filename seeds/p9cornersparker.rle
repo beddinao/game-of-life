@@ -1,0 +1,6 @@
+#N p9cornersparker.rle
+#C https://conwaylife.com/wiki/Period-9_sparkers
+#C https://www.conwaylife.com/patterns/p9cornersparker.rle
+x = 13, y = 16, rule = B3/S23
+8b2o$8b2o$5bo$5b5o$9bo$5b3o$b2obo$b2obo$4bobob2o$ob2o7bo$2obob3o$3bobo
+6bo$3bobob2o2b2o$4b2obo$7bo$7b2o!

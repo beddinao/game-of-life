@@ -1,0 +1,6 @@
+#N dot.rle
+#O John Conway, 1969
+#C https://conwaylife.com/wiki/Dot
+#C https://www.conwaylife.com/patterns/dot.rle
+x = 1, y = 1, rule = B3/S23
+o!

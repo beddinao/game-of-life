@@ -1,0 +1,5 @@
+#N xs19_69bo7pic.rle
+#C https://conwaylife.com/wiki/Xs19_69bo7pic
+#C https://www.conwaylife.com/patterns/xs19_69bo7pic.rle
+x = 8, y = 5, rule = B3/S23
+b2ob2o$obobobo$o3bo2bo$b3obobo$3bob2o!

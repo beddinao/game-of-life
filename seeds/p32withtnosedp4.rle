@@ -1,0 +1,8 @@
+#N p32withtnosedp4.rle
+#C https://conwaylife.com/wiki/P32_honey_farm_hassler
+#C https://www.conwaylife.com/patterns/p32withtnosedp4.rle
+x = 32, y = 26, rule = B3/S23
+14bo$14b3o$17bo$16bo$15bo4b4o$15bobo$16b2ob3o$19b2o2$28b2o$18b3o$19bo
+7bo3bo$19bo6bo4bo$25bobobo$16b3o5bobobo$15bo3bo2bo4bo$14bo5bobo3bo$14b
+o5bo$5bo8bo5bo3b2o$15bo3bo$3b3obo8b3o$2bob2o$2b2obo$ob3o5b2o$10b2o$2bo
+!

@@ -1,0 +1,5 @@
+#N queenbeeshuttlepredecessor.rle
+#C https://conwaylife.com/wiki/Queen_bee_shuttle
+#C https://www.conwaylife.com/patterns/queenbeeshuttlepredecessor.rle
+x = 35, y = 7, rule = B3/S23
+2o31b2o$2o31b2o3$16b3o$5b3o8bobo8b3o$16bobo!

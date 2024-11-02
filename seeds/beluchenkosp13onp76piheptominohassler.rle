@@ -1,0 +1,8 @@
+#N beluchenkosp13onp76piheptominohassler.rle
+#C https://conwaylife.com/wiki/P76_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/beluchenkosp13onp76piheptominohassler.rle
+x = 42, y = 31, rule = B3/S23
+31b2o$31b2o2$34bo2bo$33bo6bo$33bo7bo$25b2o6bo3b2obo$25b2o7b3o$o28b3o$
+3o25bo3bo$3bo28bo$2b2o28bo$28bo2bo$31bo2$19bo9bobo$b3o3b3o8b2o10bo$17b
+o$5bo12b2o$5bo13bo$5bo5$14b2o8b2o$14bo2b6o2bo$15b2o6b2o$12b3o10b3o$12b
+o2bobo4bobo2bo$13b2o4b2o4b2o!

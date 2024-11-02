@@ -1,0 +1,5 @@
+#N schumann.rle
+#C https://conwaylife.com/wiki/Composers
+#C https://www.conwaylife.com/patterns/schumann.rle
+x = 6, y = 9, rule = B3/S23
+4bo$3bobo$4bo2$3o2$4bo$3bobo$4bo!

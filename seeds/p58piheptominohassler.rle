@@ -1,0 +1,8 @@
+#N p58piheptominohassler.rle
+#O Luke Kiernan, 2022
+#C https://conwaylife.com/wiki/P58_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/p58piheptominohassler.rle
+x = 23, y = 30, rule = B3/S23
+7bo$5b3o$4bo$4b2o6b2o$12bo$10bobo8b2o$10b2o9b2o3$2b2o$bobo$bo$bobo$2b
+2o3$19b2o$19bobo$21bo$19bobo$19b2o3$2o9b2o$2o8bobo$10bo$9b2o6b2o$18bo$
+15b3o$15bo!

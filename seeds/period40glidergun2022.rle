@@ -1,0 +1,8 @@
+#N period40glidergun2022.rle
+#C https://conwaylife.com/wiki/Period-40_glider_gun
+#C https://www.conwaylife.com/patterns/period40glidergun2022.rle
+x = 27, y = 20, rule = B3/S23
+2b2o16b2o$b3o15bob3o$obo2bo2b2o9bo4bo$2o2b2o2b2o8b2ob3o$4b2o11bo3bo$
+17bo$17bo4bo$11b2o4bo3bo$11bobo4b2obobo$11bobo5bobob2o$12b2o5bobobo2bo
+$20bo3b3o$21b3o$24bo$23b2o$4b2o11b2o$3bobo11bobo$3bo7bo7bo$2b2o8b2o5b
+2o$11b2o!

@@ -1,0 +1,8 @@
+#N p7pipsquirterandregenerativeloop.rle
+#C https://conwaylife.com/wiki/Regenerative_loop
+#C https://www.conwaylife.com/patterns/p7pipsquirterandregenerativeloop.rle
+x = 19, y = 22, rule = B3/S23
+6b2o$6bobo3b2o3b2o$8bo3bobobobo$3bo2bob2o4bobo$3b4o7bo2bo$7b2o2b2o2b2o
+$3b4o$obo3bob2o$2ob2obobo5b2o$3bo4bo5b2o$3bobobob2o$2obobobobo$obo4bob
+o$2bob2obo2b2o$2bobo3bobo$b2o2bob2obo$2bobo4bo$2bo3b3o$3b2obo$8b3o$b7o
+2bo$bo2bo2bo!

@@ -1,0 +1,7 @@
+#N hf110b.rle
+#C https://conwaylife.com/wiki/HLx111R
+#C https://www.conwaylife.com/patterns/hf110b.rle
+x = 33, y = 30, rule = B3/S23
+19bo$17b3o$16bo$16b2o$28b2o$12b2o14bo$12b2o8b2o5bo$22b2o4b2o4$30b2o$
+32bo$30b2o$30bo7$o$obo20b2o$3o20bo$2bo10b2o3b2o4b3o$11bo2bo4bo6bo$11b
+3o4bo$18b2o$11b2obo$11bob2o!

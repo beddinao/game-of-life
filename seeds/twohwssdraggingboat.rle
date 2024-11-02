@@ -1,0 +1,5 @@
+#N twohwssdraggingboat.rle
+#C https://conwaylife.com/wiki/Two_HWSS_dragging_boat
+#C https://www.conwaylife.com/patterns/twohwssdraggingboat.rle
+x = 8, y = 14, rule = B3/S23
+3b2o$bo4bo$o$o5bo$6o2$5bobo$4bo2bo$5bo$3b2o2bo$bo5bo$o$o5bo$6o!

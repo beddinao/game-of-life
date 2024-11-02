@@ -1,0 +1,6 @@
+#N wwei23backrake.rle
+#C https://conwaylife.com/wiki/Backrake_2
+#C https://www.conwaylife.com/patterns/Wwei23backrake.rle
+x = 20, y = 6, rule = B3/S23
+9bo7bo$b3o4b3o5b3o$o2bo3bo2b2o4bob2o$3bo3bo3bo5b3o$3bo4b2o2bo4b2o$obo
+8bo!

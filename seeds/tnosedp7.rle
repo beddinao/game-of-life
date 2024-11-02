@@ -1,0 +1,8 @@
+#N tnosedp7.rle
+#O Martin Grant, 2021
+#C https://conwaylife.com/wiki/T-nosed_p7
+#C https://www.conwaylife.com/patterns/tnosedp7.rle
+x = 19, y = 15, rule = B3/S23
+9bo$9bo$8b3o2$b2o3b2o3b2o3b2o$o2bo5bo5bo2bo$3o13b3o$3b3o7b3o$2o3b4ob4o
+3b2o$ob2o3bo3bo3b2obo$2bo2bo2bobo2bo2bo$o2b2o2b2ob2o2b2o2bo$2obo11bob
+2o$3bo11bo$3b2o9b2o!

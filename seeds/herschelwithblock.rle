@@ -1,0 +1,5 @@
+#N herschelwithblock.rle
+#C https://conwaylife.com/wiki/List_of_common_evolutionary_sequences
+#C https://www.conwaylife.com/patterns/herschelwithblock.rle
+x = 14, y = 4, rule = B3/S23
+o11b2o$3o9b2o$obo$2bo!

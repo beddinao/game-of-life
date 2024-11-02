@@ -1,0 +1,8 @@
+#N bx222variant.rle
+#C https://conwaylife.com/wiki/Bx222
+#C https://www.conwaylife.com/patterns/bx222variant.rle
+x = 43, y = 37, rule = B3/S23
+9b2o$9bo$7bobo10bo$7b2o11b3o$23bo$2o20b2o$2o29bo6bo$29b3o5bobo$28bo8bo
+bo$28b2o6b2ob3o$42bo$3bo15b2o15b2ob3o$3bo15b2o15b2obo$b3o$bo3$41b2o$
+41bo$39bobo$39b2o7$7bo$7bobo$7b3o$9bo20b2o$30bo$19b2o10b3o$19b2o2b2o8b
+o$23bobo$25bo$25b2o!

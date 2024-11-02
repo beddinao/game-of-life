@@ -1,0 +1,6 @@
+#N pisplitter.rle
+#C https://conwaylife.com/wiki/Regenerative_loop
+#C https://www.conwaylife.com/patterns/pisplitter.rle
+x = 20, y = 14, rule = B3/S23
+15bo$14bobo$14bobo$13b2ob2o$12bo2bo2bo$3o8bobobobobo$2bo9bobobobo$3o
+11bobo$14bo2bo$15b2o3$14b2o$14b2o!

@@ -1,0 +1,8 @@
+#N catereron84p199.rle
+#C https://conwaylife.com/wiki/84P199
+#C https://www.conwaylife.com/patterns/catereron84p199.rle
+x = 61, y = 45, rule = B3/S23
+16b2o16b2o$16b2o7b2o7b2o$25b2o5$2o48b2o$2o48b2o2$55bo$18bo14bo19bo3b4o
+$18b3o10b3o19bo3bo$53bo$19b3o8b3o23bo$54b2o4$8b2o32b2o$8b2o32b2o4$8b2o
+32b2o$8b2o32b2o5$19b3o8b3o2$18b3o10b3o$18bo14bo3$2o48b2o$2o48b2o5$25b
+2o$16b2o7b2o7b2o$16b2o16b2o!

@@ -1,0 +1,8 @@
+#N p17p5diamondphaseshifter.rle
+#C https://conwaylife.com/wiki/P5_diamond
+#C https://www.conwaylife.com/patterns/p17p5diamondphaseshifter.rle
+x = 23, y = 23, rule = B3/S23
+8b2ob2o$8b2obo$12bo$6b6o$5bo6b3o$5b2o3b2o3bob2o$12bo2bobobo$5b7obobo3b
+o$4bo6bobobo3bob2o$4bo2b4ob2obo3bob2o$obobobo2bo3bobobobo$2obobob2o5b
+2obobob2o$3bobobobo3bo2bobobobo$2obo3bob2ob4o2bo$2obo3bobobo6bo$3bo3bo
+bob7o$3bobobo2bo$4b2obo3b2o3b2o$8b3o6bo$11b6o$10bo$11bob2o$10b2ob2o!

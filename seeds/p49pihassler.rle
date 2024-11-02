@@ -1,0 +1,9 @@
+#N p49pihassler.rle
+#O Nico Brown, 2023
+#C https://conwaylife.com/wiki/P49_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/p49pihassler.rle
+x = 52, y = 24, rule = B3/S23
+33b2o$34bo$6bo27bob2ob2obo$4b3o21bo6bobobob2o$3bo23bobo6bo$3b2o18b2o2b
+o2bo$14b2o7b2o3b2o$2o12b2o$obo$b2o32bobo$35b3o$36bo$15bo$14b3o$14bobo
+32b2o$49bobo$36b2o12b2o$22b2o3b2o7b2o$21bo2bo2b2o18b2o$15bo6bobo23bo$
+9b2obobobo6bo21b3o$9bob2ob2obo27bo$17bo$17b2o!

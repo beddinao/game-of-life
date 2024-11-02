@@ -1,0 +1,6 @@
+#N moldon30p25.rle
+#C https://conwaylife.com/wiki/30P25
+#C https://www.conwaylife.com/patterns/moldon30p25.rle
+x = 20, y = 20, rule = B3/S23
+18b2o$18bo$16bobo$10bo2bo2b2o$10bo2bo$9bo4bo$13bo$10b2obo5$6bob2o$6bo$
+5bo4bo$6bo2bo6b3o$2b2o2bo2bo4bob3o$bobo9bobobo$bo11bo2bo$2o12b2o!

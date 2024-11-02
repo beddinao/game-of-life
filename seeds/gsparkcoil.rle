@@ -1,0 +1,5 @@
+#N gsparkcoil.rle
+#C https://conwaylife.com/wiki/G_(induction_coil)
+#C https://www.conwaylife.com/patterns/gsparkcoil.rle
+x = 10, y = 6, rule = B3/S23
+o8bo$3o4b3o$3bo2bo$2obo2bob2o$o2bo2bo2bo$b2o4b2o!

@@ -1,0 +1,11 @@
+#N p736gun.rle
+#C https://conwaylife.com/wiki/Bipole
+#C https://www.conwaylife.com/patterns/p736gun.rle
+x = 45, y = 38, rule = B3/S23
+35bo2b2o$35b4obo$40bo$8bo24b7ob2o$8b3o21bo6bobo2bo$11bo20b2o2b2obo3b2o
+$10b2o15b2o7b2ob2o$4b2o21bo$5bo23bo$5bobo17b5o$6b2o17bo13bo$28b4o6bobo
+$22b2o4bo2bo6bobo$17b2o3bo16bo$17b2o4bobo$26bob2o$25b2ob2o3bo$21bo10bo
+bo$2o19bo11bo$bo19b2o$bobo10b2o6bo$2b2o10b3o4bo3bo5b2o6b2o$8bo7b2o7bo
+6b2o5bo$7bobo6bob3ob2o7bo8b3o$17b2o2b2o19bo$8b2o11bo2bobo$17bo2bo2b2ob
+2o$17bo2bo2bo2bo$18bo5b2o2$27b2o$27bo$28b3o$30bo$16b2o$16bo$17b3o$19bo
+!

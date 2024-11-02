@@ -1,0 +1,5 @@
+#N hookstesttubebaby.rle
+#C https://conwaylife.com/wiki/Test_tube_baby
+#C https://www.conwaylife.com/patterns/hookstesttubebaby.rle
+x = 10, y = 5, rule = B3/S23
+obo4bobo$2obo2bob2o$3bo2bo$3bo2bo$4b2o!

@@ -1,0 +1,7 @@
+#N coebackrake.rle
+#C https://conwaylife.com/wiki/Coe_ship
+#C https://www.conwaylife.com/patterns/coebackrake.rle
+x = 44, y = 21, rule = B3/S23
+29b4o$28b6o$28b4ob2o$32b2o4$38b6o$26b2o8b2o5bo$25b3o6b2obo5bo$26b3o9bo
+3bo$27bobo10bo$12bobo13bo11b2o$12b2o25b4o$13bo25b2ob2o$41b2o$obo27b6o$
+2o27bo5bo$bo33bo$29bo4bo$31b2o!

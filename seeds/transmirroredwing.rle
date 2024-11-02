@@ -1,0 +1,5 @@
+#N transmirroredwing.rle
+#C https://conwaylife.com/wiki/Trans-mirrored_wing
+#C https://www.conwaylife.com/patterns/transmirroredwing.rle
+x = 9, y = 5, rule = B3/S23
+b2o$o2bob2o$bobobobo$2b2obo2bo$6b2o!

@@ -1,0 +1,8 @@
+#N p38reflectglider.rle
+#C https://conwaylife.com/wiki/44P38
+#C https://www.conwaylife.com/patterns/p38reflectglider.rle
+x = 40, y = 55, rule = B3/S23
+33bo$31b2o$32b2o11$2b3o30b3o2$o5bo2b2o18b2o2bo5bo$o4b2o4bo16bo4b2o4bo$
+o11bo14bo11bo$11b2o14b2o3$5b2o26b2o$5bo28bo$6b3o22b3o$8bo22bo6$32bobo$
+32b2o$33bo11$2b3o30b3o2$o5bo2b2o18b2o2bo5bo$o4b2o4bo16bo4b2o4bo$o11bo
+14bo11bo$11b2o14b2o3$5b2o26b2o$5bo28bo$6b3o22b3o$8bo22bo!

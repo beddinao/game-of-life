@@ -1,0 +1,6 @@
+#N tubseatingphoenix.rle
+#C https://conwaylife.com/wiki/Fuse
+#C https://www.conwaylife.com/patterns/tubseatingphoenix.rle
+x = 23, y = 23, rule = B3/S23
+21b2o2$19b2o2$17b2o2$15b2o2$13b2o2$11b2o2$9b2o2$7b2o2$5b2o2$3b2o$2bo$
+bobo$obo$2o!

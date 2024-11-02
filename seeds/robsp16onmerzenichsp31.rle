@@ -1,0 +1,7 @@
+#N robsp16onmerzenichsp31.rle
+#C https://conwaylife.com/wiki/Merzenich%27s_p31
+#C https://www.conwaylife.com/patterns/robsp16onmerzenichsp31.rle
+x = 24, y = 30, rule = B3/S23
+8bo6bo$7b4o2b4o$2o4bo3bo2bo3bo4b2o$2o5bob2o2b2obo5b2o$8bo6bo6$8bo6bo$2o5bob2o
+2b2obo5b2o$2o4bo3bo2bo3bo4b2o$7b4o2b4o$8bo6bo7$11b3o2$6b2ob2o$6b2obobo$12bo$
+7bo4bo$7bo4bo$8bo2b2o$11b2o!

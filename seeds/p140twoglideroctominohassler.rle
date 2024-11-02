@@ -1,0 +1,6 @@
+#N p140twoglideroctominohassler.rle
+#O Carson Cheng, 2023
+#C https://conwaylife.com/wiki/P140_two-glider_octomino_hassler
+#C https://www.conwaylife.com/patterns/p140twoglideroctominohassler.rle
+x = 42, y = 34, rule = B3/S23
+19bo$19b3o$22bo$21b2o$2bo7b2o$2b3o5b2o$5bo$4b2o2$40bo$39bobo$40bo$22b3o$22bo2bo2$24b2o3$16b2o2$16bo2bo$17b3o$bo$obo$bo2$36b2o$36bo$30b2o5b3o$30b2o7bo$19b2o$19bo$20b3o$22bo!

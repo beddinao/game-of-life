@@ -1,0 +1,5 @@
+#N pentadecathlonsynthesis.rle
+#C https://conwaylife.com/wiki/3-glider_collision
+#C https://www.conwaylife.com/patterns/pentadecathlonsynthesis.rle
+x = 10, y = 9, rule = B3/S23
+6bo$6bobo$6b2o2$3o$2bo$bo5b2o$8b2o$7bo!

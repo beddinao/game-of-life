@@ -1,0 +1,7 @@
+#N pulsaronpentadecathloni.rle
+#C https://conwaylife.com/wiki/Pentadecathlon
+#C https://www.conwaylife.com/patterns/pulsaronpentadecathloni.rle
+x = 22, y = 15, rule = B3/S23
+2b2o5b2o$3b2o3b2o$o2bobobobo2bo$3ob2ob2ob3o$bobobobobobo$2b3o3b3o5b3o$
+15bo3bo$2b3o3b3o3bo5bo$bobobobobobo$3ob2ob2ob3o8bo$o2bobobobo2bo8bo$3b
+2o3b2o$2b2o5b2o3bo5bo$15bo3bo$16b3o!

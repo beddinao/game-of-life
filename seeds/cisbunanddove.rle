@@ -1,0 +1,5 @@
+#N cisbunanddove.rle
+#C https://conwaylife.com/wiki/Cis-bun_and_dove
+#C https://www.conwaylife.com/patterns/cisbunanddove.rle
+x = 8, y = 5, rule = B3/S23
+6bo$bo3bobo$obobo2bo$obobobo$b2ob2o!

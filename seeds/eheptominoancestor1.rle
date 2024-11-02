@@ -1,0 +1,5 @@
+#N eheptominoancestor1.rle
+#C https://conwaylife.com/wiki/E-heptomino
+#C https://www.conwaylife.com/patterns/eheptominoancestor1.rle
+x = 4, y = 4, rule = B3/S23
+3o$3bo$o2bo$2b2o!

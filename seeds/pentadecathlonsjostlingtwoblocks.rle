@@ -1,0 +1,7 @@
+#N pentadecathlonsjostlingtwoblocks.rle
+#O Robert Wainwright, 1984
+#C https://conwaylife.com/wiki/Pentadecathlons_jostling_two_blocks
+#C https://www.conwaylife.com/patterns/pentadecathlonsjostlingtwoblocks.rle
+x = 13, y = 19, rule = B3/S23
+b2o6b2o$o2bo4bo2bo$o2bo4bo2bo$o2bo4bo2bo$b2o6b2o3$7bo$5bo2bob2o$6b2o2b
+2o3$6b4o$5b6o$4b8o$3b2o6b2o$4b8o$5b6o$6b4o!

@@ -1,0 +1,5 @@
+#N r2d2alternatestator.rle
+#C https://conwaylife.com/wiki/R2-D2
+#C https://www.conwaylife.com/patterns/r2d2alternatestator.rle
+x = 8, y = 11, rule = B3/S23
+3b2o$3b2o2$b6o$o6bo$2o3b3o2$8o$o6bo$3b2o$3b2o!

@@ -1,0 +1,5 @@
+#N metabookendandhouse.rle
+#C https://conwaylife.com/wiki/Meta-bookend_and_house
+#C https://www.conwaylife.com/patterns/metabookendandhouse.rle
+x = 7, y = 5, rule = B3/S23
+2o3b2o$obobobo$2bobo$b2obobo$5b2o!

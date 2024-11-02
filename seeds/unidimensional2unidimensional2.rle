@@ -1,0 +1,5 @@
+#N unidimensional2unidimensional2.rle
+#C https://conwaylife.com/wiki/One-cell-thick_pattern
+#C https://www.conwaylife.com/patterns/unidimensional2unidimensional2.rle
+x = 77, y = 1, rule = B3/S23
+11ob4o2b4ob3o6b6ob3o2b9ob3ob3o7b5ob3o!

@@ -1,0 +1,6 @@
+#N unixoncharitysp16.rle
+#C https://conwaylife.com/wiki/Charity%27s_p16
+#C https://www.conwaylife.com/patterns/unixoncharitysp16.rle
+x = 24, y = 16, rule = B3/S23
+4b2o$2obo$2o2bo2bo$5bobo$6bo5b2o$12b2o$5b2o$5b2o$18b2o$12b3o3b2obo$12b
+3o7bo$12b2o5bo$20bob2o$14bo7b2o$13bobo$14bo!

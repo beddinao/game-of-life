@@ -1,0 +1,5 @@
+#N transmirroredcap.rle
+#C https://conwaylife.com/wiki/Cap
+#C https://www.conwaylife.com/patterns/transmirroredcap.rle
+x = 7, y = 6, rule = B3/S23
+b2o$obo$obob2o$b2obobo$4bobo$4b2o!

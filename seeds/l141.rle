@@ -1,0 +1,6 @@
+#N l141.rle
+#O Christopher D'Agostino, 2024
+#C https://conwaylife.com/wiki/L141
+#C https://www.conwaylife.com/patterns/l141.rle
+x = 26, y = 33, rule = B3/S23
+22b2o$o21bobo$3o21bo$3bo20b2o$2b2o2$24b2o$23bobo$24bo3$22b2o$22b2o2$bo$bobo$b3o$3bo5$5bo$4bobo$5bo5$8b2o$9bo$6b3o$6bo!

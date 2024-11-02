@@ -1,0 +1,9 @@
+#N p76blockpusher.rle
+#C https://conwaylife.com/wiki/44P38
+#C https://www.conwaylife.com/patterns/p76blockpusher.rle
+x = 44, y = 30, rule = B3/S23
+o42bo$3o38b3o$3bo36bo$2b2o36b2o3$13b2o14b2o$12bobo14bobo$b3o2bobo2bo2b
+o14bo2bo2bobo2b3o$6bobo3b2o16b2o3bobo2$5b2o12bo17b2o$5bo16bo15bo$18bo
+4bo$17b2ob2o$17b2ob2o$18bo4bo$5bo16bo15bo$5b2o12bo17b2o2$6bobo3b2o16b
+2o3bobo$b3o2bobo2bo2bo14bo2bo2bobo2b3o$12bobo14bobo$13b2o14b2o3$2b2o
+36b2o$3bo36bo$3o38b3o$o42bo!

@@ -1,0 +1,5 @@
+#N greatonoffpredecessor.rle
+#C https://conwaylife.com/wiki/Great_on-off
+#C https://www.conwaylife.com/patterns/greatonoffpredecessor.rle
+x = 12, y = 12, rule = B3/S23
+9b2o$8bo2bo$8bo2bo$8b3o2$2b3o2$o5bo$o5bo$o5bo2$2b3o!

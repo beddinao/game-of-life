@@ -1,0 +1,5 @@
+#N eatertailtieship.rle
+#C https://conwaylife.com/wiki/Eater_tail_tie_ship
+#C https://www.conwaylife.com/patterns/eatertailtieship.rle
+x = 5, y = 7, rule = B3/S23
+b2o$bobo$3bo$3b2o$b2o$obo$2o!

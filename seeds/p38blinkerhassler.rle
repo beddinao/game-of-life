@@ -1,0 +1,9 @@
+#N p38blinkerhassler.rle
+#C https://conwaylife.com/wiki/44P38
+#C https://www.conwaylife.com/patterns/p38blinkerhassler.rle
+x = 42, y = 31, rule = B3/S23
+7bo22bo$5b3o22b3o$4bo28bo$4b2o26b2o2$16bo4bo$14b2o6b2o$b3o9b3o6b3o9b3o
+$bobo7b3o10b3o7bobo$b3o6bo2bobobo2bobobo2bo6b3o$9bo4b3o4b3o4bo$10bobo
+12bobo4$19b2o$19bo2bo$19bo2bo$4bo14bo2bo14bo$4b2o14b2o14b2o2$5bobo3b2o
+16b2o3bobo$3o2bobo2bo2bo14bo2bo2bobo2b3o$11bobo14bobo$12b2o14b2o3$6b2o
+26b2o$6bo28bo$7b3o22b3o$9bo22bo!

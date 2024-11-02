@@ -1,0 +1,8 @@
+#N p40piheptominohassler4.rle
+#C https://conwaylife.com/wiki/Period-40_pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p40piheptominohassler4.rle
+x = 37, y = 23, rule = B3/S23
+22bo$21bobo$22bo$28b4o$27bo4bob2o$27bo4bo3bo$30b2o4bo$15b3o9b2o4bo2bo
+$15bo10bo2bo3bo2bo$2b4o9b3o8bo2bo4b2o$bo4bob2o16bo4b2o$bo4bo3bo15bo3b
+o4bo$4b2o4bo16b2obo4bo$b2o4bo2bo8b3o9b4o$o2bo3bo2bo10bo$o2bo4b2o9b3o$
+o4b2o$o3bo4bo$b2obo4bo$5b4o$14bo$13bobo$14bo!

@@ -1,0 +1,7 @@
+#N bracketpulsar.rle
+#O Hartmut Holzwart, 1993
+#C https://conwaylife.com/wiki/Bracket_pulsar
+#C https://www.conwaylife.com/patterns/bracketpulsar.rle
+x = 15, y = 15, rule = B3/S23
+5bo3bo$5bo3bo$5bo3bo$4b2o3b2o$3bobo3bobo$5o5b5o4$5o5b5o$3bobo3bobo$4b
+2o3b2o$5bo3bo$5bo3bo$5bo3bo!

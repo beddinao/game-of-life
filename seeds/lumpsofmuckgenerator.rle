@@ -1,0 +1,5 @@
+#N lumpsofmuckgenerator.rle
+#C https://conwaylife.com/wiki/Lumps_of_muck
+#C https://www.conwaylife.com/patterns/lumpsofmuckgenerator.rle
+x = 4, y = 3, rule = B3/S23
+o$2o$b3o!

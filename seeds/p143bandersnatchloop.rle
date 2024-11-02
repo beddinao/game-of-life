@@ -1,0 +1,11 @@
+#N p143bandersnatchloop.rle
+#O Sphenocorona, 2020
+#C https://conwaylife.com/wiki/P143_Bandersnatch_loop
+#C https://www.conwaylife.com/patterns/p143bandersnatchloop.rle
+x = 46, y = 56, rule = B3/S23
+15bo$14bobo$14bobo7b2o$12b3ob2o6b2o$11bo19b2o$12b3ob2o13b2o$14bob2o4$27bo$26b
+obo$25bo2bo$26b2o9b2o$37b2o2$42bo$15b2o7b2o14b3o$15b2o6bobo13bo$25bo13b2o$9b
+2o34bo$9b2o32b3o$42bo$3b2o37b2o$3b2o4b2o$9b2o5$35b2o$35b2o4b2o$2b2o37b2o$3bo$
+3o32b2o$o34b2o$5b2o13bo$6bo13bobo6b2o$3b3o14b2o7b2o$3bo2$7b2o$7b2o9b2o$17bo2b
+o$17bobo$18bo4$28b2obo$13b2o13b2ob3o$13b2o19bo$20b2o6b2ob3o$20b2o7bobo$29bobo
+$30bo!

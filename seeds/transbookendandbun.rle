@@ -1,0 +1,5 @@
+#N transbookendandbun.rle
+#C https://conwaylife.com/wiki/Trans-bookend_and_bun
+#C https://www.conwaylife.com/patterns/transbookendandbun.rle
+x = 7, y = 5, rule = B3/S23
+2o$obob2o$2bobobo$b2obobo$5bo!
