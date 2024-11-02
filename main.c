@@ -26,6 +26,13 @@ typedef struct data
 	int		rows;
 	int		columns;
 	//
+	int		center_x;
+	int		center_y;
+	//
+	int		init_cursor_x;
+	int		init_cursor_y;
+	int		cursor_pressed;
+	//
 	bool		**population;
 	int		generation;
 	int		current_population;
@@ -92,10 +99,82 @@ void	key_handle(mlx_key_data_t keydata, void *p) {
 
 void	scroll_handle(double xdelta, double ydelta, void *param) {
 	data	*_data = (data*)param;
-	if (ydelta > 0)
+
+	if (ydelta > 0 && _data->PPC < _data->width && _data->PPC < _data->height) 
 		_data->PPC += 1;
-	else if (ydelta < 0 && _data->PPC > 1)
+	else if (ydelta < 0 && _data->PPC > 1) 
 		_data->PPC -= 1;
+	if (_data->PPC == 1) {
+		_data->center_x = _data->columns / 2;
+		_data->center_y = _data->rows / 2;
+	}
+}
+
+void	mouse_handle(mouse_key_t button, action_t action, modifier_key_t mods, void *param) {
+	data	*_data = (data*)param;
+	///
+	int		diff_x, diff_y;
+	if (!_data->cursor_pressed && action == MLX_PRESS)
+		_data->cursor_pressed = 1;
+	else if (_data->cursor_pressed && action == MLX_RELEASE) 
+		_data->cursor_pressed = 0;
+}
+// NewValue = (((OldValue - OldMin) * (NewMax - NewMin)) / (OldMax - OldMin)) + NewMin
+//
+int	__calc_new_range(int old_value, int old_min, int old_max, int new_min, int new_max)
+{
+	int					res;
+
+	/*if (old_value == old_min)
+		res = new_min;
+	else	*/res = (((old_value - old_min) * (new_max - new_min)) / (old_max - old_min)) + new_min;
+	return (res);
+}
+
+void	cursor_handle(double xpos, double ypos, void *param) {
+	data	*_data = (data*)param;
+	///
+	int	diff_x, diff_y;
+	int	new_center_x, new_center_y,
+		margin_x, margin_y;
+	//
+	if (!_data->cursor_pressed) {
+		_data->init_cursor_x = xpos;
+		_data->init_cursor_y = ypos;
+	}
+	else {
+		diff_x = abs(_data->init_cursor_x - (int)xpos);
+		diff_y = abs(_data->init_cursor_y - (int)ypos);
+		/*printf("x-diff: %i, y-diff: %i\n", diff_x, diff_y);*/
+		margin_y = _data->rows / (2 * _data->PPC);
+		margin_x = _data->columns / (2 * _data->PPC);
+		//
+		//
+		new_center_x = __calc_new_range(diff_x, 0, _data->width, _data->center_x - margin_x, _data->center_x + margin_x);
+		new_center_y = __calc_new_range(diff_y, 0, _data->height, _data->center_y - margin_y, _data->center_y + margin_y);
+		//
+		new_center_x += _data->center_x;
+		new_center_y += _data->center_y;
+
+		/*printf("x: [%i - %f  - %i] -> [%i - %i - %i]; y: [%i - %f - %i] -> [%i - %i - %i]\n",
+			0, xpos, _data->width, _data->center_x - margin_x, new_center_x, _data->center_x + margin_x,
+			0, ypos, _data->height, _data->center_y - margin_x, new_center_y, _data->center_y + margin_y);*/
+
+
+		if (new_center_x - margin_x > 0 && new_center_x + margin_x < _data->columns)
+			_data->center_x = new_center_x;
+		if (new_center_y - margin_y > 0 && new_center_y + margin_y < _data->rows)
+			_data->center_y = new_center_y;
+		//
+		//
+		/*new_start_x = _data->start_x + (diff_x / (5 * _data->PPC));
+		new_start_y = _data->start_y + (diff_y / (5 * _data->PPC));
+		//
+		if (new_start_x > 0 && new_start_x < _data->columns)
+			_data->start_x = new_start_x;
+		if (new_start_y > 0 && new_start_y < _data->rows)
+			_data->start_y = new_start_y;*/
+	}
 }
 
 void	updata_population(data *_data) {
@@ -211,13 +290,17 @@ void	draw_info(data* _data) {
 }
 
 void	draw_population(data *_data) {
-	int		row = 0, column;
+	int		margin_x = _data->columns / (2 * _data->PPC),
+			margin_y = _data->rows / (2 * _data->PPC);
+	int		row = _data->center_y - margin_y, column;
 
 	for (int y = 0; y < _data->height; y++) {
-		column = 0;
+		column = _data->center_x - margin_x;
 		if (y && !(y % _data->PPC)) row += 1;
+		if (row >= _data->rows || row > _data->center_y + margin_y || row < 0) break ;
 		for (int x = 0; x < _data->width; x++) {
 			if (x && !(x % _data->PPC))	column += 1;
+			if (column >= _data->columns || column > _data->center_x + margin_x || column < 0) break;
 			if (_data->population[row][column]) mlx_put_pixel(_data->mlx_img, x, y, 0xDEDEDEFF);
 		}
 	}
@@ -247,8 +330,8 @@ void	build_population(data *_data) {
 	for (int y = 0; y < _data->rows; y++) {
 		_data->population[y] = malloc( _data->columns * sizeof(bool) );
 		if (!_data->population[y]) exit( release(_data, 1) );
-		for (int x = 0; x < _data->columns; x++)
-			_data->population[y][x] = rand_num(FALSE, 3);
+		/*for (int x = 0; x < _data->columns; x++)
+			_data->population[y][x] = rand_num(FALSE, 3);*/
 	}
 	_data->population[ _data->rows ] = NULL;
 }
@@ -272,14 +355,14 @@ void	init_world(data *_data) {
 	build_population(_data);
 	//	customizations;
 
-	/*int		h_height = _data->rows / 2;
+	int		h_height = _data->rows / 2;
 	int		h_width = _data->columns / 2;
 
 	_data->population[ h_height ][ h_width ] = TRUE;
 	_data->population[ h_height - 1 ][ h_width ] = TRUE;
 	_data->population[ h_height + 1 ][ h_width ] = TRUE;
 	_data->population[ h_height ][ h_width - 1 ] = TRUE;
-	_data->population[ h_height + 1 ][ h_width + 1 ] = TRUE;*/
+	_data->population[ h_height + 1 ][ h_width + 1 ] = TRUE;
 }
 
 int			main() {
@@ -299,12 +382,16 @@ int			main() {
 
 	_data->PPC = 1;
 	draw_bg(_data, 0x000000FF);
+	_data->center_x = (_data->width / 2) * _data->PPC;
+	_data->center_y = (_data->height / 2) * _data->PPC;
 	
 	mlx_image_to_window(_data->mlx_ptr, _data->mlx_img, 0, 0);
 	mlx_close_hook(_data->mlx_ptr, close_handle, _data);
 	mlx_key_hook(_data->mlx_ptr, key_handle, _data);
 	mlx_resize_hook(_data->mlx_ptr, resize_handle, _data);
 	mlx_scroll_hook(_data->mlx_ptr, scroll_handle, _data);
+	mlx_cursor_hook(_data->mlx_ptr, cursor_handle, _data);
+	mlx_mouse_hook(_data->mlx_ptr, mouse_handle, _data);
 
 	_data->GPF = 1;
 	_data->rows = _data->height / _data->PPC;
