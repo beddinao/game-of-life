@@ -358,7 +358,6 @@ bool	check_seed(data *_data, char **v) {
 	
 	bool		valid;
 	while ((read = getline(&buffer, &size, _data->input)) > 0) {
-		printf("%s", buffer);
 		valid = TRUE;
 		w = 0;
 		h = 0;
@@ -373,7 +372,10 @@ bool	check_seed(data *_data, char **v) {
 						w = w * 10 + ( buffer[i] - '0' );
 					i++;
 				}
-				printf("x: %i ", w);
+				if (!h || h > _data->rows) {
+					free(buffer);
+					return	FALSE;
+				}
 			}
 			else if (buffer[i] == 'y') {
 				while (i < read && buffer[i] != ',' && buffer[i] != '\n') {
@@ -381,7 +383,10 @@ bool	check_seed(data *_data, char **v) {
 						h = h * 10 + ( buffer[i] - '0' );
 					i++;
 				}
-				printf("y: %i ", h);
+				if (!w || w > _data->columns) {
+					free(buffer);
+					return	FALSE;
+				}
 			}
 		}
 
