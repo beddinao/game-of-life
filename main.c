@@ -21,7 +21,7 @@ typedef struct data
 	int		width;
 	int		height;
 	int		PPC;
-	int		GPF;
+	int		FPG;
 	int		cur_frame;
 	int		rows;
 	int		columns;
@@ -113,67 +113,42 @@ void	scroll_handle(double xdelta, double ydelta, void *param) {
 void	mouse_handle(mouse_key_t button, action_t action, modifier_key_t mods, void *param) {
 	data	*_data = (data*)param;
 	///
-	int		diff_x, diff_y;
 	if (!_data->cursor_pressed && action == MLX_PRESS)
 		_data->cursor_pressed = 1;
 	else if (_data->cursor_pressed && action == MLX_RELEASE) 
 		_data->cursor_pressed = 0;
 }
-// NewValue = (((OldValue - OldMin) * (NewMax - NewMin)) / (OldMax - OldMin)) + NewMin
 //
-int	__calc_new_range(int old_value, int old_min, int old_max, int new_min, int new_max)
-{
-	int					res;
-
-	/*if (old_value == old_min)
-		res = new_min;
-	else	*/res = (((old_value - old_min) * (new_max - new_min)) / (old_max - old_min)) + new_min;
-	return (res);
+int	__calc_new_range(int old_value, int old_min, int old_max, int new_min, int new_max) {
+	if (old_value == old_min)
+		return(new_min);
+	return (((old_value - old_min) * (new_max - new_min)) / (old_max - old_min)) + new_min;
 }
 
 void	cursor_handle(double xpos, double ypos, void *param) {
 	data	*_data = (data*)param;
-	///
-	int	diff_x, diff_y;
-	int	new_center_x, new_center_y,
+	int	diff_x, diff_y,
+		new_center_x, new_center_y,
 		margin_x, margin_y;
-	//
+	//	
 	if (!_data->cursor_pressed) {
 		_data->init_cursor_x = xpos;
 		_data->init_cursor_y = ypos;
 	}
 	else {
-		diff_x = abs(_data->init_cursor_x - (int)xpos);
-		diff_y = abs(_data->init_cursor_y - (int)ypos);
-		/*printf("x-diff: %i, y-diff: %i\n", diff_x, diff_y);*/
+		diff_x = (_data->init_cursor_x - (int)xpos) / 10;
+		diff_y = (_data->init_cursor_y - (int)ypos) / 10;
+
 		margin_y = _data->rows / (2 * _data->PPC);
 		margin_x = _data->columns / (2 * _data->PPC);
-		//
-		//
-		new_center_x = __calc_new_range(diff_x, 0, _data->width, _data->center_x - margin_x, _data->center_x + margin_x);
-		new_center_y = __calc_new_range(diff_y, 0, _data->height, _data->center_y - margin_y, _data->center_y + margin_y);
-		//
-		new_center_x += _data->center_x;
-		new_center_y += _data->center_y;
-
-		/*printf("x: [%i - %f  - %i] -> [%i - %i - %i]; y: [%i - %f - %i] -> [%i - %i - %i]\n",
-			0, xpos, _data->width, _data->center_x - margin_x, new_center_x, _data->center_x + margin_x,
-			0, ypos, _data->height, _data->center_y - margin_x, new_center_y, _data->center_y + margin_y);*/
-
-
+		
+		new_center_x = _data->center_x + diff_x/_data->PPC;
+		new_center_y = _data->center_y + diff_y/_data->PPC;
+		
 		if (new_center_x - margin_x > 0 && new_center_x + margin_x < _data->columns)
 			_data->center_x = new_center_x;
 		if (new_center_y - margin_y > 0 && new_center_y + margin_y < _data->rows)
 			_data->center_y = new_center_y;
-		//
-		//
-		/*new_start_x = _data->start_x + (diff_x / (5 * _data->PPC));
-		new_start_y = _data->start_y + (diff_y / (5 * _data->PPC));
-		//
-		if (new_start_x > 0 && new_start_x < _data->columns)
-			_data->start_x = new_start_x;
-		if (new_start_y > 0 && new_start_y < _data->rows)
-			_data->start_y = new_start_y;*/
 	}
 }
 
@@ -267,7 +242,7 @@ void	put_number(data *_data, int num, int x, int y, int index) {
 	
 	mlx_image_t *image = mlx_put_string(_data->mlx_ptr, num_str, x, y);
 	if (image) {
-		mlx_image_to_window(_data->mlx_ptr, image, x, y);
+		//mlx_image_to_window(_data->mlx_ptr, image, x, y);
 		if (_data->number_imgs[index])
 			mlx_delete_image(_data->mlx_ptr, _data->number_imgs[index]);
 		_data->number_imgs[index] = image;
@@ -286,7 +261,7 @@ void	draw_info(data* _data) {
 	put_number(_data, _data->generation, 110, 5, 0);
 	put_number(_data, _data->current_population, 110, 22, 1);
 	put_number(_data, _data->PPC, 180, 39, 2);
-	put_number(_data, _data->GPF, 230, 56, 3);
+	put_number(_data, _data->FPG, 230, 56, 3);
 }
 
 void	draw_population(data *_data) {
@@ -310,7 +285,7 @@ void	draw_population(data *_data) {
 void	loop_hook(void *p) {
 	data	*_data = (data*)p;
 	//
-	if (_data->cur_frame >= _data->GPF) {
+	if (_data->cur_frame >= _data->FPG) {
 		_data->cur_frame = 0;
 		draw_bg(_data, 0x1C1C1CFF);
 		updata_population(_data);
@@ -330,8 +305,9 @@ void	build_population(data *_data) {
 	for (int y = 0; y < _data->rows; y++) {
 		_data->population[y] = malloc( _data->columns * sizeof(bool) );
 		if (!_data->population[y]) exit( release(_data, 1) );
-		/*for (int x = 0; x < _data->columns; x++)
-			_data->population[y][x] = rand_num(FALSE, 3);*/
+		//
+		for (int x = 0; x < _data->columns; x++)
+			_data->population[y][x] = rand_num(FALSE, TRUE);
 	}
 	_data->population[ _data->rows ] = NULL;
 }
@@ -355,14 +331,14 @@ void	init_world(data *_data) {
 	build_population(_data);
 	//	customizations;
 
-	int		h_height = _data->rows / 2;
+	/*int		h_height = _data->rows / 2;
 	int		h_width = _data->columns / 2;
 
 	_data->population[ h_height ][ h_width ] = TRUE;
 	_data->population[ h_height - 1 ][ h_width ] = TRUE;
 	_data->population[ h_height + 1 ][ h_width ] = TRUE;
 	_data->population[ h_height ][ h_width - 1 ] = TRUE;
-	_data->population[ h_height + 1 ][ h_width + 1 ] = TRUE;
+	_data->population[ h_height + 1 ][ h_width + 1 ] = TRUE;*/
 }
 
 int			main() {
@@ -393,7 +369,7 @@ int			main() {
 	mlx_cursor_hook(_data->mlx_ptr, cursor_handle, _data);
 	mlx_mouse_hook(_data->mlx_ptr, mouse_handle, _data);
 
-	_data->GPF = 1;
+	_data->FPG = 1;
 	_data->rows = _data->height / _data->PPC;
 	_data->columns = _data->width / _data->PPC;
 	init_world(_data);
