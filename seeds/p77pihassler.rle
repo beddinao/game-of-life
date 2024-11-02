@@ -1,0 +1,8 @@
+#N p77pihassler.rle
+#C https://conwaylife.com/wiki/Pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p77pihassler.rle
+x = 26, y = 42, rule = B3/S23
+5bo$5b3o$8bo$7b2o2$10b2o$9bobo6bo$9b2o5b3o$15bo$15b2o4$2o$2o2$12b3o$12b
+obo6bob2o$bo10bobo6b2obo$obo$bo$24bo$23bobo$bob2o6bobo10bo$b2obo6bobo
+$11b3o2$24b2o$24b2o4$9b2o$10bo$7b3o5b2o$7bo6bobo$14b2o2$17b2o$17bo$18b
+3o$20bo!

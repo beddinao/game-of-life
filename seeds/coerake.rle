@@ -1,0 +1,8 @@
+#N coerake.rle
+#C https://conwaylife.com/wiki/Coe_ship
+#C https://www.conwaylife.com/patterns/coerake.rle
+x = 44, y = 24, rule = B3/S23
+bo$b2o$obo$29b4o$5bo22b6o$5b2o11b4o6b4ob2o$4bobo10b6o9b2o$17b4ob2o$9bo
+11b2o$9b2o$8bobo27b6o$26b2o8b2o5bo$25b3o6b2obo5bo$14b2o10b3o9bo3bo$12b
+2o2bo10bobo10bo$12b2ob2o11bo11b2o$13bob2o22b4o$12b2o25b2ob2o$41b2o$18b
+2o10b6o$14b4ob2o8bo5bo$14b6o15bo$15b4o10bo4bo$31b2o!

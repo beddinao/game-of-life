@@ -1,0 +1,5 @@
+#N transblockoncandlefrobra.rle
+#C https://conwaylife.com/wiki/Trans-block_on_candlefrobra
+#C https://www.conwaylife.com/patterns/transblockoncandlefrobra.rle
+x = 5, y = 10, rule = B3/S23
+2o$2o2$4o$o3bo$3bo$3bo$2bo$bobo$2bo!

@@ -1,0 +1,5 @@
+#N cismirroreddove.rle
+#C https://conwaylife.com/wiki/Cis-mirrored_dove
+#C https://www.conwaylife.com/patterns/cismirroreddove.rle
+x = 9, y = 5, rule = B3/S23
+bo5bo$obo3bobo$o2bobo2bo$bobobobo$2b2ob2o!

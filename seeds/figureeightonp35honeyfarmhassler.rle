@@ -1,0 +1,8 @@
+#N figureeightonp35honeyfarmhassler.rle
+#C https://conwaylife.com/wiki/P35_honey_farm_hassler
+#C https://www.conwaylife.com/patterns/figureeightonp35honeyfarmhassler.rle
+x = 23, y = 27, rule = B3/S23
+19b2o2$18bo3bo$7b2o8bo4bo$8bo7bobobo$2o13bobobo$obo10bo4bo$bo11bo3bo$
+3bobo3bobo$3bo2bobo6b2o$3bo3bo$4bo8bo$5bo3bob2obo$6b3o5bo$14b2o$b2o$2b
+o5b3o$2bob2obo3bo$3bo8bo$9bo3bo$8bobo2bo$5bobo3bobo$15bo$14bobo$15b2o$
+8bo$8b2o!

@@ -1,0 +1,7 @@
+#N cl48cconduit.rle
+#O Luke Kiernan, 2022
+#C https://conwaylife.com/wiki/CL48C
+#C https://www.conwaylife.com/patterns/cl48cconduit.rle
+x = 17, y = 23, rule = B3/S23
+7bo$6bobo$6bobo$5b2ob3o$11bo$5b2ob3o$5b2obo2$12bo$11bobo$11bobo$10b2ob
+3o$16bo$10b2ob3o$b3o6b2obo$3bo$ob2o$2o2$10b2o$10bobo$12bo$12b2o!

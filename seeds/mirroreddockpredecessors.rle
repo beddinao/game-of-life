@@ -1,0 +1,6 @@
+#N mirroreddockpredecessors.rle
+#C https://conwaylife.com/wiki/Mirrored_dock
+#C https://www.conwaylife.com/patterns/mirroreddockpredecessors.rle
+x = 36, y = 14, rule = B3/S23
+2b3o$b5o22bobobobo$o5bo21bo5bo$b5o22bobobobo$2b3o$31bo$3bo27bo$31bo2$
+27b3o3b3o2$31bo$31bo$31bo!

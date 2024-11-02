@@ -1,0 +1,6 @@
+#N cismiddleweightemulator.rle
+#O Robert Wainwright, 1980
+#C https://conwaylife.com/wiki/Middleweight_emulator
+#C https://www.conwaylife.com/patterns/cismiddleweightemulator.rle
+x = 15, y = 7, rule = B3/S23
+7bo$2b2obo3bob2o$2bo9bo$3b2o5b2o$3o2b5o2b3o$o2bo7bo2bo$b2o9b2o!

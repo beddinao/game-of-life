@@ -1,0 +1,5 @@
+#N cavity.rle
+#C https://conwaylife.com/wiki/Cavity
+#C https://www.conwaylife.com/patterns/cavity.rle
+x = 4, y = 3, rule = B3/S23
+bobo$o2bo$b2o!

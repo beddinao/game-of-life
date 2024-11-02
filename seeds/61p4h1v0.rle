@@ -1,0 +1,7 @@
+#N 61p4h1v0.rle
+#C https://conwaylife.com/wiki/61P4H1V0
+#C https://www.conwaylife.com/patterns/61p4h1v0.rle
+x = 21, y = 13, rule = B3/S23
+4b2o9b2o$b2o2bo9bo2b2o$bo17bo$ob2o3bo2bo2bo3b2obo$7b3ob3o$o4bo3bobo3bo
+4bo$bo6b2ob2o6bo$bo7bobo7bo$6b2obobob2o$6bo2bobo2bo$9bobo$8bo3bo$8b2ob
+2o!

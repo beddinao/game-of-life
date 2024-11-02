@@ -1,0 +1,5 @@
+#N tubgenerator.rle
+#C https://conwaylife.com/wiki/Tub
+#C https://www.conwaylife.com/patterns/tubgenerator.rle
+x = 5, y = 5, rule = B3/S23
+2o$o3bo$2b2o2$2bo!

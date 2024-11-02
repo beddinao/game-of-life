@@ -1,0 +1,7 @@
+#N p5diamond2.rle
+#C https://conwaylife.com/wiki/P5_diamond
+#C https://www.conwaylife.com/patterns/p5diamond2.rle
+x = 17, y = 17, rule = B3/S23
+5b2ob2o$5b2ob2o2$5b7o$4bo7bo$3bob2o3b2obob2o$3bobo5bobob2o$2obo9bo$2o
+bo9bob2o$3bo9bob2o$2obobo5bobo$2obob2o3b2obo$4bo7bo$5b7o2$7b2ob2o$7b2o
+b2o!

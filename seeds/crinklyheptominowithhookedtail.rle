@@ -1,0 +1,5 @@
+#N crinklyheptominowithhookedtail.rle
+#C https://conwaylife.com/wiki/Crinkly_heptomino_with_hooked_tail
+#C https://www.conwaylife.com/patterns/crinklyheptominowithhookedtail.rle
+x = 5, y = 6, rule = B3/S23
+b2o$o2bo$2obo$bob2o$bo$2o!

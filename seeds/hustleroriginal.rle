@@ -1,0 +1,6 @@
+#N hustleroriginal.rle
+#C https://conwaylife.com/wiki/Hustler
+#C https://www.conwaylife.com/patterns/hustleroriginal.rle
+x = 15, y = 14, rule = B3/S23
+6bo$5bobo$6bo2$4b5o$2o2bo4bob2o$bo3bo3bobobo$bobobo3bo3bo$2b2obo4bo2b
+2o$6b5o2$8bo$7bobo$8bo!

@@ -1,0 +1,7 @@
+#N p38wicksupport.rle
+#C https://conwaylife.com/wiki/44P38
+#C https://www.conwaylife.com/patterns/p38wicksupport.rle
+x = 88, y = 12, rule = B3/S23
+2b3o30b2o14b2o30b3o$36bo14bo$o5bo2b2o18b2o4bo16bo4b2o18b2o2bo5bo$o4b2o
+4bo16bo4b2o18b2o4bo16bo4b2o4bo$o11bo14bo32bo14bo11bo$11b2o14b2o30b2o
+14b2o3$5b2o74b2o$5bo76bo$6b3o70b3o$8bo70bo!

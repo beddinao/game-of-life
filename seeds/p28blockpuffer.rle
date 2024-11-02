@@ -1,0 +1,8 @@
+#N p28blockpuffer.rle
+#O Charity Engine, 2022
+#C https://conwaylife.com/wiki/P28_block_puffer
+#C https://www.conwaylife.com/patterns/p28blockpuffer.rle
+x = 29, y = 11, rule = B3/S23
+10b3o3b3o$2bo6bo2bo3bo2bo6bo$b3o5bo3bobo3bo5b3o$2obo9bobo9bob2o$3o5b2o
+3bobo3b2o5b3o$b2o8bobobobo8b2o$9bobobobobobo$13bobo$11bobobobo$10b2obo
+bob2o$11bobobobo!

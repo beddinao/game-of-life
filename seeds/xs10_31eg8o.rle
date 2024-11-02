@@ -1,0 +1,5 @@
+#N xs10_31eg8o.rle
+#C https://conwaylife.com/wiki/Hooked_integral
+#C https://www.conwaylife.com/patterns/xs10_31eg8o.rle
+x = 6, y = 5, rule = B3/S23
+2o$obo$2bo$2bob2o$3bobo!

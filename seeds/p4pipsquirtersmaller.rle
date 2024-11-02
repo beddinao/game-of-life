@@ -1,0 +1,7 @@
+#N p4pipsquirtersmaller.rle
+#C https://conwaylife.com/wiki/P4_pipsquirter
+#C https://www.conwaylife.com/patterns/p4pipsquirtersmaller.rle
+x = 19, y = 14, rule = B3/S23
+5b2o3bobo2bo$5bobobob5o$7bobo6b2o$6b2o2bob2obo2bo$7b2o2bo3bob2o$4bobo
+5b2obo$3b2o2b2o2b2o2bo$2ob2o2b2obo2bobob2o$4bo2bobob3obob2o$3b2o2b2o4b
+obo$4bobo2b4o2bo$4bob2obo2bobo$5bo2bo4bo$6b2o!

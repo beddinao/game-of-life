@@ -1,0 +1,5 @@
+#N eater2variant.rle
+#C https://conwaylife.com/wiki/Eater_2
+#C https://www.conwaylife.com/patterns/eater2variant.rle
+x = 6, y = 9, rule = B3/S23
+2o$o$2bob2o$b2ob2o2$b2ob2o$2bobo$2bobo$3bo!

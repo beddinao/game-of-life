@@ -1,0 +1,7 @@
+#N lwssloaftractorbeam.rle
+#C https://conwaylife.com/wiki/Tractor_beam
+#C https://www.conwaylife.com/patterns/lwssloaftractorbeam.rle
+x = 47, y = 8, rule = B3/S23
+21bo2bo$5b4o11bo14b4o$5bo3bo10bo3bo10bo3bo$5bo8b2o4b4o11bo8b2o$b2o3bo
+2bo3b4o11b2o6bo2bo3b4o$o2bo8b2ob2o10b2ob2o10b2ob2o$obo10b2o13b4o11b2o$
+bo27b2o!

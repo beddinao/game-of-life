@@ -1,0 +1,6 @@
+#N butter.rle
+#O Entity Valkyrie, 2019
+#C https://conwaylife.com/wiki/Butter
+#C https://www.conwaylife.com/patterns/butter.rle
+x = 13, y = 14, rule = B3/S23
+8b2o$8b3o$8b2obo$10bobo$4b2o3bo2bo$3bo6b2o$4bo2bo$4bobobo$2o3bo2bo$3o3b2o$2obo$2bobo$bo2bo$2b2o!

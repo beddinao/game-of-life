@@ -1,0 +1,5 @@
+#N lwsshammeredintomwss.rle
+#C https://conwaylife.com/wiki/Hammer
+#C https://www.conwaylife.com/patterns/lwsshammeredintomwss.rle
+x = 20, y = 6, rule = B3/S23
+o2bo$4bo3b2o$o3bo2b3o5b4o$b4o2b2obo4bo3bo$8b3o4bo$9bo6bo2bo!

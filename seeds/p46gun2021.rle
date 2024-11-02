@@ -1,0 +1,6 @@
+#N p46gun2021.rle
+#C https://conwaylife.com/wiki/Three_quarters_traffic_light_catalyst
+#C https://www.conwaylife.com/patterns/p46gun2021.rle
+x = 37, y = 15, rule = B3/S23
+24b2o$24b2o$36bo$10b2o22b3o$2o7bobo13b2o6bo$2o7bo15b2o6b2o$9b3o4$9b3o
+21b3o$2o7bo20b2o$2o7bobo13bo4b2o$10b2o11bobo4bobo$24b2o!

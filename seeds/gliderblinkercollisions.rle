@@ -1,0 +1,9 @@
+#N gliderblinkercollisions.rle
+#C https://conwaylife.com/wiki/Collisions_of_a_glider_with_common_objects
+#C https://www.conwaylife.com/patterns/gliderblinkercollisions.rle
+x = 50, y = 37, rule = B3/S23
+2bo12bo12bo12bo$2o11b2o11b2o11b2o$b2o11b2o11b2o11b2o4$bo11bo11bo11bo$
+bo11bo11bo11bo$bo11bo11bo11bo6$6bo12bo12bo12bo$4b2o11b2o11b2o11b2o$5b
+2o11b2o11b2o11b2o4$bo11bo11bo11bo$bo11bo11bo11bo$bo11bo11bo11bo6$10bo
+12bo12bo12bo$8b2o11b2o11b2o11b2o$9b2o11b2o11b2o11b2o4$bo11bo11bo11bo$
+bo11bo11bo11bo$bo11bo11bo11bo!

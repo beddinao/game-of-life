@@ -1,0 +1,11 @@
+#N pennylaneextended.rle
+#C https://conwaylife.com/wiki/Penny_lane
+#C https://www.conwaylife.com/patterns/pennylaneextended.rle
+x = 69, y = 15, rule = B3/S23
+13bo11bo11bo11bo11bo$12bobo9bobo9bobo9bobo9bobo$13bo11bo11bo11bo11bo2$
+11b5o7b5o7b5o7b5o7b5o$3b2o5bo2bo2bo5bo2bo2bo5bo2bo2bo5bo2bo2bo5bo2bo2b
+o$3bo7bo3bo7bo3bo7bo3bo7bo3bo7bo3bobob2o$2obo2bobo3bobo3bobo3bobo3bob
+o3bobo3bobo3bobo3bobo3bobo2bob2o$2obobo3bo7bo3bo7bo3bo7bo3bo7bo3bo7bo
+$4bo2bo2bo5bo2bo2bo5bo2bo2bo5bo2bo2bo5bo2bo2bo5b2o$5b5o7b5o7b5o7b5o7b
+5o2$7bo11bo11bo11bo11bo$6bobo9bobo9bobo9bobo9bobo$7bo11bo11bo11bo11bo
+!

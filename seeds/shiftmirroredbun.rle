@@ -1,0 +1,5 @@
+#N shiftmirroredbun.rle
+#C https://conwaylife.com/wiki/Shift-mirrored_bun
+#C https://www.conwaylife.com/patterns/shiftmirroredbun.rle
+x = 7, y = 6, rule = B3/S23
+bo$obo$obo2bo$b2obobo$4bobo$4b2o!

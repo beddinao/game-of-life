@@ -1,0 +1,5 @@
+#N pentadecathlononrobsp16.rle
+#C https://conwaylife.com/wiki/Rob%27s_p16
+#C https://www.conwaylife.com/patterns/pentadecathlononrobsp16.rle
+x = 16, y = 10, rule = B3/S23
+bo6b3o$bo$obo8b2ob2o$bo8bobob2o$bo7bo$bo7bo4bo$bo7bo4bo$obo6b2o2bo$bo7b2o$bo!

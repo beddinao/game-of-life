@@ -1,0 +1,6 @@
+#N p7thumb.rle
+#C https://conwaylife.com/wiki/Period-7_sparkers
+#C https://www.conwaylife.com/patterns/p7thumb.rle
+x = 19, y = 10, rule = B3/S23
+6bo6bo$5bo3b2o3bo$4bo3b4o3bo$bo2bobob4obobo$obobobo6bobob2o$bo2bob2o4b
+2ob2obo$4bo4b2o$5b3obo$7bobo$8bo!

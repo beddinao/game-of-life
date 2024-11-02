@@ -1,0 +1,5 @@
+#N foursiamesehats.rle
+#C https://conwaylife.com/wiki/Small_lake
+#C https://www.conwaylife.com/patterns/foursiamesehats.rle
+x = 9, y = 9, rule = B3/S23
+4bo$3bobo$3bobo$b3ob3o$o7bo$b3ob3o$3bobo$3bobo$4bo!

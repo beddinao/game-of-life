@@ -1,0 +1,5 @@
+#N bunbridgebun.rle
+#C https://conwaylife.com/wiki/Bun_bridge_bun
+#C https://www.conwaylife.com/patterns/bunbridgebun.rle
+x = 6, y = 6, rule = B3/S23
+3b2o$3bobo$bobobo$obobo$obo$b2o!

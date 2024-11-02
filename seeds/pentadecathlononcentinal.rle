@@ -1,0 +1,8 @@
+#N pentadecathlononcentinal.rle
+#C https://conwaylife.com/wiki/Centinal
+#C https://www.conwaylife.com/patterns/pentadecathlononcentinal.rle
+x = 52, y = 23, rule = B3/S23
+22bo4bo$20b2ob4ob2o$22bo4bo4$2o48b2o$bo48bo$bobo44bobo$2b2o32bo11b2o$
+14bo22bo$13b3o3b2o10b2o5bo$14b2o3b2o10b2o2bobo$15bo20bo2$15bo20bo$14b
+2o3b2o10b2o2bobo$13b3o3b2o10b2o5bo$14bo22bo$2b2o32bo11b2o$bobo44bobo$b
+o48bo$2o48b2o!

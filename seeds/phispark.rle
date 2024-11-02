@@ -1,0 +1,5 @@
+#N phispark.rle
+#C https://conwaylife.com/wiki/Phi_spark
+#C https://www.conwaylife.com/patterns/phispark.rle
+x = 5, y = 4, rule = B3/S23
+b3o$o3bo$o3bo$b3o!

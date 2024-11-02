@@ -1,0 +1,9 @@
+#N p24singlepiheptominohassler.rle
+#C https://conwaylife.com/wiki/Pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p24singlepiheptominohassler.rle
+x = 35, y = 28, rule = B3/S23
+11b2o9b2o$10bo2bo7bo2bo$10b3o9b3o$13b9o$12bo2b5o2bo$12b2o2b3o2b2o7$16b
+3o$15bo3bo$6b2o7b2ob2o7b2o$5bobo19bobo$5b3o19b3o$4bo25bo$3bob4o17b4obo
+$b2obo4bo15bo4bob2o$obobob2obob3o7b3obob2obobobo$3obob2obobobo7bobobob
+2obob3o$4bo4bob2o9b2obo4bo$5b4obo13bob4o$9bo15bo$6b3o17b3o$6bobo17bobo
+$6b2o19b2o!

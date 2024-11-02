@@ -1,0 +1,5 @@
+#N boattiequadpole.rle
+#C https://conwaylife.com/wiki/Boat_tie_quadpole
+#C https://www.conwaylife.com/patterns/boattiequadpole.rle
+x = 10, y = 10, rule = B3/S23
+bo$obo$b2o$3b2o$3bobo2$5bobo2$7bobo$8b2o!

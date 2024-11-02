@@ -1,0 +1,10 @@
+#N pseudop94gun.rle
+#C https://conwaylife.com/wiki/AK-94
+#C https://www.conwaylife.com/patterns/pseudop94gun.rle
+x = 46, y = 25, rule = B3/S23
+19bo7b2o$19b3o5b2o12b2o$22bo17bo2bo$21b2o16bo2bobo$39b2obobo$35b2o2b2o
+bob2o$23bo12b2o4bo$3b2o17bob2o9b2o3b3o$2bo2bo16bo2bo10b2obo3b2o$bobo2b
+o16b3o4bo6bob2obo2bo$bobob2o21bo2bo5bo5b2o$2obo5b2o18b2o6bo2b3o$3bobo
+3bo25bo6bo$3b2o4bo26bo3bobob2o$b2o3bob2o26bo3bobobo$o2bob2obo30bob2obo
+$b2o3bobobo29bo2bo$3b3obo2bo30b2o$3bo2bobo$2obob6o$bobo3bo$bobo2bo16b
+2o$2bo2bo17bo$3b2o12b2o5b3o$17b2o7bo!

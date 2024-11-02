@@ -1,0 +1,5 @@
+#N vspark_synth
+#C Glider synthesis of V spark.
+#C https://www.conwaylife.com/wiki/V_spark
+x = 6, y = 11, rule = B3/S23
+4bo$3bo$3b3o6$bo$2o$obo!

@@ -1,0 +1,5 @@
+#N figure8glidersynth.rle
+#C https://conwaylife.com/wiki/Figure_eight
+#C https://www.conwaylife.com/patterns/figure8glidersynth.rle
+x = 11, y = 11, rule = B3/S23
+b2o$o2bo$o2bo$b3o$9b2o$8b2o$10bo2$5bo$4b2o$4bobo!

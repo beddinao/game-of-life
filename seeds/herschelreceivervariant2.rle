@@ -1,0 +1,8 @@
+#N herschelreceivervariant2.rle
+#C https://conwaylife.com/wiki/Herschel_receiver
+#C https://www.conwaylife.com/patterns/herschelreceivervariant2.rle
+x = 78, y = 33, rule = B3/S23
+31b2o$31b2o3$29b2o$29b2o$16b2o$17bo$17bobo$9b2obo5b2o$7bo2bob3o$3b2o2b
+2obo4bo$2o2bo5bo3b2o$bobo6b2o$o2b2o$obo$bob2o3b2o$3bo4b2o67bo$bo2bo22b
+2o46b3o$b2obo22b2o29b2o15bo$4b2o52b2o15bo$4bo2bo$5b2obo$7bo39bo$4bobo
+39bobo$4b2o40b2o$55b2o$55bo$56bo$55b2o$11bo8b2o$11b2o7b2o$10bobo!

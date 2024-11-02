@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 #include <time.h>
 #include "./MLX42/include/MLX42/MLX42.h"
 
@@ -331,14 +332,18 @@ void	init_world(data *_data) {
 
 	build_population(_data);
 	//	file
-	FILE	*pattern = fopen("tub.rle", "r");
+	FILE	*pattern = fopen("input", "r");
 	if (pattern) {
 		bool	valid = FALSE;
 		size_t	size = 1024;
 		int	read;
 		char	*buffer = malloc(size);
+		int	x = _data->columns / 2,
+			y = _data->rows / 2;
+
 		while ((read = getline(&buffer, &size, pattern)) > 0) {
 			valid = TRUE;
+
 			for (int i = 0; i < read; i++) {
 				if (buffer[i] == '#' || buffer[i] == 'x' || buffer[i] == 'X'
 					|| buffer[i] == 'y' || buffer[i] == 'Y') {
@@ -349,16 +354,33 @@ void	init_world(data *_data) {
 			if (!valid)	continue;
 			///
 			printf("%s", buffer);
-			int	x = _data->columns / 2,
-				y = _data->rows / 2;
 			for (int i = 0; i < read; i++) {
+				int acc = 1;
 				if (buffer[i] == '$') {
 					y++;
 					x = _data->columns / 2;
 				}
 				else if (buffer[i] == '!')	break;
-				_data->population[y][x] = buffer[i] == 'o' ? TRUE : buffer[i] == 'b' ? FALSE : 0;
-				x++;
+
+				if (isdigit(buffer[i])) {
+					acc = 0;
+					while (isdigit(buffer[i])) {
+						acc = (acc * 10) + (buffer[i] - 48);
+						i++;
+					}
+				}
+
+				while (acc) {
+					if (buffer[i] == 'o')	_data->population[y][x] = TRUE;
+					else if (buffer[i] == 'b')	_data->population[y][x] = FALSE;
+					else	break;
+					acc--;
+					x++;
+					if (x >= _data->columns) {
+						x = _data->columns / 2;
+						y++;
+					}
+				}
 			}
 		}
 		free(buffer);
@@ -391,7 +413,7 @@ int			main() {
 	if (!_data->mlx_img)
 		return	release(_data, 1);
 
-	_data->PPC = 4;
+	_data->PPC = 10;
 	draw_bg(_data, 0x000000FF);
 	_data->center_x = (_data->width / 2) * _data->PPC;
 	_data->center_y = (_data->height / 2) * _data->PPC;

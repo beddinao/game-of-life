@@ -1,0 +1,5 @@
+#N trafficlightevolutions1.rle
+#C https://conwaylife.com/wiki/Traffic_light
+#C https://www.conwaylife.com/patterns/trafficlightevolutions1.rle
+x = 7, y = 13, rule = B3/S23
+2b2o$2bobo$5b2o9$2b4o$2o!

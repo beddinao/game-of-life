@@ -1,0 +1,5 @@
+#N yeast2.rle
+#C https://conwaylife.com/wiki/Bakery
+#C https://www.conwaylife.com/patterns/yeast2.rle
+x = 4, y = 4, rule = B3/S23
+3bo$bobo$2obo$bo!

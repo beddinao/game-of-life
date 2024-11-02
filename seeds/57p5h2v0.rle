@@ -1,0 +1,6 @@
+#N 57p5h2v0.rle
+#C https://conwaylife.com/wiki/57P5H2V0
+#C https://www.conwaylife.com/patterns/57p5h2v0.rle
+x = 21, y = 11, rule = B3/S23
+5bo9bo$3b2ob2o5b2ob2o$6b2o5b2o$8bo3bo$bo4bobo3bobo4bo$3o5bo3bo5b3o$o5b
+ob2ob2obo5bo$2bo3bo7bo3bo$2b2o3bob3obo3b2o$o6bo5bo6bo$o19bo!

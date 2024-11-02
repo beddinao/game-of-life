@@ -1,0 +1,7 @@
+#N hl166w.rle
+#C https://conwaylife.com/wiki/HLx111R
+#C https://www.conwaylife.com/patterns/hl166w.rle
+x = 38, y = 34, rule = B3/S23
+20b2o$10bo10bo$10b3o8bobo11bo$13bo8b2o10bobo$12b2o22b2o11$2o$bo32b2o$b
+obo30bo$2b2o31b3o$37bo6$2bo$2bobo20b2o$2b3o20bo$4bo10b2o3b2o4b3o$13bo
+2bo4bo6bo$13b3o4bo$20b2o$13b2obo$13bob2o!

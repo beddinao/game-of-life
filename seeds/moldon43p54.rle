@@ -1,0 +1,7 @@
+#N moldon43p54.rle
+#C https://conwaylife.com/wiki/43P54
+#C https://www.conwaylife.com/patterns/moldon43p54.rle
+x = 29, y = 19, rule = B3/S23
+8bo$8b3o7b2o$11bo6b2o$10b2o2$3b2o22b2o$4bo22bo$4bobo10b3o5bobo$5b2o10b
+o7b2o$17b2o2$b2o$o2bo$obo21bo$bob2o19b2o$2b3o3b2o14b2o$3b2o3bo16bo$9b
+o$8b2o!

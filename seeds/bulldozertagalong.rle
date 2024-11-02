@@ -1,0 +1,9 @@
+#N bulldozertagalong.rle
+#C https://conwaylife.com/wiki/Bulldozer
+#C https://www.conwaylife.com/patterns/bulldozertagalong.rle
+x = 18, y = 41, rule = B3/S23
+5b8o$4bob6obo$4b3o4b3o$7bo2bo$6bo4bo$6b2o2b2o3$6b2o2b2o2$5bo2b2o2bo$8b
+2o$6b6o3$obo12bobo$o2bo10bo2bo$o2bo2b6o2bo2bo2$2b3o8b3o$3bobob4obobo$
+5bo2b2o2bo$5bo6bo$6b2o2b2o2$6bo4bo$6b6o$5b2ob2ob2o$3bob2o4b2obo$3bob2o
+4b2obo$2b2o10b2o3$3bo10bo$2bobo8bobo$3b2o8b2o$8b2o$8b2o$5b8o$4bobo4bo
+bo$5b2o4b2o!

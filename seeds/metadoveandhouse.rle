@@ -1,0 +1,5 @@
+#N metadoveandhouse.rle
+#C https://conwaylife.com/wiki/Meta-dove_and_house
+#C https://www.conwaylife.com/patterns/metadoveandhouse.rle
+x = 8, y = 6, rule = B3/S23
+bo$obo3b2o$o2bobobo$bobobo$2b2obobo$6b2o!

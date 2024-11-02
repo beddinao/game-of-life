@@ -1,0 +1,6 @@
+#N glassesvariant.rle
+#C https://conwaylife.com/wiki/Glasses
+#C https://www.conwaylife.com/patterns/glassesvariant.rle
+x = 18, y = 15, rule = B3/S23
+b2ob2o$bo3bo7bo$2b3o8b3o$16bo$4b3o4b3o2bo$3bobobo2bobobob2o$3b2ob2o2b
+2ob2o$2obobobo2bobobo$bo2b3o4b3o$bo$2b3o8b3o$4bo7bo3bo$12b2ob2o!

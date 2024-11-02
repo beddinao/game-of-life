@@ -1,0 +1,8 @@
+#N rattlesnakeonp76piheptominohassler.rle
+#C https://conwaylife.com/wiki/P76_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/rattlesnakeonp76piheptominohassler.rle
+x = 34, y = 32, rule = B3/S23
+30bo$30b3o$28b2o3bo$27bo2b3o$21bob2obobo$21b2obobobobo$26bob2o$26b2o2$
+o$3o$3bo25b2o$2b2o26bo$29bo$29b2o2$19bo$b3o3b3o8b2o$17bo$5bo12b2o$5bo
+13bo$5bo5$14b2o8b2o$14bo2b6o2bo$15b2o6b2o$12b3o10b3o$12bo2bobo4bobo2bo
+$13b2o4b2o4b2o!

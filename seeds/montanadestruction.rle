@@ -1,0 +1,6 @@
+#N montanadestruction.rle
+#C https://conwaylife.com/wiki/Montana
+#C https://www.conwaylife.com/patterns/montanadestruction.rle
+x = 19, y = 15, rule = B3/S23
+obo$b2o$bo3$16b2o$15bo2bo$8bo7bobo$7bo3bob2ob2o$8bobobob2o$10bo2bo2b2o
+$13bobo2bo$11bobobobo$10bobo3bo$10b2o!

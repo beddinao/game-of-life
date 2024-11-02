@@ -1,0 +1,8 @@
+#N p7pipsquirter.rle
+#O Noam Elkies, 1999
+#C https://conwaylife.com/wiki/P7_pipsquirter
+#C https://www.conwaylife.com/patterns/p7pipsquirter.rle
+x = 13, y = 22, rule = B3/S23
+6b2o$6bobo$8bo$3bo2bob2o$3b4o$7b2o2b2o$3b4o$obo3bob2o$2ob2obobo$3bo4bo
+$3bobobob2o$2obobobobo$obo4bobo$2bob2obo2b2o$2bobo3bobo$b2o2bob2obo$2b
+obo4bo$2bo3b3o$3b2obo$8b3o$b7o2bo$bo2bo2bo!

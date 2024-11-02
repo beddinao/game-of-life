@@ -1,0 +1,5 @@
+#N ttetrominoandblock2beethoven.rle
+#C https://conwaylife.com/wiki/Beethoven
+#C https://www.conwaylife.com/patterns/ttetrominoandblock2beethoven.rle
+x = 7, y = 2, rule = B3/S23
+2o3bo$2o2b3o!

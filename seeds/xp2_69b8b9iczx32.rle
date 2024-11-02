@@ -1,0 +1,6 @@
+#N xp2_69b8b9iczx32.rle
+#O Achim Flammenkamp, 2004
+#C https://conwaylife.com/wiki/Xp2_69b8b9iczx32
+#C https://www.conwaylife.com/patterns/xp2_69b8b9iczx32.rle
+x = 8, y = 7, rule = B3/S23
+b2ob2o$obobobo$o6bo$b5obo$6bo$3bo$3b2o!

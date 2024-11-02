@@ -1,0 +1,5 @@
+#N halfblockadeeatinglwss.rle
+#C https://conwaylife.com/wiki/Blockade
+#C https://www.conwaylife.com/patterns/halfblockadeeatinglwss.rle
+x = 12, y = 7, rule = B3/S23
+b2o$b2o2$8bo$2o5bo$2o5bo3bo$7b4o!

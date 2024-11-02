@@ -1,0 +1,5 @@
+#N antiphasewhybother.rle
+#C https://conwaylife.com/wiki/Antiphase_why_bother
+#C https://www.conwaylife.com/patterns/antiphasewhybother.rle
+x = 8, y = 7, rule = B3/S23
+4bo$2bobo$bo4bo$ob4obo$bo4bo$3bobo$3bo!

@@ -1,0 +1,8 @@
+#N semitnosedp8.rle
+#C https://conwaylife.com/wiki/T-nose
+#C https://www.conwaylife.com/patterns/semitnosedp8.rle
+#C (LifeHistory highlighted version)
+x = 12, y = 19, rule = LifeHistory
+2.C$2.C$.3C6.A$.E.E3.3A.A$A.3E2.2A2.A$.A.E3.A.2A$6.3A$5.A2.A$5.A$5.A$
+4.2A.A2.A$.2A.A2.A2.A$2.A.A.2A.A$A.A.A2.A.A.A$2A2.A2.A2.2A$4.4A2$6.2A
+$6.2A!

@@ -1,0 +1,5 @@
+#N diehardpredecessor2.rle
+#C https://conwaylife.com/wiki/Die_hard
+#C https://www.conwaylife.com/patterns/diehardpredecessor2.rle
+x = 4, y = 8, rule = B3/S23
+b2o$b2o4$b3o$obo$bo!

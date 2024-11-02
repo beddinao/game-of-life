@@ -1,0 +1,5 @@
+#N frutterfly.rle
+#C https://conwaylife.com/wiki/Frutterfly
+#C https://www.conwaylife.com/patterns/frutterfly.rle
+x = 12, y = 5, rule = B3/S23
+3o6b3o$3b2o2b2o2$b10o$5b2o!

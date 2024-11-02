@@ -1,0 +1,7 @@
+#N oddtrafficstop.rle
+#O Nico Brown, 2023
+#C https://conwaylife.com/wiki/Odd_traffic_stop
+#C https://www.conwaylife.com/patterns/oddtrafficstop.rle
+x = 17, y = 17, rule = B3/S23
+4b2o$5bo$5bobo$6b2o3bo$11bo$11bo$b2o$bobo3b3o3b3o$3bo$3b3o$b2o3bo$o2b
+4o6b2o$2obo9bo$3bob2o7b3o$3bobo10bo$2b2obobo$6b2o!

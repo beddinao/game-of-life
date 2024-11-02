@@ -1,0 +1,7 @@
+#N p15piheptominohassler3.rle
+#C https://conwaylife.com/wiki/Period-15_pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p15piheptominohassler3.rle
+x = 25, y = 22, rule = B3/S23
+9bo4bo$7b2ob4ob2o$9bo4bo5$3o4b2ob2o10b3o$obo4bo3bo10bobo$3o5b3o11b3o$
+3o19b3o$3o19b3o$3o11b3o5b3o$obo10bo3bo4bobo$3o10b2ob2o4b3o5$10bo4bo$8b
+2ob4ob2o$10bo4bo!

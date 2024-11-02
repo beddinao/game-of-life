@@ -1,0 +1,5 @@
+#N transbunbridgeloaf.rle
+#C https://conwaylife.com/wiki/Trans-bun_bridge_loaf
+#C https://www.conwaylife.com/patterns/transbunbridgeloaf.rle
+x = 7, y = 7, rule = B3/S23
+4bo$3bobo$3bo2bo$b2ob2o$obo$obo$bo!

@@ -1,0 +1,5 @@
+#N legs.rle
+#C https://conwaylife.com/wiki/Legs
+#C https://www.conwaylife.com/patterns/legs.rle
+x = 4, y = 4, rule = B3/S23
+2o$o$o2bo$b3o!

@@ -1,0 +1,8 @@
+#N period25glidergun.rle
+#O Mitchell Riley, 2022
+#C https://conwaylife.com/wiki/Period-25_glider_gun
+#C https://www.conwaylife.com/patterns/period25glidergun.rle
+x = 22, y = 21, rule = B3/S23
+13b2o4b2o$13bobo2bobo$15b4o$13bo2b2o2bo$13bo2b2o2bo$15bo2bo$8b2o$6bo2b
+o$6b2obobo$8bob2o$8bo9b2o$6bobo9bo2bo$5bobob2o7bo2bo$5bobo3bo7bobo$3b
+2o2bob2o9bo$2bo4bob2o$3b4ob2o$3o4bo2bo$o2bob3obobo$3bob2obobo$4bo4bo!

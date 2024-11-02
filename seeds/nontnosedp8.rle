@@ -1,0 +1,7 @@
+#N nontnosedp8.rle
+#C https://conwaylife.com/wiki/T-nose
+#C https://www.conwaylife.com/patterns/nontnosedp8.rle
+#C (LifeHistory highlighted version)
+x = 23, y = 12, rule = LifeHistory
+9.E$9.A$8.3A2$2.2A14.A$2.A14.A.A$3.12A2.A.A$3A2.10A.A2.A.2A$A2.A2.9A
+4.A.2A$.2A16.A$8.2A.2A4.A.A$8.2A.2A4.2A!

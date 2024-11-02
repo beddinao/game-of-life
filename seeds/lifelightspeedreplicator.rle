@@ -1,0 +1,5 @@
+#N lifelightspeedreplicator.rle
+#C https://conwaylife.com/wiki/Parity_rule_replicator
+#C https://www.conwaylife.com/patterns/lifelightspeedreplicator.rle
+x = 1, y = 5, rule = B3/S23:T0,5
+o$o$o$o$o!

@@ -1,0 +1,5 @@
+#N undecominotoglider.rle
+#C https://conwaylife.com/wiki/Pure_glider_generator
+#C https://www.conwaylife.com/patterns/undecominotoglider.rle
+x = 6, y = 2, rule = B3/S23
+6o$5o!

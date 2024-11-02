@@ -1,0 +1,5 @@
+#N beehiveongriddle.rle
+#C https://conwaylife.com/wiki/Beehive_on_griddle
+#C https://www.conwaylife.com/patterns/beehiveongriddle.rle
+x = 6, y = 8, rule = B3/S23
+3bo$bobo$o4bo$6o2$2b2o$bo2bo$2b2o!

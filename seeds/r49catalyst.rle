@@ -1,0 +1,5 @@
+#N r49catalyst.rle
+#C https://conwaylife.com/wiki/R49
+#C https://www.conwaylife.com/patterns/r49catalyst.rle
+x = 14, y = 8, rule = B3/S23
+13bo$11b3o$3b2o5bo$b3obo4b2o$o4bo$b3obob2o$3bobo2bo$6b2o!

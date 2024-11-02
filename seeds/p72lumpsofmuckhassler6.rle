@@ -1,0 +1,9 @@
+#N p72lumpsofmuckhassler6.rle
+#C https://conwaylife.com/wiki/Period-72_lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p72lumpsofmuckhassler6.rle
+x = 42, y = 35, rule = B3/S23
+30bo$29bobo$22b2o6bo$23bo$23bobo$24b2o2$3b2o12b2o$4bo13bo21b2o$4bob2o
+10bobo19b2o$b2obo2bo11b2o$o2bobo24b3o$2obob2o23bobo$3bo2bo23bo2bo$3b2o
+26bobo$31b3o4$8b3o$8bobo26b2o$8bo2bo23bo2bo$9bobo23b2obob2o$9b3o24bobo
+2bo$21b2o11bo2bob2o$2o19bobo10b2obo$2o21bo13bo$23b2o12b2o2$16b2o$16bob
+o$18bo$11bo6b2o$10bobo$11bo!

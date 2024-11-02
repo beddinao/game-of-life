@@ -1,0 +1,5 @@
+#N paperclipwithtail.rle
+#C https://conwaylife.com/wiki/Paperclip_with_tail
+#C https://www.conwaylife.com/patterns/paperclipwithtail.rle
+x = 7, y = 6, rule = B3/S23
+4b2o$2obo2bo$bobob2o$bobobo$2bo2bo$3b2o!

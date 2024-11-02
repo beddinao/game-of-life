@@ -1,0 +1,9 @@
+#N p86rpentominohassler.rle
+#O Nico Brown, 2022
+#C https://conwaylife.com/wiki/P86_R-pentomino_hassler
+#C https://www.conwaylife.com/patterns/p86rpentominohassler.rle
+x = 62, y = 62, rule = B3/S23
+35b2o$35b2o11$48bo$12b2o32b3o$13bo31bo$13bobo29b2o$14b2o$31b3o$31bo$
+31bo$32b2obo$35b2o4$2o19bo$2o18b2o2$17bo2bo$17bo2bo$17b3o$42b3o$41bo2b
+o$41bo2bo2$40b2o18b2o$40bo19b2o4$25b2o$26bob2o$30bo$30bo$28b3o$46b2o$
+15b2o29bobo$16bo31bo$13b3o32b2o$13bo11$25b2o$25b2o!

@@ -1,0 +1,5 @@
+#N transrotatedbookendsiamesetable.rle
+#C https://conwaylife.com/wiki/Trans-rotated_bookend_siamese_table
+#C https://www.conwaylife.com/patterns/transrotatedbookendsiamesetable.rle
+x = 10, y = 7, rule = B3/S23
+2o$o2bo2bo$b6o2$3b6o$3bo2bo2bo$8b2o!

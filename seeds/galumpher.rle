@@ -1,0 +1,8 @@
+#N galumpher.rle
+#O affamatodidio, 2023
+#C https://conwaylife.com/wiki/Galumpher
+#C https://www.conwaylife.com/patterns/galumpher.rle
+x = 0, y = 0, rule = B3/S23
+10bo$bo8b3o8b2o$2bo10bo7b2o$3o9b2o16b2o$29bobo3bo$29bo4bobo$28b2o4bob
+o$33b2ob3o$39bo$33b2ob3o$33b2obo2$2b2o$3bo$3bobo$4b2o2$39b2o$39b2o8$21b
+2o$21b2o4$18b2o$18b2o!

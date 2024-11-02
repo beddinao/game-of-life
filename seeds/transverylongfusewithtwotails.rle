@@ -1,0 +1,5 @@
+#N transverylongfusewithtwotails.rle
+#C https://conwaylife.com/wiki/Trans-very_long_fuse_with_two_tails
+#C https://www.conwaylife.com/patterns/transverylongfusewithtwotails.rle
+x = 8, y = 4, rule = B3/S23
+2o3bo$bo2bobo$bobo2bo$2bo3b2o!

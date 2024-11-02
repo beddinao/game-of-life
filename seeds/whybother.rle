@@ -1,0 +1,5 @@
+#N whybother.rle
+#C https://conwaylife.com/wiki/Why_bother
+#C https://www.conwaylife.com/patterns/whybother.rle
+x = 8, y = 7, rule = B3/S23
+4bo$2bobo$bo4bo$ob4obo$bo4bo$2bobo$4bo!

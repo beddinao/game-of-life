@@ -1,0 +1,6 @@
+#N transblockoncuphook.rle
+#O Rich Schroeppel, 1970
+#C https://conwaylife.com/wiki/Cuphook
+#C https://www.conwaylife.com/patterns/transblockoncuphook.rle
+x = 8, y = 9, rule = B3/S23
+b2o$b2o2$b4o$o4bo$2o3bo$4bo$5b3o$7bo!

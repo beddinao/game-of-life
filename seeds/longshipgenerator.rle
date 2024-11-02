@@ -1,0 +1,5 @@
+#N longshipgenerator.rle
+#C https://conwaylife.com/wiki/Long_ship
+#C https://www.conwaylife.com/patterns/longshipgenerator.rle
+x = 7, y = 5, rule = B3/S23
+o$2o$o4bo$4bobo$5bo!

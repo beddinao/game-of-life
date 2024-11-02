@@ -1,0 +1,6 @@
+#N 66p5h2v0.rle
+#C https://conwaylife.com/wiki/66P5H2V0
+#C https://www.conwaylife.com/patterns/66p5h2v0.rle
+x = 19, y = 16, rule = B3/S23
+2bo13bo$2ob2o9b2ob2o$3b2o9b2o2$obob2o7b2obobo$b2ob2o2b3o2b2ob2o$8bobo$
+5b2obobob2o$6b7o$8bobo$7bo3bo$6bobobobo$8bobo$8bobo$8bobo$7b2ob2o!

@@ -1,0 +1,8 @@
+#N p256glidergunwithboatbits.rle
+#C https://conwaylife.com/wiki/Period-256_glider_gun
+#C https://www.conwaylife.com/patterns/p256glidergunwithboatbits.rle
+x = 49, y = 49, rule = B3/S23
+31b2o$31b2o5b2o$38b2o3$7b2o27b2o$7b2o5bob2o18b2o$14b2obo24b2o$42b2o$b2o$b2o$
+5b2o$5b2o2$41b2o$41bo$2o40bo$2o39b2o14$6b2o39b2o$6bo40b2o$7bo$6b2o$27bo$24b3o
+15b2o$20b2obo18b2o$20bo4bo20b2o$21b3o22b2o$5b2o$5b2o24bob2o$11b2o18b2obo5b2o$
+11b2o27b2o3$9b2o$9b2o5b2o$16b2o!

@@ -1,0 +1,7 @@
+#N lx86.rle
+#C https://conwaylife.com/wiki/HLx111R
+#C https://www.conwaylife.com/patterns/lx86.rle
+x = 29, y = 24, rule = B3/S23
+10bo$10b3o8b2o$13bo8bo$12b2o8b3o2$2o$bo$bobo$2b2o6$25b2o$2bo22bobo$2bo
+bo22bo$2b3o22b2o$4bo10b2o3b2o$13bo2bo4bo$13b3o4bo$20b2o$13b2obo$13bob
+2o!

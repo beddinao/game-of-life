@@ -1,0 +1,7 @@
+#N backrake1-puffer2.rle
+#C https://conwaylife.com/wiki/Backrake_1
+#C https://www.conwaylife.com/patterns/backrake1-puffer2.rle
+x = 27, y = 12, rule = B3/S23
+5b3o11b3o$4bo3bo9bo3bo$3b2o4bo7bo4b2o$2bobob2ob2o5b2ob2obobo$b2obo4bo
+b2ob2obo4bob2o$o4bo3bo2bobo2bo3bo4bo$12bobo$2o7b2obobob2o7b2o$12bobo$
+6b3o9b3o$6bo3bo5bo3bo$6bobo9bobo!

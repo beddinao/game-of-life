@@ -1,0 +1,6 @@
+#N moldonp28p7.1.rle
+#C https://conwaylife.com/wiki/Phase
+#C https://www.conwaylife.com/patterns/moldonp28p7.1.rle
+x = 15, y = 11, rule = B3/S23
+10bo$9bob2o$2b2o9bo$2bo6bo2bobo$7bo3bo2bo$6obo4b2o$o$b2ob2o3b2o$2bobo
+4bobo$2bobo6bo$3bo7b2o!

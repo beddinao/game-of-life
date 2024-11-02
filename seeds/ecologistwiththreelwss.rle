@@ -1,0 +1,7 @@
+#N ecologistwiththreelwss.rle
+#O Bill Gosper, 1971
+#C https://conwaylife.com/wiki/Ecologist
+#C https://www.conwaylife.com/patterns/ecologistwiththreelwss.rle
+x = 27, y = 18, rule = B3/S23
+bo2bo5b2o$o8b4o$o3bo3b2ob2o$4o5b2o4$11b2o$2b3o7b2o$2bo6bo2bo$2bobo6bo$
+3b2o3b2o$25b2o$25bo$bo2bo18b3o$o$o3bo$4o!

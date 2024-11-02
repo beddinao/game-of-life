@@ -1,0 +1,7 @@
+#N triplecandelabra.rle
+#C https://conwaylife.com/wiki/Candelabra
+#C https://www.conwaylife.com/patterns/triplecandelabra.rle
+x = 34, y = 6, rule = B3/S23
+4b2o4b2ob2o4b2ob2o4b2o$bo2bo6bobo6bobo6bo2bo$obobo6bobo2b2o2bobobo2bob
+obobo$bo2bob4obobob4obobobo2bobo2bo$4bobo2bobobobo2bobobobo2bobo$5bo4b
+o3bo4bo3bo4bo!

@@ -1,0 +1,5 @@
+#N transloafwithnine.rle
+#C https://conwaylife.com/wiki/Trans-loaf_with_nine
+#C https://www.conwaylife.com/patterns/transloafwithnine.rle
+x = 7, y = 7, rule = B3/S23
+5bo$4bobo$3bo2bo$2bob2o$2bo$obo$2o!

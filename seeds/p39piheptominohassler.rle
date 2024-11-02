@@ -1,0 +1,9 @@
+#N p39piheptominohassler.rle
+#O goldenratio, 2022
+#C https://conwaylife.com/wiki/P39_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/p39piheptominohassler.rle
+x = 35, y = 32, rule = B3/S23
+9b2o$8bobo$8bo$3bob2ob2o$3b2obo$6bo$6b2o5$22b2o3b2o$22bobo2b2o$10b3o
+10bo$2obo6bobo$ob2o6bobo$24bo$23b2obo$24bobo$23bo$23bobo$22bo3bo$14b2o
+7bo2bo$14b2o8b2o$19b2o7b2o2b2o$19b2o6bo2bo$27bo4b3o$28bob2obo$29bo2$
+25b2o$25b2o!

@@ -1,0 +1,5 @@
+#N beacononblock.rle
+#C https://conwaylife.com/wiki/Object
+#C https://www.conwaylife.com/patterns/beacononblock.rle
+x = 7, y = 4, rule = B3/S23
+2b2ob2o$3bob2o$o$2o!

@@ -1,0 +1,6 @@
+#N twinhatgenerators2.rle
+#C https://conwaylife.com/wiki/Twin_hat
+#C https://www.conwaylife.com/patterns/twinhatgenerators2.rle
+x = 54, y = 13, rule = B3/S23
+46bo$45bobo$bo5bo38b2o$bo5bo12bo26bo$bo5bo11bob2o$20b2o8b3o16b3o$3b3o$
+28bo18bo5bo$28bo18bo5bo$bo26bo18bo5bo$3o$30b3o$bo!

@@ -1,0 +1,9 @@
+#N p10dominofountain.rle
+#O David Raucci, 2022
+#C https://conwaylife.com/wiki/P10_domino_fountain
+#C https://www.conwaylife.com/patterns/p10dominofountain.rle
+x = 34, y = 17, rule = B3/S23
+16b2o2$13bo6bo$12bo8bo$13b8o3$8b2o14b2o$2b2o4b6o6b6o4b2o$2b3o5b5o4b5o
+5b3o$b2o2b2o2bo3bobo2bobo3bo2b2o2b2o$o2b2obob3obo2b4o2bob3obob2o2bo$2o
+bo2bobo2bobo6bobo2bobo2bob2o$3bob2ob2obob8obob2ob2obo$3bo2bo2bobo10bob
+o2bo2bo$4bobo2bobob4o2b2obobo2bobo$5bo4b2obo2bo2b2ob2o4bo!

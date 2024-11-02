@@ -1,0 +1,5 @@
+#N dovewithcousin.rle
+#C https://conwaylife.com/wiki/Dove
+#C https://www.conwaylife.com/patterns/dovewithcousin.rle
+x = 29, y = 5, rule = B3/S23
+o24b2o$2o23bobo$obo22bo2bo$2b2o22bobo$27bo!

@@ -1,0 +1,5 @@
+#N hlx69r.rle
+#C https://conwaylife.com/wiki/HLx69R
+#C https://www.conwaylife.com/patterns/hlx69r.rle
+x = 19, y = 19, rule = B3/S23
+9bo$9b3o$o11bo$3o8b2o$3bo$2b2o7$bo$bobo$b3o$3bo11b2o$15bo$16b3o$18bo!

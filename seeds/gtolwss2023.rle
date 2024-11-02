@@ -1,0 +1,9 @@
+#N gtolwss2023.rle
+#C https://conwaylife.com/wiki/G-to-LWSS
+#C https://www.conwaylife.com/patterns/gtolwss2023.rle
+x = 65, y = 64, rule = B3/S23
+bo$2bo$3o32$47b2o$47b2o2$56b2o$56bobob2o$58bobo$57b2obo$57bo2b2o$58b2o
+2bo$59bobo$59bob2o$30b2o26b2obo2bo$30b2o29bob2o$48bo12bo$26bo22bo10b2o
+$26b3o18b3o$29bo$28b2o31b2o$48b2o6b2obo2bo$47bobo5bobob3o$34b2o12bo6bo
+bo$34bobo16b3ob5o$35bo16bo3bo4bo$52b2o2bobo$43bo13b2o$42bobo2b2o$31b2o
+10bo3bobo$32bo16bo$29b3o17b2o$29bo!

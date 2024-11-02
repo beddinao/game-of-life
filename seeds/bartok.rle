@@ -1,0 +1,5 @@
+#N bartok.rle
+#C https://conwaylife.com/wiki/Composers
+#C https://www.conwaylife.com/patterns/bartok.rle
+x = 13, y = 7, rule = B3/S23
+3o7b3o3$6bo$5bobo$5bobo$6bo!

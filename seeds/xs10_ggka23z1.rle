@@ -1,0 +1,5 @@
+#N xs10_ggka23z1.rle
+#C https://conwaylife.com/wiki/Melusine
+#C https://www.conwaylife.com/patterns/xs10_ggka23z1.rle
+x = 6, y = 6, rule = B3/S23
+2o$bo$bobo$2bobo$4bo$4b2o!

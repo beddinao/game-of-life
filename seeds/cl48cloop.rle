@@ -1,0 +1,7 @@
+#N cl48cloop.rle
+#C https://conwaylife.com/wiki/CL48C
+#C https://www.conwaylife.com/patterns/cl48cloop.rle
+x = 40, y = 40, rule = B3/S23
+22bo$21bobo$21bobo$12bo7b2ob3o$12b3o11bo$9bo5bo4b2ob3o4bo$8bobo3b2o4b2obo5bobo$8bobo18bobo$6b3ob2o16b2ob3o$5bo28bo$6b3ob2o16b2ob3o$8bob2o16b
+2obo$35b2o$4bo30bo$3bobo27bobo$3bobo27b2o$b3ob2o$o$b3ob2o$3bob2o7b2o$14bo18b2obo$14bobo16b2ob3o$15b2o22bo$33b2ob3o$5b2o27bobo$4bobo27bobo$
+4bo30bo$3b2o$8bob2o16b2obo$6b3ob2o16b2ob3o$5bo28bo$6b3ob2o16b2ob3o$8bobo18bobo$8bobo5bob2o4b2o3bobo$9bo4b3ob2o4bo5bo$13bo11b3o$14b3ob2o7bo$16bobo$16bobo$17bo!

@@ -1,0 +1,7 @@
+#N snackeron34p14shuttle.rle
+#C https://conwaylife.com/wiki/34P14_shuttle
+#C https://www.conwaylife.com/patterns/snackeron34p14shuttle.rle
+x = 24, y = 20, rule = B3/S23
+13bo9bo$13b3o5b3o$b2o5b2o6bo3bo$b2o5b2o5b2o3b2o2$18bo$bo7bo8bo$3o5b3o6bobo$o
+9bo7bo$b3o3b3o8bo$18bo$4bobo11bo$17bobo$18bo$18bo$b2o5b2o$b2o5b2o5b2o3b2o$16b
+o3bo$13b3o5b3o$13bo9bo!

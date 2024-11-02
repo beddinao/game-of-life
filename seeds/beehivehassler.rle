@@ -1,0 +1,9 @@
+#N beehivehassler.rle
+#C https://conwaylife.com/wiki/LCM_oscillator
+#C https://www.conwaylife.com/patterns/beehivehassler.rle
+x = 49, y = 28, rule = B3/S23
+3b2o$3bo$5bo$4b4o$3bo4bo$3b5obo$b2o6bo7b2o$o2bobobob2o6bobo4bo12bo$2ob
+obobo2bo6bobo5bo9bobo$3bo2bob2o8b2o3b2o3b2o3b2o$3b2obo3bo16bo2bo2b2o
+12b2o$5bobob2o17b2o3b2o12b2o$5bobobo25bobo$6bo2bo27bo$7b2o$14b8o$12b3o
+b4ob3o$11bo12bo$12b7o2b2obo$22b2o$14bob5o$13bobo5b3o$13bobo3b2o3bo$12b
+2ob2obobob2o$19bo2bo$20bobo$18bobob2o$18b2o!

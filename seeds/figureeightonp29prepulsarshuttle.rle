@@ -1,0 +1,7 @@
+#N figureeightonp29prepulsarshuttle.rle
+#C https://conwaylife.com/wiki/P29_pre-pulsar_shuttle
+#C https://www.conwaylife.com/patterns/figureeightonp29prepulsarshuttle.rle
+x = 28, y = 28, rule = B3/S23
+15bo$13b3o$12bo$12b2o2$bo$obo7b2o$bo7b3o3b2o$10b2o3b2o3$19b2o$10b2o7b2o5b2o$b
+o7b3o14bo$obo7b2o12bobo$bo22b2o$13b3o3b3o$13b3o3b3o$14bo5bo3$4b3o$4b3o$4b3o$b
+3o$b3o9bo7bo$b3o8bobo5bobo$13bo7bo!

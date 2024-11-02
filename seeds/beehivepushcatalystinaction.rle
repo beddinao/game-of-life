@@ -1,0 +1,7 @@
+#N beehivepushcatalystinaction.rle
+#C https://conwaylife.com/wiki/Beehive_push_catalyst
+#C https://www.conwaylife.com/patterns/beehivepushcatalystinaction.rle
+x = 86, y = 28, rule = B3/S23
+75b2ob2o$76bobo$71b2obo5bob2o$70bobob2o3b2obobo$69bo6bobo6bo$69b7o3b7o
+2$71b3o7b3o$13bo56bo2bo3bo3bo2bo$12bobo55b2o4bobo4b2o$12bobo61bobo$13b
+o63bo13$o63bo$obo61bobo$3o61b3o$2bo63bo!

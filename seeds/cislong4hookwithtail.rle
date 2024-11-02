@@ -1,0 +1,5 @@
+#N cislong4hookwithtail.rle
+#C https://conwaylife.com/wiki/Cis-long%5E4_hook_with_tail
+#C https://www.conwaylife.com/patterns/cislong4hookwithtail.rle
+x = 8, y = 7, rule = B3/S23
+5bo$4bobo$3bo2bo$2bo3b2o$bo$o$2o!

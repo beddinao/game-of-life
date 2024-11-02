@@ -1,0 +1,5 @@
+#N metadockandlongbookend.rle
+#C https://conwaylife.com/wiki/Meta-dock_and_long_bookend
+#C https://www.conwaylife.com/patterns/metadockandlongbookend.rle
+x = 7, y = 6, rule = B3/S23
+2o3b2o$obobobo$2bobo$2bobo$b2obobo$5b2o!

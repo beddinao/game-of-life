@@ -1,0 +1,7 @@
+#N p11thumb.rle
+#O Charity Engine, 2022
+#C https://conwaylife.com/wiki/P11_thumb
+#C https://www.conwaylife.com/patterns/p11thumb.rle
+x = 14, y = 14, rule = B3/S23
+o$3o$3bo3bo$2bo5bo$2bo6bo$7bobo2bo$4b3o2bobobo$7bobo2bo$4b4obo$3bo4bo$
+4b4o2$4b2o$4b2o!

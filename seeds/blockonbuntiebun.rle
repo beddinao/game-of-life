@@ -1,0 +1,5 @@
+#N blockonbuntiebun.rle
+#C https://conwaylife.com/wiki/Block_on_bun_tie_bun
+#C https://www.conwaylife.com/patterns/blockonbuntiebun.rle
+x = 7, y = 7, rule = B3/S23
+5bo$b2obobo$b2obobo$4b2o$b3o$o2bo$b2o!

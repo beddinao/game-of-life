@@ -1,0 +1,7 @@
+#N fumaroleonp76piheptominohassler.rle
+#C https://conwaylife.com/wiki/P76_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/fumaroleonp76piheptominohassler.rle
+x = 26, y = 34, rule = B3/S23
+18b2o4b2o$18bobo2bobo$20bo2bo$19bo4bo$19b2o2b2o$21b2o$b2o$obo$obob2o$bobobo$
+3bo$2b2o11b2o$b3o9bo3bo$b3o9bo2bo$b3o9b2o$b3o$2b2o$3bo$bobobo$obob2o$obo$b2o
+4$13b3o2$11bo$11bo$11bo$19b2o$13b3o3bobo$21bo$21b2o!

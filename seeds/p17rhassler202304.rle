@@ -1,0 +1,11 @@
+#N p17rhassler202304.rle
+#O Nico Brown, 2023
+#C https://conwaylife.com/wiki/P17_R-pentomino_hassler
+#C https://www.conwaylife.com/patterns/p17rhassler202304.rle
+#C [[p17 R-pentomino hassler]]
+#C https://conwaylife.com/forums/viewtopic.php?p=160434#p160434
+x = 25, y = 25, rule = B3/S23
+15b2o$15bobo$18bo2b2o$13b4obo3bo$12bo4bob3o$12b2o2bo2bo$18b2ob3o$19bob
+o2bo$20bo2b2o3$16bo$4b2o10b2o3b2o$3bobo9b2o5bo$3bo17bo$2obo9bo8b3o$o2b
+obo5b3o10bo$bo2bo7bo$2b2o2bo$4b4o$4bo3bo$2bobob2o4bobo$2b2o2bo5b2obo$
+6bobo6bo$7b2o6b2o!

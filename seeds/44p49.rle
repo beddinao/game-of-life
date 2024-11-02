@@ -1,0 +1,9 @@
+#N 44p49.rle
+#O Mitchell Riley, 2023
+#C https://conwaylife.com/wiki/44P49
+#C https://www.conwaylife.com/patterns/44p49.rle
+#C [[44P49]]
+#C https://conwaylife.com/forums/viewtopic.php?p=171092#p171092
+x = 39, y = 13, rule = B3/S23
+o18b2o$3o16b2o$3bo$2b2o$26b2o$14bo12bo6b2o$3b2o8b3o7b3o8b2o$3b2o6bo12b
+o$11b2o$35b2o$35bo$18b2o16b3o$18b2o18bo!

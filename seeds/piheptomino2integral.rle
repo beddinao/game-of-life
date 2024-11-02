@@ -1,0 +1,5 @@
+#N piheptomino2integral.rle
+#C https://conwaylife.com/wiki/Integral_sign
+#C https://www.conwaylife.com/patterns/piheptomino2integral.rle
+x = 13, y = 3, rule = B3/S23
+3o8b2o$obo8b2o$obo!

@@ -1,0 +1,6 @@
+#N lightweightschickengine.rle
+#O Paul Schick, 1972
+#C https://conwaylife.com/wiki/Schick_engine
+#C https://www.conwaylife.com/patterns/lightweightschickengine.rle
+x = 20, y = 11, rule = B3/S23
+bo2bo$o$o3bo$4o9b2o$6b3o5b2o$6b2ob2o6b3o$6b3o5b2o$4o9b2o$o3bo$o$bo2bo!

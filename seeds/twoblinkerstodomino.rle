@@ -1,0 +1,6 @@
+#N twoblinkerstodomino.rle
+#O Robert Wainwright, 1994
+#C https://conwaylife.com/wiki/Two-blinkers-to-domino
+#C https://www.conwaylife.com/patterns/twoblinkerstodomino.rle
+x = 8, y = 5, rule = B3/S23
+o6bo$o6bo$o2b2o2bo$2bo2bo$3b2o!

@@ -1,0 +1,7 @@
+#N figureeightonp129rpentominohassler.rle
+#C https://conwaylife.com/wiki/P129_R-pentomino_hassler
+#C https://www.conwaylife.com/patterns/figureeightonp129rpentominohassler.rle
+x = 65, y = 33, rule = B3/S23
+10b2o$10b2obo$14bo$11bo$12bob2o10bo$14b2o8b3o$23bo$23b2o$2o$bo$bobo$2b
+2o2$20b2o$19b2o$20bo6$44bo$44b2o$43b2o2$61b2o$61bobo$63bo$63b2o$40b2o$
+41bo$38b3o$38bo!

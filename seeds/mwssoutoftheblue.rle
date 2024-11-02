@@ -1,0 +1,7 @@
+#N mwssoutoftheblue.rle
+#C https://conwaylife.com/wiki/MWSS_out_of_the_blue
+#C https://www.conwaylife.com/patterns/mwssoutoftheblue.rle
+x = 45, y = 41, rule = B3/S23
+o2bo$4bo$o3bo$b4o4$33b2o$32b5o$32bo4bo5b2o$32b3o2bo5b2o$33bo2b2o$10b2o
+22b2o$10b2o7b2o$34b2o$33bo2b2o$32b3o2bo5b2o$32bo4bo5b2o$32b5o$33b2o2$
+10b3o3b3o$9bo2bo3bo2bo$9b2obo3bob2o16$10b2o5b2o$10b2o5b2o!

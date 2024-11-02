@@ -1,0 +1,6 @@
+#N mwssbehindcoeship.rle
+#O Matthias Merzenich, 2018
+#C https://conwaylife.com/wiki/MWSS_behind_Coe_ship
+#C https://www.conwaylife.com/patterns/mwssbehindcoeship.rle
+x = 18, y = 27, rule = B3/S23
+8$5b2o4b5o$3bo6bo5bo$2bo6bo$2bo13bo$2b8o$7b2o3$3b2o$2b2ob2o$3b4o$4b2o!

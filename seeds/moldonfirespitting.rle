@@ -1,0 +1,6 @@
+#N moldonfirespitting.rle
+#C https://conwaylife.com/wiki/Fire-spitting
+#C https://www.conwaylife.com/patterns/moldonfirespitting.rle
+x = 15, y = 8, rule = B3/S23
+5b2o$5bobo2bobo$b2o6bo2bo$o2bo3bo5bo$obo2bo3b3obo$bo12bo$2b2obo5b3o$4b
+o6bo!

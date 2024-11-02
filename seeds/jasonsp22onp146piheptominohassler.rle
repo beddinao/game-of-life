@@ -1,0 +1,8 @@
+#N jasonsp22onp146piheptominohassler.rle
+#C https://conwaylife.com/wiki/P146_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/jasonsp22onp146piheptominohassler.rle
+x = 41, y = 28, rule = B3/S23
+9bo$7b3o$6bo$6b2o2$4bo$3bobo$2bo3bo$2bo2bo10bo5bo$2bo2bo10b2o3b2o3b2o$
+3b2o11b2o3b2o3bobo2b2o$17bo3bo5bo3b2o2$38bo$36b3o$35bo$5b2o28b2o$4bo2b
+o$4bo2bo$3bo3bo$4bobo$5bo21b3o$26bo2bo7b2o$2b2o22bo10bobo$3bo9b2o24bo$
+3o11bo11b3o10b2o$o10b3o13bo$11bo!

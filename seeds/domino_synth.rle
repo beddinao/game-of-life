@@ -1,0 +1,5 @@
+#N domino_synth
+#C Glider synthesis of domino.
+#C https://www.conwaylife.com/wiki/Domino
+x = 12, y = 11, rule = B3/S23
+10bo$9bo$9b3o6$3o$2bo$bo!

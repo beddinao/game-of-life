@@ -1,0 +1,5 @@
+#N gliderblockcycle.rle
+#C https://conwaylife.com/wiki/Glider-block_cycle
+#C https://www.conwaylife.com/patterns/gliderblockcycle.rle
+x = 8, y = 7, rule = B3/S23
+3b2o$3b2o3$2bo2bo$obo2bobo$b2o2b2o!

@@ -1,0 +1,10 @@
+#N p56rphisparker.rle
+#O Period1GliderGun, 2024
+#C https://conwaylife.com/wiki/P56_phi_sparker
+#C https://www.conwaylife.com/patterns/p56rphisparker.rle
+x = 41, y = 32, rule = B3/S23
+16b3o$16b3o6b2o$2o13bo3bo4bobo$bo10bo3b2o2bo3b2o$bobo7bob2obo3b2o6b2o$
+2b2o6b2o3bob2obo7bobo$6b2o3bo2b2o3bo10bo$5bobo4bo3bo13b2o$5b2o6b3o$13b
+3o10bo3b2o5b2o$24b3o3b2o5b2o$23bo$23b2o5bo7bo$29bobo5bobo$28b2ob2o3b2o
+b2o$16bo12bo2bo3bo2bo$14b2ob2o11bo7bo$15bo2bo11b3o3b3o$16b2o4$30b2o5b
+2o$30b2o5b2o3$20b3o$20b3o$21bo$21bo$20b3o$20b3o!

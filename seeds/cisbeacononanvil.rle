@@ -1,0 +1,5 @@
+#N cisbeacononanvil.rle
+#C https://conwaylife.com/wiki/Cis-beacon_on_anvil
+#C https://www.conwaylife.com/patterns/cisbeacononanvil.rle
+x = 7, y = 9, rule = B3/S23
+3b2o$4bo$bo$b2o2$b4o$o4bo$b3obo$3bob2o!

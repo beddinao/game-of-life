@@ -1,0 +1,7 @@
+#N 38p4h1v1.1.rle
+#O Hartmut Holzwart, 2004
+#C https://conwaylife.com/wiki/38P4H1V1.1
+#C https://www.conwaylife.com/patterns/38p4h1v1.1.rle
+x = 17, y = 17, rule = B3/S23
+12b2o$12bobo$12bo$15bo$14bobo$14bobo$14bo$14bo$10bo3bo$9b3obo$8b2o$7b
+2o$2o6b2o$obo3bo2bo$o3bo3bo$3b2o$3bo3b2o!

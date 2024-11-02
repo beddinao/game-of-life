@@ -1,0 +1,6 @@
+#N longboatspin.rle
+#O affamatodidio, 2024
+#C https://conwaylife.com/wiki/Long_boat_spin
+#C https://www.conwaylife.com/patterns/longboatspin.rle
+x = 10, y = 12, rule = B3/S23
+2o$bo$bobo3b3o$2b2o$7bo$6bobo$7bobo$8b2o3$5b2o$5b2o!

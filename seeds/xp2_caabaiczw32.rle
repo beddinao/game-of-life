@@ -1,0 +1,5 @@
+#N xp2_caabaiczw32.rle
+#C https://conwaylife.com/wiki/Xp2_caabaiczw32
+#C https://www.conwaylife.com/patterns/xp2_caabaiczw32.rle
+x = 7, y = 7, rule = B3/S23
+3bo$b5o$o5bo$5obo$5bo$2bo$2b2o!

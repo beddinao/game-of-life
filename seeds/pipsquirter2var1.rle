@@ -1,0 +1,7 @@
+#N pipsquirter2var1.rle
+#C https://conwaylife.com/wiki/P7_pipsquirter
+#C https://www.conwaylife.com/patterns/pipsquirter2var1.rle
+x = 23, y = 13, rule = B3/S23
+6bo$6bo$11b2o7b2o$4bo3bo2bo2bob2obo2bo$2b3obob3o2b2obo3bobo$bo4bo4b2o
+5b2obo$b2ob2ob3o4b4obo$5bobo3b2o4bobo$5bobobo4b4ob2o$4b2obob4obo2bobo$
+8bo4bo2bo2bo$9b3o5b2o$11b2o!

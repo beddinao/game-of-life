@@ -1,0 +1,8 @@
+#N cappedp30nonqbglidergun.rle
+#C https://conwaylife.com/wiki/Period-30_honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/cappedp30nonqbglidergun.rle
+x = 46, y = 28, rule = B3/S23
+30b2o$17b2o6b2o3b2o$18bo7bo$18bob2ob3o$19bobobo$12b2o$15b2o$16bo13b3o$
+14b3o12bo3bo$28bo5bo$10b3o15bo5bo$10bo17bo5bo$10b2o17bo3bo$13b2o15b3o$
+2obobobo14b3o$ob2ob2obo13b3o8b2o7b2o$8bo14bo9bo8bobo$8b2o13bo10b3o7bo$
+23bo12bo7b2o$22bobo3$22bobo$23bo$23bo$23bo$22b3o$22b3o!

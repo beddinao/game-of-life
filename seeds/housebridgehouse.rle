@@ -1,0 +1,5 @@
+#N housebridgehouse.rle
+#C https://conwaylife.com/wiki/House_bridge_house
+#C https://www.conwaylife.com/patterns/housebridgehouse.rle
+x = 6, y = 8, rule = B3/S23
+2o$obo$2bo$obob2o$2obobo$3bo$3bobo$4b2o!

@@ -1,0 +1,8 @@
+#N p23piheptominohassler.rle
+#O Nico Brown, 2022
+#C https://conwaylife.com/wiki/P23_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/p23piheptominohassler.rle
+x = 30, y = 18, rule = B3/S23
+24bo$12bo9b3o$o11b3o6bo$3o5b2o5bo5b2o$3bo4b2o4b2o$2b2o$19bobo$19bobo$
+3b2o14b3o3b2o$3b2o3b3o14b2o$8bobo$8bobo$26b2o$14b2o4b2o4bo$7b2o5bo5b2o
+5b3o$8bo6b3o11bo$5b3o9bo$5bo!

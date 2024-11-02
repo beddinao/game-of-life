@@ -1,0 +1,5 @@
+#N gliderproducingswitchenginepredecessor2.rle
+#C https://conwaylife.com/wiki/Glider-producing_switch_engine
+#C https://www.conwaylife.com/patterns/gliderproducingswitchenginepredecessor2.rle
+x = 28, y = 6, rule = B3/S23
+bobo$o$bo2bo$3b3o$26b2o$26b2o!

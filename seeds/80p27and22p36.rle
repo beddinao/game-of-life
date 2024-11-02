@@ -1,0 +1,8 @@
+#N 80p27and22p36.rle
+#C https://conwaylife.com/wiki/Odd_traffic_stop
+#C https://www.conwaylife.com/patterns/80p27and22p36.rle
+x = 48, y = 18, rule = B3/S23
+4b2o41bo$5bo14b2o23b3o$5bobo12bobo21bo$6b2o14bo2b2o17b2o$21b2obobo$20b
+o3bo9b3o$3b2o6bo9b2obo10bo$3bo6b3o8b2o2b2o15bo$2obo19b2o2bo13b3o$o2b2o
+19bob2o$b2o2b2o8b3o6bo7b2o$3bob2o9bo6b2o8bo$3bo3bo22b3o$bobob2o23bo$b
+2o2bo14b2o$5bobo12bobo$6b2o14bo$22b2o!

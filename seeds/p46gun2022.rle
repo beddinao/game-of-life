@@ -1,0 +1,8 @@
+#N p46gun2022.rle
+#C https://conwaylife.com/wiki/Period-46_glider_gun
+#C https://www.conwaylife.com/patterns/p46gun2022.rle
+x = 31, y = 30, rule = B3/S23
+19b2o7bo$19b2o5b3o$25bo$25b2o2$22b3o$21bo3bo$20bo5bo$3bo3bo12bo5bo$2bo
+bo2b3o10bo5bo$2bobo5bo10bo3bo$b2ob2o3b2o11b3o2$b2ob2o23b2o$2bob2o24bo$
+o24b2obo$2o23b2ob2o2$6b3o11b2o3b2ob2o$5bo3bo10bo5bobo$4bo5bo10b3o2bobo
+$4bo5bo12bo3bo$4bo5bo$5bo3bo$6b3o2$4b2o$5bo$2b3o5b2o$2bo7b2o!

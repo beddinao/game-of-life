@@ -1,0 +1,10 @@
+#N p171piheptominohassler.rle
+#O Mitchell Riley, 2022
+#C https://conwaylife.com/wiki/P171_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/p171piheptominohassler.rle
+x = 64, y = 44, rule = B3/S23
+18b2o$18b2o2$32b2o$33bo$30b3o11bo$30bo12bobo$38bo4bobo$36b3o3b2ob3o$
+35bo12bo$35b2o5b2ob3o$42b2obo2$2o$bo39b2o$bobo37b2o$2b2o2$19bo39bo$18b
+3o36b3o$17bo3bo34bo$17b2ob2o34b2o$6b2o34b2ob2o$7bo34bo3bo$4b3o36b3o$4b
+o39bo2$60b2o$21b2o37bobo$21b2o39bo$62b2o2$18bob2o$16b3ob2o5b2o$15bo12b
+o$16b3ob2o3b3o$18bobo4bo$18bobo12bo$19bo11b3o$30bo$30b2o2$44b2o$44b2o!

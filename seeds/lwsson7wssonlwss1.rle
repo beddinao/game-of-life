@@ -1,0 +1,5 @@
+#N lwsson7wssonlwss1.rle
+#C https://conwaylife.com/wiki/Overweight_spaceship
+#C https://www.conwaylife.com/patterns/lwsson7wssonlwss1.rle
+x = 8, y = 16, rule = B3/S23
+4o$o3bo$o$bo2bo$5bo$bo5bo$o$o6bo$7o4$4o$o3bo$o$bo2bo!

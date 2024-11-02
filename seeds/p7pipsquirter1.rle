@@ -1,0 +1,7 @@
+#N p7pipsquirter1.rle
+#C https://conwaylife.com/wiki/Period-7_sparkers
+#C https://www.conwaylife.com/patterns/p7pipsquirter1.rle
+x = 14, y = 20, rule = B3/S23
+5bo$5bo2$3bo3bo$b3obob3o$o4bo4bo$b4obobobo$4bobo4b2o$b2obo2bob2o2bo$b
+2obo3bobob2o$5bo4bobo$10bo2bo$6bo4b3o$7b4o$11bo$3b2obobob2o$3bob2ob2o$
+7bo3b3o$7bob2o2bo$8bobo!

@@ -1,0 +1,8 @@
+#N octominop52glidergun.rle
+#C https://conwaylife.com/wiki/Period-52_glider_gun
+#C https://www.conwaylife.com/patterns/octominop52glidergun.rle
+x = 33, y = 26, rule = B3/S23
+22b2o$22bo2b2o$23b2ob3o$2o27bo$bo21b2ob3o$bobo13b2o4b2obo$2b2o13bobo$
+17bo11bo$28bobo$12bo15bobo$11b3o13b2ob2o$2o9bobo17bo$obob2o7b2o12b2obo
+$2bob2o12b2o7b2obobo$bo17bobo9b2o$b2ob2o13b3o$2bobo15bo$2bobo$3bo11bo$
+13bobo13b2o$6bob2o4b2o13bobo$4b3ob2o21bo$3bo27b2o$4b3ob2o$6b2o2bo$9b2o!

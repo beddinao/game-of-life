@@ -1,0 +1,7 @@
+#N 86p5.rle
+#C https://conwaylife.com/wiki/Heavyweight_volcano
+#C https://www.conwaylife.com/patterns/86p5.rle
+x = 22, y = 16, rule = B3/S23
+10b2o$8bo4bo2$2o6bo4bo6b2o$o2bo3b8o3bo2bo$b2o5bo4bo5b2o$4b2o2b6o2b2o$b
+3o14b3o$bo2b4o6b4o2bo$2bo16bo$3b6ob2ob6o$5bo3bo2bo3bo$8b2o2b2o$8bo4bo$
+9bo2bo$8b2o2b2o!

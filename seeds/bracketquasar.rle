@@ -1,0 +1,10 @@
+#N bracketquasar.rle
+#O David Bell, 1993
+#C https://conwaylife.com/wiki/Bracket_quasar
+#C https://www.conwaylife.com/patterns/bracketquasar.rle
+x = 35, y = 35, rule = B3/S23
+15bo3bo$15bo3bo$15bo3bo$14b2o3b2o$13bobo3bobo$10b5o5b5o4$10b5o5b5o$5bo
+3bobo11bobo3bo$5bo3b2o13b2o3bo$5bo3bo15bo3bo$4b2o3bo15bo3b2o$3bobo3bo
+15bo3bobo$5o25b5o4$5o25b5o$3bobo3bo15bo3bobo$4b2o3bo15bo3b2o$5bo3bo15b
+o3bo$5bo3b2o13b2o3bo$5bo3bobo11bobo3bo$10b5o5b5o4$10b5o5b5o$13bobo3bob
+o$14b2o3b2o$15bo3bo$15bo3bo$15bo3bo!

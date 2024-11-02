@@ -1,0 +1,5 @@
+#N cismirroredbookend.rle
+#C https://conwaylife.com/wiki/Cis-mirrored_bookend
+#C https://www.conwaylife.com/patterns/cismirroredbookend.rle
+x = 7, y = 4, rule = B3/S23
+2o3b2o$obobobo$2bobo$b2ob2o!

@@ -1,0 +1,8 @@
+#N honeyfarm2tubtesttubebaby.rle
+#C https://conwaylife.com/wiki/Tub_test_tube_baby
+#C https://www.conwaylife.com/patterns/honeyfarm2tubtesttubebaby.rle
+x = 53, y = 15, rule = B3/S23
+14bo30bo$14bo30bo2$12bobobo26bobobo$12b5o26b5o$10b2ob3ob2o22b2ob3ob2o$
+11b2obob2o24b2obob2o$7b2ob4ob4ob2o16b2ob4ob4ob2o$4bo6b2obob2o17bo6b2ob
+ob2o$3bo2bo3b2ob3ob2o15bo2bo3b2ob3ob2o$2o4bo5b5o18bobo5b5o$b3o2bo5bobo
+bo21bo4bobobo2$14bo30bo$14bo30bo!

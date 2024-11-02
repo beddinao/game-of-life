@@ -1,0 +1,8 @@
+#N p220honeyfarmshuttle.rle
+#C https://conwaylife.com/wiki/Honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p220honeyfarmshuttle.rle
+x = 48, y = 26, rule = B3/S23
+33bo$24b2o5b3o$23bobo4bo$24bo5b2o3$12b2o$13bo13b3o$13bobo10bo3bo$14b2o
+9bo5bo$25bo5bo$ob2o6bo14bo5bo5b2o$2obo5bobo14bo3bo5bo2bo$8bo2bo15b3o6b
+obo5bob2o$9b2o26bo6b2obo2$32b2o$32bobo$34bo$34b2o3$16b2o5bo$17bo4bobo$
+14b3o5b2o$14bo!

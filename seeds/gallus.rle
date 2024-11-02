@@ -1,0 +1,9 @@
+#N gallus.rle
+#O Jeremy Tan, 2021
+#C https://conwaylife.com/wiki/Gallus
+#C https://www.conwaylife.com/patterns/gallus.rle
+x = 39, y = 23, rule = B3/S23
+12b2o4bo$12b2o3bobo12b2o$18bo5b2o5bob2o2b2o$24b2o5bobo3b2o$31bo$5b2o2b
+2o18bo$5b2o2b2o5bo$14bobo12bo$15b2o14bo$24b2o5bobo3b2o$24b2o5bob2o2b2o
+$8b2o22b2o$2o5bob2o2b2o$2o5bobo3b2o$7bo$5bo$28b2o2b2o$5bo22b2o2b2o$7bo
+$2o5bobo3b2o$2o5bob2o2b2o5bo$8b2o9bobo3b2o$20bo4b2o!

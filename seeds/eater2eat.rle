@@ -1,0 +1,6 @@
+#N eater2eat.rle
+#C https://conwaylife.com/wiki/Eater_2
+#C https://www.conwaylife.com/patterns/eater2eat.rle
+x = 21, y = 22, rule = B3/S23
+18bo$18bobo$18b2o3$16bo$16bobo$16b2o$11bo$11bobo$11b2o2$8bo$8bobo$8b2o
+$3bob2o$b3ob2o$o$b3ob2o$3bobo$3bobo$4bo!

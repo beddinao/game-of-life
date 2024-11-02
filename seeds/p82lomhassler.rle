@@ -1,0 +1,7 @@
+#N p82lomhassler.rle
+#C https://conwaylife.com/wiki/Lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p82lomhassler.rle
+x = 30, y = 29, rule = B3/S23
+3b2o$3b2o24bo$28b2o$28b2o$28bo2$27bo$27bo$27bo4$8b2o$7bo2bo11bo5b2o$2o
+5bobo10bobo5b2o$2o5bo11bo2bo$20b2o4$2bo$2bo$2bo2$bo$2o$2o$o24b2o$25b2o
+!

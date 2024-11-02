@@ -1,0 +1,5 @@
+#N objecthasseledinjasonsp22.rle
+#C https://conwaylife.com/wiki/List_of_common_evolutionary_sequences
+#C https://www.conwaylife.com/patterns/objecthasseledinjasonsp22.rle
+x = 6, y = 5, rule = B3/S23
+2b3o$bo3bo$o4bo$bob2o$2bo!

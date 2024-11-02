@@ -1,0 +1,5 @@
+#N wfx46h.rle
+#C https://conwaylife.com/wiki/WFx46H
+#C https://www.conwaylife.com/patterns/wfx46h.rle
+x = 12, y = 26, rule = B3/S23
+10b2o$10bo$8b3o10$10b2o$10b2o3$b2o$b2o6b2o$8bobo$7b2o3$2b2o$3bo$3o$o!

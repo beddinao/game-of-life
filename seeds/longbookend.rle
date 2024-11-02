@@ -1,0 +1,5 @@
+#N longbookend.rle
+#C https://conwaylife.com/wiki/Long_bookend
+#C https://www.conwaylife.com/patterns/longbookend.rle
+x = 5, y = 3, rule = B3/S23
+3b2o$o3bo$4o!

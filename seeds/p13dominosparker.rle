@@ -1,0 +1,8 @@
+#N p13dominosparker.rle
+#O Mitchell Riley, 2023
+#C https://conwaylife.com/wiki/P13_domino_sparker
+#C https://www.conwaylife.com/patterns/p13dominosparker.rle
+x = 24, y = 13, rule = B3/S23
+bo20bo$b3o16b3o$4bo14bo$3bo16bo$3b2o14b2o$8b2o4b2o$3b2o2b2o6b2o2b2o$3b
+o4b2o4b2o4bo$2obo5bo4bo5bob2o$2ob2o14b2ob2o$3bo16bo$3bobo12bobo$4b2o
+12b2o!

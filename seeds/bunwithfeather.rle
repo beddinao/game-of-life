@@ -1,0 +1,5 @@
+#N bunwithfeather.rle
+#C https://conwaylife.com/wiki/Bun_with_feather
+#C https://www.conwaylife.com/patterns/bunwithfeather.rle
+x = 6, y = 5, rule = B3/S23
+3bo$obobo$2obobo$3bobo$3b2o!

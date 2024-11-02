@@ -1,0 +1,6 @@
+#N nontnosedp15.rle
+#C https://conwaylife.com/wiki/T-nose
+#C https://www.conwaylife.com/patterns/nontnosedp15.rle
+#C (LifeHistory highlighted version)
+x = 3, y = 16, rule = LifeHistory
+.E$.A$3A3$3A$.A$.A$.A$.A$3A3$3A$.A$.A!

@@ -1,0 +1,5 @@
+#N parabookendandhouse.rle
+#C https://conwaylife.com/wiki/Para-bookend_and_house
+#C https://www.conwaylife.com/patterns/parabookendandhouse.rle
+x = 7, y = 6, rule = B3/S23
+5b2o$4bobo$2o2bo$obobobo$2bo2b2o$b2o!

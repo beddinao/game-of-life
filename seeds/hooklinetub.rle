@@ -1,0 +1,5 @@
+#N hooklinetub.rle
+#C https://conwaylife.com/wiki/Hook_line_tub
+#C https://www.conwaylife.com/patterns/hooklinetub.rle
+x = 7, y = 6, rule = B3/S23
+obo$2obo$3bo$3bobo$4bobo$5bo!

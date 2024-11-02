@@ -1,0 +1,6 @@
+#N charitysp16.rle
+#O Charity Engine, 2022
+#C https://conwaylife.com/wiki/Charity%27s_p16
+#C https://www.conwaylife.com/patterns/charitysp16.rle
+x = 12, y = 12, rule = B3/S23
+4b3o3b2o$bo2b3o3b2o$obo2b2o$bo3$6b2o$4bob2o$3bo$6bo$2b2obo$2b2o!

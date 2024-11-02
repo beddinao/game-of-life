@@ -1,0 +1,8 @@
+#N p64rpentominohassler2.rle
+#C https://conwaylife.com/wiki/R-pentomino_hasslers
+#C https://www.conwaylife.com/patterns/p64rpentominohassler2.rle
+x = 53, y = 25, rule = B3/S23
+48b3o$48b3o$48b3o$37bo7b3o$37b3o5b3o$2o12bob2o22bo4b3o$bo12bobo22b2o$b
+obo11bo$2b2o16bo30b2o$19b2o29bobo$20b2o19b2o7bo$36b2obo9b2o$36bo2bo$
+36b2obo9b2o$41b2o7bo$50bobo$51b2o2$18bobo18b2o$17bo22bo4b3o$18bo2bo15b
+3o5b3o$18bobobo14bo7b3o$19bo2bo25b3o$20b2o26b3o$48b3o!

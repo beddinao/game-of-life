@@ -1,0 +1,5 @@
+#N transboatwithlong4tail.rle
+#C https://conwaylife.com/wiki/Trans-boat_with_long%5E4_tail
+#C https://www.conwaylife.com/patterns/transboatwithlong4tail.rle
+x = 5, y = 9, rule = B3/S23
+b2o$bobo$2bobo$4bo$3bo$2bo$bo$o$2o!

@@ -1,0 +1,6 @@
+#N threequarterstrafficlightcatalyst.rle
+#O cvojan, 2021
+#C https://conwaylife.com/wiki/Three_quarters_traffic_light_catalyst
+#C https://www.conwaylife.com/patterns/threequarterstrafficlightcatalyst.rle
+x = 9, y = 12, rule = B3/S23
+8bo$6b3o$5bo$5b2o4$o5bo$o5bo$o5bo2$2b3o!

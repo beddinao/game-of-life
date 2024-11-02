@@ -1,0 +1,6 @@
+#N unixonp45piheptominohassler.rle
+#C https://conwaylife.com/wiki/P45_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/unixonp45piheptominohassler.rle
+x = 31, y = 23, rule = B3/S23
+8bo4bo$6b2ob4ob2o$8bo4bo3$2o$obo$bo2$8b2ob2o$9b3o$10bo3$23bo2bo$9b2o
+15bo$9b2o11bo4bo$22b2o2bobo$27bob2o3$27bo2bo$27b2o!

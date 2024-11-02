@@ -1,0 +1,6 @@
+#N commapusher1.rle
+#C https://conwaylife.com/wiki/Comma-pusher
+#C https://www.conwaylife.com/patterns/commapusher1.rle
+x = 14, y = 14, rule = B3/S23
+11bo$9bo3bo$2b2o4bo$b4o3bo4bo$2ob2o3b5o$b2o2$6b2o$7bobo$2b2o4b4o$b4o4b
+o3bo$2ob2o3bo$b2o5bo4bo$8b5o!

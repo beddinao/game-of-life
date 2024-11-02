@@ -1,0 +1,7 @@
+#N p28blockpuffer2.rle
+#C https://conwaylife.com/wiki/P28_block_puffer
+#C https://www.conwaylife.com/patterns/p28blockpuffer2.rle
+x = 31, y = 15, rule = B3/S23
+12bo5bo$2b3o6b3o3b3o6b3o$bo2bo5bo2b2ob2o2bo5bo2bo$4bo4b5o3b5o4bo$o3bo
+4b2o9b2o4bo3bo$4bo3b2obo7bob2o3bo$bobo7bo7bo7bobo$12b2o3b2o$7bo6bobo6b
+o$7bo15bo$8bo4b2ob2o4bo$9bobo7bobo$11bo7bo$10b2o7b2o$10bo9bo!

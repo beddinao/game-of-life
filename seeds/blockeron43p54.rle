@@ -1,0 +1,6 @@
+#N blockeron43p54.rle
+#C https://conwaylife.com/wiki/43P54
+#C https://www.conwaylife.com/patterns/blockeron43p54.rle
+x = 28, y = 22, rule = B3/S23
+7bo$7b3o7b2o$10bo6b2o$9b2o2$2b2o22b2o$3bo22bo$3bobo10b3o5bobo$4b2o10bo7b2o$
+16b2o3$b2o$b2o20bo$23b2o$23b2o$ob2o20bo$obo$bo$b2o$b2o$b2o!

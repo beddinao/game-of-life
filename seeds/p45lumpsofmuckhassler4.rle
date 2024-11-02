@@ -1,0 +1,9 @@
+#N p45lumpsofmuckhassler4.rle
+#C https://conwaylife.com/wiki/Period-45_lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p45lumpsofmuckhassler4.rle
+x = 58, y = 45, rule = B3/S23
+8bo4bo$6b2ob4ob2o$8bo4bo3$2o$obo8bo$bo4bo3bobo$5bobo4bo5b2o$4bo4b3o6b
+3ob2o$5b2o12b3obo$22b2o4$10b2o12b3o$10b2o12bobo11bo$23bo2bo9b3o$23bobo
+9bo$23b3o9b2o6$21b2o9b3o$22bo9bobo$19b3o9bo2bo$19bo11bobo12b2o$31b3o
+12b2o4$34b2o$34bob3o12b2o$34b2ob3o6b3o4bo$38b2o5bo4bobo$45bobo3bo4bo$
+46bo8bobo$56b2o3$44bo4bo$42b2ob4ob2o$44bo4bo!

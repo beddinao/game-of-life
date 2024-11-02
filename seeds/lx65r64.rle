@@ -1,0 +1,6 @@
+#N lx65r64.rle
+#O Mitchell Riley, 2024
+#C https://conwaylife.com/wiki/Lx65_duplicator
+#C https://www.conwaylife.com/patterns/lx65r64.rle
+x = 28, y = 28, rule = B3/S23
+14b2o$15bo$15b3o3$2o23bo$bo21b3o$bobo18bo$2b2o18b2o3$22bo$21bobo$20bo2bo2b2o$21b2o3b2o$2bo$2bobo$2b3o15b2o$4bo15b2o7$14b3o$14bo$13b2o!

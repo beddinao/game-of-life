@@ -1,0 +1,6 @@
+#N coeblockpuffer.rle
+#C https://conwaylife.com/wiki/Coe_ship
+#C https://www.conwaylife.com/patterns/coeblockpuffer.rle
+x = 25, y = 15, rule = B3/S23
+13b2o$10b3ob2o$10b5o$11b3o$8bo$7bobo$19b6o$17b2o5bo$15b2obo5bo$2o6b2o
+9bo3bo$2o6bo12bo$21b2o$20b4o$20b2ob2o$22b2o!

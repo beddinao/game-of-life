@@ -1,0 +1,6 @@
+#N p2cornerdotsparker.rle
+#C https://conwaylife.com/wiki/Corner_dot
+#C https://www.conwaylife.com/patterns/p2cornerdotsparker.rle
+x = 12, y = 12, rule = B3/S23
+10b2o$7b2o2bo$6bobobo$6bo3b2o$4bob2o2bo$7b2obo$2b3o2bobo$bo2b3o$b2o2bo
+2bo$6bo$ob4o$2obo!

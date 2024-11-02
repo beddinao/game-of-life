@@ -1,0 +1,5 @@
+#N obospark_synth
+#C Glider synthesis of obo! spark.
+#C https://www.conwaylife.com/wiki/Obo!_spark
+x = 4, y = 11, rule = B3/S23
+bo$o$3o6$b3o$bo$2bo!

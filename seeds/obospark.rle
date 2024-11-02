@@ -1,0 +1,5 @@
+#N obospark.rle
+#C https://conwaylife.com/wiki/Obo!_spark
+#C https://www.conwaylife.com/patterns/obospark.rle
+x = 3, y = 1, rule = B3/S23
+obo!

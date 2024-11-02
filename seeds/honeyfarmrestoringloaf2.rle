@@ -1,0 +1,5 @@
+#N honeyfarmrestoringloaf2.rle
+#C https://conwaylife.com/wiki/Loaf
+#C https://www.conwaylife.com/patterns/honeyfarmrestoringloaf2.rle
+x = 14, y = 13, rule = B3/S23
+5b2o$5b2o4$2o4b2o4b2o$2o3bo2bob2o$5bobo2bo$6bo2$3bo$2bobo$2b2o!

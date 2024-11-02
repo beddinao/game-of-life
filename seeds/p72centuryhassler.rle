@@ -1,0 +1,6 @@
+#N p72centuryhassler.rle
+#C https://conwaylife.com/wiki/Century_hassler
+#C https://www.conwaylife.com/patterns/p72centuryhassler.rle
+x = 42, y = 38, rule = B3/S23
+o2b2o$4obo3bobo$5bo3bo$2b4obo4b2o$2bo8bo$3b3o$5bo3b2o$6b3o$7b2o$7bo17b2o$25b2o2$4b2o$4b2o10b2o$14b2obo$14bo$14b3o5$25b3o$27bo$24bob2o$24b2o
+10b2o$36b2o2$15b2o$15b2o17bo$33b2o$33b3o$31b2o3bo$36b3o$30bo8bo$28b2o4bob4o$32bo3bo$30bobo3bob4o$37b2o2bo!

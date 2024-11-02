@@ -1,0 +1,5 @@
+#N transboatdownonlongbookend.rle
+#C https://conwaylife.com/wiki/Trans-boat_down_on_long_bookend
+#C https://www.conwaylife.com/patterns/transboatdownonlongbookend.rle
+x = 6, y = 7, rule = B3/S23
+bo$obo$b2o2$b4o$bo3bo$4b2o!

@@ -1,0 +1,5 @@
+#N glidersbythedozenoriginal.rle
+#C https://conwaylife.com/wiki/Gliders_by_the_dozen
+#C https://www.conwaylife.com/patterns/glidersbythedozenoriginal.rle
+x = 9, y = 5, rule = b3/s23
+2b2ob2o2b$bobobobob$o2bobo2bo$bobobobob$2b2ob2o!

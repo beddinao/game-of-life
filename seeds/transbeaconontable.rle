@@ -1,0 +1,5 @@
+#N transbeaconontable.rle
+#C https://conwaylife.com/wiki/Trans-beacon_on_table
+#C https://www.conwaylife.com/patterns/transbeaconontable.rle
+x = 6, y = 7, rule = B3/S23
+4b2o$5bo$2bo$2b2o2$4o$o2bo!

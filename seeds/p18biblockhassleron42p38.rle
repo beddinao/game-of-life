@@ -1,0 +1,8 @@
+#N p18biblockhassleron42p38.rle
+#C https://conwaylife.com/wiki/42P38
+#C https://www.conwaylife.com/patterns/p18biblockhassleron42p38.rle
+x = 41, y = 29, rule = B3/S23
+22b2o$22b2o$22b2o$22bo13bo2bo$13bo7bobo12bo$12bo2bo6bobob3o6bo4bo$12bo
+2bo2bo4bob4o5bobo2b2o$14bo3bo5bo7b2obo$18bo$28bo$27bo4bo2bo$o27bo5b2o$
+3o$3bo14bo9b2o$2b2o14b2o8b2o$17b2o2$8b2o$7b2o14b2o$8bo14bo$24b3o$26bo
+3$8bo$8bo3bo$8bo2bo2bo$11bo2bo$13bo!

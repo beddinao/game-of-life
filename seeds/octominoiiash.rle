@@ -1,0 +1,5 @@
+#N octominoiiash.rle
+#C https://conwaylife.com/wiki/Octomino_II
+#C https://www.conwaylife.com/patterns/octominoiiash.rle
+x = 13, y = 13, rule = B3/S23
+10bo$10bo$10bo3$6b2o$5bobo$5b2o4b2o$11b2o2$3o$7b2o$7b2o!

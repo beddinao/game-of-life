@@ -1,0 +1,7 @@
+#N robsp16onp68centuryhassler.rle
+#C https://conwaylife.com/wiki/P68_century_hassler
+#C https://www.conwaylife.com/patterns/robsp16onp68centuryhassler.rle
+x = 32, y = 24, rule = B3/S23
+10b2o$10b2o2$10b4o$10bo2bo4$bo22b3o$b3o11bo$4bo8bo2b2o9b2ob2o$3b2o9b3o
+9bobob2o$15bo9bo$25bo4bo$25bo4bo$25b2o2bo$2b2o21b2o$bobo$bo$2o$19b2o$
+19bo$20b3o$22bo!

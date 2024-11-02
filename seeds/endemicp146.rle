@@ -1,0 +1,7 @@
+#N endemicp146.rle
+#C https://conwaylife.com/wiki/P146_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/endemicp146.rle
+x = 32, y = 24, rule = B3/S23
+29bo$13bo13b3o$2o10b3o11bo$bo24b2o$bobo10bo$2b2o7bo2bo$11b3o5$4b2o$5bo
+$2b3o23b2o$2bo25bobo$30bo$8b2o3bo16b2o$8b2o2bobo$13b2o8b2obo$23b2ob3o$
+29bo$23b2ob3o$22bo2b2o$22b2o!

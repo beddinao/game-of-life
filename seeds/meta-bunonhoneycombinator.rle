@@ -1,0 +1,5 @@
+#N meta-bunonhoneycombinator.rle
+#C https://conwaylife.com/wiki/Honeycombinator
+#C https://www.conwaylife.com/patterns/meta-bunonhoneycombinator.rle
+x = 9, y = 5, rule = B3/S23
+2b2o3bo$bo2bobobo$obobobobo$bo2bob2o$2b2o!

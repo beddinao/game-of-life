@@ -1,0 +1,7 @@
+#N glidertoblock2a.rle
+#C https://conwaylife.com/wiki/Glider_to_block
+#C https://www.conwaylife.com/patterns/glidertoblock2a.rle
+x = 71, y = 71, rule = B3/S23
+69bo$68bo$68b3o25$bo$2bo$3o11$14bo$15bo$13b3o2$32b2o$32b2o6$21b2o$21b
+2o8$30b2o5b2o$29bo2bo4bobo$25b2o3bobo6bo$21b2obobo4bo7b2o$22bobo9b2o$
+21bo2b2o8bo$22b2o11b3o$24b2o11bo$24bo$25bo$24b2o!

@@ -1,0 +1,5 @@
+#N impairedpreshiptie.rle
+#C https://conwaylife.com/wiki/Boat_tie_ship
+#C https://www.conwaylife.com/patterns/impairedpreshiptie.rle
+x = 11, y = 10, rule = B3/S23
+4bo$3bob2o$3bo6bo$b2o5bobo$o7bo$bo7bo$bo5b2o$6bo$3b2obo$5bo!

@@ -1,0 +1,9 @@
+#N p79glidershuttle.rle
+#C https://conwaylife.com/wiki/Honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p79glidershuttle.rle
+x = 56, y = 59, rule = B3/S23
+50b2o$47bo2bo$45b3o3b3o$44bo3b3o3bo$45b3o3bob2o$40b2o5bob2o$40b2o6bob
+ob2obo$51b2ob2o$46b3o$45bo3bo$44bo5bo$44bo5bo$44bo5bo$45bo3bo$46b3o3$
+51b2o$51bobo$53bo$53b2o3$23bo$23b2o$22bobo8$31bobo$31b2o$32bo3$b2o$2b
+o$2bobo$3b2o3$7b3o$6bo3bo$5bo5bo$5bo5bo$5bo5bo$6bo3bo$7b3o$2ob2o$ob2o
+bobo6b2o$5b2obo5b2o$b2obo3b3o$bo3b3o3bo$2b3o3b3o$5bo2bo$4b2o!

@@ -1,0 +1,9 @@
+#N p22bheptominohassler.rle
+#C https://conwaylife.com/wiki/Jason%27s_p22
+#C https://www.conwaylife.com/patterns/p22bheptominohassler.rle
+x = 49, y = 38, rule = B3/S23
+22b2o$23bo$23bobo13b3o$24b2o3bo8bo3bo$28bob2o6bo4bo$27bo4bo6b2obo$28b
+o3bo8bo3b2o$29b3o13bobo$47bo$47b2o5$25b2o$24bobo$23b2obo$12b2o10b2o7b
+2o$13bo11bo7bobo$13bobo7bo11bo$14b2o7b2o10b2o$22bob2o$22bobo$22b2o5$2o
+$bo$bobo13b3o$2b2o3bo8bo3bo$6bob2o6bo4bo$5bo4bo6b2obo$6bo3bo8bo3b2o$7b
+3o13bobo$25bo$25b2o!

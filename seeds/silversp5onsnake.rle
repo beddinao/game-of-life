@@ -1,0 +1,6 @@
+#N silversp5onsnake.rle
+#O Stephen Silver, 2000
+#C https://conwaylife.com/wiki/Silver%27s_p5
+#C https://www.conwaylife.com/patterns/silversp5onsnake.rle
+x = 11, y = 7, rule = B3/S23
+2o$o$bo2bo$3b2o$3bo3bob2o$2bo4b2obo$2b2o!

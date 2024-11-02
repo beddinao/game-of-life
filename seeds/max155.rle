@@ -1,0 +1,9 @@
+#N max155.rle
+#C https://conwaylife.com/wiki/Max
+#C https://www.conwaylife.com/patterns/max155.rle
+x = 25, y = 23, rule = B3/S23
+16b2o$11bo5b2o3b2o$4b2o6b2o4b2o$2bo5bobo2b4ob3o2bo$3b3o3b2o2bo8bo$15bo
+3bo3bo$4o7bo3bobobobo$o2bo4b3o10bobo$6bobobob2o6bo2b2o$4bobobo3bobo7bo
+$3obo2b2ob2o3bo$bobo4bobobobobo4bobo$9bo3b2ob2o2bob3o$2bo7bobo3bobobo$
+2o2bo6b2obobobo$bobo10b3o4bo2bo$3bobobobo3bo7b4o$bo3bo3bo$2bo8bo2b2o3b
+3o$bo2b3ob4o2bobo5bo$5b2o4b2o6b2o$b2o3b2o5bo$7b2o!

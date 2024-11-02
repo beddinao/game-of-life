@@ -1,0 +1,8 @@
+#N p43piheptominohassler.rle
+#O Nico Brown, 2022
+#C https://conwaylife.com/wiki/P43_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/p43piheptominohassler.rle
+x = 51, y = 27, rule = B3/S23
+26bo$26b3o$10bo18bo$10b3o15b2o$13bo$12b2o25b2o$39b2o8b2o$49bo$47bobo$
+47b2o$44bo$18bobo23bo$18bobo23bo$18b3o9b3o$6bo23bobo$6bo23bobo$6bo$2b
+2o$bobo$bo$2o8b2o$10b2o25b2o$37bo$21b2o15b3o$21bo18bo$22b3o$24bo!

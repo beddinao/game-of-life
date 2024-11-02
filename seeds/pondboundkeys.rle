@@ -1,0 +1,5 @@
+#N pondboundkeys.rle
+#C https://conwaylife.com/wiki/Pond-bound_keys
+#C https://www.conwaylife.com/patterns/pondboundkeys.rle
+x = 12, y = 7, rule = B3/S23
+b2o6b2o$o2bo4bo2bo$3bo4bo$bo3b2o3bo$bo8bo$bo2bo2bo2bo$5b2o!

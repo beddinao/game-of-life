@@ -1,0 +1,9 @@
+#N fumaroleonalt62p83.rle
+#C https://conwaylife.com/wiki/62P83
+#C https://www.conwaylife.com/patterns/fumaroleonalt62p83.rle
+x = 40, y = 27, rule = B3/S23
+20b2o$7b2o11bo$8bo9bobo$8bobo7b2o$9b2o$26b2o$27bo$24b3o$6b3o15bo$12bo$
+2bo5bo4bob2o$bo5bo5bo3bob2o$o4bo7bo3bob2o8b2o$b2o11b2o5b2o11b2o$6b2o8b
+2obo3bo7bo4bo$16b2obo3bo5bo5bo$20b2obo4bo5bo$24bo$12bo15b3o4b2o$10b3o
+20bo4bo$9bo23bo4bo$9b2o22bo4bo$26b2o6bo2bo$17b2o7bobo3bobo2bobo$16bobo
+9bo3b2o4b2o$16bo11b2o$15b2o!

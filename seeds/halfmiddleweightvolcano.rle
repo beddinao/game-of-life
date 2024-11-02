@@ -1,0 +1,6 @@
+#N halfmiddleweightvolcano.rle
+#C https://conwaylife.com/wiki/Middleweight_volcano
+#C https://www.conwaylife.com/patterns/halfmiddleweightvolcano.rle
+x = 14, y = 15, rule = B3/S23
+6bo$4bo$8bo$3bo$b3ob2obobo$o3bo2b2ob3o$2ob2o3b2o3bo$bobo7bobo$bo2bo2b
+6o$2b2o2bo$3bob2obob3o$3bo2bo4bobo$4bo3b2o3bo$5b3o2b3o$7bo2bo!

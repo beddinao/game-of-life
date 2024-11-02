@@ -1,0 +1,5 @@
+#N housesiameseshillelagh.rle
+#C https://conwaylife.com/wiki/House_siamese_shillelagh
+#C https://www.conwaylife.com/patterns/housesiameseshillelagh.rle
+x = 6, y = 5, rule = B3/S23
+2ob2o$o3bo$b3o$3bobo$4b2o!

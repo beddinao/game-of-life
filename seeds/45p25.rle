@@ -1,0 +1,6 @@
+#N 45p25.rle
+#C https://conwaylife.com/wiki/Fumarole
+#C https://www.conwaylife.com/patterns/45p25.rle
+x = 24, y = 13, rule = B3/S23
+22b2o$19b2o2bo$19bob2o$18bo$18bo$2o17bob2o$o2b2o8b2o4b2o2bo$b2obo8b2o
+7b2o$5bo7b2o$5bo$b2obo5b3o$o2b2o$2o!

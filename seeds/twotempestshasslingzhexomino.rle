@@ -1,0 +1,7 @@
+#N twotempestshasslingzhexomino.rle
+#C https://conwaylife.com/wiki/Tempest
+#C https://www.conwaylife.com/patterns/twotempestshasslingzhexomino.rle
+x = 22, y = 15, rule = B3/S23
+2bobo$2bobob2o$2o4bo6bo$4b3o6bobo$2obo2bo5bobo$3bo2bo7bo$b5o3bo$bo7b4o
+7bo$12bo3b5o$7bo7bo2bo$7bobo5bo2bob2o$6bobo6b3o$8bo6bo4b2o$14b2obobo$
+17bobo!

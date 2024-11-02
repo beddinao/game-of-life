@@ -1,0 +1,7 @@
+#N p822hdreflector.rle
+#O Tanner Jacobi, 2022
+#C https://conwaylife.com/wiki/P8_glider_reflector
+#C https://www.conwaylife.com/patterns/p822hdreflector.rle
+x = 19, y = 20, rule = B3/S23
+14b2o$14bo$obo9bobo$b2o9b2o$bo3$11b2o$11b2o3b2o$15bo2bo2$14bo$b2o11bo
+2bo$bo5b2o3b2ob2o$2b3o2b2o3b3o$4bo8bo$2b2o$2bo$3bo8b2o$2b2o8b2o!

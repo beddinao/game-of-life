@@ -1,0 +1,7 @@
+#N lifedigits.rle
+#C https://conwaylife.com/wiki/Integer_construction
+#C https://www.conwaylife.com/patterns/lifedigits.rle
+x = 37, y = 5, rule = B3/S23
+3obob3ob3obobob3ob3ob3ob3ob3o$obobo3bo3bobobobo3bo5bobobobobo$obobob3o
+b3ob3ob3ob3o3bob3ob3o$obobobo5bo3bo3bobobo3bobobo3bo$3obob3ob3o3bob3ob
+3o3bob3ob3o!

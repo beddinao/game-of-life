@@ -1,0 +1,8 @@
+#N p112pufferdebris.rle
+#C https://conwaylife.com/wiki/P112_puffer
+#C https://www.conwaylife.com/patterns/p112pufferdebris.rle
+x = 68, y = 56, rule = B3/S23
+2$25b2o$25b2o$56b2o$56bobo$57b2o4$38b2o$38b2o3$15bo30b2o$14bobo29b2o$
+14bo2bo$15b2o$22b2o$8bo12bo2bo3b2o$7bobo11bobo4bobo$7bo2bo11bo6b2o$8b
+2o21b2o$31bobo$32b2o4$13b2o10b2o$12bobo10b2o$12b2o10$9b3o5$17b2o$16bo
+2bo$17b2o4$18b2o$17bo2bo$17bo2bo$18b2o6b2o$26b2o!

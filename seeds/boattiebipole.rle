@@ -1,0 +1,5 @@
+#N boattiebipole.rle
+#C https://conwaylife.com/wiki/Boat_tie_bipole
+#C https://www.conwaylife.com/patterns/boattiebipole.rle
+x = 8, y = 8, rule = B3/S23
+2o$obo2$2bobo$3b2o$5b2o$5bobo$6bo!

@@ -1,0 +1,5 @@
+#N unidimensionaltumblerpredecessor.rle
+#C https://conwaylife.com/wiki/One-cell-thick_pattern
+#C https://www.conwaylife.com/patterns/unidimensionaltumblerpredecessor.rle
+x = 36, y = 1, rule = B3/S23
+5o2b3o3b3ob7ob5o2b4o!

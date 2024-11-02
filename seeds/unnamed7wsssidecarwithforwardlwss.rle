@@ -1,0 +1,6 @@
+#N unnamed7wsssidecarwithforwardlwss.rle
+#C https://conwaylife.com/wiki/Unnamed_7WSS_sidecar
+#C https://www.conwaylife.com/patterns/unnamed7wsssidecarwithforwardlwss.rle
+x = 15, y = 27, rule = B3/S23
+6$5b4o$5bo3bo$5bo$6bo2bo$10bo$6bo5bo$5bo$5bo6bo$5b7o3$5bo2bo$4bo3bob2o
+$4bo3bo$4b2obo2bo2$6b2o!

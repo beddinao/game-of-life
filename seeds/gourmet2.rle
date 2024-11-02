@@ -1,0 +1,7 @@
+#N gourmet2.rle
+#C https://conwaylife.com/wiki/Gourmet
+#C https://www.conwaylife.com/patterns/gourmet2.rle
+x = 20, y = 20, rule = B3/S23
+10b2o$10bo$2bob2ob2obo3b2o$2b2obobobo4bo$8bo8bo$16b2o2$16b2o$o10bo3bob
+o$3o7b3o3bo$3bo6bobo4b3o$2bobo14bo$2b2o2$2b2o$2bo8bo$5bo4bobobob2o$4b
+2o3bob2ob2obo$9bo$8b2o!

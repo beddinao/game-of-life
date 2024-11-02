@@ -1,0 +1,6 @@
+#N pentadecathlonhasslingbutterflysequenceobject.rle
+#C https://conwaylife.com/wiki/Pentadecathlon
+#C https://www.conwaylife.com/patterns/pentadecathlonhasslingbutterflysequenceobject.rle
+x = 21, y = 21, rule = B3/S23
+13bo4bo$5b2o4b2ob4ob2o$4b2o7bo4bo$4bo2bo$2b2ob2o$b2obo$bo2bo$3bo4$bo$b
+o$obo$bo$bo$bo$bo$obo$bo$bo!

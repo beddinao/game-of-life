@@ -1,0 +1,7 @@
+#N 37p4h1v1.1.rle
+#O Nicolay Beluchenko, 2005
+#C https://conwaylife.com/wiki/37P4H1V1.1
+#C https://www.conwaylife.com/patterns/37p4h1v1.1.rle
+x = 16, y = 16, rule = B3/S23
+11b2o$11bobo$11bo$14bo$13bobo$13bobo$5b3o5bo$5bo7bo$6bo6bo$8b2o3bo$9bo
+2bo$2o$obo3b3o$o3bo4bo$3b2o$3bo5bo!

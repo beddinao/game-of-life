@@ -1,0 +1,7 @@
+#N figureeighton44p38.rle
+#C https://conwaylife.com/wiki/44P38
+#C https://www.conwaylife.com/patterns/figureeighton44p38.rle
+x = 44, y = 24, rule = B3/S23
+15b2o2$13bo3bo$13bo4bo$15bobobo$16bobobo$17bo4bo$18bo3bo2$19b2o2$5bo
+32bo$5b2o30b2o2$6bobo3b2o16b2o3bobo$b3o2bobo2bo2bo14bo2bo2bobo2b3o$12b
+obo14bobo$13b2o14b2o3$2b2o36b2o$3bo36bo$3o38b3o$o42bo!

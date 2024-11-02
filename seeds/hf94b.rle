@@ -1,0 +1,5 @@
+#N hf94b.rle
+#C https://conwaylife.com/wiki/HF94B
+#C https://www.conwaylife.com/patterns/hf94b.rle
+x = 27, y = 23, rule = B3/S23
+25b2o$2o24bo$bo13b2o6b3o$bobo11b2o6bo$2b2o7$2bo$2bobo$2b3o$4bo5$11b2o3b2o$12bo3bo$9b3o5b3o$9bo9bo!

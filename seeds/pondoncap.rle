@@ -1,0 +1,5 @@
+#N pondoncap.rle
+#C https://conwaylife.com/wiki/Pond_on_cap
+#C https://www.conwaylife.com/patterns/pondoncap.rle
+x = 8, y = 5, rule = B3/S23
+b2o$o2bob2o$o2bobobo$b2o2bobo$5b2o!

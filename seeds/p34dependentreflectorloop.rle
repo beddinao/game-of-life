@@ -1,0 +1,9 @@
+#N p34dependentreflectorloop.rle
+#C https://conwaylife.com/wiki/Dependent_reflector
+#C https://www.conwaylife.com/patterns/p34dependentreflectorloop.rle
+x = 43, y = 41, rule = B3/S23
+11bo$11b3o$14bo$13b2o2$18bo$19b2o$8bo$7bobo8bobo4b3o$6bo3bo7b2o6bo$7b
+obo$2b2o4bo$bobo$bo26b2o$2o6bo14bo4bo$8b2o14b2o3b3o$10bo12b2o6bo8b2o$
+8bobo29bo$8b2o28bobo$38b2o2$3b2o$2bobo28b2o$2bo29bobo$b2o8bo6b2o12bo$
+11b3o3b2o14b2o$14bo4bo14bo6b2o$13b2o26bo$39bobo$34bo4b2o$33bobo$16bo6b
+2o7bo3bo$15b3o4bobo8bobo$34bo$22b2o$24bo2$28b2o$28bo$29b3o$31bo!

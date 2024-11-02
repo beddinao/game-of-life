@@ -1,0 +1,9 @@
+#N longlivedsparks.rle
+#C https://conwaylife.com/wiki/Spark
+#C https://www.conwaylife.com/patterns/longlivedsparks.rle
+x = 59, y = 46, rule = LifeHistory
+3D17.D.3D25.D.3D$2.D17.D.D27.D3.D$2.D17.D.3D25.D3.D$2.D17.D3.D25.D3.D
+$2.D17.D.3D25.D3.D4$51.2A$3A47.A2.A$3A17.4A26.A.A$A19.A2.A28.A19$D.D.
+3D13.3D.D.D23.D.3D.3D$D.D.D15.D.D.D.D23.D3.D3.D$3D.3D13.3D.3D23.D.3D
+3.D$2.D3.D15.D3.D23.D3.D3.D$2.D.3D13.3D3.D23.D.3D3.D3$22.A.A$23.2A28.
+2A$4.A18.A29.2A$.4A$.A20.3A$24.A$23.A28.3A$51.A.A$52.A!

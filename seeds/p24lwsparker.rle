@@ -1,0 +1,7 @@
+#N p24lwsparker.rle
+#C https://conwaylife.com/wiki/Period-24_honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p24lwsparker.rle
+x = 26, y = 17, rule = B3/S23
+b2o9b2o$o2bo7bo2bo$3o9b3o$3b9o$2bo2b5o2bo3bo2bo$2b2o2b3o2b2o7bo$21b2o$
+15bob2o6bo$15bo2bo3bo$3o6bo4bo3bob3o$b3o4bobo2bo11bo$7bo3bo4b3obo3bo$
+7bo3bo4bo3bo2bo$7bo3bobo6b2obo$b3o4bobo5b2o$3o6bo8bo$19bo2bo!

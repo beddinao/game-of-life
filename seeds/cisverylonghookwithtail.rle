@@ -1,0 +1,5 @@
+#N cisverylonghookwithtail.rle
+#C https://conwaylife.com/wiki/Cis-very_long_hook_with_tail
+#C https://www.conwaylife.com/patterns/cisverylonghookwithtail.rle
+x = 6, y = 5, rule = B3/S23
+3bo$2bobo$bo2bo$o3b2o$2o!

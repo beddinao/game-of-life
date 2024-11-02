@@ -1,0 +1,6 @@
+#N hrx74b.rle
+#O Tanner Jacobi, 2022
+#C https://conwaylife.com/wiki/HRx74B
+#C https://www.conwaylife.com/patterns/hrx74b.rle
+x = 14, y = 24, rule = B3/S23
+4b2o$4b2o2$4bo$3b2o$b2o2bo$bobo$bo3$2o$2o3b2o$5b2o8$4bo$4bobo$4b3o5b2o$6bo5b2o!

@@ -1,0 +1,7 @@
+#N glidertoboat.rle
+#C https://conwaylife.com/wiki/Glider_to_block
+#C https://www.conwaylife.com/patterns/glidertoboat.rle
+x = 36, y = 28, rule = B3/S23
+27b2o$15bo8b2o2bo2b2o$15b3o6bo3bobo2bo$18bo6b3obobo2bo$17b2o8bobob2obo
+$27bobo4b2o$28bo2b3o$29b2o2bo$32bo$33b3o$35bo$22b2o$18b2o2bobo$19b2o2b
+o$18bo3$22b2o$22bo$23b3o$25bo5$3o$2bo$bo!

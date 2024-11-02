@@ -1,0 +1,7 @@
+#N p40rpentominoshuttle.rle
+#C https://conwaylife.com/wiki/R-pentomino_hasslers
+#C https://www.conwaylife.com/patterns/p40rpentominoshuttle.rle
+x = 23, y = 26, rule = B3/S23
+2bo$bobo$o3bo$bo3bo10bo$2bo3bo4b3ob2o2b2o$3bo3bo3b4o4b2o$4bobo8b2o$5bo
+4$10bo$9b3o$9bo3$15b2o2$6bo6bo3bo$b3ob2o2b2o2bo4bo$b4o4b2o4bobobo$5b2o
+9bobobo$17bo4bo$18bo3bo2$19b2o!

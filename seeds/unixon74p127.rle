@@ -1,0 +1,8 @@
+#N unixon74p127.rle
+#C https://conwaylife.com/wiki/74P127
+#C https://www.conwaylife.com/patterns/unixon74p127.rle
+x = 42, y = 39, rule = B3/S23
+28bo$b2o23b3o$b2o22bo$25b2o$bo$obo$o2bo2b2o4bo10bo9b2o$4bob2o3bobo8b2o
+9b2o$2b2o8bo7b2o$18b2o2bo$22bo2bo$24bo$18bobo3bo$19b3o4bo2$4b2o$4b2o6$
+40b2o$40b2o2$19bo4b3o$21bo3bobo$21bo$20bo2bo$23bo2b2o$24b2o7bo$11b2o9b
+2o8bobo$11b2o9bo10bo3$19b2o$20bo$17b3o$17bo!

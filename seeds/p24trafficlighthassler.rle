@@ -1,0 +1,7 @@
+#N p24trafficlighthassler.rle
+#C https://conwaylife.com/wiki/21P4.1
+#C https://www.conwaylife.com/patterns/p24trafficlighthassler.rle
+x = 25, y = 17, rule = B3/S23
+18b2o$18bobo$19b2o$20b2o$23bo$5b2o7bobo3bo$6bo7bo2bo5b2o$3bo10bobo2bob
+2o$3bobo13bobo$2b2obo2bobo10bo$2o5bo2bo7bo$4bo3bobo7b2o$bo$3b2o$4b2o$
+4bobo$5b2o!

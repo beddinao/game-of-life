@@ -1,0 +1,5 @@
+#N transmirroredbun.rle
+#C https://conwaylife.com/wiki/Trans-mirrored_bun
+#C https://www.conwaylife.com/patterns/transmirroredbun.rle
+x = 7, y = 5, rule = B3/S23
+bo$obob2o$obobobo$b2obobo$5bo!

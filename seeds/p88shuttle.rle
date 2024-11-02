@@ -1,0 +1,9 @@
+#N p88shuttle.rle
+#C https://conwaylife.com/wiki/Shuttle
+#C https://www.conwaylife.com/patterns/p88shuttle.rle
+x = 32, y = 32, rule = B3/S23
+2bo10bo2bo$b3o13bo$3obo13b2o$bo3bo6bob2o6bo$2bo3bo5bo2bo3bo$3bob3o3bo
+3bob3o$4b3o3bo11bo$5bo7b3obo3bo$13bo3bo2bo$10bo6b2obo$8bo4b2o$7b2o6bo$
+7bobo6bo2bo3$2b2o$bobo$bo$2o23bo2bo$24bo$22b2o$19bo6b2obo$8b2o4b2o6bo
+3bo2bo$8b2o4b2o6b3obo3bo$19bo11bo$20bo3bob3o$7bob2o3b2o5bo2bo3bo$7bobo
+4b2o5bob2o6bo$8bo18b2o$8b2o16bo$8b2o12bo2bo$8b2o!

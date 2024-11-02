@@ -1,0 +1,5 @@
+#N transbookendandwing.rle
+#C https://conwaylife.com/wiki/Trans-bookend_and_wing
+#C https://www.conwaylife.com/patterns/transbookendandwing.rle
+x = 8, y = 5, rule = B3/S23
+b2o$o2bob2o$bobobo$2b2obobo$6b2o!

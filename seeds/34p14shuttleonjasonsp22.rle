@@ -1,0 +1,7 @@
+#N 34p14shuttleonjasonsp22.rle
+#C https://conwaylife.com/wiki/Jason%27s_p22
+#C https://www.conwaylife.com/patterns/34p14shuttleonjasonsp22.rle
+x = 37, y = 20, rule = B3/S23
+27b2o5b2o$28bo5bo3$29b2ob2o2$28bobobobo$27bo7bo$26bo2bo3bo2bo$26b3o5b
+3o$2o$bo$bobo13b3o$2b2o3bo8bo3bo6b2o5b2o$6bob2o6bo4bo5b2o5b2o$5bo4bo6b
+2obo$6bo3bo8bo3b2o$7b3o13bobo$25bo$25b2o!

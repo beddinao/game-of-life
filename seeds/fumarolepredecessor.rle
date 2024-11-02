@@ -1,0 +1,5 @@
+#N fumarolepredecessor.rle
+#C https://conwaylife.com/wiki/Fumarole
+#C https://www.conwaylife.com/patterns/fumarolepredecessor.rle
+x = 9, y = 11, rule = B3/S23
+o5bo$o2b2o$2bo2bo$3bobo$4bo5$b2o4b2o$b2o4b2o!

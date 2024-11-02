@@ -1,0 +1,6 @@
+#N p5heavyweightvolcano3.rle
+#C https://conwaylife.com/wiki/Heavyweight_volcano
+#C https://www.conwaylife.com/patterns/p5heavyweightvolcano3.rle
+x = 19, y = 10, rule = B3/S23
+6b2o2bo$4bo5bo3bobo$10bo2b2o$3bo6b3o4bo$b3ob4obobob2o2bo$o4bobo4bo2bob
+2o$b5obob2ob2obo$7bobo2bo2bob2o$b5obobobo2b2ob2o$bo2bobo3bo!

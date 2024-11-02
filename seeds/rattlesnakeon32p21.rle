@@ -1,0 +1,7 @@
+#N rattlesnakeon32p21.rle
+#C https://conwaylife.com/wiki/32P21
+#C https://www.conwaylife.com/patterns/rattlesnakeon32p21.rle
+x = 22, y = 27, rule = B3/S23
+5b2o$5b2o2$bo$obo$bo3b3o$9bo$5bo4bo$5bo3bo$6bo3bo$5bo4bo$6bo$8b3o3bo4b
+2o$13bobo2bobo$14bo3bo$17b2o$9b2o$9b2o2$14b2o$14bob2o$9b2obobobobo$9bo
+b2obobo$15bo2b3o$16b2o3bo$18b3o$18bo!

@@ -1,0 +1,5 @@
+#N g.rle
+#C https://conwaylife.com/wiki/G_(induction_coil)
+#C https://www.conwaylife.com/patterns/g.rle
+x = 4, y = 6, rule = B3/S23
+3bo$b3o$o$ob2o$o2bo$b2o!

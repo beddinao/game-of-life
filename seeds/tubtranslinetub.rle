@@ -1,0 +1,5 @@
+#N tubtranslinetub.rle
+#C https://conwaylife.com/wiki/Tub_trans-line_tub
+#C https://www.conwaylife.com/patterns/tubtranslinetub.rle
+x = 7, y = 7, rule = B3/S23
+5bo$4bobo$3bobo$3bo$bobo$obo$bo!

@@ -1,0 +1,10 @@
+#N merzenichsp64shasslingoctagon2.rle
+#C https://conwaylife.com/wiki/Octagon_2
+#C https://www.conwaylife.com/patterns/merzenichsp64shasslingoctagon2.rle
+x = 46, y = 46, rule = B3/S23
+13b2o$13b2o4$27b2o$27b2o$17bo$16bobo5bo5b2o$19bo3b2o5b2o$13bo2bo3bo2bo
+$12b2o3bo$12bo5bobo12b2o$19bo14b2o8b2o$8b2o34b2o$8b2o$35bobo$5b2o27bo
+3bo$5b2o26bo3bo$21bo2bo7bo3bo$21bo2bo8bobo$8b2o9b2ob2ob2o$9b2o10bo2bo$
+21bo2bo10b2o$19b2ob2ob2o9b2o$10bobo8bo2bo$9bo3bo7bo2bo$8bo3bo26b2o$7bo
+3bo27b2o$8bobo$36b2o$2o34b2o$2o8b2o14bo$11b2o12bobo5bo$28bo3b2o$22bo2b
+o3bo2bo$14b2o5b2o3bo$14b2o5bo5bobo$28bo$17b2o$17b2o4$31b2o$31b2o!

@@ -1,0 +1,5 @@
+#N crinklyheptomino.rle
+#C https://conwaylife.com/wiki/Crinkly_heptomino
+#C https://www.conwaylife.com/patterns/crinklyheptomino.rle
+x = 5, y = 2, rule = B3/S23
+4o$o2b2o!

@@ -1,0 +1,8 @@
+#N period48glidergun2021.rle
+#C https://conwaylife.com/wiki/Period-48_glider_gun
+#C https://www.conwaylife.com/patterns/period48glidergun2021.rle
+x = 35, y = 16, rule = B3/S23
+33b2o$8bo9b2o13bo$7bob2o7b2o11bobo$6bo3bo14b2o4b2o$6bo5bo11b2obo$3bo2b
+o5bo12bob2o$2bobo7bo13b2o$3b2o2b4o$21b3o$3b2o2b4o9bo3bo$2bobo7bo7bo3bo
+$3bo2bo5bo7bob2o7b2o$6bo5bo18bobo$6bo3bo4b2o9bo6bo$7bob2o4b2o10bo5b2o$
+8bo16b3o!

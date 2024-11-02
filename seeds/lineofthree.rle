@@ -1,0 +1,6 @@
+#N lineofthree.rle
+#O John Conway, 1969
+#C https://conwaylife.com/wiki/Line_of_three
+#C https://www.conwaylife.com/patterns/lineofthree.rle
+x = 1, y = 3, rule = B3/S23
+o$o$o!

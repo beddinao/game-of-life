@@ -1,0 +1,8 @@
+#N loafereaterandtoh.rle
+#C https://conwaylife.com/wiki/Loafer
+#C https://www.conwaylife.com/patterns/loafereaterandtoh.rle
+x = 51, y = 19, rule = B3/S23
+18b2o$18bo9b2o$19bo2bo2bo3bo$16b4o2b4o2bo$16bo11b2o$19b4ob2o$19bo2bob
+2o2$11bo$9b3o$bo6bo12bo9b2o15bo$obo5b2o10bobo8b2o15bo$o2bo16bo2bo24b3o
+$b2o18b2o27bo2$o5bo13bo5bo$bo3bobo13bo3bobo$2o3bo2bo11b2o3bo2bo$o3b2o
+2bo11bo3b2o2bo!

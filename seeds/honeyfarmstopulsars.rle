@@ -1,0 +1,8 @@
+#N honeyfarmstopulsars.rle
+#C https://conwaylife.com/wiki/Honey_farm
+#C https://www.conwaylife.com/patterns/honeyfarmstopulsars.rle
+x = 18, y = 46, rule = B3/S23
+2b3o7b3o$bo3bo5bo3bo$o5bo3bo5bo$o5bo3bo5bo$o5bo3bo5bo$bo3bo5bo3bo$2b3o
+7b3o12$2b3o8b3o$bo3bo6bo3bo$o5bo4bo5bo$o5bo4bo5bo$o5bo4bo5bo$bo3bo6bo
+3bo$2b3o8b3o13$2b3o$bo3bo$o5bo5b3o$o5bo4bo3bo$o5bo3bo5bo$bo3bo4bo5bo$
+2b3o5bo5bo$11bo3bo$12b3o!

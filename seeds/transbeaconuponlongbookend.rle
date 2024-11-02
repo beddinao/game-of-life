@@ -1,0 +1,5 @@
+#N transbeaconuponlongbookend.rle
+#C https://conwaylife.com/wiki/Trans-beacon_up_on_long_bookend
+#C https://www.conwaylife.com/patterns/transbeaconuponlongbookend.rle
+x = 6, y = 8, rule = B3/S23
+4b2o$5bo$2bo$2b2o2$4o$o3bo$3b2o!

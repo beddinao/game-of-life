@@ -1,0 +1,5 @@
+#N cismirroredelfshoe.rle
+#C https://conwaylife.com/wiki/Cis-mirrored_elf-shoe
+#C https://www.conwaylife.com/patterns/cismirroredelfshoe.rle
+x = 9, y = 8, rule = B3/S23
+2b2ob2o$bobobobo$bobobobo$2obobob2o$3bobo$2obobob2o$o2bobo2bo$b2o3b2o!

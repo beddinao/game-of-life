@@ -1,0 +1,10 @@
+#N p25glidergun2022bb23x22.rle
+#C https://conwaylife.com/wiki/Period-25_glider_gun
+#C https://www.conwaylife.com/patterns/p25glidergun2022bb23x22.rle
+#C https://conwaylife.com/forums/viewtopic.php?p=153458#p153458
+#C https://conwaylife.com/forums/viewtopic.php?p=154385#p154385
+x = 23, y = 22, rule = B3/S23
+11b2o4b2o$11bobo2bobo$13bo2bo$12b2o2b2o$11b3o2b3o$13bo2bo$6b2o$7bo6bo$
+7bobo$5b2ob2o2b3o$4bobo5b2obo$4bobo8b3o2bobo$2b2obob2o3b2o3b2o3bo$3bob
+o3bo5bo6bo$3bobob2o7bo4bo$2obobobo10b2o$o2b2obo$2bo4bo$3b5o2$2bob2o$2b
+2obo!

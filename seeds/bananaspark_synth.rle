@@ -1,0 +1,5 @@
+#N bananaspark_synth
+#C Glider synthesis of banana spark.
+#C https://www.conwaylife.com/wiki/Banana_spark
+x = 4, y = 11, rule = B3/S23
+bo$o$3o6$2bo$b2o$bobo!

@@ -1,0 +1,5 @@
+#N dot_synth
+#C Glider synthesis of dot.
+#C https://www.conwaylife.com/wiki/Dot
+x = 13, y = 14, rule = B3/S23
+11bo$10bo$10b3o9$2o$b2o$o!

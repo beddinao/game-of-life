@@ -1,0 +1,5 @@
+#N phoenixwithcavity.rle
+#C https://conwaylife.com/wiki/Phoenix_with_cavity
+#C https://www.conwaylife.com/patterns/phoenixwithcavity.rle
+x = 9, y = 8, rule = B3/S23
+3bo$3bobo$bo5bo$6bobo$2o6bo$6b2o$2bobo$4bo!

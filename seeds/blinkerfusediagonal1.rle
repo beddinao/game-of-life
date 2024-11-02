@@ -1,0 +1,6 @@
+#N blinkerfusediagonal1.rle
+#C https://conwaylife.com/wiki/Blinker_fuse
+#C https://www.conwaylife.com/patterns/blinkerfusediagonal1.rle
+x = 53, y = 48, rule = B3/S23
+ob2o$3o$bo6$14b3o$bo$bo$bo9$26b3o$13bo$13bo$13bo9$38b3o$25bo$25bo$25bo
+9$50b3o$37bo$37bo$37bo!

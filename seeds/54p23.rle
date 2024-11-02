@@ -1,0 +1,8 @@
+#N 54p23.rle
+#O Nico Brown, 2022
+#C https://conwaylife.com/wiki/54P23
+#C https://www.conwaylife.com/patterns/54p23.rle
+x = 20, y = 20, rule = B3/S23
+4bo$4b3o5bo$7bo4bo$6b2o4bo2$18b2o$2b2o14bo$2bo13bobo$4bo11b2o$3b2o6bo
+$2bo6b3o$bob2o4bobo$o2bobo5bo$2o2bo2$15b2o$8b2o5bobo$9bo7bo$6b3o8b2o$
+6bo!

@@ -1,0 +1,5 @@
+#N mooseantlersgenerator.rle
+#C https://conwaylife.com/wiki/Moose_antlers
+#C https://www.conwaylife.com/patterns/mooseantlersgenerator.rle
+x = 5, y = 7, rule = B3/S23
+2b2o$2b2o$2b2o$bobo$o3bo$bobo$2bo!

@@ -1,0 +1,10 @@
+#N backrake1-no-hwss.rle
+#C https://conwaylife.com/wiki/Backrake_1
+#C https://www.conwaylife.com/patterns/backrake1-no-hwss.rle
+x = 79, y = 91, rule = B3/S23
+46bo$46bo$46bo2$38b2o8b3o$38b2o5$76b2o$76bobo$77b2o4$58b2o$58b2o2$30b
+2o$30b2o34b2o$66b2o5$42bo$b2o39bo$obo39bo$2o$38b3o3$19b2o$19b2o2$53bo
+$11b2o40bo$11b2o40bo8$38bo$37bobo$37bobo$38bo13b2o$51bo2bo$52b2o6$35b
+2o$35b2o3$44b2o$44b2o$39bo$38bobo$38bobo$39bo2$34b2o7b2o$33bo2bo5bo2b
+o$34b2o7b2o2$39bo$38bobo$38bobo$39bo5$42b3o2$37b2o$37b2o5$37b2o6b2o$36b
+o2bo4bo2bo$37b2o6b2o!

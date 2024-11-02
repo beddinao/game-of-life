@@ -1,0 +1,7 @@
+#N 40p4h1v0.1.rle
+#O Matthias Merzenich, 2017
+#C https://conwaylife.com/wiki/40P4H1V0.1
+#C https://www.conwaylife.com/patterns/40p4h1v0.1.rle
+x = 17, y = 17, rule = B3/S23
+15bo$bo13bo$bo12bobo$obo$9bo3bo$3bo5b5o$3b2o3bo4bo$3bobo3bo3bo$3bob2o
+6bo$4bobo2bo2bo$12bo$9b2o2$9b2o$10bo2$10b2o!

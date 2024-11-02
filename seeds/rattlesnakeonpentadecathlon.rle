@@ -1,0 +1,6 @@
+#N rattlesnakeonpentadecathlon.rle
+#C https://conwaylife.com/wiki/Rattlesnake
+#C https://www.conwaylife.com/patterns/rattlesnakeonpentadecathlon.rle
+x = 15, y = 18, rule = B3/S23
+4b2o$5bo$4bo$4b2o2$4b4o$3bo3bo$2bob3o$2bo3bo4bob2o$2obobo5b2obo$bobo$bobo$2bo
+3$6b8o$6bob4obo$6b8o!

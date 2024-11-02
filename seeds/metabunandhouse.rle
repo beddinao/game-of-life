@@ -1,0 +1,5 @@
+#N metabunandhouse.rle
+#C https://conwaylife.com/wiki/Meta-bun_and_house
+#C https://www.conwaylife.com/patterns/metabunandhouse.rle
+x = 7, y = 5, rule = B3/S23
+bo3b2o$obobobo$obobo$b2obobo$5b2o!

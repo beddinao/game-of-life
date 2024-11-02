@@ -1,0 +1,7 @@
+#N crown58cells.rle
+#C https://conwaylife.com/wiki/Crown
+#C https://www.conwaylife.com/patterns/crown58cells.rle
+x = 25, y = 16, rule = B3/S23
+5b2o11b2o$4bo15bo$7bo9bo$3bo3bo9bo3bo$4o3bo3b3o3bo3b4o$5bo6bo6bo2$7b2o
+$7bobo7b2o$8b3obobobobo$10bo3bobo$17bo$11bobob2o2bo$13b2obob2o$16bo$
+15b2o!

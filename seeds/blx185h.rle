@@ -1,0 +1,7 @@
+#N blx185h.rle
+#C https://conwaylife.com/wiki/R126
+#C https://www.conwaylife.com/patterns/blx185h.rle
+x = 45, y = 24, rule = B3/S23
+18b2o$19bo$16bo2bobo$b2o4b2o5b3o3b2o$2bo5bo4bo$bo6bobo3bo$b2o6bobo3bo$
+10bo3b2o3$37b2o$36bo2bo$o3b2o31b2o$2o2b2o$b2o$bo$o41b2o$42bobo$43b2o3$
+20b3o$20bo$19b2o!

@@ -1,0 +1,7 @@
+#N p30twopondandtwoblockreaction.rle
+#C https://conwaylife.com/wiki/Two_pond_and_two_block_reaction
+#C https://www.conwaylife.com/patterns/p30twopondandtwoblockreaction.rle
+x = 40, y = 20, rule = B3/S23
+30bo4bo$28b2ob4ob2o$30bo4bo2$16b2o$16b2o2$28b3o4b3o$16b2o4b2o2b6o2b6o$
+15bo2bo2bo2bo3b3o4b3o$2b3o4b3o3bo2bo2bo2bo$6o2b6o2b2o4b2o$2b3o4b3o2$
+22b2o$22b2o2$4bo4bo$2b2ob4ob2o$4bo4bo!

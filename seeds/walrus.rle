@@ -1,0 +1,7 @@
+#N walrus.rle
+#O Adam P. Goucher, 2023
+#C https://conwaylife.com/wiki/Walrus
+#C https://www.conwaylife.com/patterns/walrus.rle
+x = 20, y = 18, rule = B3/S23
+4b6o$6b2o$3bo5b2o$b8obo$4o3bo$o9b3o$3b2o3b2ob2o2b2o$2b3o2b5ob3o2bo$bob
+2obobo2b3o4bo$2obo3bo4b3o4bo$7bo$2bo$3b2o$8b3o$8bo2$9bo$6b2ob2o!

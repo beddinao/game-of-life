@@ -1,0 +1,6 @@
+#N gliderblockcollisions.rle
+#C https://conwaylife.com/wiki/Collisions_of_a_glider_with_common_objects
+#C https://www.conwaylife.com/patterns/gliderblockcollisions.rle
+x = 30, y = 20, rule = B3/S23
+obo9bobo9bobo$2o10b2o10b2o$bo11bo11bo4$2o9b2o9b2o$2o9b2o9b2o5$3bobo9b
+obo9bobo$3b2o10b2o10b2o$4bo11bo11bo4$2o9b2o9b2o$2o9b2o9b2o!

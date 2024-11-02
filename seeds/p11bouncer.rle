@@ -1,0 +1,9 @@
+#N p11bouncer.rle
+#O David Raucci, 2021
+#C https://conwaylife.com/wiki/P11_bouncer
+#C https://www.conwaylife.com/patterns/p11bouncer.rle
+x = 41, y = 39, rule = B3/S23
+38bobo$38b2o$39bo3$34bo$32b2o$33b2o5$2o$obo$o2$23bo$21b2o$5b3o14b2o$5b
+o$6bo2$16bobo$16b2o$17bo$4b2o$5bo$2obo$ob3o12b2o$6bo6b2o2b2o$4b2o6bobo
+$3bo2bo6bo$3bo2b2obo$2obo3bob2o4b2o$2obobo5bo3bo$4b2ob4o5b3o$6bo11bo$
+6bobo$7b2o!

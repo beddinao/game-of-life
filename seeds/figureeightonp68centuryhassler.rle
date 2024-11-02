@@ -1,0 +1,6 @@
+#N figureeightonp68centuryhassler.rle
+#C https://conwaylife.com/wiki/P68_century_hassler
+#C https://www.conwaylife.com/patterns/figureeightonp68centuryhassler.rle
+x = 31, y = 24, rule = B3/S23
+10b2o$10b2o2$10b4o$10bo2bo3$25b2o$bo23b2obo$b3o12bo12bo$4bo12bo8bo$3b
+2o9bo2bo9bob2o$14b3o12b2o4$2b2o$bobo$bo$2o$19b2o$19bo$20b3o$22bo!

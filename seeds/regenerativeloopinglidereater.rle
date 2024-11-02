@@ -1,0 +1,6 @@
+#N regenerativeloopinglidereater.rle
+#C https://conwaylife.com/wiki/Regenerative_loop
+#C https://www.conwaylife.com/patterns/regenerativeloopinglidereater.rle
+x = 17, y = 18, rule = B3/S23
+bo$2bo$3o2$5bo$3bobo$4b2o$8bo$9bo2b2o$7b3o3bo$13bob2o$10b2obo2bo$11bob
+2o$3b2o3b3o$3b2o2bo$7bob2o$8bo2bo$10b2o!

@@ -1,0 +1,6 @@
+#N figureeighton32p21.rle
+#C https://conwaylife.com/wiki/32P21
+#C https://www.conwaylife.com/patterns/figureeighton32p21.rle
+x = 22, y = 17, rule = B3/S23
+2o$2obo13bo$4bo11bobo$bo15bo$2bob2o$4b2o$11bob2obo3b2o$10bobo3bo3b2o$
+16bo$9bo$4b2o3bo3bobo$4b2o3bob2obo3$8bo$7bobo$8bo!

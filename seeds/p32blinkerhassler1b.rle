@@ -1,0 +1,8 @@
+#N p32blinkerhassler1b.rle
+#C https://conwaylife.com/wiki/P32_blinker_hassler
+#C https://www.conwaylife.com/patterns/p32blinkerhassler1b.rle
+x = 21, y = 26, rule = B3/S23
+10bo$4b2o3bobo3b2o$3bobo4bo4bobo$3bo13bo$2ob2o11b2ob2o$2obobo9bobob2o$
+3bob11obo$3bobob7obobo$4bo5bo5bo3$6bo7bo$5bo9bo$5b2o3bo3b2o$10bo$10bo
+2$4bo3bobobo3bo$3bobo9bobo$3bobo9bobo$2obobob7obobob2o$2obo13bob2o$3bo
+13bo$3bobo4bo4bobo$4b2o3bobo3b2o$10bo!

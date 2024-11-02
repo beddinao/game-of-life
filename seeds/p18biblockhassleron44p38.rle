@@ -1,0 +1,9 @@
+#N p18biblockhassleron44p38.rle
+#C https://conwaylife.com/wiki/Raucci%27s_p38
+#C https://www.conwaylife.com/patterns/p18biblockhassleron44p38.rle
+x = 54, y = 22, rule = B3/S23
+19b2o$2b3o4bo8b4o8bo4b3o$9bo4bob2ob2ob2obo4bo$o5b3o5b4ob2ob4o5b3o5bo$o
+5b5o3b12o3b5o5bo$o5bo2bo2b4o3b2o3b4o2bo2bo5bo$3bo6bob2o12b2obo6bo$2bo
+34bo$2bo3bo26bo3bo3b3o$6bo26bo5b3o$5bo28bo6b3o3b2o$6b3o22b3o12bo2bo$8b
+o22bo14bo$46bo$36b2o8bobo3bo$36b2o2b2o5bobo3bo$34b2obo2b2o6bo4bo$34b3o
+12b4o3$35b2o$35b2o!

@@ -1,0 +1,9 @@
+#N snarkweldsyringe117cells.rle
+#C https://conwaylife.com/wiki/Syringe
+#C https://www.conwaylife.com/patterns/snarkweldsyringe117cells.rle
+x = 50, y = 39, rule = B3/S23
+9bo13bobo$9b3o11b2o$12bo11bo$11b2o3$2ob2o$2obo$3bo$3b3o4b2o$b2o3bo3b2o
+$o2b4o$2obo15b2o2b2o$bo2b3o12bobo2bo$bo5bo13b2o$2b5o14bo$4bo18bo$22b2o
+$48bo$8b2o37bobo$9bo37bobo$9bob2o35bo$10bo2bo23bo$11b2o24bo$26b2o9b3o$
+26b2o11bo4$35bo3b2o$34bobo3bo$33bobo3bo$29b2obobo3bo$29b2obo2b4obo$33b
+obo3bobo$29b2ob2o2bo2bobo$30bobo2b2o3bo$18b2o10bobo$18b2o11bo!

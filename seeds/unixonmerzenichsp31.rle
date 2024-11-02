@@ -1,0 +1,7 @@
+#N unixonmerzenichsp31.rle
+#C https://conwaylife.com/wiki/Merzenich%27s_p31
+#C https://www.conwaylife.com/patterns/unixonmerzenichsp31.rle
+x = 24, y = 28, rule = B3/S23
+8bo6bo$7b4o2b4o$2o4bo3bo2bo3bo4b2o$2o5bob2o2b2obo5b2o$8bo6bo6$8bo6bo$2o5bob2o
+2b2obo5b2o$2o4bo3bo2bo3bo4b2o$7b4o2b4o$8bo6bo6$6b2o$6b2o2b2o$4b2obo2b2o$4b3o
+3$5b2o$5b2o!

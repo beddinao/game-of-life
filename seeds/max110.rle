@@ -1,0 +1,8 @@
+#N max110.rle
+#C https://conwaylife.com/wiki/Max
+#C https://www.conwaylife.com/patterns/max110.rle
+x = 27, y = 23, rule = B3/S23
+20b3o$14bo5bo2bo$20bo$12bob2o4bo$12b4o4bo$12b2o3bo2bo$2b2o7bo9bo$2bo6b
+o3bo9bo$4b2o3bo3bo3b2o5bo$2o4b2obo3bo10bo$4bo6bo3bobobob3o$2bob2o2bo2b
+o3bo2bo2b2obo$3b3obobobo3bo6bo$2bo10bo3bob2o4b2o$2bo5b2o3bo3bo3b2o$3bo
+9bo3bo6bo$5bo9bo7b2o$6bo2bo3b2o$6bo4b4o$6bo4b2obo$6bo$3bo2bo5bo$4b3o!

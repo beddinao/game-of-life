@@ -1,0 +1,6 @@
+#N p56piheptominohassler.rle
+#C https://conwaylife.com/wiki/Pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p56piheptominohassler.rle
+x = 22, y = 26, rule = B3/S23
+11b2o$11b2o2$9b4o$8bo4bo$8b2o2b2o4$2o18b2o$2o12b3o3b2o$14bobo$14bobo$
+5bobo$5bobo$2o3b3o12b2o$2o18b2o4$8b2o2b2o$8bo4bo$9b4o2$9b2o$9b2o!

@@ -1,0 +1,7 @@
+#N hr44bandhr48b.rle
+#C https://conwaylife.com/wiki/First_natural_block
+#C https://www.conwaylife.com/patterns/hr44bandhr48b.rle
+x = 66, y = 16, rule = B3/S23
+14bo39bo$14b3o37b3o$2o15bo3b2o18bo15bo3b2o$bo14b2o4bo18b3o12b2o4bo$bob
+o18bob2o18bo17bob2o$2b2o15b2obo2bo17b2o14b2obo2bo$18bobob2o34bobob2o$
+18b2o38b2o5$2bo39bo$2bobo37bobo$2b3o37b3o$4bo39bo!

@@ -1,0 +1,5 @@
+#N driftyeater3variant.rle
+#C https://conwaylife.com/wiki/Eater_3
+#C https://www.conwaylife.com/patterns/driftyeater3variant.rle
+x = 11, y = 8, rule = B3/S23
+7b2o$2b2o2bobo$2bo3bo$3b3ob4o$5bobo2bo$b3obobo$o2bob2o$2o!

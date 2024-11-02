@@ -1,0 +1,5 @@
+#N cisboatsondocksancestors.rle
+#C https://conwaylife.com/wiki/Cis-boat_on_dock
+#C https://www.conwaylife.com/patterns/cisboatsondocksancestors.rle
+x = 19, y = 7, rule = B3/S23
+2b3o11b3o2$2bo13bo$b2o12b2o2$o13bo$b2o11bobo!

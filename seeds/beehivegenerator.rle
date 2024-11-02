@@ -1,0 +1,5 @@
+#N beehivegenerator.rle
+#C https://conwaylife.com/wiki/Beehive
+#C https://www.conwaylife.com/patterns/beehivegenerator.rle
+x = 9, y = 4, rule = B3/S23
+b2o$o2bo3b2o$obo4b2o$2bo!

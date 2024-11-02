@@ -1,0 +1,5 @@
+#N invertedfrutterfly.rle
+#C https://conwaylife.com/wiki/Inverted_frutterfly
+#C https://www.conwaylife.com/patterns/invertedfrutterfly.rle
+x = 12, y = 8, rule = B3/S23
+3o$3b2o2$b6o$5b6o2$7b2o$9b3o!

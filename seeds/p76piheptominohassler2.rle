@@ -1,0 +1,7 @@
+#N p76piheptominohassler2.rle
+#C https://conwaylife.com/wiki/P76_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/p76piheptominohassler2.rle
+x = 23, y = 28, rule = B3/S23
+b2o$obo$obob2o$bobobo$3bo$2b2o$b3o$b3o8bobo$b3o8bobo$b3o8b3o$2b2o$3bo$
+bobobo$obob2o$obo$b2o3$5bo$5b3o4b3o$3b2o3bo$2bo3bobo9b2o$3b5o3b5o3bo$
+8b3o6bobob2o$3b2ob2obo7bobo2bo$4bobo3bo3b2obob2o$4bobo10bo$5bo10b2o!

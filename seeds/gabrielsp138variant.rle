@@ -1,0 +1,7 @@
+#N gabrielsp138variant.rle
+#C https://conwaylife.com/wiki/Gabriel%27s_p138
+#C https://www.conwaylife.com/patterns/gabrielsp138variant.rle
+x = 29, y = 29, rule = B3/S23
+5b2o$5b2o3$12b3o$11bo2bo12b2o$11bo2bo12b2o$11b2o4$21b3o$21bo2bo$24bo$
+4b3o15b3o$4bo$4bo2bo$5b3o4$16b2o$2o12bo2bo$2o12bo2bo$14b3o3$22b2o$22b
+2o!

@@ -1,0 +1,7 @@
+#N octagon2onp68centuryhassler.rle
+#C https://conwaylife.com/wiki/P68_century_hassler
+#C https://www.conwaylife.com/patterns/octagon2onp68centuryhassler.rle
+x = 31, y = 24, rule = B3/S23
+10b2o$10b2o2$10b4o$10bo2bo4$bo$b3o12bo$4bo12bo$3b2o9bo2bo$14b3o9b2o$
+25bo2bo$24bo4bo$23bo6bo$2b2o19bo6bo$bobo20bo4bo$bo23bo2bo$2o24b2o$19b
+2o$19bo$20b3o$22bo!

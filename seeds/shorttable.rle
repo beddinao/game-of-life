@@ -1,0 +1,5 @@
+#N shorttable.rle
+#C https://conwaylife.com/wiki/Short_table
+#C https://www.conwaylife.com/patterns/shorttable.rle
+x = 3, y = 2, rule = B3/S23
+3o$obo!

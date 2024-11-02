@@ -1,0 +1,9 @@
+#N 49p384withfigureeights.rle
+#C https://conwaylife.com/wiki/51P384
+#C https://www.conwaylife.com/patterns/49p384withfigureeights.rle
+#C 49P384, a population reduction of [[51P384]] with figure eights instead of eater bridge snakes
+#C 49P384: https://conwaylife.com/forums/viewtopic.php?p=172559#p172559
+#C 51P384: https://conwaylife.com/forums/viewtopic.php?p=159941#p159941
+x = 38, y = 19, rule = B3/S23
+15b2o$15b2o3$14bo$4b2o8bo$2bob2o8bo$bo$4bo31b2o$2obo16bo13bob2o$2o18b
+2o11bo$22bo13bo$13bo6b2o10b2obo$11b2o7bo11b2o$11bo$11b3o2$21b2o$21b2o!

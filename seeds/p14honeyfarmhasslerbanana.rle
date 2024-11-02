@@ -1,0 +1,8 @@
+#N p14honeyfarmhasslerbanana.rle
+#C https://conwaylife.com/wiki/Period-14_honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p14honeyfarmhasslerbanana.rle
+x = 32, y = 21, rule = B3/S23
+13bo11b3o$12bobo3b2o4b3o$13bo3bob2o$17bo3bo$18b2obo$14b2o3b2o3b3o$16b
+o8b3o$13bo2bo$13bo$5b2o$4bo2bo6bo2b2o11b2o$4b2obo5b5o12bo$2b3obo5b2o5b
+o8bobo$bobo8bo5b2o5bob3o$bo12b5o5bob2o$2o11b2o2bo6bo2bo$25b2o$18bo$15b
+o2bo$15bo$16b2o!

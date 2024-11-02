@@ -1,0 +1,5 @@
+#N stravinsky.rle
+#C https://conwaylife.com/wiki/Composers
+#C https://www.conwaylife.com/patterns/stravinsky.rle
+x = 7, y = 8, rule = B3/S23
+2o3b2o$2o3b2o3$3bo$2bobo$2bobo$3bo!

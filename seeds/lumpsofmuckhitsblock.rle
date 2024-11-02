@@ -1,0 +1,5 @@
+#N lumpsofmuckhitsblock.rle
+#C https://conwaylife.com/wiki/List_of_common_evolutionary_sequences
+#C https://www.conwaylife.com/patterns/lumpsofmuckhitsblock.rle
+x = 9, y = 3, rule = B3/S23
+2o4bo$2o2b2ob2o$7b2o!

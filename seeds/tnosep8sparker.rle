@@ -1,0 +1,7 @@
+#N tnosep8sparker.rle
+#C https://conwaylife.com/wiki/Period-8_sparkers
+#C https://www.conwaylife.com/patterns/tnosep8sparker.rle
+x = 12, y = 19, rule = B3/S23
+2bo$2bo$b3o6bo$bobo3b3obo$ob3o2b2o2bo$bobo3bob2o$6b3o$5bo2bo$5bo$5bo$
+4b2obo2bo$b2obo2bo2bo$2bobob2obo$obobo2bobobo$2o2bo2bo2b2o$4b4o2$4b2o$
+4b2o!

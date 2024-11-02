@@ -1,0 +1,9 @@
+#N p4syringe.rle
+#O David Raucci, 2021
+#C https://conwaylife.com/wiki/P4_syringe
+#C https://www.conwaylife.com/patterns/p4syringe.rle
+x = 32, y = 35, rule = B3/S23
+9b2o$9b2o2$9b4o$9bo2bo3$3b2o$4bo$4bobo$5b2o21bo$28bo$17b2o9b3o$17b2o
+11bo4$26bo3b2o$20b2o3bobo3bo$13b6o2bo2bobo3bo$12bo6b2o3bo4bo$21b3ob5ob
+o$11b2o5bobo2bo6b2o$bo8bo4b2o4bobo3b2o$b2o6b2o11bo4bo$obo6b2o17bo$10b
+2o15b2o$7b2o2bo2bo$9bo4b3o$6bob5o4bo$6bo5b5o$7b5o2bo$11bo$9bo$9b2o!

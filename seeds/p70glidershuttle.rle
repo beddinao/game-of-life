@@ -1,0 +1,10 @@
+#N p70glidershuttle.rle
+#C https://conwaylife.com/wiki/Tumbler
+#C https://www.conwaylife.com/patterns/p70glidershuttle.rle
+x = 38, y = 28, rule = B3/S23
+26b3o$23b2o3bo$23b5o2$23b5o$23b2o3bo$26b3o$6b2o3bo22b2o$5bo2bo2b3o20bo
+$2o4bobo5bo16b2obo$o2b3obob4obo16bo2bob2o$b2o2bobo4b2o13b2o4bobobo$2bo
+4bo2b2o14bo2bo2b2o$2bob2obo3bo14bo7bo$3bo7bo14bo3bob2obo$4b2o2bo2bo3bo
+10b2o2bo4bo$obobo4b2o4bobo6b2o4bobo2b2o$2obo2bo8b2o6bob4obob3o2bo$3bob
+2o16bo5bobo4b2o$3bo20b3o2bo2bo$2b2o22bo3b2o$11b3o$8b2o3bo$8b5o2$8b5o$
+8b2o3bo$11b3o!

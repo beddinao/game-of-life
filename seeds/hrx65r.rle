@@ -1,0 +1,7 @@
+#N hrx65r.rle
+#O Mitchell Riley, 2022
+#C https://conwaylife.com/wiki/HRx65R
+#C https://www.conwaylife.com/patterns/hrx65r.rle
+x = 29, y = 21, rule = B3/S23
+9bo$o8b3o$3o9bo$3bo7b2o$2b2o7$bo26bo$bobo13bo8bobo$b3o12bobo8bo$3bo11b
+o2bo$16b2o2$13b2o$12bobo$12bo$11b2o!

@@ -1,0 +1,8 @@
+#N p48lumpsofmuckhassler3.rle
+#C https://conwaylife.com/wiki/Period-48_lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p48lumpsofmuckhassler3.rle
+x = 28, y = 36, rule = B3/S23
+19bo3bo$18bobobobo$19b2ob2o2$16bo9bo$15bobo7bobo$7b2o6bo3b2ob2o3bo$6bo
+bo7bo3bobo3bo$7bo9b2obobob2o$19bo3bo2$12bo$11bobo$10bo3bo$10bo2bo$11bo
+5$16bo$14bo2bo$13bo3bo$14bobo$15bo2$4bo3bo$2b2obobob2o9bo$bo3bobo3bo7b
+obo$o3b2ob2o3bo6b2o$obo7bobo$bo9bo2$4b2ob2o$3bobobobo$4bo3bo!

@@ -1,0 +1,10 @@
+#N period15glidergun.rle
+#O Period1GliderGun, 2024
+#C https://conwaylife.com/wiki/Period-15_glider_gun
+#C https://www.conwaylife.com/patterns/period15glidergun.rle
+x = 32, y = 28, rule = B3/S23
+20b2o$10bo8bobo$9bobo2b3obobo$10bo3bobob2o$16b3o$12b2o6b3o$2o10b3obo$b
+o11b3obo$bobo11b2o$2b2o5b2o2$9bobo$8b4o2b2o$2b2o4b2o2b4o$bobo8bobo$bo$
+2o11b2o$7b2o$6bob3o15b3o$7bob3o7b3o3bo3bo$b3o6b2o7b3o2bo5bo$5b3o$4b2ob
+obo3bo5bobobo7bo$3bobob3o2bobo4bobobo7bo$2bobo8bo$2b2o15b3o2bo5bo$19b
+3o3bo3bo$26b3o!

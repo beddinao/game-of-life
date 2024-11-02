@@ -1,0 +1,9 @@
+#N p46lumpsofmuckhassler3.rle
+#C https://conwaylife.com/wiki/Cis-boat_with_tail
+#C https://www.conwaylife.com/patterns/p46lumpsofmuckhassler3.rle
+x = 43, y = 27, rule = B3/S23
+23b2o$24bo$24bobo$2o23bobo6b2o$bo24bo3b2o3bo$bobo15bo10b2o3bob2o$2b2o
+15bobo14bobo$18bobo5b2o9bo$20bo4b2o$27bo2$12b3o$10b2o2bo15b3o8b2o$2o8b
+o2b2o13b2o2bo8b2o$2o8b3o15bo2b2o$28b3o2$15bo$16b2o4bo$5bo9b2o5bobo$4bo
+bo14bobo15b2o$4b2obo3b2o10bo15bobo$7bo3b2o3bo24bo$7b2o6bobo23b2o$16bob
+o$18bo$18b2o!

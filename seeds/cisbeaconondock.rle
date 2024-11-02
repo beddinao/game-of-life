@@ -1,0 +1,5 @@
+#N cisbeaconondock.rle
+#C https://conwaylife.com/wiki/Cis-beacon_on_dock
+#C https://www.conwaylife.com/patterns/cisbeaconondock.rle
+x = 6, y = 8, rule = B3/S23
+3b2o$4bo$bo$b2o2$b4o$o4bo$2o2b2o!

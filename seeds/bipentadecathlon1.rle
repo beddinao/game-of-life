@@ -1,0 +1,5 @@
+#N bipentadecathlon1.rle
+#C https://conwaylife.com/wiki/Bi-pentadecathlon_1
+#C https://www.conwaylife.com/patterns/bipentadecathlon1.rle
+x = 11, y = 10, rule = B3/S23
+bo7bo$bo7bo$obo5bobo$bo7bo$bo7bo$bo7bo$bo7bo$obo5bobo$bo7bo$bo7bo!

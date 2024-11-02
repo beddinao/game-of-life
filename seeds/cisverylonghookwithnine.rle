@@ -1,0 +1,5 @@
+#N cisverylonghookwithnine.rle
+#C https://conwaylife.com/wiki/Cis-very_long_hook_with_nine
+#C https://www.conwaylife.com/patterns/cisverylonghookwithnine.rle
+x = 7, y = 5, rule = B3/S23
+2o3b2o$obo3bo$2bo2bo$2bobo$3bo!

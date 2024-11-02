@@ -1,0 +1,5 @@
+#N fusewithtwotails.rle
+#C https://conwaylife.com/wiki/Fuse_with_two_tails
+#C https://www.conwaylife.com/patterns/fusewithtwotails.rle
+x = 6, y = 6, rule = B3/S23
+2o$bo$bobo$2bobo$4bo$4b2o!

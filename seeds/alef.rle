@@ -1,0 +1,5 @@
+#N alef.rle
+#C https://conwaylife.com/wiki/Alef
+#C https://www.conwaylife.com/patterns/alef.rle
+x = 6, y = 4, rule = B3/S23
+2ob2o$bobo$bo3bo$2b4o!
