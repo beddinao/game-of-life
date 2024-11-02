@@ -8,8 +8,8 @@ UNAME = $(shell uname)
 ifeq ($(UNAME), Linux)
 	FLAGS += -lglfw -ldl -pthread -lm
 endif
-ifeq (($UNAME), Darwin)
-	FLAGS += -lglfw -L /Users/beddinao/.brew/opt/glfw/lib -framework Cocoa -framework IOKit
+ifeq ($(UNAME), Darwin)
+	FLAGS += -lglfw -L $(shell brew --prefix glfw) -framework Cocoa -framework IOKit
 endif
 
 NAME = gof
