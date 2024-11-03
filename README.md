@@ -24,3 +24,8 @@ $ gof
 ```
 ![random](https://github.com/user-attachments/assets/3f954569-bc1c-421b-9f70-78dcf56d59f1)
 
+```
+$ gof seeds/spacefiller1.rle
+```
+![spacefiller](https://github.com/user-attachments/assets/1119dbb3-3985-4b28-a68e-d3480367e215)
+
