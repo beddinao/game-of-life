@@ -1,5 +1,5 @@
-#ifndef	GOF_H
-# define	GOF_H
+#ifndef	GOL_H
+# define	GOL_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -7,6 +7,7 @@
 #include <ctype.h>
 #include <time.h>
 #include <signal.h>
+#include <limits.h>
 #include "MLX42.h"
 
 #ifndef TRUE
@@ -56,7 +57,10 @@ typedef struct data
 	mouse_data	*_mouse;
 	int		PPC;
 	int		FPG;
+	//
 	int		cur_frame;
+	int		last_resize_w;
+	int		last_resize_h;
 	//
 	FILE		*input;
 	//
@@ -64,7 +68,7 @@ typedef struct data
 
 void	build_population(data *, bool);
 void	updata_population(data *);
-void	free_population(world_data *);
+void	free_population(bool **, int);
 
 int	release(data*, int);
 int	__calc_new_range(int, int, int, int, int);

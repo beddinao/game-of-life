@@ -19,8 +19,8 @@ void	build_population(data *_data, bool seed) {
 void	updata_population(data *_data) {
 	//	game-of-life rules
 	int	live_neighbors, c_row, c_column;
-	int	temp_population[_data->_world->rows][_data->_world->columns];
-	memset(temp_population, FALSE, _data->_world->columns * _data->_world->rows);
+	bool	temp_population[_data->_world->rows][_data->_world->columns];
+	//memset(temp_population, FALSE, _data->_world->columns * _data->_world->rows);
 
 	_data->_world->generation += 1;
 	_data->_world->current_population = 0;
@@ -84,7 +84,6 @@ void	updata_population(data *_data) {
 			//
 			_data->_world->current_population += temp_population[row][column];
 		}
-
 	for (int row = 0; row < _data->_world->rows; row++)
 		for (int column = 0; column < _data->_world->columns; column++)
 			_data->_world->population[row][column] = temp_population[row][column];

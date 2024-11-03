@@ -21,13 +21,13 @@ void	insert_seed(data *_data, char **v) {
 			int i = 1;
 			while (i < read && !isdigit(buffer[i]))
 				i++;
-			while (i < read && isdigit(buffer[i]))
+			while (i < read && isdigit(buffer[i]) && w < _data->_world->columns)
 				w = w * 10 + (buffer[i++] - '0');
 			while (i < read && buffer[i] != 'y')
 				i++;
 			if (buffer[i] == 'y') {
 				while (i < read && !isdigit(buffer[i])) i++;
-				while (i < read && isdigit(buffer[i]))
+				while (i < read && isdigit(buffer[i]) && h < _data->_world->rows)
 					h = h * 10 + (buffer[i++] - '0');
 			}
 			if (!w || !h || w > _data->_world->columns || h > _data->_world->rows) {

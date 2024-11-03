@@ -1,10 +1,10 @@
 #include "gol.h"
 
-void	free_population(world_data *_world) {
-	for (int y = 0; _world->population[y] && y < _world->rows; y++) 
-		free(_world->population[y]);
-	free(_world->population);
-	_world->population = NULL;
+void	free_population(bool **population, int rows) {
+	for (int y = 0; population[y] && y < rows; y++) 
+		free(population[y]);
+	free(population);
+	population = NULL;
 }
 
 int	release(data *_data, int status) {
@@ -26,7 +26,7 @@ int	release(data *_data, int status) {
 		mlx_terminate(_data->mlx_ptr);
 
 	if (_data->_world && _data->_world->population)
-		free_population(_data->_world);
+		free_population(_data->_world->population, _data->_world->rows);
 
 	if (_data->input)
 		fclose(_data->input);
@@ -137,6 +137,7 @@ int			main(int c, char **v) {
 	mlx_close_hook(_data->mlx_ptr, close_handle, _data);
 	mlx_key_hook(_data->mlx_ptr, key_handle, _data);
 	mlx_resize_hook(_data->mlx_ptr, resize_handle, _data);
+	mlx_set_window_limit(_data->mlx_ptr, MIN_WIDTH, MIN_HEIGHT, INT_MAX, INT_MAX);
 	mlx_scroll_hook(_data->mlx_ptr, scroll_handle, _data);
 	mlx_cursor_hook(_data->mlx_ptr, cursor_handle, _data);
 	mlx_mouse_hook(_data->mlx_ptr, mouse_handle, _data);
