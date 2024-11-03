@@ -125,7 +125,7 @@ int			main(int c, char **v) {
 	if (!_data->mlx_img) return release(_data, 1);
 
 	_data->PPC = DEF_PPC;
-	_data->FPG = DEF_FPG;
+	_data->FPG = c == 2 ? DEF_FPG : 1;
 	_data->_world->center_x = (_data->width / 2) * _data->PPC;
 	_data->_world->center_y = (_data->height / 2) * _data->PPC;
 	_data->_world->rows = _data->height / _data->PPC;
