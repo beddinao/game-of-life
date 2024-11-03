@@ -27,7 +27,7 @@ $ gof
 <img src="https://github.com/user-attachments/assets/3f954569-bc1c-421b-9f70-78dcf56d59f1" alt="random" width="100%" align="center"></img>
 
 ```
-$ gof seeds/movingsawtooth.role
+$ gof seeds/movingsawtooth.rle
 ```
 <img src="https://github.com/user-attachments/assets/846af648-10c7-4fb8-b5e7-6d7549474aba" alt="movingsawtooth" width="100%" align="center" ></img>
 
