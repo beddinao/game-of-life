@@ -31,3 +31,8 @@ $ gof seeds/spacefiller1.rle
 ```
 ![spacefiller](https://github.com/user-attachments/assets/1119dbb3-3985-4b28-a68e-d3480367e215)
 
+```
+$ gof seeds/movingsawtooth.role
+```
+![movingsawtooth](https://github.com/user-attachments/assets/846af648-10c7-4fb8-b5e7-6d7549474aba)
+
