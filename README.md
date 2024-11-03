@@ -11,7 +11,7 @@
 
 ```
 $ gof [path to a valid RLE file]
-               a library of more than 4700 seeds under the ./seeds directory
+               - a library of more than 4700 seeds under the ./seeds directory
                - default is a random seed
 ```
 
