@@ -1,4 +1,4 @@
-#include "gof.h"
+#include "gol.h"
 
 void	draw_bg(data* _data, int color) {
 	for (int y = 0; y < _data->height; y++) 

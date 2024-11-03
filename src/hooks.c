@@ -1,4 +1,4 @@
-#include "gof.h"
+#include "gol.h"
 
 void	close_handle(void *p) {
 	data	*_data = (data*)p;
