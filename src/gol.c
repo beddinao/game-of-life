@@ -1,4 +1,4 @@
-#include "gof.h"
+#include "gol.h"
 
 void	build_population(data *_data, bool seed) {
 	_data->_world->population = malloc( (_data->_world->rows + 1) * sizeof(bool*) );

@@ -1,4 +1,4 @@
-#include "gof.h"
+#include "gol.h"
 
 void	insert_seed(data *_data, char **v) {
 	_data->input = fopen(v[1], "r");

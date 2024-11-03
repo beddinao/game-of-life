@@ -14,7 +14,7 @@ ifeq ($(UNAME), Darwin)
 	LDFLAGS += -lglfw -L $(shell brew --prefix glfw)/lib -framework Cocoa -framework IOKit
 endif
 
-NAME = gof
+NAME = gol
 
 all: mlx $(NAME)
 
@@ -23,7 +23,7 @@ mlx:
 	@cmake --build ./MLX42/build -j16
 
 $(NAME): $(OBJ)
-	$(CC) -o $(NAME) $(OBJ) $(LDFLAGS)
+	$(CC) -o $(NAME) $(OBJ) $(LDFLAGS) 
 
 build/%.o: src/%.c $(HR)
 	@mkdir -p $(dir $@)

@@ -10,7 +10,7 @@
 ## Usage
 
 ```
-$ gof [path to a valid RLE file]
+$ gol [path to a valid RLE file]
                - a library of more than 4700 seeds under the ./seeds directory
                - default is a random seed
 ```
@@ -22,16 +22,16 @@ $ gof [path to a valid RLE file]
 
 ## Examples
 ```
- ./gof
+ ./gol
 ```
 <img src="https://github.com/user-attachments/assets/3f954569-bc1c-421b-9f70-78dcf56d59f1" alt="random" width="100%" align="center"></img>
 
 ```
- ./gof seeds/movingsawtooth.rle
+ ./gol seeds/movingsawtooth.rle
 ```
 <img src="https://github.com/user-attachments/assets/846af648-10c7-4fb8-b5e7-6d7549474aba" alt="movingsawtooth" width="100%" align="center" ></img>
 
 ```
- ./gof seeds/spacefiller1.rle
+ ./gol seeds/spacefiller1.rle
 ```
 <img src="https://github.com/user-attachments/assets/1119dbb3-3985-4b28-a68e-d3480367e215" alt="spacefiller" width="100%" align="center"></img>

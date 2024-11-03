@@ -1,4 +1,4 @@
-#include "gof.h"
+#include "gol.h"
 
 void	free_population(world_data *_world) {
 	for (int y = 0; _world->population[y] && y < _world->rows; y++) 
@@ -53,8 +53,8 @@ void	loop_hook(void *p) {
 	//
 	if (_data->cur_frame >= _data->FPG) {
 		_data->cur_frame = 0;
-		draw_bg(_data, BG_COLOR << 8 | 0xFF);
 		updata_population(_data);
+		draw_bg(_data, BG_COLOR << 8 | 0xFF);
 		draw_population(_data);
 	}
 	else	_data->cur_frame += 1;
