@@ -5,11 +5,38 @@ void	close_handle(void *p) {
 	exit( release(_data, 0) );
 }
 
+void	move_population(bool **dest, bool **src, data *_data, int src_rows, int src_columns) {
+	for (int y = 0; y < _data->_world->rows && y < src_rows; y++)
+		for (int x = 0; x < _data->_world->columns && x < src_columns; x++)
+			dest[y][x] = src[y][x];
+}
+
 void	resize_handle(int w, int h, void *p) {
-	if (h > MIN_HEIGHT && w > MIN_WIDTH) { 
-		data	*_data = (data*)p;
+	data	*_data = (data*)p;
+
+	if (h > MIN_HEIGHT && w > MIN_WIDTH
+		&& h < INT_MAX && w < INT_MAX) {
 		_data->height = h;
 		_data->width = w;
+		//
+		if (abs(h - _data->last_resize_h) > 30 && abs(w - _data->last_resize_w) > 30) {
+			bool	**old_population = _data->_world->population;
+			int	old_rows = _data->_world->rows,
+				old_columns = _data->_world->columns;
+			
+			_data->_world->columns = w / _data->PPC;
+			_data->_world->rows = h / _data->PPC;
+			_data->_world->center_x = (w / 2) * _data->PPC;
+			_data->_world->center_y = (h / 2) * _data->PPC;
+			//
+			build_population(_data, TRUE);
+			move_population(_data->_world->population, old_population,
+				_data, old_rows, old_columns);
+			free_population(old_population, old_rows);
+			//
+			_data->last_resize_w = w;
+			_data->last_resize_h = h;
+		}
 		if (!mlx_resize_image(_data->mlx_img, _data->width, _data->height))
 			exit( release(_data, 1) );
 	}

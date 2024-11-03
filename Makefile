@@ -23,7 +23,7 @@ mlx:
 	@cmake --build ./MLX42/build -j16
 
 $(NAME): $(OBJ)
-	$(CC) -o $(NAME) $(OBJ) $(LDFLAGS) 
+	$(CC) -o $(NAME) $(OBJ) $(LDFLAGS)
 
 build/%.o: src/%.c $(HR)
 	@mkdir -p $(dir $@)
