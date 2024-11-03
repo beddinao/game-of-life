@@ -17,8 +17,8 @@ $ gol [path to a valid RLE file]
 
 ## Requirements
 - **`Linux or Macos`**
-- **`glfw`**
-- **`cmake`**
+- **`glfw (libglfw3-dev)`**
+- **`cmake >= 3.18`**
 
 ## Examples
 ```
