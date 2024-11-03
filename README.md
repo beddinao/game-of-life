@@ -1,6 +1,6 @@
 # *`GAME-OF-LIFE`*
 
-## <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">About</a>
+## <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">About</a>
 
 ## Controls
 - **Zoom:** use the `MOUSE WHEEL` to zoom in or out.
