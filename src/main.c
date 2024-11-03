@@ -124,8 +124,8 @@ int			main(int c, char **v) {
 	_data->mlx_img = mlx_new_image(_data->mlx_ptr, _data->width, _data->height);
 	if (!_data->mlx_img) return release(_data, 1);
 
-	_data->PPC = 1;
-	_data->FPG = 1;
+	_data->PPC = DEF_PPC;
+	_data->FPG = DEF_FPG;
 	_data->_world->center_x = (_data->width / 2) * _data->PPC;
 	_data->_world->center_y = (_data->height / 2) * _data->PPC;
 	_data->_world->rows = _data->height / _data->PPC;

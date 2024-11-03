@@ -17,6 +17,8 @@
 # define FALSE 0
 #endif
 
+#define	DEF_PPC		1
+#define	DEF_FPG		4
 #define	MIN_WIDTH		600
 #define	MIN_HEIGHT	300
 #define	DEF_WIDTH		1600
