@@ -1,5 +1,7 @@
 # *`GAME-OF-LIFE`*
 
+## <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">About</a> (wikipedia)
+
 ## Controls
 - **Zoom:** use the `MOUSE WHEEL` to zoom in or out.
 - **Navigate World:** press the `MOUSE RIGHT KEY` and drag around.
