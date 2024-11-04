@@ -87,8 +87,8 @@ void	cursor_handle(double xpos, double ypos, void *param) {
 		_data->_mouse->init_cursor_y = ypos;
 	}
 	else {
-		diff_x = (_data->_mouse->init_cursor_x - (int)xpos) / 10;
-		diff_y = (_data->_mouse->init_cursor_y - (int)ypos) / 10;
+		diff_x = (_data->_mouse->init_cursor_x - (int)xpos) / 5;
+		diff_y = (_data->_mouse->init_cursor_y - (int)ypos) / 5;
 
 		margin_y = _data->_world->rows / (2 * _data->PPC);
 		margin_x = _data->_world->columns / (2 * _data->PPC);
