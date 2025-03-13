@@ -28,7 +28,7 @@ int	release(data *_data, int status) {
 	if (_data->_world && _data->_world->population)
 		free_population(_data->_world->population, _data->_world->rows);
 
-	if (_data->input)
+	if (_data->input) 
 		fclose(_data->input);
 
 	if (_data->_mouse)
