@@ -12,6 +12,7 @@ void	insert_seed(data *_data, char **v) {
 
 	if (!buffer) {
 		fclose(_data->input);
+		_data->input = NULL;
 		return;
 	}
 
@@ -32,6 +33,7 @@ void	insert_seed(data *_data, char **v) {
 			}
 			if (!w || !h || w > _data->_world->columns || h > _data->_world->rows) {
 				fclose(_data->input);
+				_data->input = NULL;
 				free(buffer);
 				return;
 			}
@@ -53,6 +55,7 @@ void	insert_seed(data *_data, char **v) {
 						y++;
 						if (y >= _data->_world->rows) {
 							fclose(_data->input);
+							_data->input = NULL;
 							free(buffer);
 							return;
 						}
@@ -60,6 +63,7 @@ void	insert_seed(data *_data, char **v) {
 				}
 				else if (buffer[i] == '!') {
 					fclose(_data->input);
+					_data->input = NULL;
 					free(buffer);
 					return;
 				}
@@ -74,7 +78,8 @@ void	insert_seed(data *_data, char **v) {
 			}
 		}
 	}
-
+	
 	fclose(_data->input);
+	_data->input = NULL;
 	free(buffer);
 }
