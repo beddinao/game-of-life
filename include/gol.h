@@ -8,7 +8,7 @@
 #include <time.h>
 #include <signal.h>
 #include <limits.h>
-#include "MLX42.h"
+#include <SDL3/SDL.h>
 
 #ifndef TRUE
 # define TRUE 1
@@ -25,7 +25,7 @@
 #define	DEF_WIDTH		1600
 #define	DEF_HEIGHT	800
 #define	BG_COLOR		0x151515
-#define	CELL_COLOR	0xF0EEE9
+#define	CELL_COLOR	0xF0EEE9FF
 
 typedef struct mouse_data
 {
@@ -47,10 +47,11 @@ typedef struct map_data
 
 typedef struct data
 {
-	mlx_t		*mlx_ptr;
-	mlx_image_t	*mlx_img;
-	mlx_image_t	*text_img;
-	mlx_image_t	*number_imgs[4];
+	/*mlx_image_t	*text_img;
+	mlx_image_t	*number_imgs[4];*/
+	SDL_Window	*win;
+	SDL_Renderer	*renderer;
+	//
 	int		width;
 	int		height;
 	world_data	*_world;
@@ -74,17 +75,16 @@ int	release(data*, int);
 int	__calc_new_range(int, int, int, int, int);
 int	rand_num(int, int);
 
-void	close_handle(void *);
-void	resize_handle(int, int, void *);
-void	key_handle(mlx_key_data_t, void *);
-void	scroll_handle(double, double, void *);
-void	mouse_handle(mouse_key_t, action_t, modifier_key_t, void*);
-void	cursor_handle(double, double, void*);
+void	resize_handle(data*);
+void	key_handle(data*, SDL_Event*);
+/*void	wheel_handle(data*, SDL_Event*);
+void	mouse_key_handle(data*, SDL_Event*, int);
+void	mouse_motion_handle(data*, SDL_Event*);*/
 
 void	insert_seed(data *, char **);
 
 void	draw_population(data *);
-void	draw_bg(data *, int);
+void	draw_bg(data *, uint32_t);
 void	put_number(data *, int, int, int ,int);
 void	draw_info(data *);
 

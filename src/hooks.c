@@ -1,18 +1,16 @@
 #include "gol.h"
 
-void	close_handle(void *p) {
-	data	*_data = (data*)p;
-	exit( release(_data, 0) );
-}
-
 void	move_population(bool **dest, bool **src, data *_data, int src_rows, int src_columns) {
 	for (int y = 0; y < _data->_world->rows && y < src_rows; y++)
 		for (int x = 0; x < _data->_world->columns && x < src_columns; x++)
 			dest[y][x] = src[y][x];
 }
 
-void	resize_handle(int w, int h, void *p) {
-	data	*_data = (data*)p;
+void	resize_handle(data* _data) {
+	int	w, h;
+
+	if (!SDL_GetWindowSize(_data->win, &w, &h))
+		return;
 
 	if (h > MIN_HEIGHT && w > MIN_WIDTH
 		&& h < INT_MAX && w < INT_MAX) {
@@ -37,24 +35,21 @@ void	resize_handle(int w, int h, void *p) {
 			_data->last_resize_w = w;
 			_data->last_resize_h = h;
 		}
-		if (!mlx_resize_image(_data->mlx_img, _data->width, _data->height))
-			exit( release(_data, 1) );
 	}
 }
 
-void	key_handle(mlx_key_data_t keydata, void *p) {
-	if (keydata.action == MLX_RELEASE)	return;
+void	key_handle(data *_data, SDL_Event *event) {
+	SDL_Keycode key = event->key.key;
 
-	data	*_data = (data*)p;
-	if (keydata.key == MLX_KEY_ESCAPE)
-		close_handle(p);
-	else if (keydata.key == MLX_KEY_UP && _data->FPG < 100)
+	if (key == SDLK_ESCAPE)
+		exit( release(_data, 0) );	
+	else if (key == SDLK_UP && _data->FPG < 100)
 		_data->FPG += 1;
-	else if (keydata.key == MLX_KEY_DOWN && _data->FPG > 1)
+	else if (key == SDLK_DOWN && _data->FPG > 1)
 		_data->FPG -= 1;
 }
 
-void	scroll_handle(double xdelta, double ydelta, void *param) {
+/*void	scroll_handle(double xdelta, double ydelta, void *param) {
 	data	*_data = (data*)param;
 
 	if (ydelta > 0 && _data->PPC < _data->width && _data->PPC < _data->height) 
@@ -101,4 +96,4 @@ void	cursor_handle(double xpos, double ypos, void *param) {
 		if (new_center_y - margin_y > 0 && new_center_y + margin_y < _data->_world->rows)
 			_data->_world->center_y = new_center_y;
 	}
-}
+}*/

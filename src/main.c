@@ -12,7 +12,7 @@ int	release(data *_data, int status) {
 	if (!_data)
 		return status;
 
-	if (_data->mlx_ptr && _data->mlx_img)
+	/*if (_data->mlx_ptr && _data->mlx_img)
 		mlx_delete_image(_data->mlx_ptr, _data->mlx_img);
 
 	if (_data->mlx_ptr && _data->text_img)
@@ -23,7 +23,7 @@ int	release(data *_data, int status) {
 			if (_data->number_imgs[i]) mlx_delete_image(_data->mlx_ptr, _data->number_imgs[i]);
 
 	if (_data->mlx_ptr)
-		mlx_terminate(_data->mlx_ptr);
+		mlx_terminate(_data->mlx_ptr);*/
 
 	if (_data->_world && _data->_world->population)
 		free_population(_data->_world->population, _data->_world->rows);
@@ -36,7 +36,10 @@ int	release(data *_data, int status) {
 
 	if (_data->_world)
 		free(_data->_world);
-	
+
+	SDL_DestroyWindow(_data->win);
+	SDL_DestroyRenderer(_data->renderer);
+	SDL_Quit();
 	free(_data);
 
 	return	status;
@@ -48,16 +51,32 @@ int	__calc_new_range(int old_value, int old_min, int old_max, int new_min, int n
 	return (((old_value - old_min) * (new_max - new_min)) / (old_max - old_min)) + new_min;
 }
 
-void	loop_hook(void *p) {
-	data	*_data = (data*)p;
+void	loop_hook(data* _data) {
+	SDL_Event	event;
 	//
-	if (_data->cur_frame >= _data->FPG) {
-		_data->cur_frame = 0;
-		updata_population(_data);
-		draw_bg(_data, BG_COLOR << 8 | 0xFF);
-		draw_population(_data);
+	while (1) {
+		if (_data->cur_frame >= _data->FPG) {
+			_data->cur_frame = 0;
+			updata_population(_data);
+			draw_bg(_data, BG_COLOR << 8 | 0xFF);
+			draw_population(_data);
+			SDL_RenderPresent(_data->renderer);
+		}
+		else	_data->cur_frame += 1;
+
+		if (SDL_PollEvent(&event)) {
+			switch(event.type) {
+				case SDL_EVENT_QUIT: exit( release(_data, 0) ); break;
+				case SDL_EVENT_KEY_DOWN: key_handle(_data, &event); break;
+				case SDL_EVENT_WINDOW_RESIZED: resize_handle(_data); break;
+				//case SDL_EVENT_MOUSE_WHEEL: mouse_wheel_handle(_data, &event); break;
+				//case SDL_EVENT_MOUSE_BUTTON_DOWN: mouse_key_handle(_data, &event, 1); break;
+				//case SDL_EVENT_MOUSE_BUTTON_UP: mouse_key_handle(_data, &event, 0); break;
+				//case SDL_EVENT_MOUSE_MOTION: mouse_motion_handle(_data, &event); break;
+				default: break;
+			}
+		}
 	}
-	else	_data->cur_frame += 1;
 }
 
 int	rand_num(int min, int max) {
@@ -68,7 +87,7 @@ void	init_world(data *_data, char **v) {
 	if (!_data)	return;
 	
 	srand(time(NULL));
-	mlx_texture_t *text = mlx_load_png("./images/info_text.png");
+	/*mlx_texture_t *text = mlx_load_png("./images/info_text.png");
 	if (text) {
 		_data->text_img = mlx_texture_to_image(_data->mlx_ptr, text);
 		if (_data->text_img)
@@ -78,7 +97,7 @@ void	init_world(data *_data, char **v) {
 	else	_data->text_img = NULL;
 
 	for (int i = 0; i < 4; i++)
-		_data->number_imgs[i] = NULL;
+		_data->number_imgs[i] = NULL;*/
 
 	build_population(_data, v ? TRUE : FALSE);
 	if (v) insert_seed(_data, v);
@@ -87,20 +106,27 @@ void	init_world(data *_data, char **v) {
 int			main(int c, char **v) {
 	if (c > 2)	return 1;
 
-	data	*_data = malloc(sizeof(data));
-	if (!_data)
+	if (!SDL_Init(SDL_INIT_EVENTS))
 		return 1;
+
+	data	*_data = malloc(sizeof(data));
+	if (!_data) {
+		SDL_Quit();
+		return 1;
+	}
 	memset(_data, 0, sizeof(data));
 
 	_data->_world = malloc(sizeof(world_data));
 	if (!_data->_world) {
 		free(_data);
+		SDL_Quit();
 		return 1;
 	}
 	_data->_mouse = malloc(sizeof(mouse_data));
 	if (!_data->_mouse) {
 		free(_data->_world);
 		free(_data);
+		SDL_Quit();
 		return 1;
 	}
 	memset(_data->_world, 0, sizeof(world_data));
@@ -118,11 +144,24 @@ int			main(int c, char **v) {
 	_data->width = DEF_WIDTH;
 	_data->height = DEF_HEIGHT;
 
-	_data->mlx_ptr = mlx_init(_data->width, _data->height, "Game of life", true);
+	SDL_Window	*win = NULL;
+
+	/*_data->mlx_ptr = mlx_init(_data->width, _data->height, "Game of life", true);
 	if (!_data->mlx_ptr) return release(_data, 1);
 
 	_data->mlx_img = mlx_new_image(_data->mlx_ptr, _data->width, _data->height);
-	if (!_data->mlx_img) return release(_data, 1);
+	if (!_data->mlx_img) return release(_data, 1);*/
+
+	win = SDL_CreateWindow("Game of Life", _data->width, _data->height,
+			SDL_WINDOW_RESIZABLE|SDL_WINDOW_ALWAYS_ON_TOP);
+
+	if (!win || !(_data->renderer = SDL_CreateRenderer(win, NULL))) {
+		free(_data->_mouse);
+		free(_data->_world);
+		free(_data);
+		SDL_Quit();
+		return 1;
+	}
 
 	_data->PPC = DEF_PPC;
 	_data->FPG = c == 2 ? DEF_FPG : 1;
@@ -132,9 +171,9 @@ int			main(int c, char **v) {
 	_data->_world->columns = _data->width / _data->PPC;
 	draw_bg(_data, BG_COLOR << 8 | 0xFF);
 	
-	mlx_image_to_window(_data->mlx_ptr, _data->mlx_img, 0, 0);
+	//mlx_image_to_window(_data->mlx_ptr, _data->mlx_img, 0, 0);
 	init_world(_data, c == 2 ? v : NULL);
-	mlx_close_hook(_data->mlx_ptr, close_handle, _data);
+	/*mlx_close_hook(_data->mlx_ptr, close_handle, _data);
 	mlx_key_hook(_data->mlx_ptr, key_handle, _data);
 	mlx_resize_hook(_data->mlx_ptr, resize_handle, _data);
 	mlx_set_window_limit(_data->mlx_ptr, MIN_WIDTH, MIN_HEIGHT, INT_MAX, INT_MAX);
@@ -142,5 +181,7 @@ int			main(int c, char **v) {
 	mlx_cursor_hook(_data->mlx_ptr, cursor_handle, _data);
 	mlx_mouse_hook(_data->mlx_ptr, mouse_handle, _data);
 	mlx_loop_hook(_data->mlx_ptr, loop_hook, _data);
-	mlx_loop(_data->mlx_ptr);
+	mlx_loop(_data->mlx_ptr);*/
+	SDL_SetWindowMinimumSize(_data->win, MIN_WIDTH, MIN_HEIGHT);
+	loop_hook(_data);
 }
