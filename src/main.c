@@ -145,6 +145,7 @@ int			main(int c, char **v) {
 		return 1;
 	}
 
+	_data->_world->scale = 1;
 	_data->PPC = DEF_PPC;
 	_data->FPG = c == 2 ? DEF_FPG : 1;
 	_data->_world->center_x = (_data->width / 2) * _data->PPC;

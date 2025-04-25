@@ -50,15 +50,10 @@ void	key_handle(data *_data, SDL_Event *event) {
 }
 
 void	mouse_wheel_handle(data *_data, SDL_Event *event) {
-	SDL_MouseWheelEvent wheel = event->wheel;
-	if (wheel.y > 0 && _data->PPC < 16) 
-		_data->PPC += 1;
-	else if (wheel.y < 0 && _data->PPC > 1) 
-		_data->PPC -= 1;
-	/*if (_data->PPC == 1) {
-		_data->_world->center_x = _data->_world->columns / 2;
-		_data->_world->center_y = _data->_world->rows / 2;
-	}*/
+	_data->_world->scale += 0.1 * event->wheel.y;
+
+	if (!SDL_SetRenderScale(_data->renderer, _data->_world->scale, _data->_world->scale))
+		printf("zoom failure\n");
 }
 
 /*void	scroll_handle(double xdelta, double ydelta, void *param) {

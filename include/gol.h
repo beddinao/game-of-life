@@ -43,6 +43,7 @@ typedef struct map_data
 	int		columns;
 	int		center_x;
 	int		center_y;
+	float		scale;
 }	world_data;
 
 typedef struct data
