@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
+SET(GXX_COVERAGE_COMPILE_FLAGS "-fsanitize=address")
 
 if(NOT DEFINED CMAKE_BUILD_TYPE)
   set(cmake_build_type_undefined 1)

@@ -21,7 +21,7 @@ dirs_rem:
 	rm -rf lib
 
 $(NAME): $(OBJ)
-	$(CC) -o $(NAME) $(OBJ) $(LDFLAGS) -fsanitize=address -g
+	$(CC) -fsanitize=address -g -o $(NAME) $(OBJ) $(LDFLAGS)
 
 build/%.o: src/%.c $(HR)
 	@mkdir -p $(dir $@)
