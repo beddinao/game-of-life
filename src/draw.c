@@ -56,18 +56,22 @@ void	draw_population(data *_data) {
 			margin_y = _data->_world->rows / (2 * _data->PPC);
 	int		row = _data->_world->center_y - margin_y, column;
 
-	SDL_FPoint	points[_data->_world->current_population];
+	int		max_points = _data->_world->current_population * _data->PPC;
+
+	SDL_FPoint	points[max_points];
+
+	int	Index = 0;
 
 	SDL_SetRenderDrawColor(_data->renderer, (CELL_COLOR >> 24) & 0xFF,
 			(CELL_COLOR >> 16) & 0xFF,
 			(CELL_COLOR >> 8) & 0xFF,
 			0xFF);
 
-	for (int y = 0, Index = 0; y < _data->height; y++) {
+	for (int y = 0; y < _data->height && Index < max_points; y++) {
 		column = _data->_world->center_x - margin_x;
 		if (y && !(y % _data->PPC)) row += 1;
 		if (row >= _data->_world->rows || row > _data->_world->center_y + margin_y || row < 0) break ;
-		for (int x = 0; x < _data->width; x++) {
+		for (int x = 0; x < _data->width && Index < max_points; x++) {
 			if (x && !(x % _data->PPC))	column += 1;
 			if (column >= _data->_world->columns || column > _data->_world->center_x + margin_x || column < 0) break;
 			//if (_data->_world->population[row][column]) mlx_put_pixel(_data->mlx_img, x, y, CELL_COLOR << 8 | 0xFF);
@@ -77,6 +81,6 @@ void	draw_population(data *_data) {
 			}
 		}
 	}
-	SDL_RenderPoints(_data->renderer, points, _data->_world->current_population);
+	SDL_RenderPoints(_data->renderer, points, Index);
 	//draw_info(_data);
 }

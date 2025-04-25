@@ -43,10 +43,24 @@ void	key_handle(data *_data, SDL_Event *event) {
 
 	if (key == SDLK_ESCAPE)
 		exit( release(_data, 0) );	
-	else if (key == SDLK_UP && _data->FPG < 100)
-		_data->FPG += 1;
-	else if (key == SDLK_DOWN && _data->FPG > 1)
-		_data->FPG -= 1;
+	else if (key == SDLK_UP && _data->FPG < 500)
+		_data->FPG += 10;
+	else if (key == SDLK_DOWN && _data->FPG > 10)
+		_data->FPG -= 10;
+}
+
+void	mouse_wheel_handle(data *_data, SDL_Event *event) {
+	SDL_MouseWheelEvent wheel = event->wheel;
+
+	if (wheel.y > 0 && _data->PPC < _data->width && _data->PPC < _data->height)
+		_data->PPC += 1;
+	else if (wheel.y < 0 && _data->PPC > 1)
+		_data->PPC -= 1;
+
+	if (_data->PPC == 1) {
+		_data->_world->center_x = _data->_world->columns / 2;
+		_data->_world->center_y = _data->_world->rows / 2;
+	}
 }
 
 /*void	scroll_handle(double xdelta, double ydelta, void *param) {

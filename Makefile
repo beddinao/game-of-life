@@ -10,8 +10,8 @@ NAME = gol
 all: dirs_set sdl $(NAME)
 
 sdl:
-	#@cmake -B $(SDL_PATH)/build $(SDL_PATH) -DCMAKE_CXX_COMPILER="g++"
-	#@cmake --build $(SDL_PATH)/build -j10
+	@cmake -B $(SDL_PATH)/build $(SDL_PATH) -DCMAKE_CXX_COMPILER="g++"
+	@cmake --build $(SDL_PATH)/build -j10
 	cp -r $(SDL_PATH)/include/SDL3 include
 	cp -r $(SDL_PATH)/build/libSDL3* lib
 
@@ -21,7 +21,7 @@ dirs_rem:
 	rm -rf lib
 
 $(NAME): $(OBJ)
-	$(CC) -o $(NAME) $(OBJ) $(LDFLAGS)
+	$(CC) -o $(NAME) $(OBJ) $(LDFLAGS) -fsanitize=address -g
 
 build/%.o: src/%.c $(HR)
 	@mkdir -p $(dir $@)
@@ -32,7 +32,7 @@ clean:
 
 fclean: clean dirs_rem
 	rm -rf include/SDL3
-	#rm -rf $(SDL_PATH)/build
+	rm -rf $(SDL_PATH)/build
 	rm -rf $(NAME)
 
 re: fclean all

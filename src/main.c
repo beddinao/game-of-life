@@ -12,19 +12,6 @@ int	release(data *_data, int status) {
 	if (!_data)
 		return status;
 
-	/*if (_data->mlx_ptr && _data->mlx_img)
-		mlx_delete_image(_data->mlx_ptr, _data->mlx_img);
-
-	if (_data->mlx_ptr && _data->text_img)
-		mlx_delete_image(_data->mlx_ptr, _data->text_img);
-
-	if (_data->mlx_ptr)
-		for (int i = 0; i < 4; i++)
-			if (_data->number_imgs[i]) mlx_delete_image(_data->mlx_ptr, _data->number_imgs[i]);
-
-	if (_data->mlx_ptr)
-		mlx_terminate(_data->mlx_ptr);*/
-
 	if (_data->_world && _data->_world->population)
 		free_population(_data->_world->population, _data->_world->rows);
 
@@ -69,13 +56,14 @@ void	loop_hook(data* _data) {
 				case SDL_EVENT_QUIT: exit( release(_data, 0) ); break;
 				case SDL_EVENT_KEY_DOWN: key_handle(_data, &event); break;
 				case SDL_EVENT_WINDOW_RESIZED: resize_handle(_data); break;
-				//case SDL_EVENT_MOUSE_WHEEL: mouse_wheel_handle(_data, &event); break;
+				case SDL_EVENT_MOUSE_WHEEL: mouse_wheel_handle(_data, &event); break;
 				//case SDL_EVENT_MOUSE_BUTTON_DOWN: mouse_key_handle(_data, &event, 1); break;
 				//case SDL_EVENT_MOUSE_BUTTON_UP: mouse_key_handle(_data, &event, 0); break;
 				//case SDL_EVENT_MOUSE_MOTION: mouse_motion_handle(_data, &event); break;
 				default: break;
 			}
 		}
+		SDL_Delay(1);
 	}
 }
 
@@ -146,14 +134,8 @@ int			main(int c, char **v) {
 
 	SDL_Window	*win = NULL;
 
-	/*_data->mlx_ptr = mlx_init(_data->width, _data->height, "Game of life", true);
-	if (!_data->mlx_ptr) return release(_data, 1);
-
-	_data->mlx_img = mlx_new_image(_data->mlx_ptr, _data->width, _data->height);
-	if (!_data->mlx_img) return release(_data, 1);*/
-
 	win = SDL_CreateWindow("Game of Life", _data->width, _data->height,
-			SDL_WINDOW_RESIZABLE|SDL_WINDOW_ALWAYS_ON_TOP);
+			SDL_WINDOW_RESIZABLE/*|SDL_WINDOW_ALWAYS_ON_TOP*/);
 
 	if (!win || !(_data->renderer = SDL_CreateRenderer(win, NULL))) {
 		free(_data->_mouse);
@@ -171,17 +153,7 @@ int			main(int c, char **v) {
 	_data->_world->columns = _data->width / _data->PPC;
 	draw_bg(_data, BG_COLOR << 8 | 0xFF);
 	
-	//mlx_image_to_window(_data->mlx_ptr, _data->mlx_img, 0, 0);
 	init_world(_data, c == 2 ? v : NULL);
-	/*mlx_close_hook(_data->mlx_ptr, close_handle, _data);
-	mlx_key_hook(_data->mlx_ptr, key_handle, _data);
-	mlx_resize_hook(_data->mlx_ptr, resize_handle, _data);
-	mlx_set_window_limit(_data->mlx_ptr, MIN_WIDTH, MIN_HEIGHT, INT_MAX, INT_MAX);
-	mlx_scroll_hook(_data->mlx_ptr, scroll_handle, _data);
-	mlx_cursor_hook(_data->mlx_ptr, cursor_handle, _data);
-	mlx_mouse_hook(_data->mlx_ptr, mouse_handle, _data);
-	mlx_loop_hook(_data->mlx_ptr, loop_hook, _data);
-	mlx_loop(_data->mlx_ptr);*/
 	SDL_SetWindowMinimumSize(_data->win, MIN_WIDTH, MIN_HEIGHT);
 	loop_hook(_data);
 }

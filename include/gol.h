@@ -77,9 +77,13 @@ int	rand_num(int, int);
 
 void	resize_handle(data*);
 void	key_handle(data*, SDL_Event*);
-/*void	wheel_handle(data*, SDL_Event*);
+void	mouse_wheel_handle(data*, SDL_Event*);
+
+/*
+void	wheel_handle(data*, SDL_Event*);
 void	mouse_key_handle(data*, SDL_Event*, int);
-void	mouse_motion_handle(data*, SDL_Event*);*/
+void	mouse_motion_handle(data*, SDL_Event*);
+*/
 
 void	insert_seed(data *, char **);
 
